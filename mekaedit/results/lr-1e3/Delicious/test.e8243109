@@ -1,0 +1,67 @@
+[STAGE] INITIALIZING
+[LOG] meka.experiment.DefaultExperiment: Turned off incremental mode for meka.experiment.evaluationstatistics.KeyValuePairs to make use of multi-threading!
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: File 'mekaexp.txt' exists, loading...
+[STAGE] RUNNING
+[LOG] meka.experiment.datasetproviders.MultiDatasetProvider: Dataset provider #1
+[LOG] meka.experiment.datasetproviders.LocalDatasetProvider: Loading: data/delicious.arff
+[LOG] meka.experiment.DefaultExperiment: Using dataset: delicious: -C -983
+[ITERATION] meka.classifiers.multilabel.MULANedit -S BPMLLwD3d -W weka.classifiers.trees.J48 -- -C 0.25 -M 2 --> delicious: -C -983
+[LOG] meka.experiment.DefaultExperiment: Using classifier: meka.classifiers.multilabel.MULANedit -S BPMLLwD3d -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Number of threads (1 = sequential): 1
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 1
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_delicious_1551420506017_-4962768465676381896.arff
+Using temporary file: temp_delicious_1551420506017_4437113781045784766.arff
+[Note] Discount 6.771 seconds from this build time
+[Note] Discount 6.813 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 2
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_delicious_1551440951438_-6688467811848818630.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_delicious_1551440951447_-8292973307042192125.arff
+[Note] Discount 9.5 seconds from this build time
+[Note] Discount 9.626 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 3
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_delicious_1551457346402_-7423979211207825555.arff
+Using temporary file: temp_delicious_1551457346402_6146794652083548235.arff
+[Note] Discount 3.933 seconds from this build time
+[Note] Discount 4.086 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 4
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_delicious_1551469795141_7105486291024734541.arff
+Using temporary file: temp_delicious_1551469795141_-279624296851435688.arff
+[Note] Discount 5.007 seconds from this build time
+[Note] Discount 5.021 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 5
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_delicious_1551482299920_-2228689144322150137.arff
+Using temporary file: temp_delicious_1551482299921_-1083761183081836303.arff
+[Note] Discount 3.928 seconds from this build time
+[Note] Discount 3.976 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[STATISTICS] #10
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: Writing 10 statistics to: mekaexp.txt
+[STAGE] FINISH
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #1: meka.experiment.statisticsexporters.SimpleAggregate2
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-agg6.tsv
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #2: meka.experiment.statisticsexporters.TabSeparated
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-full6.tsv

@@ -1,0 +1,60 @@
+Number of folds must >= 2, provided: 1
+[STAGE] INITIALIZING
+[LOG] meka.experiment.DefaultExperiment: Turned off incremental mode for meka.experiment.evaluationstatistics.KeyValuePairs to make use of multi-threading!
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: File 'mekaexp.txt' exists, loading...
+[STAGE] RUNNING
+[LOG] meka.experiment.datasetproviders.MultiDatasetProvider: Dataset provider #1
+[LOG] meka.experiment.datasetproviders.LocalDatasetProvider: Loading: data/bibtex.arff
+[LOG] meka.experiment.DefaultExperiment: Using dataset: bibsonomy_bibtex: -C -159
+[ITERATION] meka.classifiers.multilabel.MULANedit -S BPMLLwD -W weka.classifiers.trees.J48 -- -C 0.25 -M 2 --> bibsonomy_bibtex: -C -159
+[LOG] meka.experiment.DefaultExperiment: Using classifier: meka.classifiers.multilabel.MULANedit -S BPMLLwD -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Number of threads (1 = sequential): 1
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 1
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_bibsonomy_bibtex_1551532767105_-4962768465676381896.arff
+Using temporary file: temp_bibsonomy_bibtex_1551532767105_4437113781045784766.arff
+Using temporary file: temp_bibsonomy_bibtex_1551532767105_5700976833288827063.arff
+Using temporary file: temp_bibsonomy_bibtex_1551532767105_6146794652083548235.arff
+Using temporary file: temp_bibsonomy_bibtex_1551532767106_-2228689144322150137.arff
+Using temporary file: temp_bibsonomy_bibtex_1551532767105_2158390814503909950.arff
+Using temporary file: temp_bibsonomy_bibtex_1551532767106_-1083761183081836303.arff
+Using temporary file: temp_bibsonomy_bibtex_1551532767106_-279624296851435688.arff
+Using temporary file: temp_bibsonomy_bibtex_1551532767105_7105486291024734541.arff
+Using temporary file: temp_bibsonomy_bibtex_1551532767105_-6688467814114482323.arff
+[Note] Discount 3.076 seconds from this build time
+[Note] Discount 3.076 seconds from this build time
+[Note] Discount 3.079 seconds from this build time
+[Note] Discount 3.082 seconds from this build time
+[Note] Discount 3.088 seconds from this build time
+[Note] Discount 3.09 seconds from this build time
+[Note] Discount 3.094 seconds from this build time
+[Note] Discount 3.094 seconds from this build time
+[Note] Discount 3.094 seconds from this build time
+[Note] Discount 3.097 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[STATISTICS] #10
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: Writing 10 statistics to: mekaexp.txt
+[STAGE] FINISH
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #1: meka.experiment.statisticsexporters.SimpleAggregate2
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-agg2.tsv
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #2: meka.experiment.statisticsexporters.TabSeparated
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-full2.tsv

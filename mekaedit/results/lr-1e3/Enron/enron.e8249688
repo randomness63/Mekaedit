@@ -1,0 +1,1127 @@
+[STAGE] INITIALIZING
+[LOG] meka.experiment.DefaultExperiment: Turned off incremental mode for meka.experiment.evaluationstatistics.KeyValuePairs to make use of multi-threading!
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: File 'mekaexp.txt' exists, loading...
+[STAGE] RUNNING
+[LOG] meka.experiment.datasetproviders.MultiDatasetProvider: Dataset provider #1
+[LOG] meka.experiment.datasetproviders.LocalDatasetProvider: Loading: data/Enron.arff
+[LOG] meka.experiment.DefaultExperiment: Using dataset: Enron: -C 53
+[ITERATION] meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD3c -W weka.classifiers.trees.J48 -- -C 0.25 -M 2 --> Enron: -C 53
+[LOG] meka.experiment.DefaultExperiment: Using classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD3c -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Number of threads (1 = sequential): 1
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 1
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Enron_1551607566207_-4962768465676381896.arff
+Using temporary file: temp_Enron_1551607566210_4437113781045784766.arff
+Using temporary file: temp_Enron_1551607566211_-6688467811848818630.arff
+Using temporary file: temp_Enron_1551607566214_-8292973307042192125.arff
+Using temporary file: temp_Enron_1551607566219_-7423979211207825555.arff
+Using temporary file: temp_Enron_1551607566219_6146794652083548235.arff
+Using temporary file: temp_Enron_1551607566224_7105486291024734541.arff
+Using temporary file: temp_Enron_1551607566244_-279624296851435688.arff
+Using temporary file: temp_Enron_1551607566249_-2228689144322150137.arff
+Using temporary file: temp_Enron_1551607566271_-1083761183081836303.arff
+[Note] Discount 2.338 seconds from this build time
+[Note] Discount 2.351 seconds from this build time
+[Note] Discount 2.369 seconds from this build time
+[Note] Discount 2.403 seconds from this build time
+[Note] Discount 2.364 seconds from this build time
+[Note] Discount 2.342 seconds from this build time
+[Note] Discount 2.389 seconds from this build time
+[Note] Discount 2.401 seconds from this build time
+[Note] Discount 2.395 seconds from this build time
+[Note] Discount 2.412 seconds from this build time
+Using temporary file: temp_Enron_1551608664620_5072005423257391728.arff
+[Note] Discount 0.326 seconds from this build time
+Using temporary file: temp_Enron_1551608665745_2377732757510138102.arff
+[Note] Discount 0.378 seconds from this build time
+Using temporary file: temp_Enron_1551608671107_2704323167362897208.arff
+[Note] Discount 0.336 seconds from this build time
+Using temporary file: temp_Enron_1551608700366_428667830982598836.arff
+[Note] Discount 0.396 seconds from this build time
+Using temporary file: temp_Enron_1551608703142_-8361175665883705505.arff
+[Note] Discount 0.441 seconds from this build time
+Using temporary file: temp_Enron_1551608723439_-655101936082782086.arff
+[Note] Discount 0.344 seconds from this build time
+Using temporary file: temp_Enron_1551608735141_1927512926176735975.arff
+[Note] Discount 0.352 seconds from this build time
+Using temporary file: temp_Enron_1551608742266_-6914829020992303508.arff
+[Note] Discount 0.396 seconds from this build time
+Using temporary file: temp_Enron_1551608767668_7577852396602278602.arff
+[Note] Discount 0.329 seconds from this build time
+Using temporary file: temp_Enron_1551608769900_-4126310024944755050.arff
+[Note] Discount 0.393 seconds from this build time
+Using temporary file: temp_Enron_1551609870632_-171134583860878546.arff
+[Note] Discount 0.371 seconds from this build time
+Using temporary file: temp_Enron_1551609906211_8987859488885190724.arff
+[Note] Discount 0.412 seconds from this build time
+Using temporary file: temp_Enron_1551609911201_-4681020001986070314.arff
+[Note] Discount 0.694 seconds from this build time
+Using temporary file: temp_Enron_1551609921544_-4922475540349336432.arff
+[Note] Discount 0.279 seconds from this build time
+Using temporary file: temp_Enron_1551609925158_-3370274031255729188.arff
+[Note] Discount 0.345 seconds from this build time
+Using temporary file: temp_Enron_1551609929165_-2971948390163211717.arff
+[Note] Discount 0.296 seconds from this build time
+Using temporary file: temp_Enron_1551609955863_-8730854458729406051.arff
+[Note] Discount 0.341 seconds from this build time
+Using temporary file: temp_Enron_1551609968624_-1856941488587171136.arff
+[Note] Discount 0.456 seconds from this build time
+Using temporary file: temp_Enron_1551609971855_2470753881526567411.arff
+[Note] Discount 0.378 seconds from this build time
+Using temporary file: temp_Enron_1551610001373_1532230816302433446.arff
+[Note] Discount 0.335 seconds from this build time
+Using temporary file: temp_Enron_1551611073569_-395233716872471639.arff
+[Note] Discount 0.38 seconds from this build time
+Using temporary file: temp_Enron_1551611093376_-5121607137339136235.arff
+[Note] Discount 0.416 seconds from this build time
+Using temporary file: temp_Enron_1551611106479_-5256749969541153749.arff
+[Note] Discount 0.461 seconds from this build time
+Using temporary file: temp_Enron_1551611110583_2641949932817367724.arff
+[Note] Discount 0.42 seconds from this build time
+Using temporary file: temp_Enron_1551611142270_8540064508133314173.arff
+[Note] Discount 0.364 seconds from this build time
+Using temporary file: temp_Enron_1551611143866_82744587931001745.arff
+[Note] Discount 0.346 seconds from this build time
+Using temporary file: temp_Enron_1551611157192_1318911071456810350.arff
+[Note] Discount 0.345 seconds from this build time
+Using temporary file: temp_Enron_1551611172915_6427218635535763657.arff
+[Note] Discount 0.297 seconds from this build time
+Using temporary file: temp_Enron_1551611195655_6249197149364475148.arff
+[Note] Discount 0.337 seconds from this build time
+Using temporary file: temp_Enron_1551611207133_-2594413761814090552.arff
+[Note] Discount 0.334 seconds from this build time
+Using temporary file: temp_Enron_1551612328787_-524865453008036006.arff
+[Note] Discount 0.501 seconds from this build time
+Using temporary file: temp_Enron_1551612356093_-2476551425607728309.arff
+[Note] Discount 0.465 seconds from this build time
+Using temporary file: temp_Enron_1551612386822_-7146617210012600256.arff
+[Note] Discount 0.327 seconds from this build time
+Using temporary file: temp_Enron_1551612415162_3301745707726569574.arff
+[Note] Discount 0.326 seconds from this build time
+Using temporary file: temp_Enron_1551612433672_4013465704250623170.arff
+[Note] Discount 0.33 seconds from this build time
+Using temporary file: temp_Enron_1551612480846_-2684237951282348840.arff
+[Note] Discount 0.315 seconds from this build time
+Using temporary file: temp_Enron_1551612486974_178444451137370484.arff
+[Note] Discount 0.355 seconds from this build time
+Using temporary file: temp_Enron_1551612497626_-5676192111176512602.arff
+[Note] Discount 0.344 seconds from this build time
+Using temporary file: temp_Enron_1551612542697_-4218531399638172627.arff
+[Note] Discount 0.351 seconds from this build time
+Using temporary file: temp_Enron_1551612642453_-5299981419733330714.arff
+[Note] Discount 0.345 seconds from this build time
+Using temporary file: temp_Enron_1551613595015_3896605098068159738.arff
+[Note] Discount 0.358 seconds from this build time
+Using temporary file: temp_Enron_1551613604023_-4001237302722672165.arff
+[Note] Discount 0.369 seconds from this build time
+Using temporary file: temp_Enron_1551613646064_-1008423794855048618.arff
+[Note] Discount 0.426 seconds from this build time
+Using temporary file: temp_Enron_1551613656033_262614321976477250.arff
+[Note] Discount 0.337 seconds from this build time
+Using temporary file: temp_Enron_1551613705290_7271772087391691927.arff
+[Note] Discount 0.407 seconds from this build time
+Using temporary file: temp_Enron_1551613730104_-2697084138585034005.arff
+[Note] Discount 0.368 seconds from this build time
+Using temporary file: temp_Enron_1551613760663_-3946820249469283158.arff
+[Note] Discount 0.701 seconds from this build time
+Using temporary file: temp_Enron_1551613798416_-120421011786498678.arff
+[Note] Discount 0.386 seconds from this build time
+Using temporary file: temp_Enron_1551613872140_-2156342973769225726.arff
+[Note] Discount 0.419 seconds from this build time
+Using temporary file: temp_Enron_1551613986365_3141324392123627982.arff
+[Note] Discount 0.423 seconds from this build time
+Using temporary file: temp_Enron_1551614989876_-699704949712600115.arff
+Using temporary file: temp_Enron_1551614989881_-5085859045495963725.arff
+[Note] Discount 0.451 seconds from this build time
+[Note] Discount 0.472 seconds from this build time
+Using temporary file: temp_Enron_1551614991779_-5951765205669983896.arff
+[Note] Discount 0.411 seconds from this build time
+Using temporary file: temp_Enron_1551615053699_-3608267860102554860.arff
+[Note] Discount 0.293 seconds from this build time
+Using temporary file: temp_Enron_1551615079085_8142886840698975765.arff
+[Note] Discount 0.277 seconds from this build time
+Using temporary file: temp_Enron_1551615104597_8524019115140866179.arff
+[Note] Discount 0.444 seconds from this build time
+Using temporary file: temp_Enron_1551615125237_-2714853971147396117.arff
+[Note] Discount 0.544 seconds from this build time
+Using temporary file: temp_Enron_1551615257125_-9189524968491074724.arff
+[Note] Discount 0.325 seconds from this build time
+Using temporary file: temp_Enron_1551615317113_-148625824714636787.arff
+[Note] Discount 0.39 seconds from this build time
+Using temporary file: temp_Enron_1551615434831_-566870006298343145.arff
+[Note] Discount 0.337 seconds from this build time
+Using temporary file: temp_Enron_1551616323167_6513657358736753182.arff
+[Note] Discount 0.54 seconds from this build time
+Using temporary file: temp_Enron_1551616362950_871901303891580382.arff
+[Note] Discount 0.388 seconds from this build time
+Using temporary file: temp_Enron_1551616372043_1321222800296200436.arff
+[Note] Discount 0.425 seconds from this build time
+Using temporary file: temp_Enron_1551616400619_536938910405906015.arff
+[Note] Discount 0.392 seconds from this build time
+Using temporary file: temp_Enron_1551616412231_8922140309403778699.arff
+[Note] Discount 0.311 seconds from this build time
+Using temporary file: temp_Enron_1551616415846_-517428980255835422.arff
+[Note] Discount 0.451 seconds from this build time
+Using temporary file: temp_Enron_1551616420470_-200753079219431109.arff
+[Note] Discount 0.417 seconds from this build time
+Using temporary file: temp_Enron_1551616526696_-4289936086616402019.arff
+[Note] Discount 0.382 seconds from this build time
+Using temporary file: temp_Enron_1551616611779_-9197595427105923027.arff
+[Note] Discount 0.37 seconds from this build time
+Using temporary file: temp_Enron_1551616852306_4713610129296514631.arff
+[Note] Discount 0.371 seconds from this build time
+Using temporary file: temp_Enron_1551617596865_5702961989472887051.arff
+[Note] Discount 0.362 seconds from this build time
+Using temporary file: temp_Enron_1551617610657_-2798730738562476822.arff
+[Note] Discount 0.341 seconds from this build time
+Using temporary file: temp_Enron_1551617612300_960790331024379126.arff
+[Note] Discount 0.312 seconds from this build time
+Using temporary file: temp_Enron_1551617612737_187704103329199613.arff
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_Enron_1551617613334_6527434954307481789.arff
+[Note] Discount 0.483 seconds from this build time
+Using temporary file: temp_Enron_1551617631471_1600030782373250481.arff
+[Note] Discount 0.467 seconds from this build time
+Using temporary file: temp_Enron_1551617651716_-2761265137076421558.arff
+[Note] Discount 0.352 seconds from this build time
+Using temporary file: temp_Enron_1551617833644_67826697947916427.arff
+[Note] Discount 0.359 seconds from this build time
+Using temporary file: temp_Enron_1551617863700_5679626435595832671.arff
+[Note] Discount 0.341 seconds from this build time
+Using temporary file: temp_Enron_1551618020296_-8640296913357041870.arff
+[Note] Discount 0.387 seconds from this build time
+Using temporary file: temp_Enron_1551618742083_-1497613613979078270.arff
+[Note] Discount 0.469 seconds from this build time
+Using temporary file: temp_Enron_1551618846266_5113622237409872778.arff
+[Note] Discount 0.387 seconds from this build time
+Using temporary file: temp_Enron_1551618919541_-2319452971287571658.arff
+[Note] Discount 0.348 seconds from this build time
+Using temporary file: temp_Enron_1551618934234_-7196415781697772800.arff
+[Note] Discount 0.333 seconds from this build time
+Using temporary file: temp_Enron_1551619009924_-1685308985507641749.arff
+[Note] Discount 0.297 seconds from this build time
+Using temporary file: temp_Enron_1551619025857_820707025409634855.arff
+[Note] Discount 0.334 seconds from this build time
+Using temporary file: temp_Enron_1551619077079_-6516793691191662538.arff
+[Note] Discount 0.348 seconds from this build time
+Using temporary file: temp_Enron_1551619170084_9164411834808661380.arff
+[Note] Discount 0.337 seconds from this build time
+Using temporary file: temp_Enron_1551619178725_-9099749510027196988.arff
+[Note] Discount 0.354 seconds from this build time
+Using temporary file: temp_Enron_1551619346663_-8841730600804742235.arff
+[Note] Discount 0.367 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 2
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Enron_1551620685742_6758162953488776844.arff
+Using temporary file: temp_Enron_1551620685742_8810845966659683448.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Enron_1551620685742_-5460795021784967740.arff
+Using temporary file: temp_Enron_1551620685749_5954014899072946649.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Enron_1551620685758_214993804815738645.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Enron_1551620685949_-5514858212339405460.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Enron_1551620685952_-4697410766453443951.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Enron_1551620685954_-7244253119129237588.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Enron_1551620685973_4336492403770078180.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Enron_1551620685978_7176580044932830276.arff
+[Note] Discount 1.144 seconds from this build time
+[Note] Discount 1.386 seconds from this build time
+[Note] Discount 1.214 seconds from this build time
+[Note] Discount 1.43 seconds from this build time
+[Note] Discount 1.42 seconds from this build time
+[Note] Discount 1.449 seconds from this build time
+[Note] Discount 1.465 seconds from this build time
+[Note] Discount 1.319 seconds from this build time
+[Note] Discount 1.35 seconds from this build time
+[Note] Discount 1.358 seconds from this build time
+Using temporary file: temp_Enron_1551622156128_-1633120553624586039.arff
+[Note] Discount 0.709 seconds from this build time
+Using temporary file: temp_Enron_1551622212806_3087783559322503069.arff
+[Note] Discount 0.516 seconds from this build time
+Using temporary file: temp_Enron_1551622214573_72191801432025792.arff
+[Note] Discount 0.436 seconds from this build time
+Using temporary file: temp_Enron_1551622253756_4886465643886762423.arff
+[Note] Discount 0.386 seconds from this build time
+Using temporary file: temp_Enron_1551622257472_-1977178175608504323.arff
+[Note] Discount 0.458 seconds from this build time
+Using temporary file: temp_Enron_1551622263490_5489165778026111548.arff
+[Note] Discount 0.508 seconds from this build time
+Using temporary file: temp_Enron_1551622270014_7911891130236602275.arff
+[Note] Discount 0.565 seconds from this build time
+Using temporary file: temp_Enron_1551622297475_-5763654923426307630.arff
+[Note] Discount 0.433 seconds from this build time
+Using temporary file: temp_Enron_1551622536520_7535429006024983857.arff
+[Note] Discount 0.522 seconds from this build time
+Using temporary file: temp_Enron_1551622539965_6512669167483931824.arff
+[Note] Discount 0.353 seconds from this build time
+Using temporary file: temp_Enron_1551623656448_-6054985639040938180.arff
+[Note] Discount 0.421 seconds from this build time
+Using temporary file: temp_Enron_1551623784433_-4788457857850447244.arff
+[Note] Discount 0.51 seconds from this build time
+Using temporary file: temp_Enron_1551623918459_-1947326395900975778.arff
+[Note] Discount 0.51 seconds from this build time
+Using temporary file: temp_Enron_1551623945592_-7748411135601385678.arff
+[Note] Discount 0.387 seconds from this build time
+Using temporary file: temp_Enron_1551624085005_-9024968371786632850.arff
+[Note] Discount 0.323 seconds from this build time
+Using temporary file: temp_Enron_1551624201967_5754825772160496080.arff
+[Note] Discount 0.455 seconds from this build time
+Using temporary file: temp_Enron_1551624210265_-8481270662646470671.arff
+[Note] Discount 0.508 seconds from this build time
+Using temporary file: temp_Enron_1551624319537_-496076268859382896.arff
+[Note] Discount 0.455 seconds from this build time
+Using temporary file: temp_Enron_1551624427809_-7127128167259751473.arff
+[Note] Discount 0.389 seconds from this build time
+Using temporary file: temp_Enron_1551624455396_501180562174799085.arff
+[Note] Discount 0.551 seconds from this build time
+Using temporary file: temp_Enron_1551625225300_-5736614306270799543.arff
+[Note] Discount 0.407 seconds from this build time
+Using temporary file: temp_Enron_1551625287748_-6819959017335327829.arff
+[Note] Discount 0.479 seconds from this build time
+Using temporary file: temp_Enron_1551625396583_-3360305141762794454.arff
+[Note] Discount 0.589 seconds from this build time
+Using temporary file: temp_Enron_1551625530809_-4775523669187539415.arff
+[Note] Discount 0.411 seconds from this build time
+Using temporary file: temp_Enron_1551625538469_-6798914858217573060.arff
+[Note] Discount 0.443 seconds from this build time
+Using temporary file: temp_Enron_1551625632313_5808738444245805049.arff
+[Note] Discount 0.376 seconds from this build time
+Using temporary file: temp_Enron_1551625685987_-4605199251911937283.arff
+[Note] Discount 0.31 seconds from this build time
+Using temporary file: temp_Enron_1551625884158_3508934780188318642.arff
+[Note] Discount 0.515 seconds from this build time
+Using temporary file: temp_Enron_1551625977893_2259750519392559506.arff
+[Note] Discount 0.558 seconds from this build time
+Using temporary file: temp_Enron_1551625992895_-5288884321442703868.arff
+[Note] Discount 0.717 seconds from this build time
+Using temporary file: temp_Enron_1551626874986_-1235136122240190980.arff
+[Note] Discount 0.485 seconds from this build time
+Using temporary file: temp_Enron_1551626938137_5738943893379618316.arff
+[Note] Discount 0.486 seconds from this build time
+Using temporary file: temp_Enron_1551626975094_-8678588235927406455.arff
+[Note] Discount 0.568 seconds from this build time
+Using temporary file: temp_Enron_1551627029395_3301560350794899176.arff
+[Note] Discount 0.447 seconds from this build time
+Using temporary file: temp_Enron_1551627044390_2100752566876840588.arff
+[Note] Discount 0.672 seconds from this build time
+Using temporary file: temp_Enron_1551627597891_-5830253423258833266.arff
+[Note] Discount 0.38 seconds from this build time
+Using temporary file: temp_Enron_1551627721953_6995928140111635280.arff
+[Note] Discount 0.55 seconds from this build time
+Using temporary file: temp_Enron_1551627766715_-7518357113470038567.arff
+[Note] Discount 0.468 seconds from this build time
+Using temporary file: temp_Enron_1551627824495_-1095565672715370423.arff
+[Note] Discount 0.478 seconds from this build time
+Using temporary file: temp_Enron_1551627963634_-8593497911429493276.arff
+[Note] Discount 0.499 seconds from this build time
+Using temporary file: temp_Enron_1551628487111_3951194809170085004.arff
+[Note] Discount 0.462 seconds from this build time
+Using temporary file: temp_Enron_1551628553340_6156225800113325723.arff
+[Note] Discount 0.455 seconds from this build time
+Using temporary file: temp_Enron_1551628554910_4621576804961825664.arff
+[Note] Discount 0.512 seconds from this build time
+Using temporary file: temp_Enron_1551628658409_-4878419149880202610.arff
+[Note] Discount 0.45 seconds from this build time
+Using temporary file: temp_Enron_1551628669387_1681357320861610709.arff
+[Note] Discount 0.385 seconds from this build time
+Using temporary file: temp_Enron_1551629069531_4880037797499618312.arff
+[Note] Discount 0.317 seconds from this build time
+Using temporary file: temp_Enron_1551629238410_3480315076809301941.arff
+[Note] Discount 0.49 seconds from this build time
+Using temporary file: temp_Enron_1551629297175_5492728113478971232.arff
+[Note] Discount 0.448 seconds from this build time
+Using temporary file: temp_Enron_1551629318014_-4455425718838312134.arff
+[Note] Discount 0.499 seconds from this build time
+Using temporary file: temp_Enron_1551629441393_859397494107989646.arff
+[Note] Discount 0.495 seconds from this build time
+Using temporary file: temp_Enron_1551630196752_1587684632128182815.arff
+[Note] Discount 0.486 seconds from this build time
+Using temporary file: temp_Enron_1551630301588_-1988121919985651200.arff
+[Note] Discount 0.342 seconds from this build time
+Using temporary file: temp_Enron_1551630316343_-8584399766682819655.arff
+[Note] Discount 0.384 seconds from this build time
+Using temporary file: temp_Enron_1551630384662_1579821865212908206.arff
+[Note] Discount 0.548 seconds from this build time
+Using temporary file: temp_Enron_1551630408312_-8645019593156400089.arff
+[Note] Discount 0.409 seconds from this build time
+Using temporary file: temp_Enron_1551630713115_1353816990017730924.arff
+[Note] Discount 0.423 seconds from this build time
+Using temporary file: temp_Enron_1551630830743_3260813280637601224.arff
+[Note] Discount 0.574 seconds from this build time
+Using temporary file: temp_Enron_1551630900310_-2149455768672428162.arff
+[Note] Discount 0.397 seconds from this build time
+Using temporary file: temp_Enron_1551630994555_6464344685522019821.arff
+[Note] Discount 0.433 seconds from this build time
+Using temporary file: temp_Enron_1551631092914_-259991515897342863.arff
+[Note] Discount 0.553 seconds from this build time
+Using temporary file: temp_Enron_1551631722888_-7823401723989747505.arff
+[Note] Discount 0.604 seconds from this build time
+Using temporary file: temp_Enron_1551631738699_-7300345967075961560.arff
+[Note] Discount 0.498 seconds from this build time
+Using temporary file: temp_Enron_1551631825188_5037965036864798915.arff
+[Note] Discount 0.451 seconds from this build time
+Using temporary file: temp_Enron_1551631861740_-8980117487222947788.arff
+[Note] Discount 0.547 seconds from this build time
+Using temporary file: temp_Enron_1551631899539_-1019362334163299157.arff
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_Enron_1551632188882_4016786749698341737.arff
+[Note] Discount 0.31 seconds from this build time
+Using temporary file: temp_Enron_1551632294489_-1663495373901721169.arff
+[Note] Discount 0.502 seconds from this build time
+Using temporary file: temp_Enron_1551632385720_357204762418634413.arff
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_Enron_1551632423929_5058270166536639533.arff
+[Note] Discount 0.53 seconds from this build time
+Using temporary file: temp_Enron_1551632583049_-6109681907542706157.arff
+[Note] Discount 0.438 seconds from this build time
+Using temporary file: temp_Enron_1551633189315_5310389416429997037.arff
+[Note] Discount 0.454 seconds from this build time
+Using temporary file: temp_Enron_1551633274230_1180451250079382823.arff
+[Note] Discount 0.433 seconds from this build time
+Using temporary file: temp_Enron_1551633364648_4173799138601369497.arff
+[Note] Discount 0.335 seconds from this build time
+Using temporary file: temp_Enron_1551633379845_2583780001673035147.arff
+[Note] Discount 0.395 seconds from this build time
+Using temporary file: temp_Enron_1551633387883_-7311352842601082005.arff
+[Note] Discount 0.36 seconds from this build time
+Using temporary file: temp_Enron_1551633695526_-5022166674911679806.arff
+[Note] Discount 0.436 seconds from this build time
+Using temporary file: temp_Enron_1551633742653_5605301965367641896.arff
+[Note] Discount 0.367 seconds from this build time
+Using temporary file: temp_Enron_1551633969622_-6910832155197454005.arff
+[Note] Discount 0.366 seconds from this build time
+Using temporary file: temp_Enron_1551633971435_660260225259642700.arff
+[Note] Discount 0.458 seconds from this build time
+Using temporary file: temp_Enron_1551634058993_8805804927883992817.arff
+[Note] Discount 0.427 seconds from this build time
+Using temporary file: temp_Enron_1551634645849_1709464157265079686.arff
+[Note] Discount 0.402 seconds from this build time
+Using temporary file: temp_Enron_1551634723843_-5337999691869457823.arff
+[Note] Discount 0.388 seconds from this build time
+Using temporary file: temp_Enron_1551634866618_8008505297448283238.arff
+[Note] Discount 0.364 seconds from this build time
+Using temporary file: temp_Enron_1551634897204_-3332450412194435075.arff
+[Note] Discount 0.375 seconds from this build time
+Using temporary file: temp_Enron_1551634898418_-7295335603209051564.arff
+[Note] Discount 0.435 seconds from this build time
+Using temporary file: temp_Enron_1551635191858_-6046014611969325073.arff
+[Note] Discount 0.34 seconds from this build time
+Using temporary file: temp_Enron_1551635195243_8302285056297172932.arff
+[Note] Discount 0.639 seconds from this build time
+Using temporary file: temp_Enron_1551635462950_6356024424047499647.arff
+[Note] Discount 0.563 seconds from this build time
+Using temporary file: temp_Enron_1551635492588_4969456586130451623.arff
+[Note] Discount 0.484 seconds from this build time
+Using temporary file: temp_Enron_1551635511129_-4701205128643231831.arff
+[Note] Discount 0.448 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 3
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Enron_1551636942224_3803053121039792420.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Enron_1551636942229_2758360689241543402.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Enron_1551636942244_-1468873411252492921.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Enron_1551636942263_-5761034890733554598.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Enron_1551636942278_-1536563194244860551.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Enron_1551636942289_653137120681555455.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Enron_1551636942348_3600025259063640689.arff
+Using temporary file: temp_Enron_1551636942349_-7821298019962506145.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Enron_1551636942458_-645917300613758614.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Enron_1551636942469_6119745577970185558.arff
+[Note] Discount 0.477 seconds from this build time
+[Note] Discount 0.509 seconds from this build time
+[Note] Discount 0.514 seconds from this build time
+[Note] Discount 0.583 seconds from this build time
+[Note] Discount 0.434 seconds from this build time
+[Note] Discount 0.658 seconds from this build time
+[Note] Discount 0.645 seconds from this build time
+[Note] Discount 0.493 seconds from this build time
+[Note] Discount 0.629 seconds from this build time
+[Note] Discount 0.64 seconds from this build time
+Using temporary file: temp_Enron_1551638370565_2549209129409228758.arff
+[Note] Discount 0.548 seconds from this build time
+Using temporary file: temp_Enron_1551638420867_1794894844987367466.arff
+[Note] Discount 0.326 seconds from this build time
+Using temporary file: temp_Enron_1551638443743_-3326066702825432110.arff
+[Note] Discount 0.515 seconds from this build time
+Using temporary file: temp_Enron_1551638448762_-6088871574026378532.arff
+[Note] Discount 0.501 seconds from this build time
+Using temporary file: temp_Enron_1551638466884_7911583618620128154.arff
+[Note] Discount 0.468 seconds from this build time
+Using temporary file: temp_Enron_1551638489728_8853444392409962688.arff
+[Note] Discount 0.549 seconds from this build time
+Using temporary file: temp_Enron_1551638506380_-3143446542602205122.arff
+[Note] Discount 0.502 seconds from this build time
+Using temporary file: temp_Enron_1551638515947_-8494028184443550129.arff
+[Note] Discount 0.484 seconds from this build time
+Using temporary file: temp_Enron_1551638536710_-7666389024716992619.arff
+[Note] Discount 0.541 seconds from this build time
+Using temporary file: temp_Enron_1551638650360_-7426893052962357700.arff
+[Note] Discount 0.602 seconds from this build time
+Using temporary file: temp_Enron_1551640158846_6906149630747914610.arff
+[Note] Discount 0.463 seconds from this build time
+Using temporary file: temp_Enron_1551640218797_30264304927818692.arff
+[Note] Discount 0.471 seconds from this build time
+Using temporary file: temp_Enron_1551640240929_-5727558868953203691.arff
+[Note] Discount 0.442 seconds from this build time
+Using temporary file: temp_Enron_1551640311867_-5280429017220727222.arff
+[Note] Discount 0.395 seconds from this build time
+Using temporary file: temp_Enron_1551640312963_1277373086709849060.arff
+[Note] Discount 0.344 seconds from this build time
+Using temporary file: temp_Enron_1551640314251_-9161356953358167518.arff
+[Note] Discount 0.367 seconds from this build time
+Using temporary file: temp_Enron_1551640341076_-5693283286674304421.arff
+[Note] Discount 0.402 seconds from this build time
+Using temporary file: temp_Enron_1551640354462_-3674380908879105364.arff
+[Note] Discount 0.49 seconds from this build time
+Using temporary file: temp_Enron_1551640365512_-5135266989296457665.arff
+[Note] Discount 0.495 seconds from this build time
+Using temporary file: temp_Enron_1551640564473_6299905036767953317.arff
+[Note] Discount 0.42 seconds from this build time
+Using temporary file: temp_Enron_1551641578811_1176089665387826969.arff
+[Note] Discount 0.349 seconds from this build time
+Using temporary file: temp_Enron_1551641618960_6443170592819695545.arff
+[Note] Discount 0.452 seconds from this build time
+Using temporary file: temp_Enron_1551641694096_-8837902837463325214.arff
+[Note] Discount 0.566 seconds from this build time
+Using temporary file: temp_Enron_1551641723442_-805964166784363941.arff
+[Note] Discount 0.479 seconds from this build time
+Using temporary file: temp_Enron_1551641755765_-5662802777777613574.arff
+[Note] Discount 0.413 seconds from this build time
+Using temporary file: temp_Enron_1551641768596_2243480672403792601.arff
+[Note] Discount 0.363 seconds from this build time
+Using temporary file: temp_Enron_1551641774770_-9124564742246058657.arff
+[Note] Discount 0.567 seconds from this build time
+Using temporary file: temp_Enron_1551641828929_-1820138817373496662.arff
+[Note] Discount 0.393 seconds from this build time
+Using temporary file: temp_Enron_1551641886325_3083995804586309402.arff
+[Note] Discount 0.422 seconds from this build time
+Using temporary file: temp_Enron_1551642029864_6444635427050365194.arff
+[Note] Discount 0.653 seconds from this build time
+Using temporary file: temp_Enron_1551643273959_-5623373965380994308.arff
+[Note] Discount 0.329 seconds from this build time
+Using temporary file: temp_Enron_1551643293456_598328575014092232.arff
+[Note] Discount 0.515 seconds from this build time
+Using temporary file: temp_Enron_1551643301539_4796796124253410186.arff
+[Note] Discount 0.488 seconds from this build time
+Using temporary file: temp_Enron_1551643361882_8576325184258344286.arff
+[Note] Discount 0.54 seconds from this build time
+Using temporary file: temp_Enron_1551643469913_7496982466862244149.arff
+[Note] Discount 0.484 seconds from this build time
+Using temporary file: temp_Enron_1551643486812_3421332352366621250.arff
+[Note] Discount 0.551 seconds from this build time
+Using temporary file: temp_Enron_1551643489591_5414275117331381710.arff
+[Note] Discount 0.497 seconds from this build time
+Using temporary file: temp_Enron_1551643541906_-7826056991558697093.arff
+[Note] Discount 0.506 seconds from this build time
+Using temporary file: temp_Enron_1551643552803_3107549667671845688.arff
+[Note] Discount 0.505 seconds from this build time
+Using temporary file: temp_Enron_1551643646654_6857373577836206198.arff
+[Note] Discount 0.548 seconds from this build time
+Using temporary file: temp_Enron_1551644719084_4328502305394555230.arff
+[Note] Discount 0.308 seconds from this build time
+Using temporary file: temp_Enron_1551644821630_-8514507194139921895.arff
+[Note] Discount 0.469 seconds from this build time
+Using temporary file: temp_Enron_1551644824077_6547565724012451687.arff
+[Note] Discount 0.402 seconds from this build time
+Using temporary file: temp_Enron_1551644843982_5719690575850774808.arff
+[Note] Discount 0.34 seconds from this build time
+Using temporary file: temp_Enron_1551644885030_-2998428632519719896.arff
+[Note] Discount 0.532 seconds from this build time
+Using temporary file: temp_Enron_1551644906034_-6073009103768551032.arff
+[Note] Discount 0.537 seconds from this build time
+Using temporary file: temp_Enron_1551644959509_2012055452795458010.arff
+[Note] Discount 0.35 seconds from this build time
+Using temporary file: temp_Enron_1551644964646_-1187394439175388239.arff
+[Note] Discount 0.456 seconds from this build time
+Using temporary file: temp_Enron_1551644978572_-2300171268480388852.arff
+[Note] Discount 0.299 seconds from this build time
+Using temporary file: temp_Enron_1551645017310_-2730112946719215065.arff
+[Note] Discount 0.337 seconds from this build time
+Using temporary file: temp_Enron_1551646061376_7275270066579715802.arff
+[Note] Discount 0.415 seconds from this build time
+Using temporary file: temp_Enron_1551646273710_6978170142387848475.arff
+[Note] Discount 0.531 seconds from this build time
+Using temporary file: temp_Enron_1551646343372_-8739040138527370657.arff
+[Note] Discount 0.415 seconds from this build time
+Using temporary file: temp_Enron_1551646426001_74038515833460462.arff
+[Note] Discount 0.54 seconds from this build time
+Using temporary file: temp_Enron_1551646428019_638374349769057639.arff
+[Note] Discount 0.508 seconds from this build time
+Using temporary file: temp_Enron_1551646453426_-3932241021960221178.arff
+[Note] Discount 0.366 seconds from this build time
+Using temporary file: temp_Enron_1551646460797_5004746258089555049.arff
+[Note] Discount 0.37 seconds from this build time
+Using temporary file: temp_Enron_1551646500005_-5133650843766026267.arff
+[Note] Discount 0.366 seconds from this build time
+Using temporary file: temp_Enron_1551646554615_7738331118769054131.arff
+[Note] Discount 0.414 seconds from this build time
+Using temporary file: temp_Enron_1551646573721_5364377487206044023.arff
+[Note] Discount 0.331 seconds from this build time
+Using temporary file: temp_Enron_1551647684574_4518754687359231975.arff
+[Note] Discount 0.385 seconds from this build time
+Using temporary file: temp_Enron_1551647801964_2310204960398219434.arff
+[Note] Discount 0.459 seconds from this build time
+Using temporary file: temp_Enron_1551647917981_2742914968671340453.arff
+[Note] Discount 0.492 seconds from this build time
+Using temporary file: temp_Enron_1551647922596_6227406868931904324.arff
+Using temporary file: temp_Enron_1551647922865_-2996308202189857655.arff
+[Note] Discount 0.432 seconds from this build time
+[Note] Discount 0.392 seconds from this build time
+Using temporary file: temp_Enron_1551647926385_-2865008637684177168.arff
+[Note] Discount 0.457 seconds from this build time
+Using temporary file: temp_Enron_1551647958559_4815349556090146136.arff
+[Note] Discount 0.413 seconds from this build time
+Using temporary file: temp_Enron_1551647980796_-7005385872618611047.arff
+[Note] Discount 0.456 seconds from this build time
+Using temporary file: temp_Enron_1551647997738_9052226342779358069.arff
+[Note] Discount 0.425 seconds from this build time
+Using temporary file: temp_Enron_1551648011164_7661520242631645434.arff
+[Note] Discount 0.389 seconds from this build time
+Using temporary file: temp_Enron_1551649272824_-2684126273154853479.arff
+[Note] Discount 0.476 seconds from this build time
+Using temporary file: temp_Enron_1551649344516_-3318354720801637259.arff
+[Note] Discount 0.534 seconds from this build time
+Using temporary file: temp_Enron_1551649381329_916941053930762690.arff
+[Note] Discount 0.51 seconds from this build time
+Using temporary file: temp_Enron_1551649386315_4820924320965653540.arff
+[Note] Discount 0.468 seconds from this build time
+Using temporary file: temp_Enron_1551649401703_-2951090371395693972.arff
+[Note] Discount 0.318 seconds from this build time
+Using temporary file: temp_Enron_1551649652528_7905715447329028654.arff
+[Note] Discount 0.333 seconds from this build time
+Using temporary file: temp_Enron_1551649676225_-4774357311190967554.arff
+[Note] Discount 0.373 seconds from this build time
+Using temporary file: temp_Enron_1551649720246_-2281078010550439077.arff
+[Note] Discount 0.355 seconds from this build time
+Using temporary file: temp_Enron_1551649869155_5398563097200408455.arff
+[Note] Discount 0.401 seconds from this build time
+Using temporary file: temp_Enron_1551649897246_-310554611065081879.arff
+[Note] Discount 0.385 seconds from this build time
+Using temporary file: temp_Enron_1551650762984_-3144232295862338647.arff
+[Note] Discount 0.414 seconds from this build time
+Using temporary file: temp_Enron_1551650845147_-4221713314052446817.arff
+[Note] Discount 0.474 seconds from this build time
+Using temporary file: temp_Enron_1551650907236_6711686818080472277.arff
+[Note] Discount 0.457 seconds from this build time
+Using temporary file: temp_Enron_1551650919046_2884632914678347555.arff
+[Note] Discount 0.447 seconds from this build time
+Using temporary file: temp_Enron_1551650926704_5020570882892176312.arff
+[Note] Discount 0.474 seconds from this build time
+Using temporary file: temp_Enron_1551651133612_4651716431732219016.arff
+[Note] Discount 0.456 seconds from this build time
+Using temporary file: temp_Enron_1551651163427_26457103131013364.arff
+[Note] Discount 0.352 seconds from this build time
+Using temporary file: temp_Enron_1551651186542_4956279532902220075.arff
+[Note] Discount 0.437 seconds from this build time
+Using temporary file: temp_Enron_1551651433845_4450747936512676115.arff
+[Note] Discount 0.527 seconds from this build time
+Using temporary file: temp_Enron_1551651525378_2186730121337187006.arff
+[Note] Discount 0.361 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 4
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Enron_1551652929810_-3924881047061963848.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Enron_1551652929818_-686051790578565723.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Enron_1551652929829_3870064272805235222.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Enron_1551652929843_-1451637565960506752.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Enron_1551652929859_858984953702183078.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Enron_1551652929868_-510411890396737272.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Enron_1551652929878_7531748283682793492.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Enron_1551652929894_-8939194325373615074.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Enron_1551652929904_194258901974634873.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Enron_1551652929923_2679013805589617441.arff
+[Note] Discount 0.482 seconds from this build time
+[Note] Discount 0.482 seconds from this build time
+[Note] Discount 0.52 seconds from this build time
+[Note] Discount 0.504 seconds from this build time
+[Note] Discount 0.534 seconds from this build time
+[Note] Discount 0.569 seconds from this build time
+[Note] Discount 0.529 seconds from this build time
+[Note] Discount 0.603 seconds from this build time
+[Note] Discount 0.623 seconds from this build time
+[Note] Discount 0.627 seconds from this build time
+Using temporary file: temp_Enron_1551654338838_-2726377905668691505.arff
+[Note] Discount 0.353 seconds from this build time
+Using temporary file: temp_Enron_1551654357931_4667142439544573055.arff
+[Note] Discount 0.441 seconds from this build time
+Using temporary file: temp_Enron_1551654378036_4032747547568791713.arff
+[Note] Discount 0.486 seconds from this build time
+Using temporary file: temp_Enron_1551654408848_2618506400220646798.arff
+Using temporary file: temp_Enron_1551654409258_-3484880777383254526.arff
+[Note] Discount 0.489 seconds from this build time
+[Note] Discount 0.434 seconds from this build time
+Using temporary file: temp_Enron_1551654421102_5834146448441283484.arff
+[Note] Discount 0.53 seconds from this build time
+Using temporary file: temp_Enron_1551654466408_-8522626268727008321.arff
+[Note] Discount 0.511 seconds from this build time
+Using temporary file: temp_Enron_1551654468887_-8902416243410300348.arff
+[Note] Discount 0.431 seconds from this build time
+Using temporary file: temp_Enron_1551654478993_-8375243262370458153.arff
+[Note] Discount 0.499 seconds from this build time
+Using temporary file: temp_Enron_1551654510384_6793998636042160899.arff
+[Note] Discount 0.516 seconds from this build time
+Using temporary file: temp_Enron_1551656041067_2682327445485680171.arff
+[Note] Discount 0.341 seconds from this build time
+Using temporary file: temp_Enron_1551656156774_4016188520437563914.arff
+[Note] Discount 0.386 seconds from this build time
+Using temporary file: temp_Enron_1551656163857_6936933392530960241.arff
+[Note] Discount 0.576 seconds from this build time
+Using temporary file: temp_Enron_1551656191867_-1605640584389120939.arff
+[Note] Discount 0.412 seconds from this build time
+Using temporary file: temp_Enron_1551656243752_-7955278666948146322.arff
+[Note] Discount 0.449 seconds from this build time
+Using temporary file: temp_Enron_1551656244329_-2303420526951683333.arff
+[Note] Discount 0.42 seconds from this build time
+Using temporary file: temp_Enron_1551656245019_-6409500192903294876.arff
+[Note] Discount 0.674 seconds from this build time
+Using temporary file: temp_Enron_1551656276765_9173237838594123720.arff
+[Note] Discount 0.418 seconds from this build time
+Using temporary file: temp_Enron_1551656313116_7696412024211915208.arff
+[Note] Discount 0.462 seconds from this build time
+Using temporary file: temp_Enron_1551656342481_-6124087172458977528.arff
+[Note] Discount 0.542 seconds from this build time
+Using temporary file: temp_Enron_1551657549525_289305151154239544.arff
+[Note] Discount 0.582 seconds from this build time
+Using temporary file: temp_Enron_1551657550764_3041333973510398629.arff
+[Note] Discount 0.375 seconds from this build time
+Using temporary file: temp_Enron_1551657622521_-4738070527277579093.arff
+[Note] Discount 0.459 seconds from this build time
+Using temporary file: temp_Enron_1551657722913_-1322328174886698380.arff
+[Note] Discount 0.406 seconds from this build time
+Using temporary file: temp_Enron_1551657738716_7186190977326994153.arff
+[Note] Discount 0.507 seconds from this build time
+Using temporary file: temp_Enron_1551657765861_6899196303910356427.arff
+[Note] Discount 0.388 seconds from this build time
+Using temporary file: temp_Enron_1551657770227_1335379214094696254.arff
+Using temporary file: temp_Enron_1551657770583_2302678096373101142.arff
+[Note] Discount 0.442 seconds from this build time
+[Note] Discount 0.494 seconds from this build time
+Using temporary file: temp_Enron_1551657786954_-8669163540957080726.arff
+[Note] Discount 0.394 seconds from this build time
+Using temporary file: temp_Enron_1551657903392_-1265468109690201046.arff
+[Note] Discount 0.428 seconds from this build time
+Using temporary file: temp_Enron_1551659296516_314851395928121051.arff
+[Note] Discount 0.481 seconds from this build time
+Using temporary file: temp_Enron_1551659330696_6054577866958805786.arff
+[Note] Discount 0.386 seconds from this build time
+Using temporary file: temp_Enron_1551659341190_-7699420010600227299.arff
+[Note] Discount 0.652 seconds from this build time
+Using temporary file: temp_Enron_1551659508603_6650267052805898569.arff
+[Note] Discount 0.426 seconds from this build time
+Using temporary file: temp_Enron_1551659513019_755854500991624593.arff
+[Note] Discount 0.543 seconds from this build time
+Using temporary file: temp_Enron_1551659523043_-4193290617900144896.arff
+[Note] Discount 0.414 seconds from this build time
+Using temporary file: temp_Enron_1551659641291_550436702605198172.arff
+[Note] Discount 0.451 seconds from this build time
+Using temporary file: temp_Enron_1551659842275_-8801870353876918334.arff
+[Note] Discount 0.405 seconds from this build time
+Using temporary file: temp_Enron_1551659855557_7135856249683414178.arff
+[Note] Discount 0.476 seconds from this build time
+Using temporary file: temp_Enron_1551659916532_-6106594814102442852.arff
+[Note] Discount 0.556 seconds from this build time
+Using temporary file: temp_Enron_1551660870109_-7154369092413191692.arff
+[Note] Discount 0.568 seconds from this build time
+Using temporary file: temp_Enron_1551660913782_4450705445726486464.arff
+[Note] Discount 0.586 seconds from this build time
+Using temporary file: temp_Enron_1551661010514_7271064030562875142.arff
+[Note] Discount 0.543 seconds from this build time
+Using temporary file: temp_Enron_1551661094858_-94187287130004140.arff
+[Note] Discount 0.499 seconds from this build time
+Using temporary file: temp_Enron_1551661124396_5371260547779316133.arff
+[Note] Discount 0.393 seconds from this build time
+Using temporary file: temp_Enron_1551661170402_2514343226117629319.arff
+[Note] Discount 0.525 seconds from this build time
+Using temporary file: temp_Enron_1551661192977_8070639246719579111.arff
+[Note] Discount 0.351 seconds from this build time
+Using temporary file: temp_Enron_1551661375164_-7524662116348677146.arff
+[Note] Discount 0.504 seconds from this build time
+Using temporary file: temp_Enron_1551661388009_1681061247776986531.arff
+[Note] Discount 0.361 seconds from this build time
+Using temporary file: temp_Enron_1551661456388_-2221988569368117268.arff
+[Note] Discount 0.514 seconds from this build time
+Using temporary file: temp_Enron_1551662300909_9169120409345085731.arff
+[Note] Discount 0.453 seconds from this build time
+Using temporary file: temp_Enron_1551662412725_-8648279696612050209.arff
+[Note] Discount 0.483 seconds from this build time
+Using temporary file: temp_Enron_1551662429912_-5493782453516093672.arff
+[Note] Discount 0.471 seconds from this build time
+Using temporary file: temp_Enron_1551662604509_-7511655587566459175.arff
+[Note] Discount 0.461 seconds from this build time
+Using temporary file: temp_Enron_1551662640359_-1160421466163642931.arff
+[Note] Discount 0.393 seconds from this build time
+Using temporary file: temp_Enron_1551662715722_6883113373614244644.arff
+[Note] Discount 0.431 seconds from this build time
+Using temporary file: temp_Enron_1551662817738_1072306077061511071.arff
+[Note] Discount 0.52 seconds from this build time
+Using temporary file: temp_Enron_1551662909196_3264908416820472267.arff
+[Note] Discount 0.482 seconds from this build time
+Using temporary file: temp_Enron_1551662961073_7608878906930592940.arff
+[Note] Discount 0.538 seconds from this build time
+Using temporary file: temp_Enron_1551663094403_-6449030298805734803.arff
+[Note] Discount 0.475 seconds from this build time
+Using temporary file: temp_Enron_1551664021894_-5319479682109490229.arff
+[Note] Discount 0.37 seconds from this build time
+Using temporary file: temp_Enron_1551664067805_-1065719142118609324.arff
+[Note] Discount 0.406 seconds from this build time
+Using temporary file: temp_Enron_1551664146338_-934136432924416325.arff
+[Note] Discount 0.39 seconds from this build time
+Using temporary file: temp_Enron_1551664218666_-7026508440249642555.arff
+[Note] Discount 0.304 seconds from this build time
+Using temporary file: temp_Enron_1551664245917_-5137015281226191458.arff
+[Note] Discount 0.451 seconds from this build time
+Using temporary file: temp_Enron_1551664261606_516392565305794201.arff
+[Note] Discount 0.416 seconds from this build time
+Using temporary file: temp_Enron_1551664283068_2831199605592898983.arff
+[Note] Discount 0.399 seconds from this build time
+Using temporary file: temp_Enron_1551664305957_1705806873338569740.arff
+[Note] Discount 0.392 seconds from this build time
+Using temporary file: temp_Enron_1551664597815_-1111343598442236142.arff
+[Note] Discount 0.335 seconds from this build time
+Using temporary file: temp_Enron_1551664707150_-4566396959982491692.arff
+[Note] Discount 0.502 seconds from this build time
+Using temporary file: temp_Enron_1551665418028_3467329551260634708.arff
+[Note] Discount 0.541 seconds from this build time
+Using temporary file: temp_Enron_1551665611968_-817604662548149131.arff
+[Note] Discount 0.354 seconds from this build time
+Using temporary file: temp_Enron_1551665679879_728586250621324436.arff
+[Note] Discount 0.453 seconds from this build time
+Using temporary file: temp_Enron_1551665751451_3875173390025246931.arff
+[Note] Discount 0.408 seconds from this build time
+Using temporary file: temp_Enron_1551665756685_-6784398378578189479.arff
+[Note] Discount 0.393 seconds from this build time
+Using temporary file: temp_Enron_1551665785403_-3998412061445143288.arff
+[Note] Discount 0.487 seconds from this build time
+Using temporary file: temp_Enron_1551665794289_6666015931596736387.arff
+[Note] Discount 0.413 seconds from this build time
+Using temporary file: temp_Enron_1551665857417_2746255371496665207.arff
+[Note] Discount 0.39 seconds from this build time
+Using temporary file: temp_Enron_1551666093432_-7665196775622473857.arff
+[Note] Discount 0.608 seconds from this build time
+Using temporary file: temp_Enron_1551666230328_-3074722789246360287.arff
+[Note] Discount 0.441 seconds from this build time
+Using temporary file: temp_Enron_1551666944535_-6063479906063052618.arff
+[Note] Discount 0.542 seconds from this build time
+Using temporary file: temp_Enron_1551667085774_7411910766693346359.arff
+[Note] Discount 0.537 seconds from this build time
+Using temporary file: temp_Enron_1551667158538_7430493277149599813.arff
+[Note] Discount 0.541 seconds from this build time
+Using temporary file: temp_Enron_1551667221985_-7815809082296616977.arff
+[Note] Discount 0.483 seconds from this build time
+Using temporary file: temp_Enron_1551667233590_4085467786997160691.arff
+[Note] Discount 0.37 seconds from this build time
+Using temporary file: temp_Enron_1551667296835_-1457205381421357414.arff
+[Note] Discount 0.464 seconds from this build time
+Using temporary file: temp_Enron_1551667321111_5404242951196403807.arff
+[Note] Discount 0.431 seconds from this build time
+Using temporary file: temp_Enron_1551667369502_-3121891052548791562.arff
+[Note] Discount 0.53 seconds from this build time
+Using temporary file: temp_Enron_1551667451702_1563548882513538425.arff
+[Note] Discount 0.487 seconds from this build time
+Using temporary file: temp_Enron_1551667756368_-4249802838372158016.arff
+[Note] Discount 0.439 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 5
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Enron_1551669223899_-8377336650094661069.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Enron_1551669223913_-8751085503867937651.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Enron_1551669223923_-7497975980136432009.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Enron_1551669223929_4840668386679044570.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Enron_1551669223938_-7306263279772935589.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Enron_1551669223945_1571665058970022497.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Enron_1551669223958_-2669015473904755310.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Enron_1551669223968_-3413008864762311762.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Enron_1551669223983_5392703102889984549.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Enron_1551669223988_8168676158663024624.arff
+[Note] Discount 0.363 seconds from this build time
+[Note] Discount 0.398 seconds from this build time
+[Note] Discount 0.401 seconds from this build time
+[Note] Discount 0.4 seconds from this build time
+[Note] Discount 0.446 seconds from this build time
+[Note] Discount 0.44 seconds from this build time
+[Note] Discount 0.455 seconds from this build time
+[Note] Discount 0.424 seconds from this build time
+[Note] Discount 0.451 seconds from this build time
+[Note] Discount 0.539 seconds from this build time
+Using temporary file: temp_Enron_1551670640265_-4787022384348844445.arff
+[Note] Discount 0.393 seconds from this build time
+Using temporary file: temp_Enron_1551670655589_-730190759019218156.arff
+[Note] Discount 0.449 seconds from this build time
+Using temporary file: temp_Enron_1551670710986_9038335254401083926.arff
+[Note] Discount 0.426 seconds from this build time
+Using temporary file: temp_Enron_1551670717879_-5020500491649895153.arff
+[Note] Discount 0.358 seconds from this build time
+Using temporary file: temp_Enron_1551670718456_8146221438076924663.arff
+[Note] Discount 0.497 seconds from this build time
+Using temporary file: temp_Enron_1551670737623_7806941514492271995.arff
+[Note] Discount 0.33 seconds from this build time
+Using temporary file: temp_Enron_1551670750743_4323093987500565602.arff
+[Note] Discount 0.408 seconds from this build time
+Using temporary file: temp_Enron_1551670760782_-4733873431139627931.arff
+[Note] Discount 0.419 seconds from this build time
+Using temporary file: temp_Enron_1551670785147_-5740671271593056691.arff
+Using temporary file: temp_Enron_1551670785291_1880661030975368292.arff
+[Note] Discount 0.414 seconds from this build time
+[Note] Discount 0.455 seconds from this build time
+Using temporary file: temp_Enron_1551672405888_-4498190047871887498.arff
+[Note] Discount 0.44 seconds from this build time
+Using temporary file: temp_Enron_1551672412082_8371004470249050606.arff
+[Note] Discount 0.53 seconds from this build time
+Using temporary file: temp_Enron_1551672418107_-499360409750722853.arff
+[Note] Discount 0.501 seconds from this build time
+Using temporary file: temp_Enron_1551672444104_5635609161038164966.arff
+[Note] Discount 0.474 seconds from this build time
+Using temporary file: temp_Enron_1551672465642_4070396125029978223.arff
+[Note] Discount 0.673 seconds from this build time
+Using temporary file: temp_Enron_1551672470863_-3045182938295608968.arff
+[Note] Discount 0.348 seconds from this build time
+Using temporary file: temp_Enron_1551672487281_-5986326496842862326.arff
+[Note] Discount 0.441 seconds from this build time
+Using temporary file: temp_Enron_1551672532721_-7156834939687546583.arff
+[Note] Discount 0.492 seconds from this build time
+Using temporary file: temp_Enron_1551672715936_322846005174511008.arff
+[Note] Discount 0.521 seconds from this build time
+Using temporary file: temp_Enron_1551672748411_-7282023472852925143.arff
+[Note] Discount 0.448 seconds from this build time
+Using temporary file: temp_Enron_1551673825661_-3070688518157112907.arff
+[Note] Discount 0.501 seconds from this build time
+Using temporary file: temp_Enron_1551673837375_5080606314316693739.arff
+[Note] Discount 0.637 seconds from this build time
+Using temporary file: temp_Enron_1551673858389_5245364836250954000.arff
+[Note] Discount 0.474 seconds from this build time
+Using temporary file: temp_Enron_1551673905807_-8257472253730980873.arff
+[Note] Discount 0.444 seconds from this build time
+Using temporary file: temp_Enron_1551673948701_6983046085666928814.arff
+[Note] Discount 0.527 seconds from this build time
+Using temporary file: temp_Enron_1551673985656_3526450679069113854.arff
+[Note] Discount 0.373 seconds from this build time
+Using temporary file: temp_Enron_1551673995235_-435587906648708359.arff
+[Note] Discount 0.447 seconds from this build time
+Using temporary file: temp_Enron_1551674071293_7318053033168220206.arff
+[Note] Discount 0.554 seconds from this build time
+Using temporary file: temp_Enron_1551674370897_1459173741195801402.arff
+[Note] Discount 0.551 seconds from this build time
+Using temporary file: temp_Enron_1551674452640_947406905975435208.arff
+[Note] Discount 0.577 seconds from this build time
+Using temporary file: temp_Enron_1551675436614_3700456403319983179.arff
+[Note] Discount 0.419 seconds from this build time
+Using temporary file: temp_Enron_1551675495803_7252938097639159278.arff
+[Note] Discount 0.509 seconds from this build time
+Using temporary file: temp_Enron_1551675536150_1674563217135621776.arff
+[Note] Discount 0.557 seconds from this build time
+Using temporary file: temp_Enron_1551675590749_8637641792745777345.arff
+[Note] Discount 0.528 seconds from this build time
+Using temporary file: temp_Enron_1551675664475_-5120251691338751706.arff
+[Note] Discount 0.427 seconds from this build time
+Using temporary file: temp_Enron_1551675705490_2978214333338970539.arff
+[Note] Discount 0.459 seconds from this build time
+Using temporary file: temp_Enron_1551675713876_-546227288755006883.arff
+[Note] Discount 0.396 seconds from this build time
+Using temporary file: temp_Enron_1551675718827_-8736851221491419912.arff
+[Note] Discount 0.523 seconds from this build time
+Using temporary file: temp_Enron_1551675985316_-8819243423086615708.arff
+[Note] Discount 0.465 seconds from this build time
+Using temporary file: temp_Enron_1551675986301_-8171136391278254421.arff
+[Note] Discount 0.35 seconds from this build time
+Using temporary file: temp_Enron_1551676988658_4557359622431007554.arff
+Using temporary file: temp_Enron_1551676988713_8026383961327351951.arff
+[Note] Discount 0.55 seconds from this build time
+[Note] Discount 0.506 seconds from this build time
+Using temporary file: temp_Enron_1551677104255_508943482563998989.arff
+[Note] Discount 0.443 seconds from this build time
+Using temporary file: temp_Enron_1551677347344_-4653752435979924085.arff
+[Note] Discount 0.569 seconds from this build time
+Using temporary file: temp_Enron_1551677469782_2939498319079095637.arff
+[Note] Discount 0.481 seconds from this build time
+Using temporary file: temp_Enron_1551677471648_-5594470500394967494.arff
+[Note] Discount 0.572 seconds from this build time
+Using temporary file: temp_Enron_1551677565644_3480003796066431712.arff
+[Note] Discount 0.423 seconds from this build time
+Using temporary file: temp_Enron_1551677627171_803124289950177979.arff
+[Note] Discount 0.378 seconds from this build time
+Using temporary file: temp_Enron_1551677758661_-636333988887034212.arff
+[Note] Discount 0.552 seconds from this build time
+Using temporary file: temp_Enron_1551677912221_8843852096945526213.arff
+[Note] Discount 0.448 seconds from this build time
+Using temporary file: temp_Enron_1551678659276_-2599638815814183215.arff
+[Note] Discount 0.317 seconds from this build time
+Using temporary file: temp_Enron_1551678704407_8190460250141936893.arff
+[Note] Discount 0.323 seconds from this build time
+Using temporary file: temp_Enron_1551678741038_5769673920140370325.arff
+[Note] Discount 0.292 seconds from this build time
+Using temporary file: temp_Enron_1551678893166_-5707672370091761013.arff
+[Note] Discount 0.357 seconds from this build time
+Using temporary file: temp_Enron_1551678943861_1153904216792672901.arff
+[Note] Discount 0.358 seconds from this build time
+Using temporary file: temp_Enron_1551678960985_5756199850788068330.arff
+[Note] Discount 0.458 seconds from this build time
+Using temporary file: temp_Enron_1551679040404_-8993413354811897935.arff
+[Note] Discount 0.373 seconds from this build time
+Using temporary file: temp_Enron_1551679052156_-7708433905133356545.arff
+[Note] Discount 0.301 seconds from this build time
+Using temporary file: temp_Enron_1551679173527_-7696908321112421928.arff
+[Note] Discount 0.341 seconds from this build time
+Using temporary file: temp_Enron_1551679325896_1143101010786680429.arff
+[Note] Discount 0.314 seconds from this build time
+Using temporary file: temp_Enron_1551679822425_3848973185516237780.arff
+[Note] Discount 0.354 seconds from this build time
+Using temporary file: temp_Enron_1551679829176_-7593559711793024473.arff
+[Note] Discount 0.364 seconds from this build time
+Using temporary file: temp_Enron_1551679865594_-356080060741782185.arff
+[Note] Discount 0.316 seconds from this build time
+Using temporary file: temp_Enron_1551679946559_4750573931075731782.arff
+[Note] Discount 0.291 seconds from this build time
+Using temporary file: temp_Enron_1551679970653_-2738735307499397929.arff
+[Note] Discount 0.298 seconds from this build time
+Using temporary file: temp_Enron_1551680027635_9147260119188226075.arff
+[Note] Discount 0.453 seconds from this build time
+Using temporary file: temp_Enron_1551680043787_-7753099951623310138.arff
+[Note] Discount 0.335 seconds from this build time
+Using temporary file: temp_Enron_1551680078567_1034630987629030792.arff
+[Note] Discount 0.284 seconds from this build time
+Using temporary file: temp_Enron_1551680179302_-7555351992581160954.arff
+[Note] Discount 0.275 seconds from this build time
+Using temporary file: temp_Enron_1551680237037_-445123651753048437.arff
+[Note] Discount 0.353 seconds from this build time
+Using temporary file: temp_Enron_1551680677447_3279426614661187996.arff
+[Note] Discount 0.208 seconds from this build time
+Using temporary file: temp_Enron_1551680693128_-9108032911202255077.arff
+[Note] Discount 0.274 seconds from this build time
+Using temporary file: temp_Enron_1551680703598_-5777773046073082973.arff
+[Note] Discount 0.265 seconds from this build time
+Using temporary file: temp_Enron_1551680774327_-535584982992767945.arff
+[Note] Discount 0.231 seconds from this build time
+Using temporary file: temp_Enron_1551680800270_4585731666244383106.arff
+[Note] Discount 0.256 seconds from this build time
+Using temporary file: temp_Enron_1551680854336_-3525111263812818117.arff
+[Note] Discount 0.302 seconds from this build time
+Using temporary file: temp_Enron_1551680870439_5796689938409159009.arff
+[Note] Discount 0.244 seconds from this build time
+Using temporary file: temp_Enron_1551680884464_7786015629227782772.arff
+[Note] Discount 0.288 seconds from this build time
+Using temporary file: temp_Enron_1551680935309_3214097265926879448.arff
+[Note] Discount 0.278 seconds from this build time
+Using temporary file: temp_Enron_1551681001662_5262131155823113975.arff
+[Note] Discount 0.197 seconds from this build time
+Using temporary file: temp_Enron_1551681348114_-6264662031554090775.arff
+[Note] Discount 0.208 seconds from this build time
+Using temporary file: temp_Enron_1551681366143_6364905620888314798.arff
+[Note] Discount 0.24 seconds from this build time
+Using temporary file: temp_Enron_1551681372098_-7074918400295346896.arff
+[Note] Discount 0.221 seconds from this build time
+Using temporary file: temp_Enron_1551681452957_8499104807284792755.arff
+[Note] Discount 0.221 seconds from this build time
+Using temporary file: temp_Enron_1551681461740_-7850427191471535528.arff
+[Note] Discount 0.289 seconds from this build time
+Using temporary file: temp_Enron_1551681513430_5947874316217233888.arff
+[Note] Discount 0.242 seconds from this build time
+Using temporary file: temp_Enron_1551681542416_8816149975002660817.arff
+[Note] Discount 0.215 seconds from this build time
+Using temporary file: temp_Enron_1551681551953_6817473413534271398.arff
+[Note] Discount 0.18 seconds from this build time
+Using temporary file: temp_Enron_1551681581391_-7107378206422349633.arff
+[Note] Discount 0.229 seconds from this build time
+Using temporary file: temp_Enron_1551681671364_1163118917381745949.arff
+[Note] Discount 0.219 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[STATISTICS] #50
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: Writing 50 statistics to: mekaexp.txt
+[STAGE] FINISH
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #1: meka.experiment.statisticsexporters.SimpleAggregate2
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-agg7.tsv
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #2: meka.experiment.statisticsexporters.TabSeparated
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-full7.tsv

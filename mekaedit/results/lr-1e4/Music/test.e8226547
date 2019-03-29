@@ -1,0 +1,2237 @@
+[STAGE] INITIALIZING
+[LOG] meka.experiment.DefaultExperiment: Turned off incremental mode for meka.experiment.evaluationstatistics.KeyValuePairs to make use of multi-threading!
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: File 'mekaexp.txt' exists, loading...
+[STAGE] RUNNING
+[LOG] meka.experiment.datasetproviders.MultiDatasetProvider: Dataset provider #1
+[LOG] meka.experiment.datasetproviders.LocalDatasetProvider: Loading: data/Music.arff
+[LOG] meka.experiment.DefaultExperiment: Using dataset: Music: -C 6
+[ITERATION] meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD2 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2 --> Music: -C 6
+[LOG] meka.experiment.DefaultExperiment: Using classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD2 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Number of threads (1 = sequential): 1
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 1
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Music_1550823212118_-4962768465676381896.arff
+Using temporary file: temp_Music_1550823212121_4437113781045784766.arff
+Using temporary file: temp_Music_1550823212123_-6688467811848818630.arff
+Using temporary file: temp_Music_1550823212134_-8292973307042192125.arff
+Using temporary file: temp_Music_1550823212141_-7423979211207825555.arff
+Using temporary file: temp_Music_1550823212141_6146794652083548235.arff
+Using temporary file: temp_Music_1550823212141_7105486291024734541.arff
+Using temporary file: temp_Music_1550823212161_-279624296851435688.arff
+Using temporary file: temp_Music_1550823212188_-2228689144322150137.arff
+Using temporary file: temp_Music_1550823212220_-1083761183081836303.arff
+[Note] Discount 0.535 seconds from this build time
+[Note] Discount 0.624 seconds from this build time
+[Note] Discount 0.648 seconds from this build time
+[Note] Discount 0.641 seconds from this build time
+[Note] Discount 0.681 seconds from this build time
+[Note] Discount 0.619 seconds from this build time
+[Note] Discount 0.684 seconds from this build time
+[Note] Discount 0.598 seconds from this build time
+[Note] Discount 0.68 seconds from this build time
+[Note] Discount 0.669 seconds from this build time
+Using temporary file: temp_Music_1550823223982_5072005423257391728.arff
+Using temporary file: temp_Music_1550823224030_2377732757510138102.arff
+[Note] Discount 0.05 seconds from this build time
+[Note] Discount 0.058 seconds from this build time
+Using temporary file: temp_Music_1550823224215_2704323167362897208.arff
+[Note] Discount 0.126 seconds from this build time
+Using temporary file: temp_Music_1550823225611_428667830982598836.arff
+Using temporary file: temp_Music_1550823225715_-8361175665883705505.arff
+[Note] Discount 0.117 seconds from this build time
+[Note] Discount 0.345 seconds from this build time
+Using temporary file: temp_Music_1550823226172_-655101936082782086.arff
+Using temporary file: temp_Music_1550823226258_1927512926176735975.arff
+[Note] Discount 0.098 seconds from this build time
+Using temporary file: temp_Music_1550823226374_-6914829020992303508.arff
+[Note] Discount 0.164 seconds from this build time
+[Note] Discount 0.279 seconds from this build time
+Using temporary file: temp_Music_1550823226899_7577852396602278602.arff
+[Note] Discount 0.071 seconds from this build time
+Using temporary file: temp_Music_1550823227246_-4126310024944755050.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823233074_-171134583860878546.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823233219_8987859488885190724.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823235605_-4681020001986070314.arff
+Using temporary file: temp_Music_1550823235619_-4922475540349336432.arff
+[Note] Discount 0.311 seconds from this build time
+[Note] Discount 0.326 seconds from this build time
+Using temporary file: temp_Music_1550823237123_-3370274031255729188.arff
+Using temporary file: temp_Music_1550823237162_-2971948390163211717.arff
+[Note] Discount 0.161 seconds from this build time
+Using temporary file: temp_Music_1550823237452_-8730854458729406051.arff
+[Note] Discount 0.145 seconds from this build time
+[Note] Discount 0.578 seconds from this build time
+Using temporary file: temp_Music_1550823238770_-1856941488587171136.arff
+[Note] Discount 0.06 seconds from this build time
+Using temporary file: temp_Music_1550823239720_2470753881526567411.arff
+[Note] Discount 0.059 seconds from this build time
+Using temporary file: temp_Music_1550823239825_1532230816302433446.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823241953_-395233716872471639.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823243058_-5121607137339136235.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823246012_-5256749969541153749.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823247112_2641949932817367724.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823247405_8540064508133314173.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823247898_82744587931001745.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823248737_1318911071456810350.arff
+[Note] Discount 0.074 seconds from this build time
+Using temporary file: temp_Music_1550823250305_6427218635535763657.arff
+[Note] Discount 0.06 seconds from this build time
+Using temporary file: temp_Music_1550823251274_6249197149364475148.arff
+Using temporary file: temp_Music_1550823251376_-2594413761814090552.arff
+[Note] Discount 0.134 seconds from this build time
+[Note] Discount 0.256 seconds from this build time
+Using temporary file: temp_Music_1550823251879_-524865453008036006.arff
+[Note] Discount 0.28 seconds from this build time
+Using temporary file: temp_Music_1550823253316_-2476551425607728309.arff
+[Note] Discount 0.755 seconds from this build time
+Using temporary file: temp_Music_1550823256646_-7146617210012600256.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823258584_3301745707726569574.arff
+[Note] Discount 0.077 seconds from this build time
+Using temporary file: temp_Music_1550823259016_4013465704250623170.arff
+[Note] Discount 0.082 seconds from this build time
+Using temporary file: temp_Music_1550823259509_-2684237951282348840.arff
+[Note] Discount 0.061 seconds from this build time
+Using temporary file: temp_Music_1550823260657_178444451137370484.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823261240_-5676192111176512602.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823262641_-4218531399638172627.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823263618_-5299981419733330714.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823263778_3896605098068159738.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823266403_-4001237302722672165.arff
+[Note] Discount 0.035 seconds from this build time
+Using temporary file: temp_Music_1550823266552_-1008423794855048618.arff
+[Note] Discount 0.076 seconds from this build time
+Using temporary file: temp_Music_1550823267463_262614321976477250.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823268900_7271772087391691927.arff
+[Note] Discount 0.068 seconds from this build time
+Using temporary file: temp_Music_1550823270627_-2697084138585034005.arff
+[Note] Discount 0.074 seconds from this build time
+Using temporary file: temp_Music_1550823271418_-3946820249469283158.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823271584_-120421011786498678.arff
+[Note] Discount 0.297 seconds from this build time
+Using temporary file: temp_Music_1550823272276_-2156342973769225726.arff
+[Note] Discount 0.065 seconds from this build time
+Using temporary file: temp_Music_1550823272520_3141324392123627982.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823274423_-699704949712600115.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823275882_-5085859045495963725.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823276968_-5951765205669983896.arff
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550823278508_-3608267860102554860.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823278819_8142886840698975765.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823279396_8524019115140866179.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823280562_-2714853971147396117.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823284095_-9189524968491074724.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823284505_-148625824714636787.arff
+[Note] Discount 0.056 seconds from this build time
+Using temporary file: temp_Music_1550823285260_-566870006298343145.arff
+Using temporary file: temp_Music_1550823285275_6513657358736753182.arff
+[Note] Discount 0.041 seconds from this build time
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823286341_871901303891580382.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823286629_1321222800296200436.arff
+[Note] Discount 0.038 seconds from this build time
+Using temporary file: temp_Music_1550823288837_536938910405906015.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823291648_8922140309403778699.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823292858_-517428980255835422.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823293848_-200753079219431109.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823294049_-4289936086616402019.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823295044_-9197595427105923027.arff
+[Note] Discount 0.033 seconds from this build time
+Using temporary file: temp_Music_1550823296995_4713610129296514631.arff
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550823297721_5702961989472887051.arff
+[Note] Discount 0.064 seconds from this build time
+Using temporary file: temp_Music_1550823298673_-2798730738562476822.arff
+[Note] Discount 0.029 seconds from this build time
+Using temporary file: temp_Music_1550823300304_960790331024379126.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823300416_187704103329199613.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823302533_6527434954307481789.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823304547_1600030782373250481.arff
+[Note] Discount 0.057 seconds from this build time
+Using temporary file: temp_Music_1550823305660_-2761265137076421558.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823306474_67826697947916427.arff
+[Note] Discount 0.076 seconds from this build time
+Using temporary file: temp_Music_1550823306932_5679626435595832671.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823306988_-8640296913357041870.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823307214_-1497613613979078270.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823308866_5113622237409872778.arff
+[Note] Discount 0.045 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+Using temporary file: temp_Music_1550823313554_-2319452971287571658.arff
+[Note] Discount 0.067 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+Using temporary file: temp_Music_1550823315658_-7196415781697772800.arff
+Using temporary file: temp_Music_1550823315695_-1685308985507641749.arff
+[Note] Discount 0.053 seconds from this build time
+[Note] Discount 0.043 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+Using temporary file: temp_Music_1550823316957_820707025409634855.arff
+[Note] Discount 0.078 seconds from this build time
+Using temporary file: temp_Music_1550823317219_-6516793691191662538.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823317286_9164411834808661380.arff
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550823319346_-9099749510027196988.arff
+[Note] Discount 0.044 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+Using temporary file: temp_Music_1550823322292_-8841730600804742235.arff
+[Note] Discount 0.039 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 2
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Music_1550823325332_6758162953488776844.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Music_1550823325345_8810845966659683448.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Music_1550823325365_-5460795021784967740.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823325372_5954014899072946649.arff
+Using temporary file: temp_Music_1550823325372_214993804815738645.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Music_1550823325389_-5514858212339405460.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Music_1550823325391_-4697410766453443951.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Music_1550823325397_-7244253119129237588.arff
+[Note] Discount 0.052 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1550823325399_4336492403770078180.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Music_1550823325412_7176580044932830276.arff
+[Note] Discount 0.066 seconds from this build time
+[Note] Discount 0.059 seconds from this build time
+[Note] Discount 0.066 seconds from this build time
+[Note] Discount 0.051 seconds from this build time
+[Note] Discount 0.06 seconds from this build time
+[Note] Discount 0.062 seconds from this build time
+[Note] Discount 0.059 seconds from this build time
+[Note] Discount 0.089 seconds from this build time
+Using temporary file: temp_Music_1550823332920_-1633120553624586039.arff
+[Note] Discount 0.06 seconds from this build time
+Using temporary file: temp_Music_1550823333912_3087783559322503069.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823335692_72191801432025792.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823335829_4886465643886762423.arff
+[Note] Discount 0.062 seconds from this build time
+Using temporary file: temp_Music_1550823337117_-1977178175608504323.arff
+[Note] Discount 0.022 seconds from this build time
+Using temporary file: temp_Music_1550823337546_5489165778026111548.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823338102_7911891130236602275.arff
+[Note] Discount 0.06 seconds from this build time
+Using temporary file: temp_Music_1550823340743_-5763654923426307630.arff
+[Note] Discount 0.038 seconds from this build time
+Using temporary file: temp_Music_1550823340878_7535429006024983857.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823341277_6512669167483931824.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823341352_-6054985639040938180.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823342048_-4788457857850447244.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823344362_-1947326395900975778.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823348346_-7748411135601385678.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823348724_-9024968371786632850.arff
+[Note] Discount 0.059 seconds from this build time
+Using temporary file: temp_Music_1550823349738_5754825772160496080.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823351662_-8481270662646470671.arff
+[Note] Discount 0.071 seconds from this build time
+Using temporary file: temp_Music_1550823352473_-496076268859382896.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823353085_-7127128167259751473.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823353578_501180562174799085.arff
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550823354208_-5736614306270799543.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823354536_-6819959017335327829.arff
+[Note] Discount 0.055 seconds from this build time
+Using temporary file: temp_Music_1550823355465_-3360305141762794454.arff
+[Note] Discount 0.056 seconds from this build time
+Using temporary file: temp_Music_1550823357655_-4775523669187539415.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823360295_-6798914858217573060.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823361353_5808738444245805049.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823363597_-4605199251911937283.arff
+[Note] Discount 0.075 seconds from this build time
+Using temporary file: temp_Music_1550823363676_3508934780188318642.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823364171_2259750519392559506.arff
+[Note] Discount 0.06 seconds from this build time
+Using temporary file: temp_Music_1550823364370_-5288884321442703868.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823365981_-1235136122240190980.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823367610_5738943893379618316.arff
+[Note] Discount 0.067 seconds from this build time
+Using temporary file: temp_Music_1550823367790_-8678588235927406455.arff
+[Note] Discount 0.061 seconds from this build time
+Using temporary file: temp_Music_1550823368158_3301560350794899176.arff
+[Note] Discount 0.034 seconds from this build time
+Using temporary file: temp_Music_1550823372234_2100752566876840588.arff
+[Note] Discount 0.036 seconds from this build time
+Using temporary file: temp_Music_1550823373147_-5830253423258833266.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823374245_6995928140111635280.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823374322_-7518357113470038567.arff
+[Note] Discount 0.059 seconds from this build time
+Using temporary file: temp_Music_1550823374502_-1095565672715370423.arff
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550823375555_-8593497911429493276.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823378241_3951194809170085004.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823379743_6156225800113325723.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823379871_4621576804961825664.arff
+[Note] Discount 0.029 seconds from this build time
+Using temporary file: temp_Music_1550823382646_-4878419149880202610.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823383800_1681357320861610709.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823384190_4880037797499618312.arff
+[Note] Discount 0.059 seconds from this build time
+Using temporary file: temp_Music_1550823384277_3480315076809301941.arff
+[Note] Discount 0.055 seconds from this build time
+Using temporary file: temp_Music_1550823385488_5492728113478971232.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823385904_-4455425718838312134.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823386826_859397494107989646.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823389117_1587684632128182815.arff
+[Note] Discount 0.064 seconds from this build time
+Using temporary file: temp_Music_1550823389706_-1988121919985651200.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823392516_-8584399766682819655.arff
+[Note] Discount 0.028 seconds from this build time
+Using temporary file: temp_Music_1550823393623_1579821865212908206.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823394271_-8645019593156400089.arff
+[Note] Discount 0.05 seconds from this build time
+Using temporary file: temp_Music_1550823394379_1353816990017730924.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823398296_3260813280637601224.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823398904_-2149455768672428162.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823399099_6464344685522019821.arff
+[Note] Discount 0.062 seconds from this build time
+Using temporary file: temp_Music_1550823399186_-259991515897342863.arff
+[Note] Discount 0.055 seconds from this build time
+Using temporary file: temp_Music_1550823401204_-7823401723989747505.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823402976_-7300345967075961560.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823403153_5037965036864798915.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823404539_-8980117487222947788.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823405855_-1019362334163299157.arff
+[Note] Discount 0.03 seconds from this build time
+Using temporary file: temp_Music_1550823405983_4016786749698341737.arff
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550823408964_-1663495373901721169.arff
+[Note] Discount 0.036 seconds from this build time
+Using temporary file: temp_Music_1550823410330_357204762418634413.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823410597_5058270166536639533.arff
+[Note] Discount 0.055 seconds from this build time
+Using temporary file: temp_Music_1550823411466_-6109681907542706157.arff
+[Note] Discount 0.056 seconds from this build time
+Using temporary file: temp_Music_1550823412360_5310389416429997037.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823415478_1180451250079382823.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823416206_4173799138601369497.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823416358_2583780001673035147.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823417392_-7311352842601082005.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823418621_-5022166674911679806.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823418978_5605301965367641896.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823419587_-6910832155197454005.arff
+[Note] Discount 0.072 seconds from this build time
+Using temporary file: temp_Music_1550823422990_660260225259642700.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823423424_8805804927883992817.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823425180_1709464157265079686.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823426527_-5337999691869457823.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823426619_8008505297448283238.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823427879_-3332450412194435075.arff
+[Note] Discount 0.056 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+Using temporary file: temp_Music_1550823428715_-7295335603209051564.arff
+[Note] Discount 0.09 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+Using temporary file: temp_Music_1550823429010_-6046014611969325073.arff
+[Note] Discount 0.057 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+Using temporary file: temp_Music_1550823434076_8302285056297172932.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823434258_6356024424047499647.arff
+[Note] Discount 0.053 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+Using temporary file: temp_Music_1550823435578_4969456586130451623.arff
+[Note] Discount 0.043 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+Using temporary file: temp_Music_1550823437369_-4701205128643231831.arff
+[Note] Discount 0.041 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 3
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Music_1550823440151_3803053121039792420.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Music_1550823440165_2758360689241543402.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Music_1550823440167_-1468873411252492921.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Music_1550823440174_-5761034890733554598.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Music_1550823440178_-1536563194244860551.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[Note] Discount 0.029 seconds from this build time
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823440202_653137120681555455.arff
+[Note] Discount 0.039 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Music_1550823440209_3600025259063640689.arff
+Using temporary file: temp_Music_1550823440210_-7821298019962506145.arff
+[Note] Discount 0.032 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1550823440214_-645917300613758614.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Music_1550823440228_6119745577970185558.arff
+[Note] Discount 0.041 seconds from this build time
+[Note] Discount 0.076 seconds from this build time
+[Note] Discount 0.054 seconds from this build time
+[Note] Discount 0.042 seconds from this build time
+[Note] Discount 0.047 seconds from this build time
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823449033_2549209129409228758.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823450782_1794894844987367466.arff
+[Note] Discount 0.059 seconds from this build time
+Using temporary file: temp_Music_1550823451327_-3326066702825432110.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823451622_-6088871574026378532.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823451826_7911583618620128154.arff
+[Note] Discount 0.055 seconds from this build time
+Using temporary file: temp_Music_1550823452461_8853444392409962688.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823452625_-3143446542602205122.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823452795_-8494028184443550129.arff
+[Note] Discount 0.058 seconds from this build time
+Using temporary file: temp_Music_1550823452910_-7666389024716992619.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823453049_-7426893052962357700.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823460097_6906149630747914610.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823461560_30264304927818692.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823461633_-5727558868953203691.arff
+[Note] Discount 0.038 seconds from this build time
+Using temporary file: temp_Music_1550823463932_-5280429017220727222.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823464253_1277373086709849060.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823464838_-9161356953358167518.arff
+[Note] Discount 0.062 seconds from this build time
+Using temporary file: temp_Music_1550823465045_-5693283286674304421.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823465231_-3674380908879105364.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823465342_-5135266989296457665.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823465776_6299905036767953317.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823470302_1176089665387826969.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823471795_6443170592819695545.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823471922_-8837902837463325214.arff
+[Note] Discount 0.032 seconds from this build time
+Using temporary file: temp_Music_1550823474629_-805964166784363941.arff
+[Note] Discount 0.063 seconds from this build time
+Using temporary file: temp_Music_1550823475266_-5662802777777613574.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823476252_2243480672403792601.arff
+[Note] Discount 0.035 seconds from this build time
+Using temporary file: temp_Music_1550823479739_-9124564742246058657.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823479947_-1820138817373496662.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823480135_3083995804586309402.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823480339_6444635427050365194.arff
+Using temporary file: temp_Music_1550823480359_-5623373965380994308.arff
+[Note] Discount 0.041 seconds from this build time
+[Note] Discount 0.031 seconds from this build time
+Using temporary file: temp_Music_1550823482364_598328575014092232.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823486442_4796796124253410186.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823487318_8576325184258344286.arff
+[Note] Discount 0.033 seconds from this build time
+Using temporary file: temp_Music_1550823488043_7496982466862244149.arff
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550823488404_3421332352366621250.arff
+Using temporary file: temp_Music_1550823488435_5414275117331381710.arff
+[Note] Discount 0.031 seconds from this build time
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823490526_-7826056991558697093.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823492066_3107549667671845688.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823492494_6857373577836206198.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823492641_4328502305394555230.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823494655_-8514507194139921895.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823497809_6547565724012451687.arff
+[Note] Discount 0.033 seconds from this build time
+Using temporary file: temp_Music_1550823498511_5719690575850774808.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823499354_-2998428632519719896.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823499548_-6073009103768551032.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823500942_2012055452795458010.arff
+[Note] Discount 0.033 seconds from this build time
+Using temporary file: temp_Music_1550823501687_-1187394439175388239.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823501799_-2300171268480388852.arff
+[Note] Discount 0.061 seconds from this build time
+Using temporary file: temp_Music_1550823502591_-2730112946719215065.arff
+[Note] Discount 0.036 seconds from this build time
+Using temporary file: temp_Music_1550823506063_7275270066579715802.arff
+[Note] Discount 0.032 seconds from this build time
+Using temporary file: temp_Music_1550823506452_6978170142387848475.arff
+[Note] Discount 0.038 seconds from this build time
+Using temporary file: temp_Music_1550823507941_-8739040138527370657.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823508947_74038515833460462.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823510749_638374349769057639.arff
+[Note] Discount 0.071 seconds from this build time
+Using temporary file: temp_Music_1550823511797_-3932241021960221178.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823512834_5004746258089555049.arff
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550823513405_-5133650843766026267.arff
+[Note] Discount 0.029 seconds from this build time
+Using temporary file: temp_Music_1550823514269_7738331118769054131.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823514756_5364377487206044023.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823516619_4518754687359231975.arff
+[Note] Discount 0.055 seconds from this build time
+Using temporary file: temp_Music_1550823517644_2310204960398219434.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823519521_2742914968671340453.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823519691_6227406868931904324.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823522768_-2996308202189857655.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823523012_-2865008637684177168.arff
+[Note] Discount 0.058 seconds from this build time
+Using temporary file: temp_Music_1550823523683_4815349556090146136.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823524054_-7005385872618611047.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823524778_9052226342779358069.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823527685_7661520242631645434.arff
+[Note] Discount 0.066 seconds from this build time
+Using temporary file: temp_Music_1550823527832_-2684126273154853479.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823527931_-3318354720801637259.arff
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550823530312_916941053930762690.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823531031_4820924320965653540.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823534085_-2951090371395693972.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823534143_7905715447329028654.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823535469_-4774357311190967554.arff
+[Note] Discount 0.034 seconds from this build time
+Using temporary file: temp_Music_1550823535510_-2281078010550439077.arff
+[Note] Discount 0.035 seconds from this build time
+Using temporary file: temp_Music_1550823536554_5398563097200408455.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823537672_-310554611065081879.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823539861_-3144232295862338647.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823539919_-4221713314052446817.arff
+[Note] Discount 0.101 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+Using temporary file: temp_Music_1550823541425_6711686818080472277.arff
+[Note] Discount 0.065 seconds from this build time
+Using temporary file: temp_Music_1550823545053_2884632914678347555.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823545205_5020570882892176312.arff
+[Note] Discount 0.055 seconds from this build time
+Using temporary file: temp_Music_1550823546833_4651716431732219016.arff
+[Note] Discount 0.057 seconds from this build time
+Using temporary file: temp_Music_1550823547183_26457103131013364.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823548585_4956279532902220075.arff
+[Note] Discount 0.038 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+Using temporary file: temp_Music_1550823548992_4450747936512676115.arff
+[Note] Discount 0.021 seconds from this build time
+Using temporary file: temp_Music_1550823549507_2186730121337187006.arff
+[Note] Discount 0.053 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 4
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Music_1550823555681_-3924881047061963848.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Music_1550823555698_-686051790578565723.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Music_1550823555699_3870064272805235222.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Music_1550823555730_-1451637565960506752.arff
+Using temporary file: temp_Music_1550823555732_858984953702183078.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Music_1550823555733_-510411890396737272.arff
+Using temporary file: temp_Music_1550823555734_7531748283682793492.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1550823555735_-8939194325373615074.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Music_1550823555756_194258901974634873.arff
+Using temporary file: temp_Music_1550823555760_2679013805589617441.arff
+[Note] Discount 0.078 seconds from this build time
+[Note] Discount 0.089 seconds from this build time
+[Note] Discount 0.106 seconds from this build time
+[Note] Discount 0.056 seconds from this build time
+[Note] Discount 0.068 seconds from this build time
+[Note] Discount 0.084 seconds from this build time
+[Note] Discount 0.09 seconds from this build time
+[Note] Discount 0.085 seconds from this build time
+[Note] Discount 0.071 seconds from this build time
+[Note] Discount 0.089 seconds from this build time
+Using temporary file: temp_Music_1550823565116_-2726377905668691505.arff
+[Note] Discount 0.056 seconds from this build time
+Using temporary file: temp_Music_1550823565719_4667142439544573055.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823566112_4032747547568791713.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823566277_2618506400220646798.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823566706_-3484880777383254526.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823567074_5834146448441283484.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823567688_-8522626268727008321.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823568851_-8902416243410300348.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823569412_-8375243262370458153.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823570579_6793998636042160899.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823575912_2682327445485680171.arff
+[Note] Discount 0.063 seconds from this build time
+Using temporary file: temp_Music_1550823576074_4016188520437563914.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823576748_6936933392530960241.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823576811_-1605640584389120939.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823577152_-7955278666948146322.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823578330_-2303420526951683333.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823580885_-6409500192903294876.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823581324_9173237838594123720.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823581541_7696412024211915208.arff
+[Note] Discount 0.059 seconds from this build time
+Using temporary file: temp_Music_1550823582187_-6124087172458977528.arff
+[Note] Discount 0.055 seconds from this build time
+Using temporary file: temp_Music_1550823585383_289305151154239544.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823586148_3041333973510398629.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823587611_-4738070527277579093.arff
+[Note] Discount 0.057 seconds from this build time
+Using temporary file: temp_Music_1550823588391_-1322328174886698380.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823588978_7186190977326994153.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823589256_6899196303910356427.arff
+[Note] Discount 0.055 seconds from this build time
+Using temporary file: temp_Music_1550823589664_1335379214094696254.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823593182_2302678096373101142.arff
+[Note] Discount 0.057 seconds from this build time
+Using temporary file: temp_Music_1550823593991_-8669163540957080726.arff
+[Note] Discount 0.065 seconds from this build time
+Using temporary file: temp_Music_1550823594164_-1265468109690201046.arff
+[Note] Discount 0.072 seconds from this build time
+Using temporary file: temp_Music_1550823596452_314851395928121051.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823597007_6054577866958805786.arff
+[Note] Discount 0.05 seconds from this build time
+Using temporary file: temp_Music_1550823598375_-7699420010600227299.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823599327_6650267052805898569.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823599430_755854500991624593.arff
+[Note] Discount 0.033 seconds from this build time
+Using temporary file: temp_Music_1550823601416_-4193290617900144896.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823601584_550436702605198172.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823605187_-8801870353876918334.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823606453_7135856249683414178.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823606844_-6106594814102442852.arff
+[Note] Discount 0.058 seconds from this build time
+Using temporary file: temp_Music_1550823607380_-7154369092413191692.arff
+[Note] Discount 0.026 seconds from this build time
+Using temporary file: temp_Music_1550823607426_4450705445726486464.arff
+[Note] Discount 0.057 seconds from this build time
+Using temporary file: temp_Music_1550823609033_7271064030562875142.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823609096_-94187287130004140.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823611104_5371260547779316133.arff
+[Note] Discount 0.056 seconds from this build time
+Using temporary file: temp_Music_1550823611934_2514343226117629319.arff
+[Note] Discount 0.055 seconds from this build time
+Using temporary file: temp_Music_1550823613374_8070639246719579111.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823615313_-7524662116348677146.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823617009_1681061247776986531.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823617646_-2221988569368117268.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823618110_9169120409345085731.arff
+[Note] Discount 0.057 seconds from this build time
+Using temporary file: temp_Music_1550823619628_-8648279696612050209.arff
+[Note] Discount 0.072 seconds from this build time
+Using temporary file: temp_Music_1550823620448_-5493782453516093672.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823620767_-7511655587566459175.arff
+[Note] Discount 0.083 seconds from this build time
+Using temporary file: temp_Music_1550823620913_-1160421466163642931.arff
+[Note] Discount 0.057 seconds from this build time
+Using temporary file: temp_Music_1550823624600_6883113373614244644.arff
+[Note] Discount 0.05 seconds from this build time
+Using temporary file: temp_Music_1550823625432_1072306077061511071.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823625553_3264908416820472267.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823626540_7608878906930592940.arff
+[Note] Discount 0.06 seconds from this build time
+Using temporary file: temp_Music_1550823627673_-6449030298805734803.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823628147_-5319479682109490229.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823628783_-1065719142118609324.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823631261_-934136432924416325.arff
+[Note] Discount 0.059 seconds from this build time
+Using temporary file: temp_Music_1550823632322_-7026508440249642555.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823632614_-5137015281226191458.arff
+[Note] Discount 0.066 seconds from this build time
+Using temporary file: temp_Music_1550823634616_516392565305794201.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823635619_2831199605592898983.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823636137_1705806873338569740.arff
+[Note] Discount 0.055 seconds from this build time
+Using temporary file: temp_Music_1550823636280_-1111343598442236142.arff
+[Note] Discount 0.071 seconds from this build time
+Using temporary file: temp_Music_1550823638408_-4566396959982491692.arff
+[Note] Discount 0.055 seconds from this build time
+Using temporary file: temp_Music_1550823638728_3467329551260634708.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823639480_-817604662548149131.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823642143_728586250621324436.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823643168_3875173390025246931.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823643973_-6784398378578189479.arff
+[Note] Discount 0.057 seconds from this build time
+Using temporary file: temp_Music_1550823644264_-3998412061445143288.arff
+[Note] Discount 0.068 seconds from this build time
+Using temporary file: temp_Music_1550823645639_6666015931596736387.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823647572_2746255371496665207.arff
+[Note] Discount 0.057 seconds from this build time
+Using temporary file: temp_Music_1550823647672_-7665196775622473857.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823648282_-3074722789246360287.arff
+[Note] Discount 0.069 seconds from this build time
+Using temporary file: temp_Music_1550823648809_-6063479906063052618.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823650515_7411910766693346359.arff
+[Note] Discount 0.056 seconds from this build time
+Using temporary file: temp_Music_1550823652730_7430493277149599813.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823654088_-7815809082296616977.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823655099_4085467786997160691.arff
+[Note] Discount 0.06 seconds from this build time
+Using temporary file: temp_Music_1550823655276_-1457205381421357414.arff
+[Note] Discount 0.063 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+Using temporary file: temp_Music_1550823657358_5404242951196403807.arff
+[Note] Discount 0.055 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+Using temporary file: temp_Music_1550823659425_-3121891052548791562.arff
+[Note] Discount 0.061 seconds from this build time
+Using temporary file: temp_Music_1550823659534_1563548882513538425.arff
+[Note] Discount 0.032 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+Using temporary file: temp_Music_1550823661169_-4249802838372158016.arff
+[Note] Discount 0.042 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 5
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Music_1550823666371_-8377336650094661069.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Music_1550823666374_-8751085503867937651.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Music_1550823666384_-7497975980136432009.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Music_1550823666389_4840668386679044570.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Music_1550823666402_-7306263279772935589.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Music_1550823666408_1571665058970022497.arff
+[Note] Discount 0.043 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Music_1550823666418_-2669015473904755310.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1550823666430_-3413008864762311762.arff
+[Note] Discount 0.046 seconds from this build time
+[Note] Discount 0.059 seconds from this build time
+Using temporary file: temp_Music_1550823666439_5392703102889984549.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Music_1550823666452_8168676158663024624.arff
+[Note] Discount 0.068 seconds from this build time
+[Note] Discount 0.05 seconds from this build time
+[Note] Discount 0.061 seconds from this build time
+[Note] Discount 0.079 seconds from this build time
+[Note] Discount 0.058 seconds from this build time
+[Note] Discount 0.083 seconds from this build time
+[Note] Discount 0.076 seconds from this build time
+Using temporary file: temp_Music_1550823675239_-4787022384348844445.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823676038_-730190759019218156.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823676354_9038335254401083926.arff
+[Note] Discount 0.057 seconds from this build time
+Using temporary file: temp_Music_1550823676539_-5020500491649895153.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823677552_8146221438076924663.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823677742_7806941514492271995.arff
+[Note] Discount 0.05 seconds from this build time
+Using temporary file: temp_Music_1550823677911_4323093987500565602.arff
+Using temporary file: temp_Music_1550823677968_-4733873431139627931.arff
+[Note] Discount 0.096 seconds from this build time
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823678470_-5740671271593056691.arff
+[Note] Discount 0.07 seconds from this build time
+Using temporary file: temp_Music_1550823678872_1880661030975368292.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823684077_-4498190047871887498.arff
+[Note] Discount 0.074 seconds from this build time
+Using temporary file: temp_Music_1550823685108_8371004470249050606.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823685586_-499360409750722853.arff
+[Note] Discount 0.075 seconds from this build time
+Using temporary file: temp_Music_1550823686226_5635609161038164966.arff
+[Note] Discount 0.065 seconds from this build time
+Using temporary file: temp_Music_1550823687235_4070396125029978223.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823688431_-3045182938295608968.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823689209_-5986326496842862326.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823689274_-7156834939687546583.arff
+[Note] Discount 0.06 seconds from this build time
+Using temporary file: temp_Music_1550823689526_322846005174511008.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823689581_-7282023472852925143.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823693054_-3070688518157112907.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823693582_5080606314316693739.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823695849_5245364836250954000.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823697140_-8257472253730980873.arff
+Using temporary file: temp_Music_1550823697150_6983046085666928814.arff
+[Note] Discount 0.1 seconds from this build time
+[Note] Discount 0.093 seconds from this build time
+Using temporary file: temp_Music_1550823698804_3526450679069113854.arff
+[Note] Discount 0.087 seconds from this build time
+Using temporary file: temp_Music_1550823699899_-435587906648708359.arff
+Using temporary file: temp_Music_1550823699943_7318053033168220206.arff
+[Note] Discount 0.044 seconds from this build time
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550823700732_1459173741195801402.arff
+[Note] Discount 0.068 seconds from this build time
+Using temporary file: temp_Music_1550823702111_947406905975435208.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823703412_3700456403319983179.arff
+[Note] Discount 0.059 seconds from this build time
+Using temporary file: temp_Music_1550823704268_7252938097639159278.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823705177_1674563217135621776.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823706326_8637641792745777345.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823706648_-5120251691338751706.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823707944_2978214333338970539.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823709285_-546227288755006883.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823710629_-8736851221491419912.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823711620_-8819243423086615708.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823713099_-8171136391278254421.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823714080_4557359622431007554.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823715014_8026383961327351951.arff
+[Note] Discount 0.066 seconds from this build time
+Using temporary file: temp_Music_1550823715735_508943482563998989.arff
+[Note] Discount 0.057 seconds from this build time
+Using temporary file: temp_Music_1550823716092_-4653752435979924085.arff
+[Note] Discount 0.068 seconds from this build time
+Using temporary file: temp_Music_1550823716759_2939498319079095637.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823716842_-5594470500394967494.arff
+[Note] Discount 0.05 seconds from this build time
+Using temporary file: temp_Music_1550823718620_3480003796066431712.arff
+[Note] Discount 0.06 seconds from this build time
+Using temporary file: temp_Music_1550823722119_803124289950177979.arff
+Using temporary file: temp_Music_1550823722169_-636333988887034212.arff
+[Note] Discount 0.071 seconds from this build time
+[Note] Discount 0.058 seconds from this build time
+Using temporary file: temp_Music_1550823722373_8843852096945526213.arff
+Using temporary file: temp_Music_1550823722423_-2599638815814183215.arff
+[Note] Discount 0.068 seconds from this build time
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823724603_8190460250141936893.arff
+[Note] Discount 0.038 seconds from this build time
+Using temporary file: temp_Music_1550823725574_5769673920140370325.arff
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550823726206_-5707672370091761013.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823726685_1153904216792672901.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823726845_5756199850788068330.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823727951_-8993413354811897935.arff
+[Note] Discount 0.033 seconds from this build time
+Using temporary file: temp_Music_1550823730953_-7708433905133356545.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823731172_-7696908321112421928.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823731557_1143101010786680429.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823733405_3848973185516237780.arff
+[Note] Discount 0.075 seconds from this build time
+Using temporary file: temp_Music_1550823733608_-7593559711793024473.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823734691_-356080060741782185.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823737988_4750573931075731782.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823738166_-2738735307499397929.arff
+[Note] Discount 0.064 seconds from this build time
+Using temporary file: temp_Music_1550823738242_9147260119188226075.arff
+[Note] Discount 0.036 seconds from this build time
+Using temporary file: temp_Music_1550823738825_-7753099951623310138.arff
+[Note] Discount 0.065 seconds from this build time
+Using temporary file: temp_Music_1550823740056_1034630987629030792.arff
+[Note] Discount 0.058 seconds from this build time
+Using temporary file: temp_Music_1550823740317_-7555351992581160954.arff
+[Note] Discount 0.024 seconds from this build time
+Using temporary file: temp_Music_1550823741582_-445123651753048437.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823743058_3279426614661187996.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823743619_-9108032911202255077.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823744563_-5777773046073082973.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823748033_-535584982992767945.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823749276_4585731666244383106.arff
+[Note] Discount 0.065 seconds from this build time
+Using temporary file: temp_Music_1550823749395_-3525111263812818117.arff
+[Note] Discount 0.065 seconds from this build time
+Using temporary file: temp_Music_1550823749986_5796689938409159009.arff
+[Note] Discount 0.034 seconds from this build time
+Using temporary file: temp_Music_1550823750512_7786015629227782772.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823750624_3214097265926879448.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823752297_5262131155823113975.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823753215_-6264662031554090775.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823755443_6364905620888314798.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823755808_-7074918400295346896.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823758772_8499104807284792755.arff
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823760319_-7850427191471535528.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823761055_5947874316217233888.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823761501_8816149975002660817.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823762007_6817473413534271398.arff
+[Note] Discount 0.043 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+Using temporary file: temp_Music_1550823765130_-7107378206422349633.arff
+[Note] Discount 0.047 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+Using temporary file: temp_Music_1550823768715_1163118917381745949.arff
+[Note] Discount 0.035 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 6
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Music_1550823771901_566381710764943413.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Music_1550823771904_-1608098597551468451.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Music_1550823771911_4469440687916049570.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Music_1550823771922_-3698661339818345973.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Music_1550823771929_-5589937031876733301.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Music_1550823771931_-2564260040490541770.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823771941_1458497633808887418.arff
+[Note] Discount 0.04 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1550823771966_-1035633149643239325.arff
+Using temporary file: temp_Music_1550823771966_-6369541623027390922.arff
+Using temporary file: temp_Music_1550823771966_-2162882975343049754.arff
+[Note] Discount 0.049 seconds from this build time
+[Note] Discount 0.049 seconds from this build time
+[Note] Discount 0.081 seconds from this build time
+[Note] Discount 0.049 seconds from this build time
+[Note] Discount 0.068 seconds from this build time
+[Note] Discount 0.043 seconds from this build time
+[Note] Discount 0.045 seconds from this build time
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823781217_-7316073245918686925.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823781555_-7339241127091058317.arff
+[Note] Discount 0.065 seconds from this build time
+Using temporary file: temp_Music_1550823782847_-1632816288902660021.arff
+Using temporary file: temp_Music_1550823782862_-3645553751895064332.arff
+Using temporary file: temp_Music_1550823782864_7219524121527741614.arff
+[Note] Discount 0.043 seconds from this build time
+[Note] Discount 0.041 seconds from this build time
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823783325_4793971110569000604.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823784145_-4795275899714429417.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823784733_2602755069855219259.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823784902_526488519178829888.arff
+[Note] Discount 0.038 seconds from this build time
+Using temporary file: temp_Music_1550823785158_3592725324095305683.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823790138_7411790522989648792.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823790676_-2187993102383044244.arff
+[Note] Discount 0.027 seconds from this build time
+Using temporary file: temp_Music_1550823792523_2115850059180418354.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823793408_-992130317477352924.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823794257_-1887448297265014273.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823794889_5685524318958656137.arff
+[Note] Discount 0.065 seconds from this build time
+Using temporary file: temp_Music_1550823795414_6705584880227391807.arff
+[Note] Discount 0.064 seconds from this build time
+Using temporary file: temp_Music_1550823796821_8815535291922269738.arff
+[Note] Discount 0.062 seconds from this build time
+Using temporary file: temp_Music_1550823797010_1490613999773004340.arff
+[Note] Discount 0.061 seconds from this build time
+Using temporary file: temp_Music_1550823798227_-5026029246139856277.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823800359_-6289929342761363175.arff
+Using temporary file: temp_Music_1550823800392_-9120159428539361639.arff
+[Note] Discount 0.051 seconds from this build time
+[Note] Discount 0.058 seconds from this build time
+Using temporary file: temp_Music_1550823804058_-2934806679232514223.arff
+[Note] Discount 0.03 seconds from this build time
+Using temporary file: temp_Music_1550823804674_-2951196622544561858.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823805310_1343023494735137507.arff
+Using temporary file: temp_Music_1550823805378_-3106223575927296331.arff
+[Note] Discount 0.077 seconds from this build time
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823808709_4209933468692678950.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823809712_-8182243594209745664.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823809776_4947850698510203064.arff
+[Note] Discount 0.074 seconds from this build time
+Using temporary file: temp_Music_1550823810967_7851427008395192536.arff
+[Note] Discount 0.081 seconds from this build time
+Using temporary file: temp_Music_1550823811141_5952946586221754036.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823813385_1507219752436740101.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823814445_7793777865067502371.arff
+[Note] Discount 0.036 seconds from this build time
+Using temporary file: temp_Music_1550823817027_7806931012050564336.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823817493_6902793791591772338.arff
+[Note] Discount 0.088 seconds from this build time
+Using temporary file: temp_Music_1550823818042_3047945791987619701.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823820685_-4010614443645193307.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823820988_3222799434015176446.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823821966_4430932498665065484.arff
+[Note] Discount 0.101 seconds from this build time
+Using temporary file: temp_Music_1550823822969_-8884952290998478387.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823823483_4378932161907537715.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823824910_-544617757178333800.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823825986_7935455346318005342.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823828455_-8614352639040115366.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823828583_-3009405229167982411.arff
+[Note] Discount 0.05 seconds from this build time
+Using temporary file: temp_Music_1550823831167_1715868444723452007.arff
+[Note] Discount 0.067 seconds from this build time
+Using temporary file: temp_Music_1550823831708_2374208703468940925.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823832615_-7357339368254658879.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823833417_323003187810796424.arff
+[Note] Discount 0.067 seconds from this build time
+Using temporary file: temp_Music_1550823834059_7414932543315556010.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823835268_7645506387453610734.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823835389_-8664968823506358406.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823837230_7454865519840859645.arff
+[Note] Discount 0.05 seconds from this build time
+Using temporary file: temp_Music_1550823839451_-4704090142093314638.arff
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550823840386_-8886486030628624275.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823842955_-4086059040560313264.arff
+[Note] Discount 0.025 seconds from this build time
+Using temporary file: temp_Music_1550823843009_8289740811720862680.arff
+[Note] Discount 0.072 seconds from this build time
+Using temporary file: temp_Music_1550823843595_1951473645747468132.arff
+[Note] Discount 0.576 seconds from this build time
+Using temporary file: temp_Music_1550823844220_6829937779261482600.arff
+[Note] Discount 0.031 seconds from this build time
+Using temporary file: temp_Music_1550823845574_9059038189098316771.arff
+[Note] Discount 0.02 seconds from this build time
+Using temporary file: temp_Music_1550823846464_-2848899089940961071.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823847296_-8306635260051269446.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823848537_-2303516294498490494.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823849466_-7187744340523076314.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823850562_-7436412491365010666.arff
+[Note] Discount 0.077 seconds from this build time
+Using temporary file: temp_Music_1550823853568_-5382733297118183358.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823854500_5972933999487403024.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823855834_-6415773821821162015.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823855897_-2282623849526784568.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823856570_-4510135546772636515.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823857272_1862260294086773919.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823857747_1758945148499988783.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823859899_5662872212732003193.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823860017_-7868715035331841279.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823860545_7014820241964981356.arff
+[Note] Discount 0.056 seconds from this build time
+Using temporary file: temp_Music_1550823865784_-5301039349804564991.arff
+[Note] Discount 0.091 seconds from this build time
+Using temporary file: temp_Music_1550823866130_1980031027531194548.arff
+Using temporary file: temp_Music_1550823866146_1392122187641494968.arff
+[Note] Discount 0.022 seconds from this build time
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823866791_-3462057721180242966.arff
+Using temporary file: temp_Music_1550823866941_-7579808017640594022.arff
+[Note] Discount 0.04 seconds from this build time
+[Note] Discount 0.699 seconds from this build time
+Using temporary file: temp_Music_1550823867529_-7087263262376100235.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823868380_8600311885107616415.arff
+[Note] Discount 0.055 seconds from this build time
+Using temporary file: temp_Music_1550823870401_5628547344516879168.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823871422_331546070538502674.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823874106_1372267179201092781.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823875722_-8304701932600440408.arff
+[Note] Discount 0.038 seconds from this build time
+Using temporary file: temp_Music_1550823876725_-2338343576934208312.arff
+[Note] Discount 0.075 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+Using temporary file: temp_Music_1550823878813_-1055296936487117613.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823879437_3496076070618025152.arff
+[Note] Discount 0.043 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+Using temporary file: temp_Music_1550823881192_1261036306141182808.arff
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[Note] Discount 0.057 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 7
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Music_1550823885611_3475270650314491794.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Music_1550823885618_2270991379979347231.arff
+Using temporary file: temp_Music_1550823885619_8336107190894473033.arff
+Using temporary file: temp_Music_1550823885619_-1614084996196586490.arff
+Using temporary file: temp_Music_1550823885619_-1783836501116765729.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Music_1550823885631_-4776693766958442873.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Music_1550823885635_1585957658595667533.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Music_1550823885645_5363441817484042921.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1550823885646_735288309103666086.arff
+[Note] Discount 0.048 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Music_1550823885660_-4845437925228318859.arff
+[Note] Discount 0.059 seconds from this build time
+[Note] Discount 0.067 seconds from this build time
+[Note] Discount 0.056 seconds from this build time
+[Note] Discount 0.052 seconds from this build time
+[Note] Discount 0.074 seconds from this build time
+[Note] Discount 0.076 seconds from this build time
+[Note] Discount 0.049 seconds from this build time
+[Note] Discount 0.051 seconds from this build time
+[Note] Discount 0.07 seconds from this build time
+Using temporary file: temp_Music_1550823895768_1622417430311286869.arff
+[Note] Discount 0.062 seconds from this build time
+Using temporary file: temp_Music_1550823896182_5612744506800647866.arff
+[Note] Discount 0.027 seconds from this build time
+Using temporary file: temp_Music_1550823896654_-4904196865423085294.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823896874_-4283036302213613660.arff
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550823897261_6854428927621892691.arff
+[Note] Discount 0.059 seconds from this build time
+Using temporary file: temp_Music_1550823897704_-7889033426576853168.arff
+[Note] Discount 0.06 seconds from this build time
+Using temporary file: temp_Music_1550823898197_7609267195525655809.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823898518_5639582898743908002.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823898853_-2825979959566714257.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823900291_5917125705134860630.arff
+[Note] Discount 0.034 seconds from this build time
+Using temporary file: temp_Music_1550823906747_680340239326323591.arff
+Using temporary file: temp_Music_1550823906794_1461163354790034005.arff
+[Note] Discount 0.064 seconds from this build time
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823907658_6992223189773582149.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823907730_-7244480259266885303.arff
+[Note] Discount 0.056 seconds from this build time
+Using temporary file: temp_Music_1550823909229_7415905872588821609.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823909437_-4965775846775124621.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823909732_5358307146659318376.arff
+[Note] Discount 0.072 seconds from this build time
+Using temporary file: temp_Music_1550823909874_-2921270958620175941.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823910353_-7505550339714435677.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823912645_5762145474911256072.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823916934_-6623980368252521766.arff
+[Note] Discount 0.035 seconds from this build time
+Using temporary file: temp_Music_1550823918600_3539458836905320913.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823919325_-7008688991718472221.arff
+[Note] Discount 0.065 seconds from this build time
+Using temporary file: temp_Music_1550823919953_-217475440604474380.arff
+[Note] Discount 0.035 seconds from this build time
+Using temporary file: temp_Music_1550823920072_4399516415237074838.arff
+Using temporary file: temp_Music_1550823920093_-7791555276871681082.arff
+[Note] Discount 0.051 seconds from this build time
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823920649_-1249065337672274165.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823922195_2010947164286293866.arff
+[Note] Discount 0.055 seconds from this build time
+Using temporary file: temp_Music_1550823923177_-3983746718352924153.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823923890_2445057270153007974.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823928179_-207135219591628622.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823929775_-6633125691855141005.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550823930251_5323840495266574478.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823931778_-4987005879744123756.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823932444_5678626900794067620.arff
+[Note] Discount 0.036 seconds from this build time
+Using temporary file: temp_Music_1550823932654_-4006834921742016407.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823932972_-1469843190281211649.arff
+Using temporary file: temp_Music_1550823932995_7495307949460064708.arff
+[Note] Discount 0.042 seconds from this build time
+[Note] Discount 0.068 seconds from this build time
+Using temporary file: temp_Music_1550823934029_8381814542974811998.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823934858_-9179464057694309764.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550823938680_-4901456210524151004.arff
+[Note] Discount 0.03 seconds from this build time
+Using temporary file: temp_Music_1550823941106_5543792253369559681.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823941720_4336899898550699667.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823942392_-7209465029301483472.arff
+[Note] Discount 0.031 seconds from this build time
+Using temporary file: temp_Music_1550823943422_5878027573324626745.arff
+[Note] Discount 0.038 seconds from this build time
+Using temporary file: temp_Music_1550823943525_281130375825185257.arff
+[Note] Discount 0.055 seconds from this build time
+Using temporary file: temp_Music_1550823943847_-601128146759870551.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550823944332_-682736954125738787.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823944451_4611986874067287150.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823948023_3041628524624170284.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823950478_1168324295631942716.arff
+[Note] Discount 0.05 seconds from this build time
+Using temporary file: temp_Music_1550823951054_6769088872911905582.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823951303_7256821224132567913.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823953769_4170336389308797456.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823954071_6036935925562686107.arff
+[Note] Discount 0.067 seconds from this build time
+Using temporary file: temp_Music_1550823954182_-5234170890490684509.arff
+[Note] Discount 0.038 seconds from this build time
+Using temporary file: temp_Music_1550823955293_-9145729473938644799.arff
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550823955466_-5275820954868593296.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550823956889_5620119595698489414.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823959146_186383988687977231.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550823961890_5431972957571244932.arff
+[Note] Discount 0.063 seconds from this build time
+Using temporary file: temp_Music_1550823961969_2522841501079800248.arff
+[Note] Discount 0.056 seconds from this build time
+Using temporary file: temp_Music_1550823962994_-4820001192579109770.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823964300_-1731499584229154534.arff
+[Note] Discount 0.07 seconds from this build time
+Using temporary file: temp_Music_1550823964663_2033148680974807986.arff
+[Note] Discount 0.057 seconds from this build time
+Using temporary file: temp_Music_1550823966063_2614121250037486955.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823966847_-5670000538417845611.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823967259_-7396622956704555328.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823969247_-6747871786925253441.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550823970365_-4409150984518176355.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550823972418_3284785762221477057.arff
+Using temporary file: temp_Music_1550823972425_-1127220455287567152.arff
+[Note] Discount 0.054 seconds from this build time
+[Note] Discount 0.08 seconds from this build time
+Using temporary file: temp_Music_1550823973117_-7833098935495120875.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550823975008_-5755484195525570438.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823976979_3557645804754716238.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823978449_-2397606815650614675.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550823978597_2510823671498155919.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823979984_1332330292446077885.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550823980207_-1537321388284451263.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823980301_8613010248929295249.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550823982679_2919859758153453568.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550823983279_7497479965999086393.arff
+[Note] Discount 0.034 seconds from this build time
+Using temporary file: temp_Music_1550823983358_8092643338038581717.arff
+[Note] Discount 0.032 seconds from this build time
+Using temporary file: temp_Music_1550823987202_1326646905010044805.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550823988898_4442708040873911210.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550823989958_-5554748725645626540.arff
+[Note] Discount 0.072 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+Using temporary file: temp_Music_1550823991370_-3704432009686450438.arff
+[Note] Discount 0.061 seconds from this build time
+Using temporary file: temp_Music_1550823991690_5494542277548676971.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550823991802_-3788067831248212793.arff
+[Note] Discount 0.048 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+Using temporary file: temp_Music_1550823994750_5020843632358257543.arff
+[Note] Discount 0.045 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 8
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Music_1550823999480_5797898885857920721.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Music_1550823999482_-945726292679342924.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Music_1550823999490_-844099673303054332.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Music_1550823999491_3902610103608179935.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Music_1550823999494_2300274633014929457.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Music_1550823999499_4300186733318170538.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Music_1550823999511_-9195789692800418047.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Music_1550823999512_-5596654713944733569.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1550823999519_-6310506688630775259.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Music_1550823999531_-48947332408195609.arff
+[Note] Discount 0.064 seconds from this build time
+[Note] Discount 0.063 seconds from this build time
+[Note] Discount 0.06 seconds from this build time
+[Note] Discount 0.073 seconds from this build time
+[Note] Discount 0.092 seconds from this build time
+[Note] Discount 0.075 seconds from this build time
+[Note] Discount 0.068 seconds from this build time
+[Note] Discount 0.094 seconds from this build time
+[Note] Discount 0.106 seconds from this build time
+[Note] Discount 0.085 seconds from this build time
+Using temporary file: temp_Music_1550824008344_8724470744763331282.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550824008718_3584226657257485852.arff
+[Note] Discount 0.058 seconds from this build time
+Using temporary file: temp_Music_1550824009596_4203908418003684972.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824010024_1648288546226020572.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550824010682_-1470434222209313151.arff
+[Note] Discount 0.038 seconds from this build time
+Using temporary file: temp_Music_1550824011443_-4330080723252508033.arff
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550824013403_5680945340363637752.arff
+[Note] Discount 0.034 seconds from this build time
+Using temporary file: temp_Music_1550824013534_6991406552572976204.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550824014019_6871364801639938441.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550824014275_-8470582481256382969.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824016922_1996547057907075440.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550824018890_7512030474967643342.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550824019256_-1681421259993292196.arff
+[Note] Discount 0.061 seconds from this build time
+Using temporary file: temp_Music_1550824020515_-4327365921067705564.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550824021120_-650072592903891027.arff
+Using temporary file: temp_Music_1550824021121_2095696241247569486.arff
+[Note] Discount 0.049 seconds from this build time
+[Note] Discount 0.05 seconds from this build time
+Using temporary file: temp_Music_1550824023468_7251217747129858271.arff
+[Note] Discount 0.056 seconds from this build time
+Using temporary file: temp_Music_1550824028374_-6136410516779160355.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824028726_-5447674199320302528.arff
+[Note] Discount 0.076 seconds from this build time
+Using temporary file: temp_Music_1550824028968_-7360356420697316724.arff
+[Note] Discount 0.062 seconds from this build time
+Using temporary file: temp_Music_1550824029610_6315394412835225833.arff
+[Note] Discount 0.05 seconds from this build time
+Using temporary file: temp_Music_1550824029756_-3328960931179463349.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550824031462_-7560286038326203413.arff
+[Note] Discount 0.069 seconds from this build time
+Using temporary file: temp_Music_1550824032054_8037000249453754267.arff
+[Note] Discount 0.057 seconds from this build time
+Using temporary file: temp_Music_1550824032534_1998614497907369159.arff
+[Note] Discount 0.075 seconds from this build time
+Using temporary file: temp_Music_1550824033892_-7682112285708344292.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550824035647_-6204331610574482140.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550824039032_-8244745312671349148.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550824040467_-8604862550481858629.arff
+[Note] Discount 0.063 seconds from this build time
+Using temporary file: temp_Music_1550824040573_-5693797743320079087.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550824040949_5869101238778430101.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550824041896_8134351140710820129.arff
+[Note] Discount 0.034 seconds from this build time
+Using temporary file: temp_Music_1550824042518_221358426708416632.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550824043013_233649483812134528.arff
+[Note] Discount 0.095 seconds from this build time
+Using temporary file: temp_Music_1550824044257_-5572877181438739042.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550824044543_-1710766958202443294.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550824047140_-1251244960138593368.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550824048903_1485568480240191442.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550824052000_1825522180626948306.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550824052656_7423176560455067915.arff
+Using temporary file: temp_Music_1550824052693_-3545115380320098714.arff
+[Note] Discount 0.054 seconds from this build time
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550824053310_46266498021425158.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550824054555_-2144351936338032011.arff
+[Note] Discount 0.058 seconds from this build time
+Using temporary file: temp_Music_1550824055469_-8025140981603101740.arff
+[Note] Discount 0.058 seconds from this build time
+Using temporary file: temp_Music_1550824056306_262618084365242565.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824056759_-500219266596606931.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550824057418_-8318978027522318587.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550824057504_7096544479148813000.arff
+[Note] Discount 0.02 seconds from this build time
+Using temporary file: temp_Music_1550824063451_-1146455515050596281.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550824065683_-5189677124161559060.arff
+[Note] Discount 0.064 seconds from this build time
+Using temporary file: temp_Music_1550824065842_9128443364994243502.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550824065934_2537966171057395782.arff
+[Note] Discount 0.056 seconds from this build time
+Using temporary file: temp_Music_1550824066665_-8843924095490061722.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824066868_-2547801522413471235.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550824067228_-4979644171343562540.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550824068093_663891803632391939.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550824068595_-6748242386890846450.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550824069349_6664448195119953582.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550824075823_4048073894657531021.arff
+[Note] Discount 0.028 seconds from this build time
+Using temporary file: temp_Music_1550824075896_6637429393644021894.arff
+[Note] Discount 0.056 seconds from this build time
+Using temporary file: temp_Music_1550824076136_8401618513674609441.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550824077630_-1688092882814449056.arff
+[Note] Discount 0.06 seconds from this build time
+Using temporary file: temp_Music_1550824078095_-3149241608122180316.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824078228_-5794863138595349589.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550824078393_540873747948729074.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550824078646_7319963726341157385.arff
+[Note] Discount 0.084 seconds from this build time
+Using temporary file: temp_Music_1550824079217_-2594458883112823912.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550824081560_-5218363911369579743.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550824086250_-9128340484683897654.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550824086683_6554092355901241267.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550824087079_-665611951256502758.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550824089921_2369530194033851372.arff
+[Note] Discount 0.05 seconds from this build time
+Using temporary file: temp_Music_1550824090043_2037648442184655719.arff
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550824090207_-8369985346162786053.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824090576_-2618505083878428013.arff
+[Note] Discount 0.057 seconds from this build time
+Using temporary file: temp_Music_1550824090985_-3844558872529263645.arff
+[Note] Discount 0.021 seconds from this build time
+Using temporary file: temp_Music_1550824091419_-3936551051312039816.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550824093710_-4397589800245301870.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550824096638_-7705025750692011749.arff
+[Note] Discount 0.058 seconds from this build time
+Using temporary file: temp_Music_1550824097240_-5172971845248114637.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550824099835_-8252732331633625310.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550824100587_4079197736038352319.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550824102018_4714351880739219075.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824102603_1477744949315785690.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550824103708_1593226455485412990.arff
+[Note] Discount 0.022 seconds from this build time
+Using temporary file: temp_Music_1550824104706_-2292657705489123108.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824105195_3403275329300082380.arff
+[Note] Discount 0.048 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+Using temporary file: temp_Music_1550824107345_-6147411282109651411.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824109410_-5239570827406975976.arff
+[Note] Discount 0.02 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+Using temporary file: temp_Music_1550824110352_6432356007261678549.arff
+[Note] Discount 0.042 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 9
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Music_1550824115127_-1515158592908040274.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Music_1550824115129_5322681299929659730.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Music_1550824115142_1936795074606706.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Music_1550824115160_3890866512835467180.arff
+Using temporary file: temp_Music_1550824115160_6176014792303674130.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Music_1550824115161_-6620103278978289465.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Music_1550824115193_6316138657225156479.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1550824115195_-4098267762943805449.arff
+Using temporary file: temp_Music_1550824115195_2552139837508651416.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+[Note] Discount 0.087 seconds from this build time
+[Note] Discount 0.078 seconds from this build time
+[Note] Discount 0.035 seconds from this build time
+Using temporary file: temp_Music_1550824115231_6567461472594266073.arff
+[Note] Discount 0.113 seconds from this build time
+[Note] Discount 0.101 seconds from this build time
+[Note] Discount 0.07 seconds from this build time
+[Note] Discount 0.115 seconds from this build time
+[Note] Discount 0.115 seconds from this build time
+[Note] Discount 0.085 seconds from this build time
+[Note] Discount 0.07 seconds from this build time
+Using temporary file: temp_Music_1550824123059_-6778128366459969752.arff
+[Note] Discount 0.02 seconds from this build time
+Using temporary file: temp_Music_1550824123790_-6611242892417775264.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550824125644_3490228200639642898.arff
+[Note] Discount 0.056 seconds from this build time
+Using temporary file: temp_Music_1550824126405_1662010423733631022.arff
+[Note] Discount 0.038 seconds from this build time
+Using temporary file: temp_Music_1550824126667_-4858994240073783862.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824127652_-5406636261142259676.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550824127983_-752954469917193465.arff
+[Note] Discount 0.027 seconds from this build time
+Using temporary file: temp_Music_1550824128351_-5290951107275755460.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824128499_-4272622707664980298.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824129195_-7641598872376107371.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824132307_184084303402159921.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550824134953_-2220726953495488049.arff
+[Note] Discount 0.036 seconds from this build time
+Using temporary file: temp_Music_1550824135220_8607046313482873520.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550824137031_-3226111013754539112.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550824138722_-3505088063389309441.arff
+[Note] Discount 0.038 seconds from this build time
+Using temporary file: temp_Music_1550824139465_-8702988211453038457.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550824139722_-6016242411370302863.arff
+Using temporary file: temp_Music_1550824139733_-7555272422567687896.arff
+[Note] Discount 0.038 seconds from this build time
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550824139962_7202043895247474452.arff
+[Note] Discount 0.038 seconds from this build time
+Using temporary file: temp_Music_1550824140710_2674888791828129879.arff
+[Note] Discount 0.03 seconds from this build time
+Using temporary file: temp_Music_1550824144165_-2413430317850140379.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824144989_2004110606177057489.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824147950_5750419551786115014.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550824148974_-1019340972947741689.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824149230_-1112372283823110418.arff
+[Note] Discount 0.03 seconds from this build time
+Using temporary file: temp_Music_1550824150036_7130389426934934581.arff
+Using temporary file: temp_Music_1550824150074_2992976862721050016.arff
+[Note] Discount 0.047 seconds from this build time
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550824150263_8841646798864268211.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550824153125_-1934659891784082593.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824153758_8542928366277031819.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550824156143_6332602903681407200.arff
+[Note] Discount 0.067 seconds from this build time
+Using temporary file: temp_Music_1550824157351_-8018588774928247989.arff
+[Note] Discount 0.034 seconds from this build time
+Using temporary file: temp_Music_1550824160311_462267692281657345.arff
+Using temporary file: temp_Music_1550824160312_-4994297446106747877.arff
+[Note] Discount 0.039 seconds from this build time
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824161002_3842472955018329850.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550824161068_-2989691344935059183.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550824162560_1468057664056402641.arff
+[Note] Discount 0.03 seconds from this build time
+Using temporary file: temp_Music_1550824163008_-6389105643340129085.arff
+[Note] Discount 0.062 seconds from this build time
+Using temporary file: temp_Music_1550824164279_-5193021215669789421.arff
+[Note] Discount 0.061 seconds from this build time
+Using temporary file: temp_Music_1550824164795_-5820675107994106851.arff
+[Note] Discount 0.031 seconds from this build time
+Using temporary file: temp_Music_1550824167641_7618091476051568832.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550824169431_-7551913932934349195.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550824171227_-6396101906293679482.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550824171779_-3899300208369743140.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550824172564_-6039976808000108494.arff
+[Note] Discount 0.078 seconds from this build time
+Using temporary file: temp_Music_1550824172867_3948048941934106295.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550824174798_1312379144408593251.arff
+[Note] Discount 0.069 seconds from this build time
+Using temporary file: temp_Music_1550824175822_466468273879730573.arff
+[Note] Discount 0.058 seconds from this build time
+Using temporary file: temp_Music_1550824176535_-8534847643124651136.arff
+[Note] Discount 0.072 seconds from this build time
+Using temporary file: temp_Music_1550824177659_-8844304778186851807.arff
+[Note] Discount 0.068 seconds from this build time
+Using temporary file: temp_Music_1550824179315_2860012171536472811.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824180971_-265721343088353085.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550824181262_3964494804894872438.arff
+[Note] Discount 0.038 seconds from this build time
+Using temporary file: temp_Music_1550824181374_5097036153496034018.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550824184585_-3764733868737974763.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824184688_-306376542191725594.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550824186645_-2001850952147463723.arff
+[Note] Discount 0.08 seconds from this build time
+Using temporary file: temp_Music_1550824186819_4482083831205177148.arff
+[Note] Discount 0.021 seconds from this build time
+Using temporary file: temp_Music_1550824188019_4969351975654405645.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550824189244_-59498701129068622.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550824190033_1746929754512094162.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550824190126_-8995589311738267644.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824191341_2627618420006714031.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550824191836_-6786406047068405579.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550824192663_-390191939874456427.arff
+[Note] Discount 0.04 seconds from this build time
+Using temporary file: temp_Music_1550824194821_-3632832069336936669.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550824197741_2039543411803235600.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550824199465_-2527384627290195499.arff
+[Note] Discount 0.055 seconds from this build time
+Using temporary file: temp_Music_1550824199584_-2408918644271853637.arff
+Using temporary file: temp_Music_1550824199591_-6852236919480605161.arff
+[Note] Discount 0.036 seconds from this build time
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550824200705_-3493599005871656458.arff
+[Note] Discount 0.035 seconds from this build time
+Using temporary file: temp_Music_1550824201426_-130196686726026551.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824201864_284151815832988629.arff
+Using temporary file: temp_Music_1550824201864_-3092508877766243214.arff
+[Note] Discount 0.042 seconds from this build time
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550824202841_-4048137209577229221.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550824206716_334156229026621083.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550824207505_7174076028287948007.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824209912_1942857257600013914.arff
+Using temporary file: temp_Music_1550824209943_-6558944179507533842.arff
+[Note] Discount 0.04 seconds from this build time
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550824212125_5997068171343985196.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824213303_-8404355807357530390.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550824213557_-4649285007373772024.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550824214333_5341654634577990545.arff
+[Note] Discount 0.036 seconds from this build time
+Using temporary file: temp_Music_1550824214766_8282359692238885552.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550824215498_81139181920135242.arff
+[Note] Discount 0.052 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+Using temporary file: temp_Music_1550824219213_2264101326402011977.arff
+[Note] Discount 0.087 seconds from this build time
+Using temporary file: temp_Music_1550824220778_5024117961264774108.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550824221195_8080555923853128750.arff
+[Note] Discount 0.036 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+Using temporary file: temp_Music_1550824224072_6887933843695998056.arff
+[Note] Discount 0.038 seconds from this build time
+Using temporary file: temp_Music_1550824224230_-879060640046520320.arff
+[Note] Discount 0.046 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 10
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Music_1550824228593_-1097005763215907431.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Music_1550824228600_4133136094781571073.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Music_1550824228606_7352557100187686425.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Music_1550824228608_-2518034762091200350.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Music_1550824228611_-3846394447445907386.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Music_1550824228619_5182718108129282905.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Music_1550824228624_9108767575255120421.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1550824228633_6457100290386878904.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Music_1550824228635_7379294991125336214.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Music_1550824228636_-4249319482140146245.arff
+[Note] Discount 0.045 seconds from this build time
+[Note] Discount 0.04 seconds from this build time
+[Note] Discount 0.054 seconds from this build time
+[Note] Discount 0.062 seconds from this build time
+[Note] Discount 0.068 seconds from this build time
+[Note] Discount 0.052 seconds from this build time
+[Note] Discount 0.053 seconds from this build time
+[Note] Discount 0.078 seconds from this build time
+[Note] Discount 0.065 seconds from this build time
+[Note] Discount 0.064 seconds from this build time
+Using temporary file: temp_Music_1550824238333_-3281918510377147959.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550824239301_-6733634721012216991.arff
+[Note] Discount 0.12 seconds from this build time
+Using temporary file: temp_Music_1550824239671_-2885737938867531024.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550824239801_5773861209258422141.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550824240323_-1974625306267034315.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550824241186_-4653482453440165939.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824241251_-1316284395435733522.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550824241698_-8804216815127240629.arff
+Using temporary file: temp_Music_1550824241703_-4217358927821220337.arff
+[Note] Discount 0.042 seconds from this build time
+[Note] Discount 0.057 seconds from this build time
+Using temporary file: temp_Music_1550824242895_-9196302340606355005.arff
+[Note] Discount 0.036 seconds from this build time
+Using temporary file: temp_Music_1550824246528_-5899162848834429728.arff
+[Note] Discount 0.034 seconds from this build time
+Using temporary file: temp_Music_1550824248527_7533238485814795685.arff
+[Note] Discount 0.062 seconds from this build time
+Using temporary file: temp_Music_1550824249739_7733290305614629359.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824251898_-846139316187710692.arff
+[Note] Discount 0.062 seconds from this build time
+Using temporary file: temp_Music_1550824252236_9095368021391309383.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550824252309_-2967224915421871778.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550824252414_7254962631710954721.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824253480_6793401398405262149.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824253562_1201529694088245850.arff
+[Note] Discount 0.022 seconds from this build time
+Using temporary file: temp_Music_1550824255307_5532952485145980959.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550824258506_2024664981644741606.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550824259691_-6530648074260099647.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550824260654_-4928655234943867516.arff
+[Note] Discount 0.077 seconds from this build time
+Using temporary file: temp_Music_1550824262581_5279521211330043874.arff
+[Note] Discount 0.05 seconds from this build time
+Using temporary file: temp_Music_1550824263438_2792153090653267827.arff
+[Note] Discount 0.042 seconds from this build time
+Using temporary file: temp_Music_1550824263966_-5372335893304371035.arff
+Using temporary file: temp_Music_1550824263976_2048383389135330019.arff
+[Note] Discount 0.034 seconds from this build time
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550824264533_-3405076185054269833.arff
+[Note] Discount 0.05 seconds from this build time
+Using temporary file: temp_Music_1550824264728_-6611556569430131216.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550824269458_5841240469633028891.arff
+[Note] Discount 0.062 seconds from this build time
+Using temporary file: temp_Music_1550824269671_77658900226073291.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824271356_-5563207846571128830.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550824272253_-8502925117122032071.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550824273121_6938172056849572831.arff
+[Note] Discount 0.059 seconds from this build time
+Using temporary file: temp_Music_1550824274099_7355433967703345473.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550824276334_7563099806678621563.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824276552_-3396538087577527775.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550824276661_-2327702443608084539.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824277021_-477977023812478847.arff
+[Note] Discount 0.066 seconds from this build time
+Using temporary file: temp_Music_1550824280034_-6908225219179713748.arff
+[Note] Discount 0.036 seconds from this build time
+Using temporary file: temp_Music_1550824281325_-2303663630602022677.arff
+[Note] Discount 0.063 seconds from this build time
+Using temporary file: temp_Music_1550824282365_3521544346581895217.arff
+[Note] Discount 0.057 seconds from this build time
+Using temporary file: temp_Music_1550824282464_-438253234286220423.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824285143_-4622677873734906057.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550824286134_4346266601924037071.arff
+[Note] Discount 0.036 seconds from this build time
+Using temporary file: temp_Music_1550824286331_-5491028707056506467.arff
+[Note] Discount 0.029 seconds from this build time
+Using temporary file: temp_Music_1550824288072_8968188012354080843.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550824290171_947751869731336206.arff
+[Note] Discount 0.039 seconds from this build time
+Using temporary file: temp_Music_1550824290307_8599333797261938299.arff
+[Note] Discount 0.061 seconds from this build time
+Using temporary file: temp_Music_1550824290467_4538861931719887383.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550824291427_1576771593856367311.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550824292353_6402536377009844985.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550824292965_-7620299888477244017.arff
+[Note] Discount 0.035 seconds from this build time
+Using temporary file: temp_Music_1550824295253_4779578432549631936.arff
+[Note] Discount 0.048 seconds from this build time
+Using temporary file: temp_Music_1550824297436_-6041162341894895858.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550824298810_-8981219920786570605.arff
+[Note] Discount 0.05 seconds from this build time
+Using temporary file: temp_Music_1550824299486_-6056044350698779360.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550824300554_2224303397774919502.arff
+[Note] Discount 0.026 seconds from this build time
+Using temporary file: temp_Music_1550824300875_-5271706449293669432.arff
+[Note] Discount 0.071 seconds from this build time
+Using temporary file: temp_Music_1550824302397_-9045467014899653299.arff
+[Note] Discount 0.034 seconds from this build time
+Using temporary file: temp_Music_1550824303391_3393477915573605686.arff
+[Note] Discount 0.029 seconds from this build time
+Using temporary file: temp_Music_1550824303548_-8927384624221007222.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550824304087_-8617310050245296913.arff
+[Note] Discount 0.053 seconds from this build time
+Using temporary file: temp_Music_1550824308846_-21047075962051606.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824309099_-6334218353576818099.arff
+[Note] Discount 0.051 seconds from this build time
+Using temporary file: temp_Music_1550824311099_8180276972282283731.arff
+[Note] Discount 0.05 seconds from this build time
+Using temporary file: temp_Music_1550824311740_5920754926470356522.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550824312679_1740667787022581761.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550824314629_-5755219441248174120.arff
+[Note] Discount 0.021 seconds from this build time
+Using temporary file: temp_Music_1550824315741_-3362740203718507622.arff
+[Note] Discount 0.021 seconds from this build time
+Using temporary file: temp_Music_1550824315964_8382917712018146643.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824318023_4672872193483635327.arff
+[Note] Discount 0.037 seconds from this build time
+Using temporary file: temp_Music_1550824319175_-2461866366162597191.arff
+[Note] Discount 0.054 seconds from this build time
+Using temporary file: temp_Music_1550824323210_9205570043268057316.arff
+[Note] Discount 0.035 seconds from this build time
+Using temporary file: temp_Music_1550824323248_6093878654543686905.arff
+[Note] Discount 0.052 seconds from this build time
+Using temporary file: temp_Music_1550824323852_-3087317153297012190.arff
+[Note] Discount 0.059 seconds from this build time
+Using temporary file: temp_Music_1550824325396_2955545346353347531.arff
+[Note] Discount 0.046 seconds from this build time
+Using temporary file: temp_Music_1550824325824_-555757723787266613.arff
+[Note] Discount 0.047 seconds from this build time
+Using temporary file: temp_Music_1550824328459_7285447829679134431.arff
+[Note] Discount 0.031 seconds from this build time
+Using temporary file: temp_Music_1550824329178_6828655992224817663.arff
+[Note] Discount 0.044 seconds from this build time
+Using temporary file: temp_Music_1550824329640_-9021935719278695847.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550824331227_-3403651146605291779.arff
+[Note] Discount 0.045 seconds from this build time
+Using temporary file: temp_Music_1550824331547_4552972619979767419.arff
+[Note] Discount 0.041 seconds from this build time
+Using temporary file: temp_Music_1550824334995_4120192098860034044.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550824335541_-2603537720692765021.arff
+[Note] Discount 0.05 seconds from this build time
+Using temporary file: temp_Music_1550824336961_-6905842855786298053.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550824338077_-5510519875402736776.arff
+[Note] Discount 0.043 seconds from this build time
+Using temporary file: temp_Music_1550824340751_-3690009272737088681.arff
+[Note] Discount 0.049 seconds from this build time
+Using temporary file: temp_Music_1550824342083_-7577266892292166560.arff
+[Note] Discount 0.071 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+Using temporary file: temp_Music_1550824342447_-1336145727587183653.arff
+[Note] Discount 0.056 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[STATISTICS] #100
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: Writing 100 statistics to: mekaexp.txt
+[STAGE] FINISH
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #1: meka.experiment.statisticsexporters.SimpleAggregate2
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-agg9.tsv
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #2: meka.experiment.statisticsexporters.TabSeparated
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-full9.tsv

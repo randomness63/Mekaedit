@@ -1,0 +1,2237 @@
+[STAGE] INITIALIZING
+[LOG] meka.experiment.DefaultExperiment: Turned off incremental mode for meka.experiment.evaluationstatistics.KeyValuePairs to make use of multi-threading!
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: File 'mekaexp.txt' exists, loading...
+[STAGE] RUNNING
+[LOG] meka.experiment.datasetproviders.MultiDatasetProvider: Dataset provider #1
+[LOG] meka.experiment.datasetproviders.LocalDatasetProvider: Loading: data/genbase.arff
+[LOG] meka.experiment.DefaultExperiment: Using dataset: protein: -C -27
+[ITERATION] meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD2b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2 --> protein: -C -27
+[LOG] meka.experiment.DefaultExperiment: Using classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD2b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Number of threads (1 = sequential): 1
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 1
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_protein_1551235304769_-4962768465676381896.arff
+Using temporary file: temp_protein_1551235304769_4437113781045784766.arff
+Using temporary file: temp_protein_1551235304770_-6688467811848818630.arff
+Using temporary file: temp_protein_1551235304770_-8292973307042192125.arff
+Using temporary file: temp_protein_1551235304771_-7423979211207825555.arff
+Using temporary file: temp_protein_1551235304771_6146794652083548235.arff
+Using temporary file: temp_protein_1551235304771_7105486291024734541.arff
+Using temporary file: temp_protein_1551235304771_-279624296851435688.arff
+Using temporary file: temp_protein_1551235304772_-2228689144322150137.arff
+Using temporary file: temp_protein_1551235304772_-1083761183081836303.arff
+[Note] Discount 1.151 seconds from this build time
+[Note] Discount 1.278 seconds from this build time
+[Note] Discount 1.314 seconds from this build time
+[Note] Discount 1.316 seconds from this build time
+[Note] Discount 1.314 seconds from this build time
+[Note] Discount 1.316 seconds from this build time
+[Note] Discount 1.321 seconds from this build time
+[Note] Discount 1.321 seconds from this build time
+[Note] Discount 1.321 seconds from this build time
+[Note] Discount 1.331 seconds from this build time
+Using temporary file: temp_protein_1551236619478_5072005423257391728.arff
+[Note] Discount 0.438 seconds from this build time
+Using temporary file: temp_protein_1551236620785_2377732757510138102.arff
+[Note] Discount 0.505 seconds from this build time
+Using temporary file: temp_protein_1551236640947_2704323167362897208.arff
+[Note] Discount 0.366 seconds from this build time
+Using temporary file: temp_protein_1551236660926_428667830982598836.arff
+[Note] Discount 0.514 seconds from this build time
+Using temporary file: temp_protein_1551236670625_-8361175665883705505.arff
+[Note] Discount 0.367 seconds from this build time
+Using temporary file: temp_protein_1551236671018_-655101936082782086.arff
+[Note] Discount 0.392 seconds from this build time
+Using temporary file: temp_protein_1551236692351_1927512926176735975.arff
+[Note] Discount 0.323 seconds from this build time
+Using temporary file: temp_protein_1551236707935_-6914829020992303508.arff
+[Note] Discount 0.335 seconds from this build time
+Using temporary file: temp_protein_1551236736978_7577852396602278602.arff
+[Note] Discount 0.352 seconds from this build time
+Using temporary file: temp_protein_1551236835077_-4126310024944755050.arff
+[Note] Discount 0.565 seconds from this build time
+Using temporary file: temp_protein_1551237640099_-171134583860878546.arff
+[Note] Discount 0.388 seconds from this build time
+Using temporary file: temp_protein_1551237642149_8987859488885190724.arff
+[Note] Discount 0.576 seconds from this build time
+Using temporary file: temp_protein_1551237643148_-4681020001986070314.arff
+[Note] Discount 0.588 seconds from this build time
+Using temporary file: temp_protein_1551237680648_-4922475540349336432.arff
+[Note] Discount 0.413 seconds from this build time
+Using temporary file: temp_protein_1551237697398_-3370274031255729188.arff
+[Note] Discount 0.41 seconds from this build time
+Using temporary file: temp_protein_1551237713688_-2971948390163211717.arff
+[Note] Discount 0.362 seconds from this build time
+Using temporary file: temp_protein_1551237734735_-8730854458729406051.arff
+[Note] Discount 0.39 seconds from this build time
+Using temporary file: temp_protein_1551237762963_-1856941488587171136.arff
+[Note] Discount 0.508 seconds from this build time
+Using temporary file: temp_protein_1551237766178_2470753881526567411.arff
+[Note] Discount 0.623 seconds from this build time
+Using temporary file: temp_protein_1551237838443_1532230816302433446.arff
+[Note] Discount 0.541 seconds from this build time
+Using temporary file: temp_protein_1551238783183_-395233716872471639.arff
+[Note] Discount 0.33 seconds from this build time
+Using temporary file: temp_protein_1551238791032_-5121607137339136235.arff
+[Note] Discount 0.585 seconds from this build time
+Using temporary file: temp_protein_1551238832227_-5256749969541153749.arff
+[Note] Discount 0.541 seconds from this build time
+Using temporary file: temp_protein_1551238846278_2641949932817367724.arff
+[Note] Discount 0.55 seconds from this build time
+Using temporary file: temp_protein_1551238855538_8540064508133314173.arff
+[Note] Discount 0.417 seconds from this build time
+Using temporary file: temp_protein_1551238859085_82744587931001745.arff
+[Note] Discount 0.575 seconds from this build time
+Using temporary file: temp_protein_1551238872646_1318911071456810350.arff
+[Note] Discount 0.741 seconds from this build time
+Using temporary file: temp_protein_1551238883234_6427218635535763657.arff
+[Note] Discount 0.548 seconds from this build time
+Using temporary file: temp_protein_1551238907626_6249197149364475148.arff
+[Note] Discount 0.506 seconds from this build time
+Using temporary file: temp_protein_1551238952738_-2594413761814090552.arff
+[Note] Discount 0.388 seconds from this build time
+Using temporary file: temp_protein_1551239834942_-524865453008036006.arff
+[Note] Discount 0.399 seconds from this build time
+Using temporary file: temp_protein_1551239896482_-2476551425607728309.arff
+[Note] Discount 0.399 seconds from this build time
+Using temporary file: temp_protein_1551239897844_-7146617210012600256.arff
+[Note] Discount 0.623 seconds from this build time
+Using temporary file: temp_protein_1551239917259_3301745707726569574.arff
+[Note] Discount 0.408 seconds from this build time
+Using temporary file: temp_protein_1551239942004_4013465704250623170.arff
+[Note] Discount 0.396 seconds from this build time
+Using temporary file: temp_protein_1551239950828_-2684237951282348840.arff
+[Note] Discount 0.343 seconds from this build time
+Using temporary file: temp_protein_1551239951323_178444451137370484.arff
+[Note] Discount 0.548 seconds from this build time
+Using temporary file: temp_protein_1551239978605_-5676192111176512602.arff
+[Note] Discount 0.365 seconds from this build time
+Using temporary file: temp_protein_1551239998104_-4218531399638172627.arff
+[Note] Discount 0.339 seconds from this build time
+Using temporary file: temp_protein_1551240007710_-5299981419733330714.arff
+[Note] Discount 0.531 seconds from this build time
+Using temporary file: temp_protein_1551240931689_3896605098068159738.arff
+[Note] Discount 0.715 seconds from this build time
+Using temporary file: temp_protein_1551241015893_-4001237302722672165.arff
+[Note] Discount 0.32 seconds from this build time
+Using temporary file: temp_protein_1551241031466_-1008423794855048618.arff
+[Note] Discount 0.971 seconds from this build time
+Using temporary file: temp_protein_1551241094021_262614321976477250.arff
+[Note] Discount 0.733 seconds from this build time
+Using temporary file: temp_protein_1551241172896_7271772087391691927.arff
+[Note] Discount 0.412 seconds from this build time
+Using temporary file: temp_protein_1551241219362_-2697084138585034005.arff
+[Note] Discount 0.575 seconds from this build time
+Using temporary file: temp_protein_1551241229275_-3946820249469283158.arff
+[Note] Discount 0.353 seconds from this build time
+Using temporary file: temp_protein_1551241234385_-120421011786498678.arff
+[Note] Discount 0.301 seconds from this build time
+Using temporary file: temp_protein_1551241248863_-2156342973769225726.arff
+[Note] Discount 0.698 seconds from this build time
+Using temporary file: temp_protein_1551241335533_3141324392123627982.arff
+[Note] Discount 0.551 seconds from this build time
+Using temporary file: temp_protein_1551242051941_-699704949712600115.arff
+[Note] Discount 0.446 seconds from this build time
+Using temporary file: temp_protein_1551242220051_-5085859045495963725.arff
+[Note] Discount 0.501 seconds from this build time
+Using temporary file: temp_protein_1551242259127_-5951765205669983896.arff
+[Note] Discount 0.379 seconds from this build time
+Using temporary file: temp_protein_1551242260111_-3608267860102554860.arff
+[Note] Discount 0.602 seconds from this build time
+Using temporary file: temp_protein_1551242262024_8142886840698975765.arff
+[Note] Discount 0.44 seconds from this build time
+Using temporary file: temp_protein_1551242304131_8524019115140866179.arff
+[Note] Discount 0.361 seconds from this build time
+Using temporary file: temp_protein_1551242318040_-2714853971147396117.arff
+[Note] Discount 0.538 seconds from this build time
+Using temporary file: temp_protein_1551242334118_-9189524968491074724.arff
+[Note] Discount 0.365 seconds from this build time
+Using temporary file: temp_protein_1551242354602_-148625824714636787.arff
+[Note] Discount 0.464 seconds from this build time
+Using temporary file: temp_protein_1551242385234_-566870006298343145.arff
+[Note] Discount 0.406 seconds from this build time
+Using temporary file: temp_protein_1551243087238_6513657358736753182.arff
+[Note] Discount 0.399 seconds from this build time
+Using temporary file: temp_protein_1551243336084_871901303891580382.arff
+[Note] Discount 0.346 seconds from this build time
+Using temporary file: temp_protein_1551243342054_1321222800296200436.arff
+[Note] Discount 0.588 seconds from this build time
+Using temporary file: temp_protein_1551243376729_536938910405906015.arff
+[Note] Discount 0.435 seconds from this build time
+Using temporary file: temp_protein_1551243420058_8922140309403778699.arff
+[Note] Discount 0.357 seconds from this build time
+Using temporary file: temp_protein_1551243455777_-517428980255835422.arff
+[Note] Discount 0.337 seconds from this build time
+Using temporary file: temp_protein_1551243463127_-200753079219431109.arff
+[Note] Discount 0.286 seconds from this build time
+Using temporary file: temp_protein_1551243475207_-4289936086616402019.arff
+[Note] Discount 0.331 seconds from this build time
+Using temporary file: temp_protein_1551243498587_-9197595427105923027.arff
+[Note] Discount 0.502 seconds from this build time
+Using temporary file: temp_protein_1551243550027_4713610129296514631.arff
+[Note] Discount 0.52 seconds from this build time
+Using temporary file: temp_protein_1551244400557_5702961989472887051.arff
+[Note] Discount 0.362 seconds from this build time
+Using temporary file: temp_protein_1551244415873_-2798730738562476822.arff
+[Note] Discount 0.392 seconds from this build time
+Using temporary file: temp_protein_1551244445142_960790331024379126.arff
+[Note] Discount 0.354 seconds from this build time
+Using temporary file: temp_protein_1551244477200_187704103329199613.arff
+[Note] Discount 0.482 seconds from this build time
+Using temporary file: temp_protein_1551244567761_6527434954307481789.arff
+[Note] Discount 0.329 seconds from this build time
+Using temporary file: temp_protein_1551244572538_1600030782373250481.arff
+[Note] Discount 0.578 seconds from this build time
+Using temporary file: temp_protein_1551244597395_-2761265137076421558.arff
+[Note] Discount 0.308 seconds from this build time
+Using temporary file: temp_protein_1551244614844_67826697947916427.arff
+[Note] Discount 0.523 seconds from this build time
+Using temporary file: temp_protein_1551244706222_5679626435595832671.arff
+[Note] Discount 0.342 seconds from this build time
+Using temporary file: temp_protein_1551244721267_-8640296913357041870.arff
+[Note] Discount 0.454 seconds from this build time
+Using temporary file: temp_protein_1551245438209_-1497613613979078270.arff
+[Note] Discount 0.487 seconds from this build time
+Using temporary file: temp_protein_1551245462479_5113622237409872778.arff
+[Note] Discount 0.515 seconds from this build time
+Using temporary file: temp_protein_1551245509725_-2319452971287571658.arff
+[Note] Discount 0.348 seconds from this build time
+Using temporary file: temp_protein_1551245585446_-7196415781697772800.arff
+[Note] Discount 0.436 seconds from this build time
+Using temporary file: temp_protein_1551245711526_-1685308985507641749.arff
+[Note] Discount 0.365 seconds from this build time
+Using temporary file: temp_protein_1551245718137_820707025409634855.arff
+[Note] Discount 0.414 seconds from this build time
+Using temporary file: temp_protein_1551245752185_-6516793691191662538.arff
+[Note] Discount 0.685 seconds from this build time
+Using temporary file: temp_protein_1551245771905_9164411834808661380.arff
+[Note] Discount 0.766 seconds from this build time
+Using temporary file: temp_protein_1551245790752_-9099749510027196988.arff
+[Note] Discount 0.325 seconds from this build time
+Using temporary file: temp_protein_1551245845138_-8841730600804742235.arff
+[Note] Discount 0.367 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 2
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_protein_1551246945430_6758162953488776844.arff
+Using temporary file: temp_protein_1551246945431_8810845966659683448.arff
+Using temporary file: temp_protein_1551246945431_-5460795021784967740.arff
+Using temporary file: temp_protein_1551246945431_5954014899072946649.arff
+Using temporary file: temp_protein_1551246945431_-796109001762322003.arff
+Using temporary file: temp_protein_1551246945431_214993803975404908.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_protein_1551246945443_-4697410766453443951.arff
+Using temporary file: temp_protein_1551246945444_-7244253119129237588.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_protein_1551246945449_4336492403770078180.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_protein_1551246945463_7176580044932830276.arff
+[Note] Discount 0.359 seconds from this build time
+[Note] Discount 0.368 seconds from this build time
+[Note] Discount 0.49 seconds from this build time
+[Note] Discount 0.493 seconds from this build time
+[Note] Discount 0.516 seconds from this build time
+[Note] Discount 0.509 seconds from this build time
+[Note] Discount 0.535 seconds from this build time
+[Note] Discount 0.544 seconds from this build time
+[Note] Discount 0.552 seconds from this build time
+[Note] Discount 4.679 seconds from this build time
+Using temporary file: temp_protein_1551247980394_-1633120553624586039.arff
+[Note] Discount 0.394 seconds from this build time
+Using temporary file: temp_protein_1551247985920_3087783559322503069.arff
+[Note] Discount 0.412 seconds from this build time
+Using temporary file: temp_protein_1551248029101_72191801432025792.arff
+[Note] Discount 0.321 seconds from this build time
+Using temporary file: temp_protein_1551248060630_4886465643886762423.arff
+[Note] Discount 0.333 seconds from this build time
+Using temporary file: temp_protein_1551248062414_-1977178175608504323.arff
+[Note] Discount 0.353 seconds from this build time
+Using temporary file: temp_protein_1551248085896_5489165778026111548.arff
+[Note] Discount 0.444 seconds from this build time
+Using temporary file: temp_protein_1551248112115_7911891130236602275.arff
+[Note] Discount 0.343 seconds from this build time
+Using temporary file: temp_protein_1551248180270_-5763654923426307630.arff
+[Note] Discount 0.369 seconds from this build time
+Using temporary file: temp_protein_1551248191062_7535429006024983857.arff
+[Note] Discount 0.48 seconds from this build time
+Using temporary file: temp_protein_1551248231387_6512669167483931824.arff
+[Note] Discount 0.466 seconds from this build time
+Using temporary file: temp_protein_1551249027401_-6054985639040938180.arff
+[Note] Discount 0.347 seconds from this build time
+Using temporary file: temp_protein_1551249038405_-4788457857850447244.arff
+[Note] Discount 0.338 seconds from this build time
+Using temporary file: temp_protein_1551249071663_-1947326395900975778.arff
+[Note] Discount 0.377 seconds from this build time
+Using temporary file: temp_protein_1551249111851_-7748411135601385678.arff
+[Note] Discount 0.514 seconds from this build time
+Using temporary file: temp_protein_1551249163336_-9024968371786632850.arff
+[Note] Discount 0.371 seconds from this build time
+Using temporary file: temp_protein_1551249165867_5754825772160496080.arff
+[Note] Discount 0.412 seconds from this build time
+Using temporary file: temp_protein_1551249208306_-8481270662646470671.arff
+[Note] Discount 0.383 seconds from this build time
+Using temporary file: temp_protein_1551249252235_-496076268859382896.arff
+[Note] Discount 0.386 seconds from this build time
+Using temporary file: temp_protein_1551249285976_-7127128167259751473.arff
+[Note] Discount 0.366 seconds from this build time
+Using temporary file: temp_protein_1551249323320_501180562174799085.arff
+[Note] Discount 0.536 seconds from this build time
+Using temporary file: temp_protein_1551250102251_-5736614306270799543.arff
+[Note] Discount 0.369 seconds from this build time
+Using temporary file: temp_protein_1551250155498_-6819959017335327829.arff
+[Note] Discount 0.373 seconds from this build time
+Using temporary file: temp_protein_1551250199066_-3360305141762794454.arff
+[Note] Discount 0.331 seconds from this build time
+Using temporary file: temp_protein_1551250212480_-4775523669187539415.arff
+[Note] Discount 0.478 seconds from this build time
+Using temporary file: temp_protein_1551250275928_-6798914858217573060.arff
+[Note] Discount 0.312 seconds from this build time
+Using temporary file: temp_protein_1551250291543_5808738444245805049.arff
+[Note] Discount 0.679 seconds from this build time
+Using temporary file: temp_protein_1551250335859_-4605199251911937283.arff
+[Note] Discount 0.372 seconds from this build time
+Using temporary file: temp_protein_1551250356948_3508934780188318642.arff
+[Note] Discount 0.364 seconds from this build time
+Using temporary file: temp_protein_1551250358251_2259750519392559506.arff
+[Note] Discount 0.432 seconds from this build time
+Using temporary file: temp_protein_1551250415818_-5288884321442703868.arff
+[Note] Discount 0.314 seconds from this build time
+Using temporary file: temp_protein_1551251100653_-1235136122240190980.arff
+[Note] Discount 0.384 seconds from this build time
+Using temporary file: temp_protein_1551251307337_5738943893379618316.arff
+[Note] Discount 0.527 seconds from this build time
+Using temporary file: temp_protein_1551251314967_-8678588235927406455.arff
+[Note] Discount 0.286 seconds from this build time
+Using temporary file: temp_protein_1551251384936_3301560350794899176.arff
+[Note] Discount 0.467 seconds from this build time
+Using temporary file: temp_protein_1551251431938_2100752566876840588.arff
+[Note] Discount 0.512 seconds from this build time
+Using temporary file: temp_protein_1551251440479_-5830253423258833266.arff
+[Note] Discount 0.601 seconds from this build time
+Using temporary file: temp_protein_1551251518697_6995928140111635280.arff
+[Note] Discount 0.345 seconds from this build time
+Using temporary file: temp_protein_1551251519705_-7518357113470038567.arff
+[Note] Discount 0.545 seconds from this build time
+Using temporary file: temp_protein_1551251544262_-1095565672715370423.arff
+[Note] Discount 0.467 seconds from this build time
+Using temporary file: temp_protein_1551251592753_-8593497911429493276.arff
+[Note] Discount 0.396 seconds from this build time
+Using temporary file: temp_protein_1551252243687_3951194809170085004.arff
+[Note] Discount 0.378 seconds from this build time
+Using temporary file: temp_protein_1551252439951_6156225800113325723.arff
+[Note] Discount 0.927 seconds from this build time
+Using temporary file: temp_protein_1551252596584_4621576804961825664.arff
+[Note] Discount 0.344 seconds from this build time
+Using temporary file: temp_protein_1551252603885_-4878419149880202610.arff
+[Note] Discount 0.429 seconds from this build time
+Using temporary file: temp_protein_1551252616942_1681357320861610709.arff
+[Note] Discount 0.326 seconds from this build time
+Using temporary file: temp_protein_1551252627006_4880037797499618312.arff
+[Note] Discount 0.353 seconds from this build time
+Using temporary file: temp_protein_1551252647288_3480315076809301941.arff
+[Note] Discount 0.342 seconds from this build time
+Using temporary file: temp_protein_1551252654024_5492728113478971232.arff
+[Note] Discount 0.978 seconds from this build time
+Using temporary file: temp_protein_1551252846524_-4455425718838312134.arff
+[Note] Discount 0.55 seconds from this build time
+Using temporary file: temp_protein_1551252897747_859397494107989646.arff
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_protein_1551253429243_1587684632128182815.arff
+[Note] Discount 0.48 seconds from this build time
+Using temporary file: temp_protein_1551253630510_-1988121919985651200.arff
+[Note] Discount 0.408 seconds from this build time
+Using temporary file: temp_protein_1551253711705_-8584399766682819655.arff
+[Note] Discount 0.607 seconds from this build time
+Using temporary file: temp_protein_1551253786371_1579821865212908206.arff
+[Note] Discount 0.377 seconds from this build time
+Using temporary file: temp_protein_1551253787934_-8645019593156400089.arff
+[Note] Discount 0.401 seconds from this build time
+Using temporary file: temp_protein_1551253862174_1353816990017730924.arff
+[Note] Discount 0.677 seconds from this build time
+Using temporary file: temp_protein_1551253888248_3260813280637601224.arff
+[Note] Discount 0.299 seconds from this build time
+Using temporary file: temp_protein_1551253950270_-2149455768672428162.arff
+[Note] Discount 0.48 seconds from this build time
+Using temporary file: temp_protein_1551254003975_6464344685522019821.arff
+[Note] Discount 0.756 seconds from this build time
+Using temporary file: temp_protein_1551254086754_-259991515897342863.arff
+[Note] Discount 0.422 seconds from this build time
+Using temporary file: temp_protein_1551254497600_-7823401723989747505.arff
+[Note] Discount 0.601 seconds from this build time
+Using temporary file: temp_protein_1551254727305_-7300345967075961560.arff
+[Note] Discount 0.278 seconds from this build time
+Using temporary file: temp_protein_1551254792585_5037965036864798915.arff
+[Note] Discount 0.348 seconds from this build time
+Using temporary file: temp_protein_1551254890413_-8980117487222947788.arff
+[Note] Discount 0.287 seconds from this build time
+Using temporary file: temp_protein_1551254905697_-1019362334163299157.arff
+[Note] Discount 0.71 seconds from this build time
+Using temporary file: temp_protein_1551254994598_4016786749698341737.arff
+[Note] Discount 0.444 seconds from this build time
+Using temporary file: temp_protein_1551255071129_-1663495373901721169.arff
+[Note] Discount 0.55 seconds from this build time
+Using temporary file: temp_protein_1551255076413_357204762418634413.arff
+[Note] Discount 0.438 seconds from this build time
+Using temporary file: temp_protein_1551255077428_5058270166536639533.arff
+[Note] Discount 0.715 seconds from this build time
+Using temporary file: temp_protein_1551255107500_-6109681907542706157.arff
+[Note] Discount 0.362 seconds from this build time
+Using temporary file: temp_protein_1551255491688_5310389416429997037.arff
+[Note] Discount 0.599 seconds from this build time
+Using temporary file: temp_protein_1551255793002_1180451250079382823.arff
+[Note] Discount 0.41 seconds from this build time
+Using temporary file: temp_protein_1551255906893_4173799138601369497.arff
+[Note] Discount 0.371 seconds from this build time
+Using temporary file: temp_protein_1551255993519_2583780001673035147.arff
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_protein_1551256054172_-7311352842601082005.arff
+[Note] Discount 0.646 seconds from this build time
+Using temporary file: temp_protein_1551256088525_-5022166674911679806.arff
+[Note] Discount 0.49 seconds from this build time
+Using temporary file: temp_protein_1551256132785_5605301965367641896.arff
+[Note] Discount 0.375 seconds from this build time
+Using temporary file: temp_protein_1551256184672_-6910832155197454005.arff
+[Note] Discount 0.299 seconds from this build time
+Using temporary file: temp_protein_1551256185660_660260225259642700.arff
+[Note] Discount 0.642 seconds from this build time
+Using temporary file: temp_protein_1551256249534_8805804927883992817.arff
+[Note] Discount 0.406 seconds from this build time
+Using temporary file: temp_protein_1551256709426_1709464157265079686.arff
+[Note] Discount 0.345 seconds from this build time
+Using temporary file: temp_protein_1551256945056_-5337999691869457823.arff
+[Note] Discount 0.596 seconds from this build time
+Using temporary file: temp_protein_1551256986114_8008505297448283238.arff
+[Note] Discount 0.264 seconds from this build time
+Using temporary file: temp_protein_1551257028421_-3332450412194435075.arff
+[Note] Discount 0.342 seconds from this build time
+Using temporary file: temp_protein_1551257156205_-7295335603209051564.arff
+[Note] Discount 0.397 seconds from this build time
+Using temporary file: temp_protein_1551257161663_-6046014611969325073.arff
+[Note] Discount 0.305 seconds from this build time
+Using temporary file: temp_protein_1551257190330_8302285056297172932.arff
+[Note] Discount 0.313 seconds from this build time
+Using temporary file: temp_protein_1551257281016_6356024424047499647.arff
+[Note] Discount 0.505 seconds from this build time
+Using temporary file: temp_protein_1551257294674_4969456586130451623.arff
+[Note] Discount 0.665 seconds from this build time
+Using temporary file: temp_protein_1551257385233_-4701205128643231831.arff
+[Note] Discount 0.348 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 3
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_protein_1551258436174_3803053121039792420.arff
+Using temporary file: temp_protein_1551258436175_2758360689241543402.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_protein_1551258436186_-1468873411252492921.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_protein_1551258436202_-5761034890733554598.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_protein_1551258436213_-1536563194244860551.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_protein_1551258436223_653137120681555455.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_protein_1551258436237_3600025259063640689.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_protein_1551258436247_-7821298019962506145.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_protein_1551258436257_-645917300613758614.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_protein_1551258436268_6119745577970185558.arff
+[Note] Discount 0.329 seconds from this build time
+[Note] Discount 0.43 seconds from this build time
+[Note] Discount 0.6 seconds from this build time
+[Note] Discount 0.635 seconds from this build time
+[Note] Discount 0.61 seconds from this build time
+[Note] Discount 0.638 seconds from this build time
+[Note] Discount 0.613 seconds from this build time
+[Note] Discount 0.722 seconds from this build time
+[Note] Discount 0.773 seconds from this build time
+[Note] Discount 0.876 seconds from this build time
+Using temporary file: temp_protein_1551259466075_2549209129409228758.arff
+[Note] Discount 0.507 seconds from this build time
+Using temporary file: temp_protein_1551259569211_1794894844987367466.arff
+[Note] Discount 0.589 seconds from this build time
+Using temporary file: temp_protein_1551259569957_-3326066702825432110.arff
+[Note] Discount 0.315 seconds from this build time
+Using temporary file: temp_protein_1551259620176_-6088871574026378532.arff
+[Note] Discount 0.554 seconds from this build time
+Using temporary file: temp_protein_1551259640327_7911583618620128154.arff
+[Note] Discount 0.295 seconds from this build time
+Using temporary file: temp_protein_1551259683104_8853444392409962688.arff
+[Note] Discount 0.399 seconds from this build time
+Using temporary file: temp_protein_1551259687849_-3143446542602205122.arff
+[Note] Discount 0.307 seconds from this build time
+Using temporary file: temp_protein_1551259707458_-8494028184443550129.arff
+[Note] Discount 0.41 seconds from this build time
+Using temporary file: temp_protein_1551259724916_-7666389024716992619.arff
+[Note] Discount 0.364 seconds from this build time
+Using temporary file: temp_protein_1551259725560_-7426893052962357700.arff
+[Note] Discount 0.36 seconds from this build time
+Using temporary file: temp_protein_1551260516210_6906149630747914610.arff
+[Note] Discount 0.391 seconds from this build time
+Using temporary file: temp_protein_1551260600328_30264304927818692.arff
+[Note] Discount 0.474 seconds from this build time
+Using temporary file: temp_protein_1551260604125_-5727558868953203691.arff
+[Note] Discount 0.321 seconds from this build time
+Using temporary file: temp_protein_1551260652923_-5280429017220727222.arff
+[Note] Discount 0.359 seconds from this build time
+Using temporary file: temp_protein_1551260705912_1277373086709849060.arff
+[Note] Discount 0.292 seconds from this build time
+Using temporary file: temp_protein_1551260739219_-9161356953358167518.arff
+[Note] Discount 0.329 seconds from this build time
+Using temporary file: temp_protein_1551260745566_-5693283286674304421.arff
+[Note] Discount 0.394 seconds from this build time
+Using temporary file: temp_protein_1551260761692_-3674380908879105364.arff
+[Note] Discount 0.361 seconds from this build time
+Using temporary file: temp_protein_1551260778973_-5135266989296457665.arff
+[Note] Discount 0.286 seconds from this build time
+Using temporary file: temp_protein_1551260799508_6299905036767953317.arff
+[Note] Discount 0.33 seconds from this build time
+Using temporary file: temp_protein_1551261666157_1176089665387826969.arff
+[Note] Discount 0.351 seconds from this build time
+Using temporary file: temp_protein_1551261774946_6443170592819695545.arff
+[Note] Discount 0.826 seconds from this build time
+Using temporary file: temp_protein_1551261785684_-8837902837463325214.arff
+[Note] Discount 0.343 seconds from this build time
+Using temporary file: temp_protein_1551261801183_-805964166784363941.arff
+[Note] Discount 0.504 seconds from this build time
+Using temporary file: temp_protein_1551261809900_-5662802777777613574.arff
+[Note] Discount 0.326 seconds from this build time
+Using temporary file: temp_protein_1551261812387_2243480672403792601.arff
+[Note] Discount 0.424 seconds from this build time
+Using temporary file: temp_protein_1551261856272_-9124564742246058657.arff
+[Note] Discount 0.326 seconds from this build time
+Using temporary file: temp_protein_1551261867735_-1820138817373496662.arff
+[Note] Discount 0.357 seconds from this build time
+Using temporary file: temp_protein_1551261876219_3083995804586309402.arff
+[Note] Discount 0.413 seconds from this build time
+Using temporary file: temp_protein_1551261942159_6444635427050365194.arff
+[Note] Discount 0.379 seconds from this build time
+Using temporary file: temp_protein_1551262632095_-5623373965380994308.arff
+[Note] Discount 0.445 seconds from this build time
+Using temporary file: temp_protein_1551262770901_598328575014092232.arff
+[Note] Discount 0.481 seconds from this build time
+Using temporary file: temp_protein_1551262912591_4796796124253410186.arff
+[Note] Discount 0.54 seconds from this build time
+Using temporary file: temp_protein_1551262932731_8576325184258344286.arff
+[Note] Discount 0.278 seconds from this build time
+Using temporary file: temp_protein_1551262947262_7496982466862244149.arff
+[Note] Discount 0.289 seconds from this build time
+Using temporary file: temp_protein_1551263016456_3421332352366621250.arff
+[Note] Discount 0.455 seconds from this build time
+Using temporary file: temp_protein_1551263050111_5414275117331381710.arff
+[Note] Discount 0.478 seconds from this build time
+Using temporary file: temp_protein_1551263071302_-7826056991558697093.arff
+[Note] Discount 0.313 seconds from this build time
+Using temporary file: temp_protein_1551263171320_3107549667671845688.arff
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_protein_1551263255061_6857373577836206198.arff
+[Note] Discount 0.351 seconds from this build time
+Using temporary file: temp_protein_1551263645156_4328502305394555230.arff
+[Note] Discount 0.46 seconds from this build time
+Using temporary file: temp_protein_1551263825102_-8514507194139921895.arff
+[Note] Discount 0.319 seconds from this build time
+Using temporary file: temp_protein_1551263934781_6547565724012451687.arff
+[Note] Discount 0.401 seconds from this build time
+Using temporary file: temp_protein_1551264015840_5719690575850774808.arff
+[Note] Discount 0.329 seconds from this build time
+Using temporary file: temp_protein_1551264034248_-2998428632519719896.arff
+[Note] Discount 0.306 seconds from this build time
+Using temporary file: temp_protein_1551264134887_-6073009103768551032.arff
+[Note] Discount 0.474 seconds from this build time
+Using temporary file: temp_protein_1551264257651_2012055452795458010.arff
+[Note] Discount 0.429 seconds from this build time
+Using temporary file: temp_protein_1551264281877_-1187394439175388239.arff
+[Note] Discount 0.563 seconds from this build time
+Using temporary file: temp_protein_1551264316560_-2300171268480388852.arff
+[Note] Discount 0.571 seconds from this build time
+Using temporary file: temp_protein_1551264403280_-2730112946719215065.arff
+[Note] Discount 0.315 seconds from this build time
+Using temporary file: temp_protein_1551264762274_7275270066579715802.arff
+[Note] Discount 0.616 seconds from this build time
+Using temporary file: temp_protein_1551264968270_6978170142387848475.arff
+[Note] Discount 0.357 seconds from this build time
+Using temporary file: temp_protein_1551265159188_-8739040138527370657.arff
+[Note] Discount 0.491 seconds from this build time
+Using temporary file: temp_protein_1551265177404_74038515833460462.arff
+[Note] Discount 0.534 seconds from this build time
+Using temporary file: temp_protein_1551265223019_638374349769057639.arff
+[Note] Discount 0.379 seconds from this build time
+Using temporary file: temp_protein_1551265282004_-3932241021960221178.arff
+[Note] Discount 0.388 seconds from this build time
+Using temporary file: temp_protein_1551265327243_5004746258089555049.arff
+[Note] Discount 0.408 seconds from this build time
+Using temporary file: temp_protein_1551265332842_-5133650843766026267.arff
+[Note] Discount 0.41 seconds from this build time
+Using temporary file: temp_protein_1551265625864_7738331118769054131.arff
+[Note] Discount 0.648 seconds from this build time
+Using temporary file: temp_protein_1551265654612_5364377487206044023.arff
+[Note] Discount 0.363 seconds from this build time
+Using temporary file: temp_protein_1551265886849_4518754687359231975.arff
+[Note] Discount 0.404 seconds from this build time
+Using temporary file: temp_protein_1551266046260_2310204960398219434.arff
+[Note] Discount 0.439 seconds from this build time
+Using temporary file: temp_protein_1551266146571_2742914968671340453.arff
+[Note] Discount 0.499 seconds from this build time
+Using temporary file: temp_protein_1551266407516_6227406868931904324.arff
+[Note] Discount 0.756 seconds from this build time
+Using temporary file: temp_protein_1551266417942_-2996308202189857655.arff
+[Note] Discount 0.362 seconds from this build time
+Using temporary file: temp_protein_1551266513496_-2865008637684177168.arff
+[Note] Discount 0.331 seconds from this build time
+Using temporary file: temp_protein_1551266561842_4815349556090146136.arff
+[Note] Discount 0.317 seconds from this build time
+Using temporary file: temp_protein_1551266663242_-7005385872618611047.arff
+[Note] Discount 0.398 seconds from this build time
+Using temporary file: temp_protein_1551266671819_9052226342779358069.arff
+[Note] Discount 0.512 seconds from this build time
+Using temporary file: temp_protein_1551266927512_7661520242631645434.arff
+[Note] Discount 0.325 seconds from this build time
+Using temporary file: temp_protein_1551267119904_-2684126273154853479.arff
+[Note] Discount 0.588 seconds from this build time
+Using temporary file: temp_protein_1551267340074_-3318354720801637259.arff
+[Note] Discount 0.326 seconds from this build time
+Using temporary file: temp_protein_1551267352138_916941053930762690.arff
+[Note] Discount 0.351 seconds from this build time
+Using temporary file: temp_protein_1551267643711_4820924320965653540.arff
+[Note] Discount 0.388 seconds from this build time
+Using temporary file: temp_protein_1551267664454_-2951090371395693972.arff
+[Note] Discount 0.343 seconds from this build time
+Using temporary file: temp_protein_1551267693507_7905715447329028654.arff
+[Note] Discount 0.338 seconds from this build time
+Using temporary file: temp_protein_1551267817036_-4774357311190967554.arff
+[Note] Discount 0.523 seconds from this build time
+Using temporary file: temp_protein_1551267835291_-2281078010550439077.arff
+[Note] Discount 0.4 seconds from this build time
+Using temporary file: temp_protein_1551267924124_5398563097200408455.arff
+[Note] Discount 0.346 seconds from this build time
+Using temporary file: temp_protein_1551268050663_-310554611065081879.arff
+[Note] Discount 0.388 seconds from this build time
+Using temporary file: temp_protein_1551268186775_-3144232295862338647.arff
+[Note] Discount 0.328 seconds from this build time
+Using temporary file: temp_protein_1551268327927_-4221713314052446817.arff
+[Note] Discount 0.35 seconds from this build time
+Using temporary file: temp_protein_1551268394485_6711686818080472277.arff
+[Note] Discount 0.317 seconds from this build time
+Using temporary file: temp_protein_1551268560355_2884632914678347555.arff
+[Note] Discount 0.456 seconds from this build time
+Using temporary file: temp_protein_1551268613397_5020570882892176312.arff
+[Note] Discount 0.357 seconds from this build time
+Using temporary file: temp_protein_1551268620821_4651716431732219016.arff
+[Note] Discount 0.363 seconds from this build time
+Using temporary file: temp_protein_1551268750993_26457103131013364.arff
+[Note] Discount 0.459 seconds from this build time
+Using temporary file: temp_protein_1551268758728_4956279532902220075.arff
+[Note] Discount 0.355 seconds from this build time
+Using temporary file: temp_protein_1551268962824_4450747936512676115.arff
+[Note] Discount 0.358 seconds from this build time
+Using temporary file: temp_protein_1551269182291_2186730121337187006.arff
+[Note] Discount 0.331 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 4
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_protein_1551270221781_-3924881047061963848.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_protein_1551270221785_-686051790578565723.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_protein_1551270221802_3870064272805235222.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_protein_1551270221812_-1451637565960506752.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_protein_1551270221822_858984953702183078.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_protein_1551270221837_-510411890396737272.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_protein_1551270221844_7531748283682793492.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_protein_1551270221867_-8939194325373615074.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_protein_1551270221883_194258901974634873.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_protein_1551270221887_2679013805589617441.arff
+[Note] Discount 0.344 seconds from this build time
+[Note] Discount 0.432 seconds from this build time
+[Note] Discount 0.484 seconds from this build time
+[Note] Discount 0.501 seconds from this build time
+[Note] Discount 0.756 seconds from this build time
+[Note] Discount 0.699 seconds from this build time
+[Note] Discount 0.755 seconds from this build time
+[Note] Discount 0.804 seconds from this build time
+[Note] Discount 0.821 seconds from this build time
+[Note] Discount 1.023 seconds from this build time
+Using temporary file: temp_protein_1551271271179_-2726377905668691505.arff
+[Note] Discount 0.461 seconds from this build time
+Using temporary file: temp_protein_1551271290363_4667142439544573055.arff
+[Note] Discount 0.518 seconds from this build time
+Using temporary file: temp_protein_1551271308714_4032747547568791713.arff
+[Note] Discount 0.339 seconds from this build time
+Using temporary file: temp_protein_1551271314909_2618506400220646798.arff
+[Note] Discount 0.327 seconds from this build time
+Using temporary file: temp_protein_1551271361874_-3484880777383254526.arff
+Using temporary file: temp_protein_1551271361895_5834146448441283484.arff
+[Note] Discount 0.37 seconds from this build time
+[Note] Discount 0.383 seconds from this build time
+Using temporary file: temp_protein_1551271389013_-8522626268727008321.arff
+[Note] Discount 0.358 seconds from this build time
+Using temporary file: temp_protein_1551271391638_-8902416243410300348.arff
+[Note] Discount 0.326 seconds from this build time
+Using temporary file: temp_protein_1551271399513_-8375243262370458153.arff
+[Note] Discount 0.339 seconds from this build time
+Using temporary file: temp_protein_1551271426445_6793998636042160899.arff
+[Note] Discount 0.377 seconds from this build time
+Using temporary file: temp_protein_1551272328611_2682327445485680171.arff
+[Note] Discount 0.677 seconds from this build time
+Using temporary file: temp_protein_1551272372516_4016188520437563914.arff
+[Note] Discount 0.367 seconds from this build time
+Using temporary file: temp_protein_1551272379359_6936933392530960241.arff
+[Note] Discount 0.523 seconds from this build time
+Using temporary file: temp_protein_1551272383401_-1605640584389120939.arff
+[Note] Discount 0.368 seconds from this build time
+Using temporary file: temp_protein_1551272421188_-7955278666948146322.arff
+[Note] Discount 0.346 seconds from this build time
+Using temporary file: temp_protein_1551272444418_-2303420526951683333.arff
+[Note] Discount 0.51 seconds from this build time
+Using temporary file: temp_protein_1551272462882_-6409500192903294876.arff
+[Note] Discount 0.429 seconds from this build time
+Using temporary file: temp_protein_1551272511777_9173237838594123720.arff
+[Note] Discount 0.424 seconds from this build time
+Using temporary file: temp_protein_1551272531547_7696412024211915208.arff
+[Note] Discount 0.36 seconds from this build time
+Using temporary file: temp_protein_1551272572701_-6124087172458977528.arff
+[Note] Discount 0.49 seconds from this build time
+Using temporary file: temp_protein_1551273421176_289305151154239544.arff
+[Note] Discount 0.362 seconds from this build time
+Using temporary file: temp_protein_1551273452545_3041333973510398629.arff
+[Note] Discount 0.604 seconds from this build time
+Using temporary file: temp_protein_1551273476927_-4738070527277579093.arff
+[Note] Discount 0.658 seconds from this build time
+Using temporary file: temp_protein_1551273488442_-1322328174886698380.arff
+[Note] Discount 0.41 seconds from this build time
+Using temporary file: temp_protein_1551273559294_7186190977326994153.arff
+[Note] Discount 0.378 seconds from this build time
+Using temporary file: temp_protein_1551273607408_6899196303910356427.arff
+[Note] Discount 0.335 seconds from this build time
+Using temporary file: temp_protein_1551273652826_1335379214094696254.arff
+[Note] Discount 0.455 seconds from this build time
+Using temporary file: temp_protein_1551273711768_2302678096373101142.arff
+[Note] Discount 0.616 seconds from this build time
+Using temporary file: temp_protein_1551273741438_-8669163540957080726.arff
+[Note] Discount 0.336 seconds from this build time
+Using temporary file: temp_protein_1551273759562_-1265468109690201046.arff
+[Note] Discount 0.58 seconds from this build time
+Using temporary file: temp_protein_1551274481106_314851395928121051.arff
+[Note] Discount 0.529 seconds from this build time
+Using temporary file: temp_protein_1551274585948_6054577866958805786.arff
+[Note] Discount 0.322 seconds from this build time
+Using temporary file: temp_protein_1551274631820_-7699420010600227299.arff
+[Note] Discount 0.655 seconds from this build time
+Using temporary file: temp_protein_1551274725004_6650267052805898569.arff
+[Note] Discount 0.356 seconds from this build time
+Using temporary file: temp_protein_1551274742925_755854500991624593.arff
+[Note] Discount 0.353 seconds from this build time
+Using temporary file: temp_protein_1551274768018_-4193290617900144896.arff
+[Note] Discount 0.36 seconds from this build time
+Using temporary file: temp_protein_1551274801846_550436702605198172.arff
+[Note] Discount 0.389 seconds from this build time
+Using temporary file: temp_protein_1551274826608_-8801870353876918334.arff
+[Note] Discount 0.285 seconds from this build time
+Using temporary file: temp_protein_1551274860840_7135856249683414178.arff
+[Note] Discount 0.386 seconds from this build time
+Using temporary file: temp_protein_1551274961227_-6106594814102442852.arff
+[Note] Discount 0.443 seconds from this build time
+Using temporary file: temp_protein_1551275558763_-7154369092413191692.arff
+[Note] Discount 0.358 seconds from this build time
+Using temporary file: temp_protein_1551275744591_4450705445726486464.arff
+[Note] Discount 0.437 seconds from this build time
+Using temporary file: temp_protein_1551275798860_7271064030562875142.arff
+[Note] Discount 0.307 seconds from this build time
+Using temporary file: temp_protein_1551275905451_-94187287130004140.arff
+[Note] Discount 0.301 seconds from this build time
+Using temporary file: temp_protein_1551275917973_5371260547779316133.arff
+[Note] Discount 0.545 seconds from this build time
+Using temporary file: temp_protein_1551275941518_2514343226117629319.arff
+[Note] Discount 0.351 seconds from this build time
+Using temporary file: temp_protein_1551276003315_8070639246719579111.arff
+[Note] Discount 0.391 seconds from this build time
+Using temporary file: temp_protein_1551276004877_-7524662116348677146.arff
+[Note] Discount 0.438 seconds from this build time
+Using temporary file: temp_protein_1551276012496_1681061247776986531.arff
+[Note] Discount 0.436 seconds from this build time
+Using temporary file: temp_protein_1551276029850_-2221988569368117268.arff
+[Note] Discount 0.353 seconds from this build time
+Using temporary file: temp_protein_1551276627054_9169120409345085731.arff
+[Note] Discount 0.527 seconds from this build time
+Using temporary file: temp_protein_1551276892438_-8648279696612050209.arff
+[Note] Discount 0.601 seconds from this build time
+Using temporary file: temp_protein_1551276906818_-5493782453516093672.arff
+[Note] Discount 0.369 seconds from this build time
+Using temporary file: temp_protein_1551276930489_-7511655587566459175.arff
+[Note] Discount 0.692 seconds from this build time
+Using temporary file: temp_protein_1551276957673_-1160421466163642931.arff
+[Note] Discount 0.394 seconds from this build time
+Using temporary file: temp_protein_1551276965251_6883113373614244644.arff
+[Note] Discount 0.35 seconds from this build time
+Using temporary file: temp_protein_1551276975749_1072306077061511071.arff
+[Note] Discount 0.573 seconds from this build time
+Using temporary file: temp_protein_1551276987067_3264908416820472267.arff
+[Note] Discount 0.315 seconds from this build time
+Using temporary file: temp_protein_1551277049578_7608878906930592940.arff
+[Note] Discount 0.624 seconds from this build time
+Using temporary file: temp_protein_1551277121396_-6449030298805734803.arff
+[Note] Discount 0.373 seconds from this build time
+Using temporary file: temp_protein_1551277805134_-5319479682109490229.arff
+[Note] Discount 0.333 seconds from this build time
+Using temporary file: temp_protein_1551277882302_-1065719142118609324.arff
+[Note] Discount 0.344 seconds from this build time
+Using temporary file: temp_protein_1551277935626_-934136432924416325.arff
+[Note] Discount 0.333 seconds from this build time
+Using temporary file: temp_protein_1551278020491_-7026508440249642555.arff
+[Note] Discount 0.316 seconds from this build time
+Using temporary file: temp_protein_1551278059910_-5137015281226191458.arff
+[Note] Discount 0.335 seconds from this build time
+Using temporary file: temp_protein_1551278089085_516392565305794201.arff
+[Note] Discount 0.385 seconds from this build time
+Using temporary file: temp_protein_1551278102404_2831199605592898983.arff
+[Note] Discount 0.313 seconds from this build time
+Using temporary file: temp_protein_1551278108514_1705806873338569740.arff
+[Note] Discount 0.408 seconds from this build time
+Using temporary file: temp_protein_1551278128733_-1111343598442236142.arff
+[Note] Discount 0.37 seconds from this build time
+Using temporary file: temp_protein_1551278158751_-4566396959982491692.arff
+[Note] Discount 0.413 seconds from this build time
+Using temporary file: temp_protein_1551278824828_3467329551260634708.arff
+[Note] Discount 0.37 seconds from this build time
+Using temporary file: temp_protein_1551278891777_-817604662548149131.arff
+[Note] Discount 0.382 seconds from this build time
+Using temporary file: temp_protein_1551278914423_728586250621324436.arff
+[Note] Discount 0.426 seconds from this build time
+Using temporary file: temp_protein_1551279024404_3875173390025246931.arff
+[Note] Discount 0.638 seconds from this build time
+Using temporary file: temp_protein_1551279038593_-6784398378578189479.arff
+[Note] Discount 0.311 seconds from this build time
+Using temporary file: temp_protein_1551279042551_-3998412061445143288.arff
+[Note] Discount 0.307 seconds from this build time
+Using temporary file: temp_protein_1551279077409_6666015931596736387.arff
+[Note] Discount 0.304 seconds from this build time
+Using temporary file: temp_protein_1551279086852_2746255371496665207.arff
+[Note] Discount 0.283 seconds from this build time
+Using temporary file: temp_protein_1551279128223_-7665196775622473857.arff
+[Note] Discount 0.32 seconds from this build time
+Using temporary file: temp_protein_1551279134286_-3074722789246360287.arff
+[Note] Discount 0.443 seconds from this build time
+Using temporary file: temp_protein_1551279662564_-6063479906063052618.arff
+[Note] Discount 0.283 seconds from this build time
+Using temporary file: temp_protein_1551279872607_7411910766693346359.arff
+[Note] Discount 0.343 seconds from this build time
+Using temporary file: temp_protein_1551280011823_7430493277149599813.arff
+[Note] Discount 0.344 seconds from this build time
+Using temporary file: temp_protein_1551280051839_-7815809082296616977.arff
+[Note] Discount 0.311 seconds from this build time
+Using temporary file: temp_protein_1551280058681_4085467786997160691.arff
+[Note] Discount 0.404 seconds from this build time
+Using temporary file: temp_protein_1551280088812_-1457205381421357414.arff
+[Note] Discount 0.494 seconds from this build time
+Using temporary file: temp_protein_1551280114692_5404242951196403807.arff
+[Note] Discount 0.302 seconds from this build time
+Using temporary file: temp_protein_1551280162856_-3121891052548791562.arff
+[Note] Discount 0.37 seconds from this build time
+Using temporary file: temp_protein_1551280202866_1563548882513538425.arff
+[Note] Discount 0.373 seconds from this build time
+Using temporary file: temp_protein_1551280261232_-4249802838372158016.arff
+[Note] Discount 0.429 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 5
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_protein_1551281274711_-8377336650094661069.arff
+Using temporary file: temp_protein_1551281274711_-8751085503867937651.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_protein_1551281274723_-7497975980136432009.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_protein_1551281274737_4840668386679044570.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_protein_1551281274748_-7306263279772935589.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_protein_1551281274757_1571665058970022497.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_protein_1551281274767_-2669015473904755310.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_protein_1551281274772_-3413008864762311762.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_protein_1551281274787_5392703102889984549.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_protein_1551281274792_8168676158663024624.arff
+[Note] Discount 0.353 seconds from this build time
+[Note] Discount 0.521 seconds from this build time
+[Note] Discount 0.51 seconds from this build time
+[Note] Discount 0.543 seconds from this build time
+[Note] Discount 0.541 seconds from this build time
+[Note] Discount 0.525 seconds from this build time
+[Note] Discount 0.556 seconds from this build time
+[Note] Discount 0.764 seconds from this build time
+[Note] Discount 0.79 seconds from this build time
+[Note] Discount 0.801 seconds from this build time
+Using temporary file: temp_protein_1551282242261_-4787022384348844445.arff
+[Note] Discount 0.461 seconds from this build time
+Using temporary file: temp_protein_1551282272063_-730190759019218156.arff
+[Note] Discount 0.584 seconds from this build time
+Using temporary file: temp_protein_1551282319699_9038335254401083926.arff
+[Note] Discount 0.438 seconds from this build time
+Using temporary file: temp_protein_1551282330219_-5020500491649895153.arff
+[Note] Discount 0.308 seconds from this build time
+Using temporary file: temp_protein_1551282335544_8146221438076924663.arff
+[Note] Discount 0.346 seconds from this build time
+Using temporary file: temp_protein_1551282356166_7806941514492271995.arff
+[Note] Discount 0.359 seconds from this build time
+Using temporary file: temp_protein_1551282383478_4323093987500565602.arff
+[Note] Discount 0.353 seconds from this build time
+Using temporary file: temp_protein_1551282418903_-4733873431139627931.arff
+[Note] Discount 0.369 seconds from this build time
+Using temporary file: temp_protein_1551282451383_-5740671271593056691.arff
+[Note] Discount 0.358 seconds from this build time
+Using temporary file: temp_protein_1551282455049_1880661030975368292.arff
+[Note] Discount 0.286 seconds from this build time
+Using temporary file: temp_protein_1551283301934_-4498190047871887498.arff
+[Note] Discount 0.362 seconds from this build time
+Using temporary file: temp_protein_1551283330093_8371004470249050606.arff
+[Note] Discount 0.479 seconds from this build time
+Using temporary file: temp_protein_1551283374307_-499360409750722853.arff
+[Note] Discount 0.475 seconds from this build time
+Using temporary file: temp_protein_1551283382009_5635609161038164966.arff
+[Note] Discount 0.656 seconds from this build time
+Using temporary file: temp_protein_1551283453642_4070396125029978223.arff
+[Note] Discount 0.389 seconds from this build time
+Using temporary file: temp_protein_1551283461805_-3045182938295608968.arff
+[Note] Discount 0.802 seconds from this build time
+Using temporary file: temp_protein_1551283499759_-5986326496842862326.arff
+[Note] Discount 0.307 seconds from this build time
+Using temporary file: temp_protein_1551283511865_-7156834939687546583.arff
+[Note] Discount 0.352 seconds from this build time
+Using temporary file: temp_protein_1551283579998_322846005174511008.arff
+[Note] Discount 0.336 seconds from this build time
+Using temporary file: temp_protein_1551283605541_-7282023472852925143.arff
+[Note] Discount 0.338 seconds from this build time
+Using temporary file: temp_protein_1551284488222_-3070688518157112907.arff
+[Note] Discount 0.575 seconds from this build time
+Using temporary file: temp_protein_1551284509525_5080606314316693739.arff
+[Note] Discount 0.483 seconds from this build time
+Using temporary file: temp_protein_1551284518969_5245364836250954000.arff
+[Note] Discount 0.266 seconds from this build time
+Using temporary file: temp_protein_1551284582748_-8257472253730980873.arff
+[Note] Discount 0.414 seconds from this build time
+Using temporary file: temp_protein_1551284621732_6983046085666928814.arff
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_protein_1551284630660_3526450679069113854.arff
+[Note] Discount 0.402 seconds from this build time
+Using temporary file: temp_protein_1551284631867_-435587906648708359.arff
+[Note] Discount 0.318 seconds from this build time
+Using temporary file: temp_protein_1551284676271_7318053033168220206.arff
+[Note] Discount 0.466 seconds from this build time
+Using temporary file: temp_protein_1551284678171_1459173741195801402.arff
+[Note] Discount 0.38 seconds from this build time
+Using temporary file: temp_protein_1551284680640_947406905975435208.arff
+[Note] Discount 0.376 seconds from this build time
+Using temporary file: temp_protein_1551285563101_3700456403319983179.arff
+[Note] Discount 0.293 seconds from this build time
+Using temporary file: temp_protein_1551285564950_7252938097639159278.arff
+[Note] Discount 0.615 seconds from this build time
+Using temporary file: temp_protein_1551285568084_1674563217135621776.arff
+[Note] Discount 0.694 seconds from this build time
+Using temporary file: temp_protein_1551285601619_8637641792745777345.arff
+[Note] Discount 0.414 seconds from this build time
+Using temporary file: temp_protein_1551285707975_-5120251691338751706.arff
+[Note] Discount 0.36 seconds from this build time
+Using temporary file: temp_protein_1551285747510_2978214333338970539.arff
+[Note] Discount 0.747 seconds from this build time
+Using temporary file: temp_protein_1551285751428_-546227288755006883.arff
+[Note] Discount 0.472 seconds from this build time
+Using temporary file: temp_protein_1551285760925_-8736851221491419912.arff
+[Note] Discount 0.704 seconds from this build time
+Using temporary file: temp_protein_1551285786396_-8819243423086615708.arff
+[Note] Discount 0.364 seconds from this build time
+Using temporary file: temp_protein_1551285828334_-8171136391278254421.arff
+[Note] Discount 0.447 seconds from this build time
+Using temporary file: temp_protein_1551286592278_4557359622431007554.arff
+[Note] Discount 0.356 seconds from this build time
+Using temporary file: temp_protein_1551286639431_8026383961327351951.arff
+[Note] Discount 0.339 seconds from this build time
+Using temporary file: temp_protein_1551286679064_508943482563998989.arff
+[Note] Discount 0.357 seconds from this build time
+Using temporary file: temp_protein_1551286687253_-4653752435979924085.arff
+[Note] Discount 0.414 seconds from this build time
+Using temporary file: temp_protein_1551286776080_2939498319079095637.arff
+[Note] Discount 0.313 seconds from this build time
+Using temporary file: temp_protein_1551286799716_-5594470500394967494.arff
+[Note] Discount 0.322 seconds from this build time
+Using temporary file: temp_protein_1551286831788_3480003796066431712.arff
+[Note] Discount 0.542 seconds from this build time
+Using temporary file: temp_protein_1551286850826_803124289950177979.arff
+[Note] Discount 0.358 seconds from this build time
+Using temporary file: temp_protein_1551286913253_-636333988887034212.arff
+[Note] Discount 0.36 seconds from this build time
+Using temporary file: temp_protein_1551286951182_8843852096945526213.arff
+[Note] Discount 0.56 seconds from this build time
+Using temporary file: temp_protein_1551287633990_-2599638815814183215.arff
+[Note] Discount 0.502 seconds from this build time
+Using temporary file: temp_protein_1551287691940_8190460250141936893.arff
+[Note] Discount 0.727 seconds from this build time
+Using temporary file: temp_protein_1551287735967_5769673920140370325.arff
+[Note] Discount 0.67 seconds from this build time
+Using temporary file: temp_protein_1551287779391_-5707672370091761013.arff
+[Note] Discount 0.498 seconds from this build time
+Using temporary file: temp_protein_1551287800142_1153904216792672901.arff
+[Note] Discount 0.372 seconds from this build time
+Using temporary file: temp_protein_1551287874562_5756199850788068330.arff
+[Note] Discount 0.312 seconds from this build time
+Using temporary file: temp_protein_1551288007833_-8993413354811897935.arff
+[Note] Discount 0.512 seconds from this build time
+Using temporary file: temp_protein_1551288018099_-7708433905133356545.arff
+[Note] Discount 0.3 seconds from this build time
+Using temporary file: temp_protein_1551288024559_-7696908321112421928.arff
+[Note] Discount 0.346 seconds from this build time
+Using temporary file: temp_protein_1551288061930_1143101010786680429.arff
+[Note] Discount 0.37 seconds from this build time
+Using temporary file: temp_protein_1551288747240_3848973185516237780.arff
+[Note] Discount 0.718 seconds from this build time
+Using temporary file: temp_protein_1551288772309_-7593559711793024473.arff
+[Note] Discount 0.483 seconds from this build time
+Using temporary file: temp_protein_1551288817016_-356080060741782185.arff
+[Note] Discount 0.471 seconds from this build time
+Using temporary file: temp_protein_1551288849260_4750573931075731782.arff
+[Note] Discount 0.367 seconds from this build time
+Using temporary file: temp_protein_1551288931492_-2738735307499397929.arff
+[Note] Discount 0.374 seconds from this build time
+Using temporary file: temp_protein_1551288970324_9147260119188226075.arff
+[Note] Discount 0.483 seconds from this build time
+Using temporary file: temp_protein_1551289085448_-7753099951623310138.arff
+[Note] Discount 0.367 seconds from this build time
+Using temporary file: temp_protein_1551289155504_1034630987629030792.arff
+[Note] Discount 0.405 seconds from this build time
+Using temporary file: temp_protein_1551289183243_-7555351992581160954.arff
+[Note] Discount 0.308 seconds from this build time
+Using temporary file: temp_protein_1551289278522_-445123651753048437.arff
+[Note] Discount 0.335 seconds from this build time
+Using temporary file: temp_protein_1551289679168_3279426614661187996.arff
+[Note] Discount 0.304 seconds from this build time
+Using temporary file: temp_protein_1551289790906_-9108032911202255077.arff
+[Note] Discount 0.332 seconds from this build time
+Using temporary file: temp_protein_1551289927482_-5777773046073082973.arff
+[Note] Discount 0.272 seconds from this build time
+Using temporary file: temp_protein_1551289961660_-535584982992767945.arff
+[Note] Discount 0.385 seconds from this build time
+Using temporary file: temp_protein_1551289994180_4585731666244383106.arff
+[Note] Discount 0.399 seconds from this build time
+Using temporary file: temp_protein_1551290021752_-3525111263812818117.arff
+[Note] Discount 0.336 seconds from this build time
+Using temporary file: temp_protein_1551290227391_5796689938409159009.arff
+[Note] Discount 0.491 seconds from this build time
+Using temporary file: temp_protein_1551290268386_7786015629227782772.arff
+[Note] Discount 0.331 seconds from this build time
+Using temporary file: temp_protein_1551290270881_3214097265926879448.arff
+[Note] Discount 0.372 seconds from this build time
+Using temporary file: temp_protein_1551290278561_5262131155823113975.arff
+[Note] Discount 0.272 seconds from this build time
+Using temporary file: temp_protein_1551290738698_-6264662031554090775.arff
+[Note] Discount 0.422 seconds from this build time
+Using temporary file: temp_protein_1551290825084_6364905620888314798.arff
+[Note] Discount 0.467 seconds from this build time
+Using temporary file: temp_protein_1551291108645_-7074918400295346896.arff
+[Note] Discount 0.357 seconds from this build time
+Using temporary file: temp_protein_1551291163657_8499104807284792755.arff
+[Note] Discount 0.306 seconds from this build time
+Using temporary file: temp_protein_1551291213090_-7850427191471535528.arff
+[Note] Discount 0.345 seconds from this build time
+Using temporary file: temp_protein_1551291351715_5947874316217233888.arff
+[Note] Discount 0.557 seconds from this build time
+Using temporary file: temp_protein_1551291444954_8816149975002660817.arff
+[Note] Discount 0.408 seconds from this build time
+Using temporary file: temp_protein_1551291682157_6817473413534271398.arff
+[Note] Discount 0.34 seconds from this build time
+Using temporary file: temp_protein_1551291693272_-7107378206422349633.arff
+[Note] Discount 0.406 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+Using temporary file: temp_protein_1551291725014_1163118917381745949.arff
+[Note] Discount 0.352 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 6
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_protein_1551292695982_566381710764943413.arff
+Using temporary file: temp_protein_1551292695982_-1608098597551468451.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_protein_1551292695992_4469440687916049570.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_protein_1551292695997_-3698661339818345973.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_protein_1551292696007_-5589937031876733301.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_protein_1551292696017_-2564260040490541770.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_protein_1551292696027_1458497633808887418.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_protein_1551292696037_-1035633149643239325.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_protein_1551292696047_-6369541623027390922.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_protein_1551292696057_-2162882975343049754.arff
+[Note] Discount 0.296 seconds from this build time
+[Note] Discount 0.437 seconds from this build time
+[Note] Discount 0.553 seconds from this build time
+[Note] Discount 0.573 seconds from this build time
+[Note] Discount 0.56 seconds from this build time
+[Note] Discount 0.628 seconds from this build time
+[Note] Discount 0.644 seconds from this build time
+[Note] Discount 0.765 seconds from this build time
+[Note] Discount 0.943 seconds from this build time
+[Note] Discount 0.949 seconds from this build time
+Using temporary file: temp_protein_1551293746281_-7316073245918686925.arff
+[Note] Discount 0.427 seconds from this build time
+Using temporary file: temp_protein_1551293753117_-7339241127091058317.arff
+[Note] Discount 0.304 seconds from this build time
+Using temporary file: temp_protein_1551293770617_-1632816288902660021.arff
+[Note] Discount 0.595 seconds from this build time
+Using temporary file: temp_protein_1551293812012_-3645553751895064332.arff
+[Note] Discount 0.544 seconds from this build time
+Using temporary file: temp_protein_1551293814682_7219524121527741614.arff
+[Note] Discount 0.368 seconds from this build time
+Using temporary file: temp_protein_1551293820447_4793971110569000604.arff
+[Note] Discount 0.343 seconds from this build time
+Using temporary file: temp_protein_1551293839084_-4795275899714429417.arff
+[Note] Discount 0.289 seconds from this build time
+Using temporary file: temp_protein_1551293851487_2602755069855219259.arff
+[Note] Discount 0.705 seconds from this build time
+Using temporary file: temp_protein_1551293873866_526488519178829888.arff
+[Note] Discount 0.375 seconds from this build time
+Using temporary file: temp_protein_1551293906797_3592725324095305683.arff
+[Note] Discount 0.514 seconds from this build time
+Using temporary file: temp_protein_1551294795592_7411790522989648792.arff
+[Note] Discount 0.515 seconds from this build time
+Using temporary file: temp_protein_1551294818383_-2187993102383044244.arff
+[Note] Discount 0.326 seconds from this build time
+Using temporary file: temp_protein_1551294826618_2115850059180418354.arff
+[Note] Discount 0.622 seconds from this build time
+Using temporary file: temp_protein_1551294852121_-992130317477352924.arff
+[Note] Discount 0.617 seconds from this build time
+Using temporary file: temp_protein_1551294856078_-1887448297265014273.arff
+[Note] Discount 0.479 seconds from this build time
+Using temporary file: temp_protein_1551294857148_5685524318958656137.arff
+[Note] Discount 0.386 seconds from this build time
+Using temporary file: temp_protein_1551294896245_6705584880227391807.arff
+[Note] Discount 0.471 seconds from this build time
+Using temporary file: temp_protein_1551294902475_8815535291922269738.arff
+[Note] Discount 0.368 seconds from this build time
+Using temporary file: temp_protein_1551294932280_1490613999773004340.arff
+[Note] Discount 0.718 seconds from this build time
+Using temporary file: temp_protein_1551294944568_-5026029246139856277.arff
+[Note] Discount 0.327 seconds from this build time
+Using temporary file: temp_protein_1551295851762_-6289929342761363175.arff
+[Note] Discount 0.634 seconds from this build time
+Using temporary file: temp_protein_1551295860660_-9120159428539361639.arff
+[Note] Discount 0.579 seconds from this build time
+Using temporary file: temp_protein_1551295874850_-2934806679232514223.arff
+[Note] Discount 0.285 seconds from this build time
+Using temporary file: temp_protein_1551295895290_-2951196622544561858.arff
+[Note] Discount 0.367 seconds from this build time
+Using temporary file: temp_protein_1551295902768_1343023494735137507.arff
+[Note] Discount 0.516 seconds from this build time
+Using temporary file: temp_protein_1551295930275_-3106223575927296331.arff
+[Note] Discount 0.319 seconds from this build time
+Using temporary file: temp_protein_1551295970717_4209933468692678950.arff
+[Note] Discount 0.356 seconds from this build time
+Using temporary file: temp_protein_1551296002816_-8182243594209745664.arff
+[Note] Discount 0.572 seconds from this build time
+Using temporary file: temp_protein_1551296060972_4947850698510203064.arff
+[Note] Discount 0.327 seconds from this build time
+Using temporary file: temp_protein_1551296108859_7851427008395192536.arff
+[Note] Discount 0.368 seconds from this build time
+Using temporary file: temp_protein_1551296841926_5952946586221754036.arff
+[Note] Discount 0.454 seconds from this build time
+Using temporary file: temp_protein_1551296912447_1507219752436740101.arff
+[Note] Discount 0.448 seconds from this build time
+Using temporary file: temp_protein_1551296950720_7793777865067502371.arff
+[Note] Discount 0.363 seconds from this build time
+Using temporary file: temp_protein_1551296982272_7806931012050564336.arff
+[Note] Discount 0.347 seconds from this build time
+Using temporary file: temp_protein_1551296982915_6902793791591772338.arff
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_protein_1551297008981_3047945791987619701.arff
+[Note] Discount 0.298 seconds from this build time
+Using temporary file: temp_protein_1551297020218_-4010614443645193307.arff
+[Note] Discount 0.291 seconds from this build time
+Using temporary file: temp_protein_1551297070179_3222799434015176446.arff
+[Note] Discount 0.357 seconds from this build time
+Using temporary file: temp_protein_1551297113687_4430932498665065484.arff
+[Note] Discount 0.347 seconds from this build time
+Using temporary file: temp_protein_1551297227703_-8884952290998478387.arff
+[Note] Discount 0.385 seconds from this build time
+Using temporary file: temp_protein_1551297828624_4378932161907537715.arff
+[Note] Discount 0.345 seconds from this build time
+Using temporary file: temp_protein_1551297976786_-544617757178333800.arff
+[Note] Discount 0.554 seconds from this build time
+Using temporary file: temp_protein_1551297984026_7935455346318005342.arff
+[Note] Discount 0.337 seconds from this build time
+Using temporary file: temp_protein_1551297989036_-8614352639040115366.arff
+[Note] Discount 0.464 seconds from this build time
+Using temporary file: temp_protein_1551298045255_-3009405229167982411.arff
+[Note] Discount 0.595 seconds from this build time
+Using temporary file: temp_protein_1551298061958_1715868444723452007.arff
+[Note] Discount 0.453 seconds from this build time
+Using temporary file: temp_protein_1551298080384_2374208703468940925.arff
+[Note] Discount 0.802 seconds from this build time
+Using temporary file: temp_protein_1551298192520_-7357339368254658879.arff
+[Note] Discount 0.344 seconds from this build time
+Using temporary file: temp_protein_1551298252134_323003187810796424.arff
+[Note] Discount 0.627 seconds from this build time
+Using temporary file: temp_protein_1551298366732_7414932543315556010.arff
+[Note] Discount 0.302 seconds from this build time
+Using temporary file: temp_protein_1551298958397_7645506387453610734.arff
+[Note] Discount 0.339 seconds from this build time
+Using temporary file: temp_protein_1551298981333_-8664968823506358406.arff
+[Note] Discount 0.539 seconds from this build time
+Using temporary file: temp_protein_1551299008189_7454865519840859645.arff
+[Note] Discount 0.634 seconds from this build time
+Using temporary file: temp_protein_1551299042528_-4704090142093314638.arff
+[Note] Discount 0.513 seconds from this build time
+Using temporary file: temp_protein_1551299063301_-8886486030628624275.arff
+[Note] Discount 0.386 seconds from this build time
+Using temporary file: temp_protein_1551299157080_-4086059040560313264.arff
+[Note] Discount 0.548 seconds from this build time
+Using temporary file: temp_protein_1551299211036_8289740811720862680.arff
+[Note] Discount 0.292 seconds from this build time
+Using temporary file: temp_protein_1551299280262_1951473645747468132.arff
+[Note] Discount 0.335 seconds from this build time
+Using temporary file: temp_protein_1551299408887_6829937779261482600.arff
+[Note] Discount 0.406 seconds from this build time
+Using temporary file: temp_protein_1551299525227_9059038189098316771.arff
+[Note] Discount 0.413 seconds from this build time
+Using temporary file: temp_protein_1551299993413_-2848899089940961071.arff
+[Note] Discount 0.386 seconds from this build time
+Using temporary file: temp_protein_1551300021205_-8306635260051269446.arff
+[Note] Discount 0.336 seconds from this build time
+Using temporary file: temp_protein_1551300146002_-2303516294498490494.arff
+[Note] Discount 0.525 seconds from this build time
+Using temporary file: temp_protein_1551300199300_-7187744340523076314.arff
+[Note] Discount 0.311 seconds from this build time
+Using temporary file: temp_protein_1551300262173_-7436412491365010666.arff
+[Note] Discount 0.321 seconds from this build time
+Using temporary file: temp_protein_1551300281592_-5382733297118183358.arff
+[Note] Discount 0.346 seconds from this build time
+Using temporary file: temp_protein_1551300383432_5972933999487403024.arff
+[Note] Discount 0.434 seconds from this build time
+Using temporary file: temp_protein_1551300424245_-6415773821821162015.arff
+[Note] Discount 0.269 seconds from this build time
+Using temporary file: temp_protein_1551300522473_-2282623849526784568.arff
+[Note] Discount 0.319 seconds from this build time
+Using temporary file: temp_protein_1551300609092_-4510135546772636515.arff
+[Note] Discount 0.45 seconds from this build time
+Using temporary file: temp_protein_1551301131118_1862260294086773919.arff
+[Note] Discount 0.257 seconds from this build time
+Using temporary file: temp_protein_1551301191692_1758945148499988783.arff
+[Note] Discount 0.247 seconds from this build time
+Using temporary file: temp_protein_1551301217894_5662872212732003193.arff
+[Note] Discount 0.356 seconds from this build time
+Using temporary file: temp_protein_1551301255417_-7868715035331841279.arff
+[Note] Discount 0.448 seconds from this build time
+Using temporary file: temp_protein_1551301348956_7014820241964981356.arff
+[Note] Discount 0.302 seconds from this build time
+Using temporary file: temp_protein_1551301656520_-5301039349804564991.arff
+[Note] Discount 0.342 seconds from this build time
+Using temporary file: temp_protein_1551301762223_1980031027531194548.arff
+[Note] Discount 0.548 seconds from this build time
+Using temporary file: temp_protein_1551301784127_1392122187641494968.arff
+[Note] Discount 0.346 seconds from this build time
+Using temporary file: temp_protein_1551301820740_-3462057721180242966.arff
+[Note] Discount 0.441 seconds from this build time
+Using temporary file: temp_protein_1551301998601_-7579808017640594022.arff
+[Note] Discount 0.436 seconds from this build time
+Using temporary file: temp_protein_1551302390948_-7087263262376100235.arff
+[Note] Discount 0.457 seconds from this build time
+Using temporary file: temp_protein_1551302470721_8600311885107616415.arff
+[Note] Discount 0.529 seconds from this build time
+Using temporary file: temp_protein_1551302553793_5628547344516879168.arff
+[Note] Discount 0.297 seconds from this build time
+Using temporary file: temp_protein_1551302741235_331546070538502674.arff
+[Note] Discount 0.272 seconds from this build time
+Using temporary file: temp_protein_1551302777459_1372267179201092781.arff
+[Note] Discount 0.453 seconds from this build time
+Using temporary file: temp_protein_1551302934223_-8304701932600440408.arff
+[Note] Discount 0.305 seconds from this build time
+Using temporary file: temp_protein_1551303017270_-2338343576934208312.arff
+[Note] Discount 0.295 seconds from this build time
+Using temporary file: temp_protein_1551303052510_-1055296936487117613.arff
+Using temporary file: temp_protein_1551303052976_3496076070618025152.arff
+[Note] Discount 0.679 seconds from this build time
+[Note] Discount 0.65 seconds from this build time
+Using temporary file: temp_protein_1551303126926_1261036306141182808.arff
+[Note] Discount 0.36 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 7
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_protein_1551304250360_3475270650314491794.arff
+Using temporary file: temp_protein_1551304250360_2270991379979347231.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_protein_1551304250373_-1614084996196586490.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_protein_1551304250388_8336107190894473033.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_protein_1551304250398_-1783836501116765729.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_protein_1551304250406_-4776693766958442873.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_protein_1551304250407_1585957658595667533.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_protein_1551304250423_5363441817484042921.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_protein_1551304250432_735288309103666086.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_protein_1551304250443_-4845437925228318859.arff
+[Note] Discount 0.455 seconds from this build time
+[Note] Discount 0.553 seconds from this build time
+[Note] Discount 0.529 seconds from this build time
+[Note] Discount 0.786 seconds from this build time
+[Note] Discount 0.808 seconds from this build time
+[Note] Discount 0.78 seconds from this build time
+[Note] Discount 0.808 seconds from this build time
+[Note] Discount 0.829 seconds from this build time
+[Note] Discount 0.895 seconds from this build time
+[Note] Discount 0.938 seconds from this build time
+Using temporary file: temp_protein_1551305274764_1622417430311286869.arff
+[Note] Discount 0.355 seconds from this build time
+Using temporary file: temp_protein_1551305293976_5612744506800647866.arff
+[Note] Discount 0.388 seconds from this build time
+Using temporary file: temp_protein_1551305385406_-4904196865423085294.arff
+[Note] Discount 0.375 seconds from this build time
+Using temporary file: temp_protein_1551305392078_-4283036302213613660.arff
+[Note] Discount 0.525 seconds from this build time
+Using temporary file: temp_protein_1551305416777_6854428927621892691.arff
+[Note] Discount 0.295 seconds from this build time
+Using temporary file: temp_protein_1551305424328_-7889033426576853168.arff
+Using temporary file: temp_protein_1551305424507_7609267195525655809.arff
+[Note] Discount 0.371 seconds from this build time
+[Note] Discount 0.375 seconds from this build time
+Using temporary file: temp_protein_1551305436415_5639582898743908002.arff
+[Note] Discount 0.353 seconds from this build time
+Using temporary file: temp_protein_1551305439365_-2825979959566714257.arff
+[Note] Discount 0.36 seconds from this build time
+Using temporary file: temp_protein_1551305462731_5917125705134860630.arff
+[Note] Discount 0.4 seconds from this build time
+Using temporary file: temp_protein_1551306273112_680340239326323591.arff
+[Note] Discount 0.453 seconds from this build time
+Using temporary file: temp_protein_1551306322873_1461163354790034005.arff
+[Note] Discount 0.364 seconds from this build time
+Using temporary file: temp_protein_1551306325201_6992223189773582149.arff
+[Note] Discount 0.673 seconds from this build time
+Using temporary file: temp_protein_1551306412766_-7244480259266885303.arff
+[Note] Discount 0.34 seconds from this build time
+Using temporary file: temp_protein_1551306445058_7415905872588821609.arff
+[Note] Discount 0.373 seconds from this build time
+Using temporary file: temp_protein_1551306458065_-4965775846775124621.arff
+[Note] Discount 0.366 seconds from this build time
+Using temporary file: temp_protein_1551306469929_5358307146659318376.arff
+[Note] Discount 0.699 seconds from this build time
+Using temporary file: temp_protein_1551306476798_-2921270958620175941.arff
+[Note] Discount 0.29 seconds from this build time
+Using temporary file: temp_protein_1551306478575_-7505550339714435677.arff
+[Note] Discount 0.332 seconds from this build time
+Using temporary file: temp_protein_1551306606477_5762145474911256072.arff
+[Note] Discount 0.535 seconds from this build time
+Using temporary file: temp_protein_1551307387882_-6623980368252521766.arff
+[Note] Discount 0.351 seconds from this build time
+Using temporary file: temp_protein_1551307468750_3539458836905320913.arff
+[Note] Discount 0.538 seconds from this build time
+Using temporary file: temp_protein_1551307497855_-7008688991718472221.arff
+[Note] Discount 0.533 seconds from this build time
+Using temporary file: temp_protein_1551307524696_-217475440604474380.arff
+[Note] Discount 0.307 seconds from this build time
+Using temporary file: temp_protein_1551307573644_4399516415237074838.arff
+[Note] Discount 0.618 seconds from this build time
+Using temporary file: temp_protein_1551307580458_-7791555276871681082.arff
+[Note] Discount 0.369 seconds from this build time
+Using temporary file: temp_protein_1551307590785_-1249065337672274165.arff
+[Note] Discount 0.331 seconds from this build time
+Using temporary file: temp_protein_1551307600852_2010947164286293866.arff
+[Note] Discount 0.538 seconds from this build time
+Using temporary file: temp_protein_1551307656477_-3983746718352924153.arff
+[Note] Discount 0.369 seconds from this build time
+Using temporary file: temp_protein_1551307705559_2445057270153007974.arff
+[Note] Discount 0.296 seconds from this build time
+Using temporary file: temp_protein_1551308428421_-207135219591628622.arff
+[Note] Discount 0.549 seconds from this build time
+Using temporary file: temp_protein_1551308579123_-6633125691855141005.arff
+[Note] Discount 0.4 seconds from this build time
+Using temporary file: temp_protein_1551308593547_5323840495266574478.arff
+[Note] Discount 0.381 seconds from this build time
+Using temporary file: temp_protein_1551308606763_-4987005879744123756.arff
+[Note] Discount 0.929 seconds from this build time
+Using temporary file: temp_protein_1551308644719_5678626900794067620.arff
+[Note] Discount 0.513 seconds from this build time
+Using temporary file: temp_protein_1551308645446_-4006834921742016407.arff
+[Note] Discount 0.363 seconds from this build time
+Using temporary file: temp_protein_1551308664644_-1469843190281211649.arff
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_protein_1551308698557_7495307949460064708.arff
+[Note] Discount 0.655 seconds from this build time
+Using temporary file: temp_protein_1551308781715_8381814542974811998.arff
+[Note] Discount 0.562 seconds from this build time
+Using temporary file: temp_protein_1551308811789_-9179464057694309764.arff
+[Note] Discount 0.649 seconds from this build time
+Using temporary file: temp_protein_1551309603601_-4901456210524151004.arff
+[Note] Discount 0.351 seconds from this build time
+Using temporary file: temp_protein_1551309614676_5543792253369559681.arff
+[Note] Discount 0.387 seconds from this build time
+Using temporary file: temp_protein_1551309758092_4336899898550699667.arff
+[Note] Discount 0.41 seconds from this build time
+Using temporary file: temp_protein_1551309776047_-7209465029301483472.arff
+[Note] Discount 0.467 seconds from this build time
+Using temporary file: temp_protein_1551309794718_5878027573324626745.arff
+[Note] Discount 0.432 seconds from this build time
+Using temporary file: temp_protein_1551309856635_281130375825185257.arff
+[Note] Discount 0.647 seconds from this build time
+Using temporary file: temp_protein_1551309868337_-601128146759870551.arff
+[Note] Discount 0.439 seconds from this build time
+Using temporary file: temp_protein_1551309896638_-682736954125738787.arff
+[Note] Discount 0.33 seconds from this build time
+Using temporary file: temp_protein_1551309905763_4611986874067287150.arff
+[Note] Discount 0.312 seconds from this build time
+Using temporary file: temp_protein_1551309938767_3041628524624170284.arff
+[Note] Discount 0.443 seconds from this build time
+Using temporary file: temp_protein_1551310604597_1168324295631942716.arff
+[Note] Discount 0.782 seconds from this build time
+Using temporary file: temp_protein_1551310773309_6769088872911905582.arff
+[Note] Discount 0.558 seconds from this build time
+Using temporary file: temp_protein_1551310896890_7256821224132567913.arff
+[Note] Discount 0.376 seconds from this build time
+Using temporary file: temp_protein_1551310901966_4170336389308797456.arff
+[Note] Discount 0.389 seconds from this build time
+Using temporary file: temp_protein_1551310926988_6036935925562686107.arff
+[Note] Discount 0.399 seconds from this build time
+Using temporary file: temp_protein_1551310980275_-5234170890490684509.arff
+[Note] Discount 0.482 seconds from this build time
+Using temporary file: temp_protein_1551311015649_-9145729473938644799.arff
+[Note] Discount 0.41 seconds from this build time
+Using temporary file: temp_protein_1551311030204_-5275820954868593296.arff
+[Note] Discount 0.502 seconds from this build time
+Using temporary file: temp_protein_1551311074296_5620119595698489414.arff
+[Note] Discount 0.464 seconds from this build time
+Using temporary file: temp_protein_1551311111902_186383988687977231.arff
+[Note] Discount 0.343 seconds from this build time
+Using temporary file: temp_protein_1551311701394_5431972957571244932.arff
+[Note] Discount 0.312 seconds from this build time
+Using temporary file: temp_protein_1551311846900_2522841501079800248.arff
+[Note] Discount 0.549 seconds from this build time
+Using temporary file: temp_protein_1551311910133_-4820001192579109770.arff
+[Note] Discount 0.346 seconds from this build time
+Using temporary file: temp_protein_1551311925002_-1731499584229154534.arff
+[Note] Discount 0.556 seconds from this build time
+Using temporary file: temp_protein_1551311934738_2033148680974807986.arff
+[Note] Discount 0.705 seconds from this build time
+Using temporary file: temp_protein_1551311943643_2614121250037486955.arff
+[Note] Discount 0.529 seconds from this build time
+Using temporary file: temp_protein_1551311981574_-5670000538417845611.arff
+[Note] Discount 0.307 seconds from this build time
+Using temporary file: temp_protein_1551312008714_-7396622956704555328.arff
+[Note] Discount 0.648 seconds from this build time
+Using temporary file: temp_protein_1551312021621_-6747871786925253441.arff
+[Note] Discount 0.346 seconds from this build time
+Using temporary file: temp_protein_1551312082434_-4409150984518176355.arff
+[Note] Discount 0.339 seconds from this build time
+Using temporary file: temp_protein_1551312789426_3284785762221477057.arff
+[Note] Discount 0.523 seconds from this build time
+Using temporary file: temp_protein_1551312891122_-1127220455287567152.arff
+[Note] Discount 0.407 seconds from this build time
+Using temporary file: temp_protein_1551312935745_-7833098935495120875.arff
+[Note] Discount 0.328 seconds from this build time
+Using temporary file: temp_protein_1551312971450_-5755484195525570438.arff
+[Note] Discount 0.541 seconds from this build time
+Using temporary file: temp_protein_1551313016348_3557645804754716238.arff
+[Note] Discount 0.474 seconds from this build time
+Using temporary file: temp_protein_1551313031585_-2397606815650614675.arff
+[Note] Discount 0.596 seconds from this build time
+Using temporary file: temp_protein_1551313039800_2510823671498155919.arff
+[Note] Discount 0.462 seconds from this build time
+Using temporary file: temp_protein_1551313105369_1332330292446077885.arff
+[Note] Discount 0.533 seconds from this build time
+Using temporary file: temp_protein_1551313116443_-1537321388284451263.arff
+[Note] Discount 0.369 seconds from this build time
+Using temporary file: temp_protein_1551313138891_8613010248929295249.arff
+[Note] Discount 0.519 seconds from this build time
+Using temporary file: temp_protein_1551313894015_2919859758153453568.arff
+[Note] Discount 0.676 seconds from this build time
+Using temporary file: temp_protein_1551313899323_7497479965999086393.arff
+[Note] Discount 0.336 seconds from this build time
+Using temporary file: temp_protein_1551313922539_8092643338038581717.arff
+[Note] Discount 0.52 seconds from this build time
+Using temporary file: temp_protein_1551313960924_1326646905010044805.arff
+[Note] Discount 0.403 seconds from this build time
+Using temporary file: temp_protein_1551314007900_4442708040873911210.arff
+[Note] Discount 0.341 seconds from this build time
+Using temporary file: temp_protein_1551314020713_-5554748725645626540.arff
+[Note] Discount 0.356 seconds from this build time
+Using temporary file: temp_protein_1551314088938_-3704432009686450438.arff
+[Note] Discount 0.381 seconds from this build time
+Using temporary file: temp_protein_1551314117201_5494542277548676971.arff
+[Note] Discount 0.363 seconds from this build time
+Using temporary file: temp_protein_1551314203761_-3788067831248212793.arff
+[Note] Discount 0.356 seconds from this build time
+Using temporary file: temp_protein_1551314213524_5020843632358257543.arff
+[Note] Discount 0.452 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 8
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_protein_1551315280806_5797898885857920721.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_protein_1551315280814_-945726292679342924.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_protein_1551315280817_-844099673303054332.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_protein_1551315280828_3902610103608179935.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_protein_1551315280842_2300274633014929457.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_protein_1551315280851_4300186733318170538.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_protein_1551315280853_-9195789692800418047.arff
+Using temporary file: temp_protein_1551315280853_-5596654713944733569.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_protein_1551315280857_-6310506688630775259.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_protein_1551315280857_-48947332408195609.arff
+[Note] Discount 0.318 seconds from this build time
+[Note] Discount 0.536 seconds from this build time
+[Note] Discount 0.541 seconds from this build time
+[Note] Discount 0.698 seconds from this build time
+[Note] Discount 0.758 seconds from this build time
+[Note] Discount 0.76 seconds from this build time
+[Note] Discount 0.794 seconds from this build time
+[Note] Discount 0.822 seconds from this build time
+[Note] Discount 0.82 seconds from this build time
+[Note] Discount 1.219 seconds from this build time
+Using temporary file: temp_protein_1551316264286_8724470744763331282.arff
+[Note] Discount 0.686 seconds from this build time
+Using temporary file: temp_protein_1551316330483_3584226657257485852.arff
+[Note] Discount 0.399 seconds from this build time
+Using temporary file: temp_protein_1551316358883_4203908418003684972.arff
+[Note] Discount 0.416 seconds from this build time
+Using temporary file: temp_protein_1551316364724_1648288546226020572.arff
+[Note] Discount 0.43 seconds from this build time
+Using temporary file: temp_protein_1551316378102_-1470434222209313151.arff
+[Note] Discount 0.312 seconds from this build time
+Using temporary file: temp_protein_1551316397448_-4330080723252508033.arff
+[Note] Discount 0.335 seconds from this build time
+Using temporary file: temp_protein_1551316406219_5680945340363637752.arff
+[Note] Discount 0.305 seconds from this build time
+Using temporary file: temp_protein_1551316428461_6991406552572976204.arff
+[Note] Discount 0.339 seconds from this build time
+Using temporary file: temp_protein_1551316441608_6871364801639938441.arff
+[Note] Discount 0.296 seconds from this build time
+Using temporary file: temp_protein_1551316482334_-8470582481256382969.arff
+[Note] Discount 0.525 seconds from this build time
+Using temporary file: temp_protein_1551317338578_1996547057907075440.arff
+[Note] Discount 0.406 seconds from this build time
+Using temporary file: temp_protein_1551317367852_7512030474967643342.arff
+[Note] Discount 0.466 seconds from this build time
+Using temporary file: temp_protein_1551317397750_-1681421259993292196.arff
+[Note] Discount 0.392 seconds from this build time
+Using temporary file: temp_protein_1551317454682_-4327365921067705564.arff
+[Note] Discount 0.391 seconds from this build time
+Using temporary file: temp_protein_1551317480077_-650072592903891027.arff
+[Note] Discount 0.36 seconds from this build time
+Using temporary file: temp_protein_1551317483590_2095696241247569486.arff
+[Note] Discount 0.341 seconds from this build time
+Using temporary file: temp_protein_1551317559234_7251217747129858271.arff
+[Note] Discount 0.403 seconds from this build time
+Using temporary file: temp_protein_1551317568371_-6136410516779160355.arff
+[Note] Discount 0.279 seconds from this build time
+Using temporary file: temp_protein_1551317641106_-5447674199320302528.arff
+[Note] Discount 0.395 seconds from this build time
+Using temporary file: temp_protein_1551317668445_-7360356420697316724.arff
+[Note] Discount 0.594 seconds from this build time
+Using temporary file: temp_protein_1551318400662_6315394412835225833.arff
+[Note] Discount 0.61 seconds from this build time
+Using temporary file: temp_protein_1551318425541_-3328960931179463349.arff
+[Note] Discount 0.65 seconds from this build time
+Using temporary file: temp_protein_1551318472686_-7560286038326203413.arff
+[Note] Discount 0.714 seconds from this build time
+Using temporary file: temp_protein_1551318558113_8037000249453754267.arff
+[Note] Discount 0.412 seconds from this build time
+Using temporary file: temp_protein_1551318564882_1998614497907369159.arff
+[Note] Discount 0.333 seconds from this build time
+Using temporary file: temp_protein_1551318605599_-7682112285708344292.arff
+[Note] Discount 0.408 seconds from this build time
+Using temporary file: temp_protein_1551318619590_-6204331610574482140.arff
+[Note] Discount 0.482 seconds from this build time
+Using temporary file: temp_protein_1551318690233_-8244745312671349148.arff
+[Note] Discount 0.353 seconds from this build time
+Using temporary file: temp_protein_1551318761994_-8604862550481858629.arff
+[Note] Discount 0.391 seconds from this build time
+Using temporary file: temp_protein_1551318763998_-5693797743320079087.arff
+[Note] Discount 0.315 seconds from this build time
+Using temporary file: temp_protein_1551319484079_5869101238778430101.arff
+[Note] Discount 0.376 seconds from this build time
+Using temporary file: temp_protein_1551319528727_8134351140710820129.arff
+[Note] Discount 0.31 seconds from this build time
+Using temporary file: temp_protein_1551319530514_221358426708416632.arff
+[Note] Discount 0.418 seconds from this build time
+Using temporary file: temp_protein_1551319564560_233649483812134528.arff
+[Note] Discount 0.335 seconds from this build time
+Using temporary file: temp_protein_1551319646042_-5572877181438739042.arff
+[Note] Discount 0.35 seconds from this build time
+Using temporary file: temp_protein_1551319725775_-1710766958202443294.arff
+[Note] Discount 0.487 seconds from this build time
+Using temporary file: temp_protein_1551319776091_-1251244960138593368.arff
+[Note] Discount 0.629 seconds from this build time
+Using temporary file: temp_protein_1551319821656_1485568480240191442.arff
+[Note] Discount 0.38 seconds from this build time
+Using temporary file: temp_protein_1551319855049_1825522180626948306.arff
+[Note] Discount 0.384 seconds from this build time
+Using temporary file: temp_protein_1551319901624_7423176560455067915.arff
+[Note] Discount 0.464 seconds from this build time
+Using temporary file: temp_protein_1551320542899_-3545115380320098714.arff
+[Note] Discount 0.608 seconds from this build time
+Using temporary file: temp_protein_1551320549424_46266498021425158.arff
+[Note] Discount 0.396 seconds from this build time
+Using temporary file: temp_protein_1551320568786_-2144351936338032011.arff
+[Note] Discount 0.445 seconds from this build time
+Using temporary file: temp_protein_1551320610295_-8025140981603101740.arff
+[Note] Discount 0.646 seconds from this build time
+Using temporary file: temp_protein_1551320777601_262618084365242565.arff
+[Note] Discount 0.537 seconds from this build time
+Using temporary file: temp_protein_1551320805494_-500219266596606931.arff
+[Note] Discount 0.353 seconds from this build time
+Using temporary file: temp_protein_1551320836939_-8318978027522318587.arff
+[Note] Discount 0.319 seconds from this build time
+Using temporary file: temp_protein_1551320841721_7096544479148813000.arff
+[Note] Discount 0.341 seconds from this build time
+Using temporary file: temp_protein_1551320922566_-1146455515050596281.arff
+[Note] Discount 0.438 seconds from this build time
+Using temporary file: temp_protein_1551320940603_-5189677124161559060.arff
+[Note] Discount 0.391 seconds from this build time
+Using temporary file: temp_protein_1551321594150_9128443364994243502.arff
+[Note] Discount 0.407 seconds from this build time
+Using temporary file: temp_protein_1551321653541_2537966171057395782.arff
+[Note] Discount 0.326 seconds from this build time
+Using temporary file: temp_protein_1551321656347_-8843924095490061722.arff
+[Note] Discount 0.446 seconds from this build time
+Using temporary file: temp_protein_1551321683709_-2547801522413471235.arff
+[Note] Discount 0.446 seconds from this build time
+Using temporary file: temp_protein_1551321813207_-4979644171343562540.arff
+[Note] Discount 0.295 seconds from this build time
+Using temporary file: temp_protein_1551321848655_663891803632391939.arff
+[Note] Discount 0.347 seconds from this build time
+Using temporary file: temp_protein_1551321855022_-6748242386890846450.arff
+[Note] Discount 0.382 seconds from this build time
+Using temporary file: temp_protein_1551321927017_6664448195119953582.arff
+[Note] Discount 0.339 seconds from this build time
+Using temporary file: temp_protein_1551321955910_4048073894657531021.arff
+[Note] Discount 0.387 seconds from this build time
+Using temporary file: temp_protein_1551321981503_6637429393644021894.arff
+[Note] Discount 0.331 seconds from this build time
+Using temporary file: temp_protein_1551322573891_8401618513674609441.arff
+[Note] Discount 0.507 seconds from this build time
+Using temporary file: temp_protein_1551322635517_-1688092882814449056.arff
+[Note] Discount 0.49 seconds from this build time
+Using temporary file: temp_protein_1551322711645_-3149241608122180316.arff
+[Note] Discount 0.376 seconds from this build time
+Using temporary file: temp_protein_1551322726473_-5794863138595349589.arff
+[Note] Discount 0.369 seconds from this build time
+Using temporary file: temp_protein_1551322861426_540873747948729074.arff
+[Note] Discount 0.353 seconds from this build time
+Using temporary file: temp_protein_1551322898279_7319963726341157385.arff
+[Note] Discount 0.347 seconds from this build time
+Using temporary file: temp_protein_1551322927787_-2594458883112823912.arff
+[Note] Discount 0.411 seconds from this build time
+Using temporary file: temp_protein_1551323034461_-5218363911369579743.arff
+[Note] Discount 0.39 seconds from this build time
+Using temporary file: temp_protein_1551323044288_-9128340484683897654.arff
+[Note] Discount 0.355 seconds from this build time
+Using temporary file: temp_protein_1551323099432_6554092355901241267.arff
+[Note] Discount 0.363 seconds from this build time
+Using temporary file: temp_protein_1551323688285_-665611951256502758.arff
+[Note] Discount 0.336 seconds from this build time
+Using temporary file: temp_protein_1551323946019_2369530194033851372.arff
+[Note] Discount 0.345 seconds from this build time
+Using temporary file: temp_protein_1551323960875_2037648442184655719.arff
+[Note] Discount 0.349 seconds from this build time
+Using temporary file: temp_protein_1551323971802_-8369985346162786053.arff
+[Note] Discount 0.301 seconds from this build time
+Using temporary file: temp_protein_1551323973107_-2618505083878428013.arff
+[Note] Discount 0.396 seconds from this build time
+Using temporary file: temp_protein_1551324058519_-3844558872529263645.arff
+[Note] Discount 0.333 seconds from this build time
+Using temporary file: temp_protein_1551324093524_-3936551051312039816.arff
+[Note] Discount 0.296 seconds from this build time
+Using temporary file: temp_protein_1551324131634_-4397589800245301870.arff
+[Note] Discount 0.478 seconds from this build time
+Using temporary file: temp_protein_1551324261665_-7705025750692011749.arff
+[Note] Discount 0.321 seconds from this build time
+Using temporary file: temp_protein_1551324266822_-5172971845248114637.arff
+[Note] Discount 0.346 seconds from this build time
+Using temporary file: temp_protein_1551324849738_-8252732331633625310.arff
+[Note] Discount 0.382 seconds from this build time
+Using temporary file: temp_protein_1551324925907_4079197736038352319.arff
+[Note] Discount 0.356 seconds from this build time
+Using temporary file: temp_protein_1551325010302_4714351880739219075.arff
+[Note] Discount 0.449 seconds from this build time
+Using temporary file: temp_protein_1551325126222_1477744949315785690.arff
+[Note] Discount 0.378 seconds from this build time
+Using temporary file: temp_protein_1551325152773_1593226455485412990.arff
+[Note] Discount 0.341 seconds from this build time
+Using temporary file: temp_protein_1551325232565_-2292657705489123108.arff
+[Note] Discount 0.345 seconds from this build time
+Using temporary file: temp_protein_1551325248632_3403275329300082380.arff
+[Note] Discount 0.386 seconds from this build time
+Using temporary file: temp_protein_1551325310880_-6147411282109651411.arff
+[Note] Discount 0.385 seconds from this build time
+Using temporary file: temp_protein_1551325321290_-5239570827406975976.arff
+[Note] Discount 0.415 seconds from this build time
+Using temporary file: temp_protein_1551325333171_6432356007261678549.arff
+[Note] Discount 0.453 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 9
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_protein_1551326366647_-1515158592908040274.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_protein_1551326366657_5322681299929659730.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_protein_1551326366667_1936795074606706.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_protein_1551326366677_3890866512835467180.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_protein_1551326366683_6176014792303674130.arff
+Using temporary file: temp_protein_1551326366683_-6620103278978289465.arff
+Using temporary file: temp_protein_1551326366683_6316138657225156479.arff
+Using temporary file: temp_protein_1551326366683_-4098267762943805449.arff
+Using temporary file: temp_protein_1551326366683_2552139837508651416.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_protein_1551326366687_6567461472594266073.arff
+[Note] Discount 0.37 seconds from this build time
+[Note] Discount 0.572 seconds from this build time
+[Note] Discount 0.555 seconds from this build time
+[Note] Discount 0.559 seconds from this build time
+[Note] Discount 0.606 seconds from this build time
+[Note] Discount 0.619 seconds from this build time
+[Note] Discount 0.654 seconds from this build time
+[Note] Discount 0.742 seconds from this build time
+[Note] Discount 0.883 seconds from this build time
+[Note] Discount 1.139 seconds from this build time
+Using temporary file: temp_protein_1551327476881_-6778128366459969752.arff
+[Note] Discount 0.332 seconds from this build time
+Using temporary file: temp_protein_1551327478118_-6611242892417775264.arff
+[Note] Discount 0.554 seconds from this build time
+Using temporary file: temp_protein_1551327484921_3490228200639642898.arff
+[Note] Discount 0.341 seconds from this build time
+Using temporary file: temp_protein_1551327493197_1662010423733631022.arff
+[Note] Discount 0.393 seconds from this build time
+Using temporary file: temp_protein_1551327496326_-4858994240073783862.arff
+[Note] Discount 0.746 seconds from this build time
+Using temporary file: temp_protein_1551327515319_-5406636261142259676.arff
+[Note] Discount 0.35 seconds from this build time
+Using temporary file: temp_protein_1551327519724_-752954469917193465.arff
+[Note] Discount 0.379 seconds from this build time
+Using temporary file: temp_protein_1551327520788_-5290951107275755460.arff
+[Note] Discount 0.416 seconds from this build time
+Using temporary file: temp_protein_1551327565301_-4272622707664980298.arff
+[Note] Discount 0.302 seconds from this build time
+Using temporary file: temp_protein_1551327571767_-7641598872376107371.arff
+[Note] Discount 0.355 seconds from this build time
+Using temporary file: temp_protein_1551328508293_184084303402159921.arff
+[Note] Discount 0.508 seconds from this build time
+Using temporary file: temp_protein_1551328549811_-2220726953495488049.arff
+[Note] Discount 0.358 seconds from this build time
+Using temporary file: temp_protein_1551328583063_8607046313482873520.arff
+[Note] Discount 0.357 seconds from this build time
+Using temporary file: temp_protein_1551328604228_-3226111013754539112.arff
+[Note] Discount 0.623 seconds from this build time
+Using temporary file: temp_protein_1551328641017_-3505088063389309441.arff
+[Note] Discount 0.333 seconds from this build time
+Using temporary file: temp_protein_1551328680356_-8702988211453038457.arff
+[Note] Discount 0.936 seconds from this build time
+Using temporary file: temp_protein_1551328689943_-6016242411370302863.arff
+[Note] Discount 0.408 seconds from this build time
+Using temporary file: temp_protein_1551328700444_-7555272422567687896.arff
+[Note] Discount 0.378 seconds from this build time
+Using temporary file: temp_protein_1551328711080_7202043895247474452.arff
+[Note] Discount 0.364 seconds from this build time
+Using temporary file: temp_protein_1551328746919_2674888791828129879.arff
+[Note] Discount 1.032 seconds from this build time
+Using temporary file: temp_protein_1551329555150_-2413430317850140379.arff
+[Note] Discount 0.524 seconds from this build time
+Using temporary file: temp_protein_1551329632624_2004110606177057489.arff
+[Note] Discount 0.479 seconds from this build time
+Using temporary file: temp_protein_1551329646154_5750419551786115014.arff
+[Note] Discount 0.359 seconds from this build time
+Using temporary file: temp_protein_1551329675312_-1019340972947741689.arff
+[Note] Discount 0.376 seconds from this build time
+Using temporary file: temp_protein_1551329801220_-1112372283823110418.arff
+[Note] Discount 0.418 seconds from this build time
+Using temporary file: temp_protein_1551329843008_7130389426934934581.arff
+[Note] Discount 0.365 seconds from this build time
+Using temporary file: temp_protein_1551329851905_2992976862721050016.arff
+[Note] Discount 0.367 seconds from this build time
+Using temporary file: temp_protein_1551329874203_8841646798864268211.arff
+[Note] Discount 0.447 seconds from this build time
+Using temporary file: temp_protein_1551329945940_-1934659891784082593.arff
+[Note] Discount 0.45 seconds from this build time
+Using temporary file: temp_protein_1551329984081_8542928366277031819.arff
+[Note] Discount 0.362 seconds from this build time
+Using temporary file: temp_protein_1551330718061_6332602903681407200.arff
+[Note] Discount 0.662 seconds from this build time
+Using temporary file: temp_protein_1551330749525_-8018588774928247989.arff
+[Note] Discount 0.404 seconds from this build time
+Using temporary file: temp_protein_1551330819962_462267692281657345.arff
+[Note] Discount 0.935 seconds from this build time
+Using temporary file: temp_protein_1551330899085_-4994297446106747877.arff
+[Note] Discount 0.381 seconds from this build time
+Using temporary file: temp_protein_1551331021195_3842472955018329850.arff
+[Note] Discount 0.547 seconds from this build time
+Using temporary file: temp_protein_1551331083114_-2989691344935059183.arff
+[Note] Discount 0.388 seconds from this build time
+Using temporary file: temp_protein_1551331096327_1468057664056402641.arff
+[Note] Discount 0.315 seconds from this build time
+Using temporary file: temp_protein_1551331104659_-6389105643340129085.arff
+[Note] Discount 0.348 seconds from this build time
+Using temporary file: temp_protein_1551331134223_-5193021215669789421.arff
+[Note] Discount 0.776 seconds from this build time
+Using temporary file: temp_protein_1551331150945_-5820675107994106851.arff
+[Note] Discount 0.414 seconds from this build time
+Using temporary file: temp_protein_1551331819902_7618091476051568832.arff
+[Note] Discount 0.347 seconds from this build time
+Using temporary file: temp_protein_1551331851800_-7551913932934349195.arff
+[Note] Discount 0.329 seconds from this build time
+Using temporary file: temp_protein_1551331965338_-6396101906293679482.arff
+[Note] Discount 1.029 seconds from this build time
+Using temporary file: temp_protein_1551332003388_-3899300208369743140.arff
+[Note] Discount 0.364 seconds from this build time
+Using temporary file: temp_protein_1551332153848_-6039976808000108494.arff
+[Note] Discount 0.325 seconds from this build time
+Using temporary file: temp_protein_1551332245037_3948048941934106295.arff
+[Note] Discount 0.321 seconds from this build time
+Using temporary file: temp_protein_1551332272912_1312379144408593251.arff
+[Note] Discount 0.363 seconds from this build time
+Using temporary file: temp_protein_1551332279910_466468273879730573.arff
+[Note] Discount 0.371 seconds from this build time
+Using temporary file: temp_protein_1551332308684_-8534847643124651136.arff
+[Note] Discount 0.407 seconds from this build time
+Using temporary file: temp_protein_1551332462930_-8844304778186851807.arff
+[Note] Discount 0.428 seconds from this build time
+Using temporary file: temp_protein_1551333058840_2860012171536472811.arff
+[Note] Discount 0.612 seconds from this build time
+Using temporary file: temp_protein_1551333100819_-265721343088353085.arff
+[Note] Discount 0.371 seconds from this build time
+Using temporary file: temp_protein_1551333188614_3964494804894872438.arff
+Using temporary file: temp_protein_1551333188948_5097036153496034018.arff
+[Note] Discount 0.462 seconds from this build time
+[Note] Discount 0.352 seconds from this build time
+Using temporary file: temp_protein_1551333420356_-3764733868737974763.arff
+[Note] Discount 0.405 seconds from this build time
+Using temporary file: temp_protein_1551333431841_-306376542191725594.arff
+[Note] Discount 0.287 seconds from this build time
+Using temporary file: temp_protein_1551333465110_-2001850952147463723.arff
+[Note] Discount 0.307 seconds from this build time
+Using temporary file: temp_protein_1551333495875_4482083831205177148.arff
+[Note] Discount 0.362 seconds from this build time
+Using temporary file: temp_protein_1551333542454_4969351975654405645.arff
+[Note] Discount 0.332 seconds from this build time
+Using temporary file: temp_protein_1551333547132_-59498701129068622.arff
+[Note] Discount 0.314 seconds from this build time
+Using temporary file: temp_protein_1551334093478_1746929754512094162.arff
+[Note] Discount 0.58 seconds from this build time
+Using temporary file: temp_protein_1551334204565_-8995589311738267644.arff
+[Note] Discount 0.295 seconds from this build time
+Using temporary file: temp_protein_1551334228075_2627618420006714031.arff
+[Note] Discount 0.369 seconds from this build time
+Using temporary file: temp_protein_1551334330756_-6786406047068405579.arff
+[Note] Discount 0.386 seconds from this build time
+Using temporary file: temp_protein_1551334361709_-390191939874456427.arff
+[Note] Discount 0.501 seconds from this build time
+Using temporary file: temp_protein_1551334565918_-3632832069336936669.arff
+[Note] Discount 0.376 seconds from this build time
+Using temporary file: temp_protein_1551334575856_2039543411803235600.arff
+[Note] Discount 0.358 seconds from this build time
+Using temporary file: temp_protein_1551334751125_-2527384627290195499.arff
+[Note] Discount 0.381 seconds from this build time
+Using temporary file: temp_protein_1551334759442_-2408918644271853637.arff
+[Note] Discount 0.379 seconds from this build time
+Using temporary file: temp_protein_1551334774872_-6852236919480605161.arff
+[Note] Discount 0.365 seconds from this build time
+Using temporary file: temp_protein_1551335269926_-3493599005871656458.arff
+[Note] Discount 0.347 seconds from this build time
+Using temporary file: temp_protein_1551335510655_-130196686726026551.arff
+[Note] Discount 0.426 seconds from this build time
+Using temporary file: temp_protein_1551335516770_284151815832988629.arff
+[Note] Discount 0.337 seconds from this build time
+Using temporary file: temp_protein_1551335535026_-3092508877766243214.arff
+[Note] Discount 0.444 seconds from this build time
+Using temporary file: temp_protein_1551335609820_-4048137209577229221.arff
+[Note] Discount 0.345 seconds from this build time
+Using temporary file: temp_protein_1551335640565_334156229026621083.arff
+[Note] Discount 0.348 seconds from this build time
+Using temporary file: temp_protein_1551335769503_7174076028287948007.arff
+[Note] Discount 0.371 seconds from this build time
+Using temporary file: temp_protein_1551335847994_1942857257600013914.arff
+[Note] Discount 0.4 seconds from this build time
+Using temporary file: temp_protein_1551335932558_-6558944179507533842.arff
+[Note] Discount 0.378 seconds from this build time
+Using temporary file: temp_protein_1551335971648_5997068171343985196.arff
+[Note] Discount 0.353 seconds from this build time
+Using temporary file: temp_protein_1551336469889_-8404355807357530390.arff
+[Note] Discount 0.338 seconds from this build time
+Using temporary file: temp_protein_1551336501849_-4649285007373772024.arff
+[Note] Discount 0.642 seconds from this build time
+Using temporary file: temp_protein_1551336549015_5341654634577990545.arff
+[Note] Discount 0.379 seconds from this build time
+Using temporary file: temp_protein_1551336659160_8282359692238885552.arff
+[Note] Discount 0.488 seconds from this build time
+Using temporary file: temp_protein_1551336799495_81139181920135242.arff
+[Note] Discount 0.348 seconds from this build time
+Using temporary file: temp_protein_1551336822713_2264101326402011977.arff
+[Note] Discount 0.371 seconds from this build time
+Using temporary file: temp_protein_1551336990922_5024117961264774108.arff
+[Note] Discount 0.363 seconds from this build time
+Using temporary file: temp_protein_1551337155352_8080555923853128750.arff
+[Note] Discount 0.394 seconds from this build time
+Using temporary file: temp_protein_1551337312402_6887933843695998056.arff
+[Note] Discount 0.346 seconds from this build time
+Using temporary file: temp_protein_1551337375859_-879060640046520320.arff
+[Note] Discount 0.403 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 10
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_protein_1551338274647_-1097005763215907431.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_protein_1551338274657_4133136094781571073.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_protein_1551338274667_7352557100187686425.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_protein_1551338274677_-2518034762091200350.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_protein_1551338274683_-3846394447445907386.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_protein_1551338274687_5182718108129282905.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_protein_1551338274693_9108767575255120421.arff
+Using temporary file: temp_protein_1551338274693_6457100290386878904.arff
+Using temporary file: temp_protein_1551338274693_7379294991125336214.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_protein_1551338274697_-4249319482140146245.arff
+[Note] Discount 0.332 seconds from this build time
+[Note] Discount 0.421 seconds from this build time
+[Note] Discount 0.552 seconds from this build time
+[Note] Discount 0.585 seconds from this build time
+[Note] Discount 0.72 seconds from this build time
+[Note] Discount 0.752 seconds from this build time
+[Note] Discount 0.833 seconds from this build time
+[Note] Discount 0.867 seconds from this build time
+[Note] Discount 0.934 seconds from this build time
+[Note] Discount 1.281 seconds from this build time
+Using temporary file: temp_protein_1551339229449_-3281918510377147959.arff
+[Note] Discount 0.366 seconds from this build time
+Using temporary file: temp_protein_1551339309169_-6733634721012216991.arff
+[Note] Discount 0.351 seconds from this build time
+Using temporary file: temp_protein_1551339404671_-2885737938867531024.arff
+[Note] Discount 0.371 seconds from this build time
+Using temporary file: temp_protein_1551339418656_5773861209258422141.arff
+[Note] Discount 0.312 seconds from this build time
+Using temporary file: temp_protein_1551339433835_-1974625306267034315.arff
+[Note] Discount 0.318 seconds from this build time
+Using temporary file: temp_protein_1551339457357_-4653482453440165939.arff
+[Note] Discount 0.331 seconds from this build time
+Using temporary file: temp_protein_1551339479259_-1316284395435733522.arff
+[Note] Discount 0.471 seconds from this build time
+Using temporary file: temp_protein_1551339539882_-8804216815127240629.arff
+[Note] Discount 0.399 seconds from this build time
+Using temporary file: temp_protein_1551339576075_-4217358927821220337.arff
+[Note] Discount 0.344 seconds from this build time
+Using temporary file: temp_protein_1551339607119_-9196302340606355005.arff
+[Note] Discount 0.355 seconds from this build time
+Using temporary file: temp_protein_1551340339219_-5899162848834429728.arff
+[Note] Discount 0.398 seconds from this build time
+Using temporary file: temp_protein_1551340413492_7533238485814795685.arff
+[Note] Discount 0.407 seconds from this build time
+Using temporary file: temp_protein_1551340494270_7733290305614629359.arff
+[Note] Discount 0.34 seconds from this build time
+Using temporary file: temp_protein_1551340525150_-846139316187710692.arff
+[Note] Discount 0.349 seconds from this build time
+Using temporary file: temp_protein_1551340587101_9095368021391309383.arff
+[Note] Discount 0.355 seconds from this build time
+Using temporary file: temp_protein_1551340589648_-2967224915421871778.arff
+[Note] Discount 0.39 seconds from this build time
+Using temporary file: temp_protein_1551340606742_7254962631710954721.arff
+[Note] Discount 0.41 seconds from this build time
+Using temporary file: temp_protein_1551340614521_6793401398405262149.arff
+[Note] Discount 0.343 seconds from this build time
+Using temporary file: temp_protein_1551340632058_1201529694088245850.arff
+[Note] Discount 0.332 seconds from this build time
+Using temporary file: temp_protein_1551340720907_5532952485145980959.arff
+[Note] Discount 0.338 seconds from this build time
+Using temporary file: temp_protein_1551341457229_2024664981644741606.arff
+[Note] Discount 0.502 seconds from this build time
+Using temporary file: temp_protein_1551341464829_-6530648074260099647.arff
+[Note] Discount 0.401 seconds from this build time
+Using temporary file: temp_protein_1551341506540_-4928655234943867516.arff
+[Note] Discount 0.551 seconds from this build time
+Using temporary file: temp_protein_1551341629277_5279521211330043874.arff
+[Note] Discount 0.56 seconds from this build time
+Using temporary file: temp_protein_1551341684372_2792153090653267827.arff
+[Note] Discount 0.415 seconds from this build time
+Using temporary file: temp_protein_1551341708019_-5372335893304371035.arff
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_protein_1551341749899_2048383389135330019.arff
+[Note] Discount 0.591 seconds from this build time
+Using temporary file: temp_protein_1551341752550_-3405076185054269833.arff
+[Note] Discount 0.464 seconds from this build time
+Using temporary file: temp_protein_1551341870073_-6611556569430131216.arff
+[Note] Discount 0.396 seconds from this build time
+Using temporary file: temp_protein_1551341881510_5841240469633028891.arff
+[Note] Discount 0.472 seconds from this build time
+Using temporary file: temp_protein_1551342601618_77658900226073291.arff
+[Note] Discount 0.536 seconds from this build time
+Using temporary file: temp_protein_1551342698164_-5563207846571128830.arff
+[Note] Discount 0.515 seconds from this build time
+Using temporary file: temp_protein_1551342713031_-8502925117122032071.arff
+[Note] Discount 0.389 seconds from this build time
+Using temporary file: temp_protein_1551342783505_6938172056849572831.arff
+[Note] Discount 0.418 seconds from this build time
+Using temporary file: temp_protein_1551342803097_7355433967703345473.arff
+[Note] Discount 0.358 seconds from this build time
+Using temporary file: temp_protein_1551342896001_7563099806678621563.arff
+[Note] Discount 0.368 seconds from this build time
+Using temporary file: temp_protein_1551342932181_-3396538087577527775.arff
+[Note] Discount 0.369 seconds from this build time
+Using temporary file: temp_protein_1551342943376_-2327702443608084539.arff
+[Note] Discount 0.348 seconds from this build time
+Using temporary file: temp_protein_1551342950681_-477977023812478847.arff
+[Note] Discount 0.532 seconds from this build time
+Using temporary file: temp_protein_1551343032572_-6908225219179713748.arff
+[Note] Discount 0.375 seconds from this build time
+Using temporary file: temp_protein_1551343680955_-2303663630602022677.arff
+[Note] Discount 0.436 seconds from this build time
+Using temporary file: temp_protein_1551343744539_3521544346581895217.arff
+[Note] Discount 0.34 seconds from this build time
+Using temporary file: temp_protein_1551343748354_-438253234286220423.arff
+[Note] Discount 0.339 seconds from this build time
+Using temporary file: temp_protein_1551343901352_-4622677873734906057.arff
+[Note] Discount 0.368 seconds from this build time
+Using temporary file: temp_protein_1551343940435_4346266601924037071.arff
+[Note] Discount 0.352 seconds from this build time
+Using temporary file: temp_protein_1551343990154_-5491028707056506467.arff
+[Note] Discount 0.372 seconds from this build time
+Using temporary file: temp_protein_1551343996063_8968188012354080843.arff
+[Note] Discount 0.348 seconds from this build time
+Using temporary file: temp_protein_1551343999683_947751869731336206.arff
+[Note] Discount 0.421 seconds from this build time
+Using temporary file: temp_protein_1551344124122_8599333797261938299.arff
+[Note] Discount 0.399 seconds from this build time
+Using temporary file: temp_protein_1551344180563_4538861931719887383.arff
+[Note] Discount 0.377 seconds from this build time
+Using temporary file: temp_protein_1551344675952_1576771593856367311.arff
+[Note] Discount 0.313 seconds from this build time
+Using temporary file: temp_protein_1551344720823_6402536377009844985.arff
+[Note] Discount 0.26 seconds from this build time
+Using temporary file: temp_protein_1551344738380_-7620299888477244017.arff
+[Note] Discount 0.328 seconds from this build time
+Using temporary file: temp_protein_1551344837582_4779578432549631936.arff
+[Note] Discount 0.316 seconds from this build time
+Using temporary file: temp_protein_1551344841864_-6041162341894895858.arff
+[Note] Discount 0.272 seconds from this build time
+Using temporary file: temp_protein_1551344851580_-8981219920786570605.arff
+[Note] Discount 0.297 seconds from this build time
+Using temporary file: temp_protein_1551344876912_-6056044350698779360.arff
+[Note] Discount 0.334 seconds from this build time
+Using temporary file: temp_protein_1551344881945_2224303397774919502.arff
+[Note] Discount 0.581 seconds from this build time
+Using temporary file: temp_protein_1551344946920_-5271706449293669432.arff
+[Note] Discount 0.329 seconds from this build time
+Using temporary file: temp_protein_1551344962280_-9045467014899653299.arff
+[Note] Discount 0.331 seconds from this build time
+Using temporary file: temp_protein_1551345388414_3393477915573605686.arff
+[Note] Discount 0.337 seconds from this build time
+Using temporary file: temp_protein_1551345413027_-8927384624221007222.arff
+[Note] Discount 0.348 seconds from this build time
+Using temporary file: temp_protein_1551345450127_-8617310050245296913.arff
+[Note] Discount 0.262 seconds from this build time
+Using temporary file: temp_protein_1551345459124_-21047075962051606.arff
+[Note] Discount 0.323 seconds from this build time
+Using temporary file: temp_protein_1551345514396_-6334218353576818099.arff
+[Note] Discount 0.258 seconds from this build time
+Using temporary file: temp_protein_1551345580449_8180276972282283731.arff
+[Note] Discount 0.294 seconds from this build time
+Using temporary file: temp_protein_1551345622238_5920754926470356522.arff
+[Note] Discount 0.242 seconds from this build time
+Using temporary file: temp_protein_1551345631102_1740667787022581761.arff
+[Note] Discount 0.288 seconds from this build time
+Using temporary file: temp_protein_1551345660070_-5755219441248174120.arff
+Using temporary file: temp_protein_1551345660322_-3362740203718507622.arff
+[Note] Discount 0.287 seconds from this build time
+[Note] Discount 0.264 seconds from this build time
+Using temporary file: temp_protein_1551346094280_8382917712018146643.arff
+[Note] Discount 0.272 seconds from this build time
+Using temporary file: temp_protein_1551346117268_4672872193483635327.arff
+[Note] Discount 0.281 seconds from this build time
+Using temporary file: temp_protein_1551346123285_-2461866366162597191.arff
+[Note] Discount 0.296 seconds from this build time
+Using temporary file: temp_protein_1551346141031_9205570043268057316.arff
+[Note] Discount 0.288 seconds from this build time
+Using temporary file: temp_protein_1551346185893_6093878654543686905.arff
+[Note] Discount 0.298 seconds from this build time
+Using temporary file: temp_protein_1551346259576_-3087317153297012190.arff
+[Note] Discount 0.486 seconds from this build time
+Using temporary file: temp_protein_1551346274775_2955545346353347531.arff
+[Note] Discount 0.267 seconds from this build time
+Using temporary file: temp_protein_1551346292920_-555757723787266613.arff
+[Note] Discount 0.282 seconds from this build time
+Using temporary file: temp_protein_1551346330370_7285447829679134431.arff
+[Note] Discount 0.245 seconds from this build time
+Using temporary file: temp_protein_1551346353602_6828655992224817663.arff
+[Note] Discount 0.237 seconds from this build time
+Using temporary file: temp_protein_1551346756738_-9021935719278695847.arff
+[Note] Discount 0.279 seconds from this build time
+Using temporary file: temp_protein_1551346790883_-3403651146605291779.arff
+[Note] Discount 0.275 seconds from this build time
+Using temporary file: temp_protein_1551346797086_4552972619979767419.arff
+[Note] Discount 0.278 seconds from this build time
+Using temporary file: temp_protein_1551346810266_4120192098860034044.arff
+[Note] Discount 0.311 seconds from this build time
+Using temporary file: temp_protein_1551346871405_-2603537720692765021.arff
+[Note] Discount 0.295 seconds from this build time
+Using temporary file: temp_protein_1551346933041_-6905842855786298053.arff
+[Note] Discount 0.27 seconds from this build time
+Using temporary file: temp_protein_1551346945139_-5510519875402736776.arff
+[Note] Discount 0.267 seconds from this build time
+Using temporary file: temp_protein_1551346948924_-3690009272737088681.arff
+[Note] Discount 0.282 seconds from this build time
+Using temporary file: temp_protein_1551346967590_-7577266892292166560.arff
+[Note] Discount 0.269 seconds from this build time
+Using temporary file: temp_protein_1551346987410_-1336145727587183653.arff
+[Note] Discount 0.306 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[STATISTICS] #100
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: Writing 100 statistics to: mekaexp.txt
+[STAGE] FINISH
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #1: meka.experiment.statisticsexporters.SimpleAggregate2
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-agg11.tsv
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #2: meka.experiment.statisticsexporters.TabSeparated
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-full11.tsv

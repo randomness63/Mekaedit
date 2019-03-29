@@ -1,0 +1,221 @@
+[STAGE] INITIALIZING
+[LOG] meka.experiment.DefaultExperiment: Turned off incremental mode for meka.experiment.evaluationstatistics.KeyValuePairs to make use of multi-threading!
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: File 'mekaexp.txt' exists, loading...
+[STAGE] RUNNING
+[LOG] meka.experiment.datasetproviders.MultiDatasetProvider: Dataset provider #1
+[LOG] meka.experiment.datasetproviders.LocalDatasetProvider: Loading: data/20ng.arff
+[LOG] meka.experiment.DefaultExperiment: Using dataset: 20NG: -C 20
+[ITERATION] meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD -W weka.classifiers.trees.J48 -- -C 0.25 -M 2 --> 20NG: -C 20
+[LOG] meka.experiment.DefaultExperiment: Using classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Number of threads (1 = sequential): 1
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 1
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_20NG_1551619997942_-4962768465676381896.arff
+Using temporary file: temp_20NG_1551619997946_4437113781045784766.arff
+Using temporary file: temp_20NG_1551619997953_-6688467811848818630.arff
+Using temporary file: temp_20NG_1551619997954_-8292973307042192125.arff
+Using temporary file: temp_20NG_1551619997954_-7423979211207825555.arff
+Using temporary file: temp_20NG_1551619997956_6146794652083548235.arff
+Using temporary file: temp_20NG_1551619997958_7105486291024734541.arff
+Using temporary file: temp_20NG_1551619997959_-279624296851435688.arff
+Using temporary file: temp_20NG_1551619997959_-2228689144322150137.arff
+Using temporary file: temp_20NG_1551619997962_-1083761183081836303.arff
+[Note] Discount 2.327 seconds from this build time
+[Note] Discount 2.464 seconds from this build time
+[Note] Discount 2.447 seconds from this build time
+[Note] Discount 2.459 seconds from this build time
+[Note] Discount 2.465 seconds from this build time
+[Note] Discount 2.464 seconds from this build time
+[Note] Discount 2.474 seconds from this build time
+[Note] Discount 2.472 seconds from this build time
+[Note] Discount 2.491 seconds from this build time
+[Note] Discount 2.486 seconds from this build time
+Using temporary file: temp_20NG_1551629699962_5072005423257391728.arff
+[Note] Discount 0.875 seconds from this build time
+Using temporary file: temp_20NG_1551629746745_2377732757510138102.arff
+[Note] Discount 0.666 seconds from this build time
+Using temporary file: temp_20NG_1551629803667_2704323167362897208.arff
+[Note] Discount 0.916 seconds from this build time
+Using temporary file: temp_20NG_1551629880406_428667830982598836.arff
+[Note] Discount 1.055 seconds from this build time
+Using temporary file: temp_20NG_1551629888161_-8361175665883705505.arff
+[Note] Discount 0.804 seconds from this build time
+Using temporary file: temp_20NG_1551629894282_-655101936082782086.arff
+[Note] Discount 0.642 seconds from this build time
+Using temporary file: temp_20NG_1551630036923_1927512926176735975.arff
+[Note] Discount 0.883 seconds from this build time
+Using temporary file: temp_20NG_1551630038348_-6914829020992303508.arff
+[Note] Discount 0.648 seconds from this build time
+Using temporary file: temp_20NG_1551630081487_7577852396602278602.arff
+[Note] Discount 0.687 seconds from this build time
+Using temporary file: temp_20NG_1551630127941_-4126310024944755050.arff
+[Note] Discount 0.922 seconds from this build time
+Using temporary file: temp_20NG_1551639664143_-171134583860878546.arff
+[Note] Discount 0.688 seconds from this build time
+Using temporary file: temp_20NG_1551639903593_8987859488885190724.arff
+[Note] Discount 0.84 seconds from this build time
+Using temporary file: temp_20NG_1551639908508_-4681020001986070314.arff
+[Note] Discount 0.826 seconds from this build time
+Using temporary file: temp_20NG_1551639996594_-4922475540349336432.arff
+[Note] Discount 0.739 seconds from this build time
+Using temporary file: temp_20NG_1551640005772_-3370274031255729188.arff
+[Note] Discount 0.594 seconds from this build time
+Using temporary file: temp_20NG_1551640040620_-2971948390163211717.arff
+[Note] Discount 0.722 seconds from this build time
+Using temporary file: temp_20NG_1551640058851_-8730854458729406051.arff
+[Note] Discount 0.621 seconds from this build time
+Using temporary file: temp_20NG_1551640066220_-1856941488587171136.arff
+[Note] Discount 0.625 seconds from this build time
+Using temporary file: temp_20NG_1551640143437_2470753881526567411.arff
+[Note] Discount 0.661 seconds from this build time
+Using temporary file: temp_20NG_1551640242082_1532230816302433446.arff
+[Note] Discount 0.79 seconds from this build time
+Using temporary file: temp_20NG_1551649802688_-395233716872471639.arff
+[Note] Discount 0.866 seconds from this build time
+Using temporary file: temp_20NG_1551649936556_-5121607137339136235.arff
+[Note] Discount 0.755 seconds from this build time
+Using temporary file: temp_20NG_1551649939467_-5256749969541153749.arff
+[Note] Discount 0.81 seconds from this build time
+Using temporary file: temp_20NG_1551650135584_2641949932817367724.arff
+[Note] Discount 0.682 seconds from this build time
+Using temporary file: temp_20NG_1551650160690_8540064508133314173.arff
+[Note] Discount 0.783 seconds from this build time
+Using temporary file: temp_20NG_1551650230883_82744587931001745.arff
+[Note] Discount 0.85 seconds from this build time
+Using temporary file: temp_20NG_1551650406600_1318911071456810350.arff
+[Note] Discount 0.735 seconds from this build time
+Using temporary file: temp_20NG_1551650445705_6427218635535763657.arff
+[Note] Discount 0.689 seconds from this build time
+Using temporary file: temp_20NG_1551650544990_6249197149364475148.arff
+[Note] Discount 0.576 seconds from this build time
+Using temporary file: temp_20NG_1551650806831_-2594413761814090552.arff
+[Note] Discount 0.745 seconds from this build time
+Using temporary file: temp_20NG_1551659478314_-524865453008036006.arff
+[Note] Discount 0.719 seconds from this build time
+Using temporary file: temp_20NG_1551659506390_-2476551425607728309.arff
+[Note] Discount 0.657 seconds from this build time
+Using temporary file: temp_20NG_1551659809904_-7146617210012600256.arff
+[Note] Discount 0.709 seconds from this build time
+Using temporary file: temp_20NG_1551659905708_3301745707726569574.arff
+[Note] Discount 0.726 seconds from this build time
+Using temporary file: temp_20NG_1551659952677_4013465704250623170.arff
+[Note] Discount 0.649 seconds from this build time
+Using temporary file: temp_20NG_1551660015653_-2684237951282348840.arff
+[Note] Discount 0.709 seconds from this build time
+Using temporary file: temp_20NG_1551660207341_178444451137370484.arff
+[Note] Discount 0.684 seconds from this build time
+Using temporary file: temp_20NG_1551660274258_-5676192111176512602.arff
+[Note] Discount 0.756 seconds from this build time
+Using temporary file: temp_20NG_1551660318555_-4218531399638172627.arff
+[Note] Discount 0.688 seconds from this build time
+Using temporary file: temp_20NG_1551661104336_-5299981419733330714.arff
+[Note] Discount 0.688 seconds from this build time
+Using temporary file: temp_20NG_1551669562160_3896605098068159738.arff
+[Note] Discount 0.487 seconds from this build time
+Using temporary file: temp_20NG_1551669904229_-4001237302722672165.arff
+[Note] Discount 0.528 seconds from this build time
+Using temporary file: temp_20NG_1551669939488_-1008423794855048618.arff
+[Note] Discount 0.844 seconds from this build time
+Using temporary file: temp_20NG_1551669981724_262614321976477250.arff
+[Note] Discount 0.614 seconds from this build time
+Using temporary file: temp_20NG_1551670019697_7271772087391691927.arff
+[Note] Discount 0.917 seconds from this build time
+Using temporary file: temp_20NG_1551670156428_-2697084138585034005.arff
+[Note] Discount 0.713 seconds from this build time
+Using temporary file: temp_20NG_1551670239211_-3946820249469283158.arff
+[Note] Discount 0.605 seconds from this build time
+Using temporary file: temp_20NG_1551670285400_-120421011786498678.arff
+[Note] Discount 0.863 seconds from this build time
+Using temporary file: temp_20NG_1551670314817_-2156342973769225726.arff
+[Note] Discount 0.772 seconds from this build time
+Using temporary file: temp_20NG_1551671216705_3141324392123627982.arff
+[Note] Discount 0.512 seconds from this build time
+Using temporary file: temp_20NG_1551679743870_-699704949712600115.arff
+[Note] Discount 0.833 seconds from this build time
+Using temporary file: temp_20NG_1551680142256_-5085859045495963725.arff
+[Note] Discount 0.687 seconds from this build time
+Using temporary file: temp_20NG_1551680328741_-5951765205669983896.arff
+[Note] Discount 0.662 seconds from this build time
+Using temporary file: temp_20NG_1551680622417_-3608267860102554860.arff
+[Note] Discount 0.81 seconds from this build time
+Using temporary file: temp_20NG_1551680712883_8142886840698975765.arff
+[Note] Discount 0.603 seconds from this build time
+Using temporary file: temp_20NG_1551680766578_8524019115140866179.arff
+[Note] Discount 0.719 seconds from this build time
+Using temporary file: temp_20NG_1551680999088_-2714853971147396117.arff
+[Note] Discount 0.709 seconds from this build time
+Using temporary file: temp_20NG_1551681010062_-9189524968491074724.arff
+[Note] Discount 0.811 seconds from this build time
+Using temporary file: temp_20NG_1551681042211_-148625824714636787.arff
+[Note] Discount 0.775 seconds from this build time
+Using temporary file: temp_20NG_1551681930337_-566870006298343145.arff
+[Note] Discount 0.83 seconds from this build time
+Using temporary file: temp_20NG_1551689915531_6513657358736753182.arff
+[Note] Discount 0.67 seconds from this build time
+Using temporary file: temp_20NG_1551690371809_871901303891580382.arff
+[Note] Discount 0.707 seconds from this build time
+Using temporary file: temp_20NG_1551690426060_1321222800296200436.arff
+[Note] Discount 0.605 seconds from this build time
+Using temporary file: temp_20NG_1551690644048_536938910405906015.arff
+[Note] Discount 0.709 seconds from this build time
+Using temporary file: temp_20NG_1551690747771_8922140309403778699.arff
+[Note] Discount 0.735 seconds from this build time
+Using temporary file: temp_20NG_1551690854335_-517428980255835422.arff
+[Note] Discount 0.566 seconds from this build time
+Using temporary file: temp_20NG_1551690916669_-200753079219431109.arff
+[Note] Discount 0.693 seconds from this build time
+Using temporary file: temp_20NG_1551690946808_-4289936086616402019.arff
+[Note] Discount 0.785 seconds from this build time
+Using temporary file: temp_20NG_1551691034091_-9197595427105923027.arff
+[Note] Discount 0.713 seconds from this build time
+Using temporary file: temp_20NG_1551691848431_4713610129296514631.arff
+[Note] Discount 0.621 seconds from this build time
+Using temporary file: temp_20NG_1551699219360_5702961989472887051.arff
+[Note] Discount 0.587 seconds from this build time
+Using temporary file: temp_20NG_1551699631440_-2798730738562476822.arff
+[Note] Discount 0.575 seconds from this build time
+Using temporary file: temp_20NG_1551699659333_960790331024379126.arff
+[Note] Discount 0.604 seconds from this build time
+Using temporary file: temp_20NG_1551699808825_187704103329199613.arff
+[Note] Discount 0.52 seconds from this build time
+Using temporary file: temp_20NG_1551699873742_6527434954307481789.arff
+[Note] Discount 0.4 seconds from this build time
+Using temporary file: temp_20NG_1551699930575_1600030782373250481.arff
+[Note] Discount 0.469 seconds from this build time
+Using temporary file: temp_20NG_1551699931445_-2761265137076421558.arff
+[Note] Discount 0.55 seconds from this build time
+Using temporary file: temp_20NG_1551699932616_67826697947916427.arff
+[Note] Discount 0.6 seconds from this build time
+Using temporary file: temp_20NG_1551700114434_5679626435595832671.arff
+[Note] Discount 0.538 seconds from this build time
+Using temporary file: temp_20NG_1551700583912_-8640296913357041870.arff
+[Note] Discount 0.623 seconds from this build time
+Using temporary file: temp_20NG_1551705359791_-1497613613979078270.arff
+[Note] Discount 0.331 seconds from this build time
+Using temporary file: temp_20NG_1551705763816_5113622237409872778.arff
+[Note] Discount 3.402 seconds from this build time
+Using temporary file: temp_20NG_1551705809709_-2319452971287571658.arff
+[Note] Discount 0.529 seconds from this build time
+Using temporary file: temp_20NG_1551705947675_-7196415781697772800.arff
+[Note] Discount 0.477 seconds from this build time
+Using temporary file: temp_20NG_1551705955945_-1685308985507641749.arff
+[Note] Discount 0.686 seconds from this build time
+Using temporary file: temp_20NG_1551705973686_820707025409634855.arff
+[Note] Discount 0.558 seconds from this build time
+Using temporary file: temp_20NG_1551705989298_-6516793691191662538.arff
+[Note] Discount 0.419 seconds from this build time
+Using temporary file: temp_20NG_1551706060783_9164411834808661380.arff
+[Note] Discount 0.623 seconds from this build time
+Using temporary file: temp_20NG_1551706166656_-9099749510027196988.arff
+[Note] Discount 0.311 seconds from this build time
+=>> PBS: job killed: walltime 86506 exceeded limit 86400

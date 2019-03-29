@@ -1,0 +1,124 @@
+Setup:
+meka.experiment.DefaultExperiment -C "meka.classifiers.multilabel.MULANedit -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2" -D "meka.experiment.datasetproviders.MultiDatasetProvider -provider \"meka.experiment.datasetproviders.LocalDatasetProvider -dataset data/Scene.arff\"" -E "meka.experiment.evaluators.RepeatedRuns -base \"meka.experiment.evaluators.CrossValidation -F 10 -S 0 -T PCut1 -V 3 -num-threads -1\" -lower 1 -upper 10 -num-threads 1" -S "meka.experiment.evaluationstatistics.KeyValuePairs -F mekaexp.txt"
+
+initialize: null
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+run: null
+finish: null
+meka.experiment.statisticsexporters.MultiExporter -exporter "meka.experiment.statisticsexporters.SimpleAggregate2 -base \"meka.experiment.statisticsexporters.TabSeparated -F mekaexp-agg4.tsv\" -key \"Classifier Relation\" -suffix-count -Count -suffix-mean -suffix-stddev \" (stdev)\" -skip-count" -exporter "meka.experiment.statisticsexporters.TabSeparated -F mekaexp-full4.tsv"
+export: null
+======================================================================================
+
+			Resource Usage on 2019-02-25 00:06:59.300706:
+
+	JobId: 8230195.wlm01  
+	Project: personal-e0002864 
+	Exit Status: 0
+	NCPUs Requested: 1				NCPUs Used: 1
+							CPU Time Used: 02:57:23
+	Memory Requested: 100663296kb 				Memory Used: 11587132kb
+							Vmem Used: 37484068kb
+	Walltime requested: 01:00:00 			Walltime Used: 00:57:17
+	
+	Execution Nodes Used: (std1708:ncpus=1)
+	
+ ======================================================================================

@@ -1,0 +1,2237 @@
+[STAGE] INITIALIZING
+[LOG] meka.experiment.DefaultExperiment: Turned off incremental mode for meka.experiment.evaluationstatistics.KeyValuePairs to make use of multi-threading!
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: File 'mekaexp.txt' exists, loading...
+[STAGE] RUNNING
+[LOG] meka.experiment.datasetproviders.MultiDatasetProvider: Dataset provider #1
+[LOG] meka.experiment.datasetproviders.LocalDatasetProvider: Loading: data/Yeast.arff
+[LOG] meka.experiment.DefaultExperiment: Using dataset: Yeast: -C 14 -split-number 1500
+[ITERATION] meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD3b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2 --> Yeast: -C 14 -split-number 1500
+[LOG] meka.experiment.DefaultExperiment: Using classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD3b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Number of threads (1 = sequential): 1
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 1
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550848083203_-4962768465676381896.arff
+Using temporary file: temp_Yeast_1550848083213_4437113781045784766.arff
+Using temporary file: temp_Yeast_1550848083213_-6688467811848818630.arff
+Using temporary file: temp_Yeast_1550848083214_-8292973307042192125.arff
+Using temporary file: temp_Yeast_1550848083215_-7423979211207825555.arff
+Using temporary file: temp_Yeast_1550848083215_6146794652083548235.arff
+Using temporary file: temp_Yeast_1550848083216_7105486291024734541.arff
+Using temporary file: temp_Yeast_1550848083228_-279624296851435688.arff
+Using temporary file: temp_Yeast_1550848083262_-2228689144322150137.arff
+Using temporary file: temp_Yeast_1550848083267_-1083761183081836303.arff
+[Note] Discount 7.722 seconds from this build time
+[Note] Discount 7.762 seconds from this build time
+[Note] Discount 7.931 seconds from this build time
+[Note] Discount 7.93 seconds from this build time
+[Note] Discount 7.937 seconds from this build time
+[Note] Discount 7.936 seconds from this build time
+[Note] Discount 7.925 seconds from this build time
+[Note] Discount 7.946 seconds from this build time
+[Note] Discount 7.963 seconds from this build time
+[Note] Discount 7.934 seconds from this build time
+Using temporary file: temp_Yeast_1550848168979_5072005423257391728.arff
+[Note] Discount 0.543 seconds from this build time
+Using temporary file: temp_Yeast_1550848170918_2377732757510138102.arff
+[Note] Discount 0.543 seconds from this build time
+Using temporary file: temp_Yeast_1550848171890_2704323167362897208.arff
+Using temporary file: temp_Yeast_1550848172295_428667830982598836.arff
+Using temporary file: temp_Yeast_1550848172414_-8361175665883705505.arff
+[Note] Discount 0.615 seconds from this build time
+[Note] Discount 0.441 seconds from this build time
+Using temporary file: temp_Yeast_1550848172994_-655101936082782086.arff
+[Note] Discount 0.583 seconds from this build time
+Using temporary file: temp_Yeast_1550848173013_1927512926176735975.arff
+Using temporary file: temp_Yeast_1550848173110_-6914829020992303508.arff
+Using temporary file: temp_Yeast_1550848173148_7577852396602278602.arff
+[Note] Discount 0.668 seconds from this build time
+[Note] Discount 0.662 seconds from this build time
+Using temporary file: temp_Yeast_1550848173807_-4126310024944755050.arff
+[Note] Discount 0.708 seconds from this build time
+[Note] Discount 0.871 seconds from this build time
+[Note] Discount 0.504 seconds from this build time
+Using temporary file: temp_Yeast_1550848239863_-171134583860878546.arff
+[Note] Discount 0.508 seconds from this build time
+Using temporary file: temp_Yeast_1550848241698_8987859488885190724.arff
+Using temporary file: temp_Yeast_1550848241880_-4681020001986070314.arff
+[Note] Discount 0.464 seconds from this build time
+[Note] Discount 0.446 seconds from this build time
+Using temporary file: temp_Yeast_1550848243185_-4922475540349336432.arff
+Using temporary file: temp_Yeast_1550848243604_-3370274031255729188.arff
+Using temporary file: temp_Yeast_1550848243660_-2971948390163211717.arff
+[Note] Discount 0.501 seconds from this build time
+[Note] Discount 0.528 seconds from this build time
+[Note] Discount 0.476 seconds from this build time
+Using temporary file: temp_Yeast_1550848245300_-8730854458729406051.arff
+[Note] Discount 0.471 seconds from this build time
+Using temporary file: temp_Yeast_1550848246646_-1856941488587171136.arff
+Using temporary file: temp_Yeast_1550848246840_2470753881526567411.arff
+[Note] Discount 0.529 seconds from this build time
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_Yeast_1550848247485_1532230816302433446.arff
+[Note] Discount 0.436 seconds from this build time
+Using temporary file: temp_Yeast_1550848308691_-395233716872471639.arff
+[Note] Discount 0.485 seconds from this build time
+Using temporary file: temp_Yeast_1550848310085_-5121607137339136235.arff
+[Note] Discount 0.44 seconds from this build time
+Using temporary file: temp_Yeast_1550848311238_-5256749969541153749.arff
+[Note] Discount 0.474 seconds from this build time
+Using temporary file: temp_Yeast_1550848312618_2641949932817367724.arff
+[Note] Discount 0.492 seconds from this build time
+Using temporary file: temp_Yeast_1550848315022_8540064508133314173.arff
+Using temporary file: temp_Yeast_1550848315249_82744587931001745.arff
+[Note] Discount 0.534 seconds from this build time
+[Note] Discount 0.532 seconds from this build time
+Using temporary file: temp_Yeast_1550848315823_1318911071456810350.arff
+[Note] Discount 0.56 seconds from this build time
+Using temporary file: temp_Yeast_1550848316708_6427218635535763657.arff
+Using temporary file: temp_Yeast_1550848316794_6249197149364475148.arff
+[Note] Discount 0.503 seconds from this build time
+[Note] Discount 0.636 seconds from this build time
+Using temporary file: temp_Yeast_1550848317989_-2594413761814090552.arff
+[Note] Discount 0.582 seconds from this build time
+Using temporary file: temp_Yeast_1550848379088_-524865453008036006.arff
+[Note] Discount 0.514 seconds from this build time
+Using temporary file: temp_Yeast_1550848380074_-2476551425607728309.arff
+[Note] Discount 0.496 seconds from this build time
+Using temporary file: temp_Yeast_1550848381881_-7146617210012600256.arff
+[Note] Discount 0.531 seconds from this build time
+Using temporary file: temp_Yeast_1550848384349_3301745707726569574.arff
+[Note] Discount 0.511 seconds from this build time
+Using temporary file: temp_Yeast_1550848387324_4013465704250623170.arff
+Using temporary file: temp_Yeast_1550848387408_-2684237951282348840.arff
+Using temporary file: temp_Yeast_1550848387623_178444451137370484.arff
+[Note] Discount 0.372 seconds from this build time
+[Note] Discount 0.507 seconds from this build time
+[Note] Discount 0.508 seconds from this build time
+Using temporary file: temp_Yeast_1550848388459_-5676192111176512602.arff
+[Note] Discount 0.616 seconds from this build time
+Using temporary file: temp_Yeast_1550848389991_-4218531399638172627.arff
+[Note] Discount 0.51 seconds from this build time
+Using temporary file: temp_Yeast_1550848391909_-5299981419733330714.arff
+[Note] Discount 0.642 seconds from this build time
+Using temporary file: temp_Yeast_1550848459614_3896605098068159738.arff
+[Note] Discount 0.516 seconds from this build time
+Using temporary file: temp_Yeast_1550848461902_-4001237302722672165.arff
+[Note] Discount 0.652 seconds from this build time
+Using temporary file: temp_Yeast_1550848463278_-1008423794855048618.arff
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_Yeast_1550848466926_262614321976477250.arff
+Using temporary file: temp_Yeast_1550848466986_7271772087391691927.arff
+[Note] Discount 0.55 seconds from this build time
+[Note] Discount 0.618 seconds from this build time
+Using temporary file: temp_Yeast_1550848468388_-2697084138585034005.arff
+[Note] Discount 0.513 seconds from this build time
+Using temporary file: temp_Yeast_1550848468979_-3946820249469283158.arff
+[Note] Discount 0.837 seconds from this build time
+Using temporary file: temp_Yeast_1550848470006_-120421011786498678.arff
+Using temporary file: temp_Yeast_1550848470120_-2156342973769225726.arff
+[Note] Discount 0.55 seconds from this build time
+[Note] Discount 0.622 seconds from this build time
+Using temporary file: temp_Yeast_1550848472383_3141324392123627982.arff
+[Note] Discount 0.529 seconds from this build time
+Using temporary file: temp_Yeast_1550848538561_-699704949712600115.arff
+[Note] Discount 0.49 seconds from this build time
+Using temporary file: temp_Yeast_1550848544568_-5085859045495963725.arff
+Using temporary file: temp_Yeast_1550848544937_-5951765205669983896.arff
+[Note] Discount 0.513 seconds from this build time
+[Note] Discount 0.628 seconds from this build time
+Using temporary file: temp_Yeast_1550848545619_-3608267860102554860.arff
+Using temporary file: temp_Yeast_1550848546110_8142886840698975765.arff
+[Note] Discount 0.523 seconds from this build time
+Using temporary file: temp_Yeast_1550848546424_8524019115140866179.arff
+[Note] Discount 0.506 seconds from this build time
+[Note] Discount 0.496 seconds from this build time
+Using temporary file: temp_Yeast_1550848549343_-2714853971147396117.arff
+[Note] Discount 0.509 seconds from this build time
+Using temporary file: temp_Yeast_1550848551428_-9189524968491074724.arff
+Using temporary file: temp_Yeast_1550848551909_-148625824714636787.arff
+[Note] Discount 0.533 seconds from this build time
+Using temporary file: temp_Yeast_1550848552146_-566870006298343145.arff
+[Note] Discount 0.517 seconds from this build time
+[Note] Discount 0.506 seconds from this build time
+Using temporary file: temp_Yeast_1550848617633_6513657358736753182.arff
+[Note] Discount 0.581 seconds from this build time
+Using temporary file: temp_Yeast_1550848623231_871901303891580382.arff
+[Note] Discount 0.524 seconds from this build time
+Using temporary file: temp_Yeast_1550848624907_1321222800296200436.arff
+[Note] Discount 0.496 seconds from this build time
+Using temporary file: temp_Yeast_1550848626207_536938910405906015.arff
+[Note] Discount 0.429 seconds from this build time
+Using temporary file: temp_Yeast_1550848627212_8922140309403778699.arff
+[Note] Discount 0.489 seconds from this build time
+Using temporary file: temp_Yeast_1550848628958_-517428980255835422.arff
+[Note] Discount 0.554 seconds from this build time
+Using temporary file: temp_Yeast_1550848631771_-200753079219431109.arff
+Using temporary file: temp_Yeast_1550848632196_-4289936086616402019.arff
+[Note] Discount 0.51 seconds from this build time
+Using temporary file: temp_Yeast_1550848632572_-9197595427105923027.arff
+[Note] Discount 0.549 seconds from this build time
+[Note] Discount 0.518 seconds from this build time
+Using temporary file: temp_Yeast_1550848633757_4713610129296514631.arff
+[Note] Discount 0.413 seconds from this build time
+Using temporary file: temp_Yeast_1550848697714_5702961989472887051.arff
+[Note] Discount 0.498 seconds from this build time
+Using temporary file: temp_Yeast_1550848705337_-2798730738562476822.arff
+Using temporary file: temp_Yeast_1550848705625_960790331024379126.arff
+Using temporary file: temp_Yeast_1550848705661_187704103329199613.arff
+[Note] Discount 0.534 seconds from this build time
+[Note] Discount 0.497 seconds from this build time
+[Note] Discount 0.494 seconds from this build time
+Using temporary file: temp_Yeast_1550848709126_6527434954307481789.arff
+[Note] Discount 0.484 seconds from this build time
+Using temporary file: temp_Yeast_1550848709745_1600030782373250481.arff
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_Yeast_1550848712536_-2761265137076421558.arff
+[Note] Discount 0.605 seconds from this build time
+Using temporary file: temp_Yeast_1550848713328_67826697947916427.arff
+Using temporary file: temp_Yeast_1550848713553_5679626435595832671.arff
+[Note] Discount 0.508 seconds from this build time
+[Note] Discount 0.513 seconds from this build time
+Using temporary file: temp_Yeast_1550848716797_-8640296913357041870.arff
+[Note] Discount 0.419 seconds from this build time
+Using temporary file: temp_Yeast_1550848777197_-1497613613979078270.arff
+[Note] Discount 0.593 seconds from this build time
+Using temporary file: temp_Yeast_1550848783646_5113622237409872778.arff
+[Note] Discount 0.506 seconds from this build time
+Using temporary file: temp_Yeast_1550848786082_-2319452971287571658.arff
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_Yeast_1550848787179_-7196415781697772800.arff
+Using temporary file: temp_Yeast_1550848787471_-1685308985507641749.arff
+[Note] Discount 0.512 seconds from this build time
+[Note] Discount 0.499 seconds from this build time
+Using temporary file: temp_Yeast_1550848788377_820707025409634855.arff
+[Note] Discount 0.494 seconds from this build time
+Using temporary file: temp_Yeast_1550848792436_-6516793691191662538.arff
+[Note] Discount 0.489 seconds from this build time
+Using temporary file: temp_Yeast_1550848793274_9164411834808661380.arff
+[Note] Discount 0.587 seconds from this build time
+Using temporary file: temp_Yeast_1550848794198_-9099749510027196988.arff
+[Note] Discount 0.494 seconds from this build time
+Using temporary file: temp_Yeast_1550848797044_-8841730600804742235.arff
+[Note] Discount 0.5 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 2
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Yeast_1550848871594_6758162953488776844.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Yeast_1550848871617_8810845966659683448.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Yeast_1550848871670_-5460795021784967740.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Yeast_1550848871692_5954014899072946649.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Yeast_1550848871707_214993804815738645.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Yeast_1550848871722_-5514858212339405460.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Yeast_1550848871736_-4697410766453443951.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Yeast_1550848871756_-7244253119129237588.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Yeast_1550848871771_4336492403770078180.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550848871791_7176580044932830276.arff
+[Note] Discount 0.747 seconds from this build time
+[Note] Discount 0.696 seconds from this build time
+[Note] Discount 0.756 seconds from this build time
+[Note] Discount 0.694 seconds from this build time
+[Note] Discount 0.669 seconds from this build time
+[Note] Discount 0.714 seconds from this build time
+[Note] Discount 0.684 seconds from this build time
+[Note] Discount 0.704 seconds from this build time
+[Note] Discount 0.679 seconds from this build time
+[Note] Discount 0.714 seconds from this build time
+Using temporary file: temp_Yeast_1550848946716_-1633120553624586039.arff
+Using temporary file: temp_Yeast_1550848946856_3087783559322503069.arff
+[Note] Discount 0.475 seconds from this build time
+Using temporary file: temp_Yeast_1550848947206_72191801432025792.arff
+[Note] Discount 0.596 seconds from this build time
+[Note] Discount 0.529 seconds from this build time
+Using temporary file: temp_Yeast_1550848948065_4886465643886762423.arff
+Using temporary file: temp_Yeast_1550848948136_-1977178175608504323.arff
+[Note] Discount 0.646 seconds from this build time
+[Note] Discount 0.659 seconds from this build time
+Using temporary file: temp_Yeast_1550848949795_5489165778026111548.arff
+Using temporary file: temp_Yeast_1550848949886_7911891130236602275.arff
+Using temporary file: temp_Yeast_1550848949948_-5763654923426307630.arff
+Using temporary file: temp_Yeast_1550848950065_7535429006024983857.arff
+[Note] Discount 0.528 seconds from this build time
+[Note] Discount 0.558 seconds from this build time
+[Note] Discount 0.521 seconds from this build time
+[Note] Discount 0.585 seconds from this build time
+Using temporary file: temp_Yeast_1550848951369_6512669167483931824.arff
+[Note] Discount 0.513 seconds from this build time
+Using temporary file: temp_Yeast_1550849022973_-6054985639040938180.arff
+Using temporary file: temp_Yeast_1550849023026_-4788457857850447244.arff
+Using temporary file: temp_Yeast_1550849023030_-1947326395900975778.arff
+[Note] Discount 0.468 seconds from this build time
+[Note] Discount 0.425 seconds from this build time
+[Note] Discount 0.43 seconds from this build time
+Using temporary file: temp_Yeast_1550849023887_-7748411135601385678.arff
+[Note] Discount 0.418 seconds from this build time
+Using temporary file: temp_Yeast_1550849024315_-9024968371786632850.arff
+[Note] Discount 0.565 seconds from this build time
+Using temporary file: temp_Yeast_1550849025436_5754825772160496080.arff
+[Note] Discount 0.489 seconds from this build time
+Using temporary file: temp_Yeast_1550849026014_-8481270662646470671.arff
+Using temporary file: temp_Yeast_1550849026297_-7127128167259751473.arff
+Using temporary file: temp_Yeast_1550849026296_-496076268859382896.arff
+[Note] Discount 0.506 seconds from this build time
+[Note] Discount 0.484 seconds from this build time
+[Note] Discount 0.514 seconds from this build time
+Using temporary file: temp_Yeast_1550849027414_501180562174799085.arff
+[Note] Discount 0.558 seconds from this build time
+Using temporary file: temp_Yeast_1550849102110_-5736614306270799543.arff
+[Note] Discount 0.486 seconds from this build time
+Using temporary file: temp_Yeast_1550849103001_-6819959017335327829.arff
+Using temporary file: temp_Yeast_1550849103007_-3360305141762794454.arff
+[Note] Discount 0.483 seconds from this build time
+[Note] Discount 0.659 seconds from this build time
+Using temporary file: temp_Yeast_1550849104186_-4775523669187539415.arff
+Using temporary file: temp_Yeast_1550849104649_-6798914858217573060.arff
+[Note] Discount 0.506 seconds from this build time
+[Note] Discount 0.522 seconds from this build time
+Using temporary file: temp_Yeast_1550849105250_5808738444245805049.arff
+[Note] Discount 0.51 seconds from this build time
+Using temporary file: temp_Yeast_1550849105877_-4605199251911937283.arff
+[Note] Discount 0.505 seconds from this build time
+Using temporary file: temp_Yeast_1550849108053_3508934780188318642.arff
+[Note] Discount 0.498 seconds from this build time
+Using temporary file: temp_Yeast_1550849109270_2259750519392559506.arff
+[Note] Discount 0.522 seconds from this build time
+Using temporary file: temp_Yeast_1550849111139_-5288884321442703868.arff
+[Note] Discount 0.491 seconds from this build time
+Using temporary file: temp_Yeast_1550849177687_-1235136122240190980.arff
+[Note] Discount 0.534 seconds from this build time
+Using temporary file: temp_Yeast_1550849179151_5738943893379618316.arff
+[Note] Discount 0.384 seconds from this build time
+Using temporary file: temp_Yeast_1550849179564_-8678588235927406455.arff
+Using temporary file: temp_Yeast_1550849179654_3301560350794899176.arff
+[Note] Discount 0.491 seconds from this build time
+[Note] Discount 0.501 seconds from this build time
+Using temporary file: temp_Yeast_1550849180944_2100752566876840588.arff
+[Note] Discount 0.402 seconds from this build time
+Using temporary file: temp_Yeast_1550849182065_-5830253423258833266.arff
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_Yeast_1550849183761_6995928140111635280.arff
+[Note] Discount 0.463 seconds from this build time
+Using temporary file: temp_Yeast_1550849185034_-7518357113470038567.arff
+[Note] Discount 0.496 seconds from this build time
+Using temporary file: temp_Yeast_1550849185720_-1095565672715370423.arff
+[Note] Discount 0.374 seconds from this build time
+Using temporary file: temp_Yeast_1550849187925_-8593497911429493276.arff
+[Note] Discount 0.576 seconds from this build time
+Using temporary file: temp_Yeast_1550849256119_3951194809170085004.arff
+Using temporary file: temp_Yeast_1550849256136_6156225800113325723.arff
+[Note] Discount 0.517 seconds from this build time
+[Note] Discount 0.516 seconds from this build time
+Using temporary file: temp_Yeast_1550849257305_4621576804961825664.arff
+Using temporary file: temp_Yeast_1550849257325_-4878419149880202610.arff
+[Note] Discount 0.506 seconds from this build time
+[Note] Discount 0.526 seconds from this build time
+Using temporary file: temp_Yeast_1550849258702_1681357320861610709.arff
+[Note] Discount 0.509 seconds from this build time
+Using temporary file: temp_Yeast_1550849261243_4880037797499618312.arff
+Using temporary file: temp_Yeast_1550849261356_3480315076809301941.arff
+[Note] Discount 0.673 seconds from this build time
+[Note] Discount 0.644 seconds from this build time
+Using temporary file: temp_Yeast_1550849263117_5492728113478971232.arff
+[Note] Discount 0.524 seconds from this build time
+Using temporary file: temp_Yeast_1550849264785_-4455425718838312134.arff
+[Note] Discount 0.506 seconds from this build time
+Using temporary file: temp_Yeast_1550849266859_859397494107989646.arff
+[Note] Discount 0.523 seconds from this build time
+Using temporary file: temp_Yeast_1550849336375_1587684632128182815.arff
+[Note] Discount 0.521 seconds from this build time
+Using temporary file: temp_Yeast_1550849337647_-1988121919985651200.arff
+Using temporary file: temp_Yeast_1550849337736_-8584399766682819655.arff
+[Note] Discount 0.508 seconds from this build time
+[Note] Discount 0.489 seconds from this build time
+Using temporary file: temp_Yeast_1550849338359_1579821865212908206.arff
+[Note] Discount 0.522 seconds from this build time
+Using temporary file: temp_Yeast_1550849340112_-8645019593156400089.arff
+[Note] Discount 0.609 seconds from this build time
+Using temporary file: temp_Yeast_1550849341825_1353816990017730924.arff
+[Note] Discount 0.511 seconds from this build time
+Using temporary file: temp_Yeast_1550849342341_3260813280637601224.arff
+Using temporary file: temp_Yeast_1550849342590_-2149455768672428162.arff
+[Note] Discount 0.519 seconds from this build time
+[Note] Discount 0.531 seconds from this build time
+Using temporary file: temp_Yeast_1550849344674_6464344685522019821.arff
+[Note] Discount 0.512 seconds from this build time
+Using temporary file: temp_Yeast_1550849346989_-259991515897342863.arff
+[Note] Discount 0.517 seconds from this build time
+Using temporary file: temp_Yeast_1550849419569_-7823401723989747505.arff
+Using temporary file: temp_Yeast_1550849419592_-7300345967075961560.arff
+[Note] Discount 0.406 seconds from this build time
+[Note] Discount 0.548 seconds from this build time
+Using temporary file: temp_Yeast_1550849420193_5037965036864798915.arff
+[Note] Discount 0.541 seconds from this build time
+Using temporary file: temp_Yeast_1550849420784_-8980117487222947788.arff
+[Note] Discount 0.438 seconds from this build time
+Using temporary file: temp_Yeast_1550849421984_-1019362334163299157.arff
+[Note] Discount 0.531 seconds from this build time
+Using temporary file: temp_Yeast_1550849425037_4016786749698341737.arff
+[Note] Discount 0.579 seconds from this build time
+Using temporary file: temp_Yeast_1550849425840_-1663495373901721169.arff
+Using temporary file: temp_Yeast_1550849426241_357204762418634413.arff
+[Note] Discount 0.511 seconds from this build time
+Using temporary file: temp_Yeast_1550849426533_5058270166536639533.arff
+[Note] Discount 0.521 seconds from this build time
+[Note] Discount 0.548 seconds from this build time
+Using temporary file: temp_Yeast_1550849430126_-6109681907542706157.arff
+[Note] Discount 0.436 seconds from this build time
+Using temporary file: temp_Yeast_1550849497952_5310389416429997037.arff
+Using temporary file: temp_Yeast_1550849498394_1180451250079382823.arff
+[Note] Discount 0.513 seconds from this build time
+[Note] Discount 0.512 seconds from this build time
+Using temporary file: temp_Yeast_1550849500200_4173799138601369497.arff
+[Note] Discount 0.639 seconds from this build time
+Using temporary file: temp_Yeast_1550849501234_2583780001673035147.arff
+Using temporary file: temp_Yeast_1550849501253_-7311352842601082005.arff
+[Note] Discount 0.503 seconds from this build time
+[Note] Discount 0.531 seconds from this build time
+Using temporary file: temp_Yeast_1550849506153_-5022166674911679806.arff
+Using temporary file: temp_Yeast_1550849506471_5605301965367641896.arff
+[Note] Discount 0.497 seconds from this build time
+[Note] Discount 0.633 seconds from this build time
+Using temporary file: temp_Yeast_1550849507648_-6910832155197454005.arff
+[Note] Discount 0.497 seconds from this build time
+Using temporary file: temp_Yeast_1550849508317_660260225259642700.arff
+[Note] Discount 0.498 seconds from this build time
+Using temporary file: temp_Yeast_1550849509780_8805804927883992817.arff
+[Note] Discount 0.509 seconds from this build time
+Using temporary file: temp_Yeast_1550849578295_1709464157265079686.arff
+[Note] Discount 0.508 seconds from this build time
+Using temporary file: temp_Yeast_1550849579116_-5337999691869457823.arff
+[Note] Discount 0.537 seconds from this build time
+Using temporary file: temp_Yeast_1550849581652_8008505297448283238.arff
+[Note] Discount 0.509 seconds from this build time
+Using temporary file: temp_Yeast_1550849582495_-3332450412194435075.arff
+[Note] Discount 0.501 seconds from this build time
+Using temporary file: temp_Yeast_1550849583906_-7295335603209051564.arff
+[Note] Discount 0.495 seconds from this build time
+Using temporary file: temp_Yeast_1550849586285_-6046014611969325073.arff
+Using temporary file: temp_Yeast_1550849586776_8302285056297172932.arff
+[Note] Discount 0.506 seconds from this build time
+Using temporary file: temp_Yeast_1550849587263_6356024424047499647.arff
+[Note] Discount 0.49 seconds from this build time
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_Yeast_1550849590273_4969456586130451623.arff
+Using temporary file: temp_Yeast_1550849590287_-4701205128643231831.arff
+[Note] Discount 0.498 seconds from this build time
+[Note] Discount 0.499 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 3
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Yeast_1550849668851_3803053121039792420.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Yeast_1550849668857_2758360689241543402.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Yeast_1550849668881_-1468873411252492921.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Yeast_1550849668896_-5761034890733554598.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Yeast_1550849668903_-1536563194244860551.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Yeast_1550849668922_653137120681555455.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Yeast_1550849668946_3600025259063640689.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Yeast_1550849668963_-7821298019962506145.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550849669072_-645917300613758614.arff
+Using temporary file: temp_Yeast_1550849669072_6119745577970185558.arff
+[Note] Discount 0.576 seconds from this build time
+[Note] Discount 0.584 seconds from this build time
+[Note] Discount 0.559 seconds from this build time
+[Note] Discount 0.6 seconds from this build time
+[Note] Discount 0.56 seconds from this build time
+[Note] Discount 0.58 seconds from this build time
+[Note] Discount 0.641 seconds from this build time
+[Note] Discount 0.498 seconds from this build time
+[Note] Discount 0.658 seconds from this build time
+[Note] Discount 0.544 seconds from this build time
+Using temporary file: temp_Yeast_1550849740869_2549209129409228758.arff
+[Note] Discount 0.507 seconds from this build time
+Using temporary file: temp_Yeast_1550849743299_1794894844987367466.arff
+Using temporary file: temp_Yeast_1550849743615_-3326066702825432110.arff
+[Note] Discount 0.511 seconds from this build time
+[Note] Discount 0.501 seconds from this build time
+Using temporary file: temp_Yeast_1550849744450_-6088871574026378532.arff
+Using temporary file: temp_Yeast_1550849744707_7911583618620128154.arff
+[Note] Discount 0.501 seconds from this build time
+Using temporary file: temp_Yeast_1550849745151_8853444392409962688.arff
+[Note] Discount 0.475 seconds from this build time
+[Note] Discount 0.49 seconds from this build time
+Using temporary file: temp_Yeast_1550849745992_-3143446542602205122.arff
+Using temporary file: temp_Yeast_1550849746416_-8494028184443550129.arff
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_Yeast_1550849746874_-7666389024716992619.arff
+[Note] Discount 0.629 seconds from this build time
+[Note] Discount 0.501 seconds from this build time
+Using temporary file: temp_Yeast_1550849747587_-7426893052962357700.arff
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_Yeast_1550849812398_6906149630747914610.arff
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_Yeast_1550849815796_30264304927818692.arff
+[Note] Discount 0.508 seconds from this build time
+Using temporary file: temp_Yeast_1550849819203_-5727558868953203691.arff
+[Note] Discount 0.701 seconds from this build time
+Using temporary file: temp_Yeast_1550849819997_-5280429017220727222.arff
+[Note] Discount 0.494 seconds from this build time
+Using temporary file: temp_Yeast_1550849821699_1277373086709849060.arff
+Using temporary file: temp_Yeast_1550849821934_-9161356953358167518.arff
+[Note] Discount 0.491 seconds from this build time
+Using temporary file: temp_Yeast_1550849822567_-5693283286674304421.arff
+[Note] Discount 0.727 seconds from this build time
+Using temporary file: temp_Yeast_1550849822754_-3674380908879105364.arff
+[Note] Discount 0.483 seconds from this build time
+[Note] Discount 0.517 seconds from this build time
+Using temporary file: temp_Yeast_1550849824217_-5135266989296457665.arff
+Using temporary file: temp_Yeast_1550849824498_6299905036767953317.arff
+[Note] Discount 0.495 seconds from this build time
+[Note] Discount 0.508 seconds from this build time
+Using temporary file: temp_Yeast_1550849886819_1176089665387826969.arff
+[Note] Discount 0.502 seconds from this build time
+Using temporary file: temp_Yeast_1550849890350_6443170592819695545.arff
+[Note] Discount 0.515 seconds from this build time
+Using temporary file: temp_Yeast_1550849894991_-8837902837463325214.arff
+[Note] Discount 0.489 seconds from this build time
+Using temporary file: temp_Yeast_1550849898241_-805964166784363941.arff
+Using temporary file: temp_Yeast_1550849898291_-5662802777777613574.arff
+Using temporary file: temp_Yeast_1550849898700_2243480672403792601.arff
+[Note] Discount 0.575 seconds from this build time
+[Note] Discount 0.579 seconds from this build time
+[Note] Discount 0.542 seconds from this build time
+Using temporary file: temp_Yeast_1550849901064_-9124564742246058657.arff
+[Note] Discount 0.472 seconds from this build time
+Using temporary file: temp_Yeast_1550849902027_-1820138817373496662.arff
+Using temporary file: temp_Yeast_1550849902345_3083995804586309402.arff
+[Note] Discount 0.504 seconds from this build time
+[Note] Discount 0.491 seconds from this build time
+Using temporary file: temp_Yeast_1550849904280_6444635427050365194.arff
+[Note] Discount 0.52 seconds from this build time
+Using temporary file: temp_Yeast_1550849966318_-5623373965380994308.arff
+[Note] Discount 0.507 seconds from this build time
+Using temporary file: temp_Yeast_1550849973243_598328575014092232.arff
+[Note] Discount 0.513 seconds from this build time
+Using temporary file: temp_Yeast_1550849976065_4796796124253410186.arff
+[Note] Discount 0.508 seconds from this build time
+Using temporary file: temp_Yeast_1550849977746_8576325184258344286.arff
+[Note] Discount 0.495 seconds from this build time
+Using temporary file: temp_Yeast_1550849980067_7496982466862244149.arff
+Using temporary file: temp_Yeast_1550849980549_3421332352366621250.arff
+[Note] Discount 0.644 seconds from this build time
+[Note] Discount 0.506 seconds from this build time
+Using temporary file: temp_Yeast_1550849982642_5414275117331381710.arff
+Using temporary file: temp_Yeast_1550849982651_-7826056991558697093.arff
+Using temporary file: temp_Yeast_1550849982752_3107549667671845688.arff
+[Note] Discount 0.493 seconds from this build time
+[Note] Discount 0.509 seconds from this build time
+[Note] Discount 0.594 seconds from this build time
+Using temporary file: temp_Yeast_1550849985669_6857373577836206198.arff
+[Note] Discount 0.515 seconds from this build time
+Using temporary file: temp_Yeast_1550850045039_4328502305394555230.arff
+[Note] Discount 0.54 seconds from this build time
+Using temporary file: temp_Yeast_1550850052430_-8514507194139921895.arff
+[Note] Discount 0.532 seconds from this build time
+Using temporary file: temp_Yeast_1550850055904_6547565724012451687.arff
+[Note] Discount 0.492 seconds from this build time
+Using temporary file: temp_Yeast_1550850057261_5719690575850774808.arff
+[Note] Discount 0.575 seconds from this build time
+Using temporary file: temp_Yeast_1550850058930_-2998428632519719896.arff
+[Note] Discount 0.521 seconds from this build time
+Using temporary file: temp_Yeast_1550850059539_-6073009103768551032.arff
+Using temporary file: temp_Yeast_1550850059603_2012055452795458010.arff
+[Note] Discount 0.476 seconds from this build time
+Using temporary file: temp_Yeast_1550850060068_-1187394439175388239.arff
+[Note] Discount 0.467 seconds from this build time
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_Yeast_1550850062082_-2300171268480388852.arff
+[Note] Discount 0.384 seconds from this build time
+Using temporary file: temp_Yeast_1550850062493_-2730112946719215065.arff
+[Note] Discount 0.513 seconds from this build time
+Using temporary file: temp_Yeast_1550850122723_7275270066579715802.arff
+[Note] Discount 0.479 seconds from this build time
+Using temporary file: temp_Yeast_1550850125232_6978170142387848475.arff
+[Note] Discount 0.569 seconds from this build time
+Using temporary file: temp_Yeast_1550850130877_-8739040138527370657.arff
+[Note] Discount 0.488 seconds from this build time
+Using temporary file: temp_Yeast_1550850133738_74038515833460462.arff
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_Yeast_1550850134459_638374349769057639.arff
+[Note] Discount 0.522 seconds from this build time
+Using temporary file: temp_Yeast_1550850135078_-3932241021960221178.arff
+Using temporary file: temp_Yeast_1550850135183_5004746258089555049.arff
+[Note] Discount 0.513 seconds from this build time
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_Yeast_1550850136502_-5133650843766026267.arff
+[Note] Discount 0.499 seconds from this build time
+Using temporary file: temp_Yeast_1550850139370_7738331118769054131.arff
+Using temporary file: temp_Yeast_1550850139559_5364377487206044023.arff
+[Note] Discount 0.51 seconds from this build time
+[Note] Discount 0.494 seconds from this build time
+Using temporary file: temp_Yeast_1550850204585_4518754687359231975.arff
+Using temporary file: temp_Yeast_1550850204780_2310204960398219434.arff
+[Note] Discount 0.401 seconds from this build time
+[Note] Discount 0.484 seconds from this build time
+Using temporary file: temp_Yeast_1550850210729_2742914968671340453.arff
+[Note] Discount 0.511 seconds from this build time
+Using temporary file: temp_Yeast_1550850215396_6227406868931904324.arff
+Using temporary file: temp_Yeast_1550850215780_-2996308202189857655.arff
+[Note] Discount 0.534 seconds from this build time
+[Note] Discount 0.526 seconds from this build time
+Using temporary file: temp_Yeast_1550850217533_-2865008637684177168.arff
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_Yeast_1550850218874_4815349556090146136.arff
+[Note] Discount 0.521 seconds from this build time
+Using temporary file: temp_Yeast_1550850219588_-7005385872618611047.arff
+[Note] Discount 0.518 seconds from this build time
+Using temporary file: temp_Yeast_1550850223059_9052226342779358069.arff
+Using temporary file: temp_Yeast_1550850223532_7661520242631645434.arff
+[Note] Discount 0.517 seconds from this build time
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_Yeast_1550850284621_-2684126273154853479.arff
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_Yeast_1550850285440_-3318354720801637259.arff
+[Note] Discount 0.519 seconds from this build time
+Using temporary file: temp_Yeast_1550850288811_916941053930762690.arff
+[Note] Discount 0.401 seconds from this build time
+Using temporary file: temp_Yeast_1550850295044_4820924320965653540.arff
+[Note] Discount 0.362 seconds from this build time
+Using temporary file: temp_Yeast_1550850296315_-2951090371395693972.arff
+[Note] Discount 0.579 seconds from this build time
+Using temporary file: temp_Yeast_1550850297822_7905715447329028654.arff
+[Note] Discount 0.494 seconds from this build time
+Using temporary file: temp_Yeast_1550850298569_-4774357311190967554.arff
+[Note] Discount 0.396 seconds from this build time
+Using temporary file: temp_Yeast_1550850300205_-2281078010550439077.arff
+[Note] Discount 0.491 seconds from this build time
+Using temporary file: temp_Yeast_1550850301530_5398563097200408455.arff
+[Note] Discount 0.516 seconds from this build time
+Using temporary file: temp_Yeast_1550850306520_-310554611065081879.arff
+[Note] Discount 0.65 seconds from this build time
+Using temporary file: temp_Yeast_1550850362990_-3144232295862338647.arff
+Using temporary file: temp_Yeast_1550850363304_-4221713314052446817.arff
+[Note] Discount 0.461 seconds from this build time
+[Note] Discount 0.401 seconds from this build time
+Using temporary file: temp_Yeast_1550850363848_6711686818080472277.arff
+[Note] Discount 0.513 seconds from this build time
+Using temporary file: temp_Yeast_1550850373019_2884632914678347555.arff
+[Note] Discount 0.518 seconds from this build time
+Using temporary file: temp_Yeast_1550850374229_5020570882892176312.arff
+Using temporary file: temp_Yeast_1550850374267_4651716431732219016.arff
+[Note] Discount 0.413 seconds from this build time
+[Note] Discount 0.474 seconds from this build time
+Using temporary file: temp_Yeast_1550850376321_26457103131013364.arff
+[Note] Discount 0.644 seconds from this build time
+Using temporary file: temp_Yeast_1550850378188_4956279532902220075.arff
+[Note] Discount 0.447 seconds from this build time
+Using temporary file: temp_Yeast_1550850379222_4450747936512676115.arff
+[Note] Discount 0.51 seconds from this build time
+Using temporary file: temp_Yeast_1550850382882_2186730121337187006.arff
+[Note] Discount 0.401 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 4
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Yeast_1550850455925_-3924881047061963848.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Yeast_1550850455942_-686051790578565723.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Yeast_1550850455957_3870064272805235222.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Yeast_1550850455982_-1451637565960506752.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Yeast_1550850455997_858984953702183078.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Yeast_1550850456007_-510411890396737272.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Yeast_1550850456017_7531748283682793492.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Yeast_1550850456056_-8939194325373615074.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Yeast_1550850456067_194258901974634873.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550850456079_2679013805589617441.arff
+[Note] Discount 0.42 seconds from this build time
+[Note] Discount 0.434 seconds from this build time
+[Note] Discount 0.515 seconds from this build time
+[Note] Discount 0.502 seconds from this build time
+[Note] Discount 0.514 seconds from this build time
+[Note] Discount 0.514 seconds from this build time
+[Note] Discount 0.509 seconds from this build time
+[Note] Discount 0.483 seconds from this build time
+[Note] Discount 0.496 seconds from this build time
+[Note] Discount 0.6 seconds from this build time
+Using temporary file: temp_Yeast_1550850532254_-2726377905668691505.arff
+[Note] Discount 0.485 seconds from this build time
+Using temporary file: temp_Yeast_1550850535139_4667142439544573055.arff
+Using temporary file: temp_Yeast_1550850535402_4032747547568791713.arff
+[Note] Discount 0.407 seconds from this build time
+Using temporary file: temp_Yeast_1550850535570_2618506400220646798.arff
+[Note] Discount 0.382 seconds from this build time
+[Note] Discount 0.472 seconds from this build time
+Using temporary file: temp_Yeast_1550850536286_-3484880777383254526.arff
+Using temporary file: temp_Yeast_1550850536535_5834146448441283484.arff
+Using temporary file: temp_Yeast_1550850536626_-8522626268727008321.arff
+[Note] Discount 0.516 seconds from this build time
+Using temporary file: temp_Yeast_1550850536825_-8902416243410300348.arff
+[Note] Discount 0.517 seconds from this build time
+[Note] Discount 0.491 seconds from this build time
+Using temporary file: temp_Yeast_1550850537299_-8375243262370458153.arff
+[Note] Discount 0.506 seconds from this build time
+[Note] Discount 0.529 seconds from this build time
+Using temporary file: temp_Yeast_1550850537890_6793998636042160899.arff
+[Note] Discount 0.586 seconds from this build time
+Using temporary file: temp_Yeast_1550850612513_2682327445485680171.arff
+[Note] Discount 0.501 seconds from this build time
+Using temporary file: temp_Yeast_1550850613195_4016188520437563914.arff
+Using temporary file: temp_Yeast_1550850613261_6936933392530960241.arff
+Using temporary file: temp_Yeast_1550850613662_-1605640584389120939.arff
+[Note] Discount 0.507 seconds from this build time
+[Note] Discount 0.49 seconds from this build time
+[Note] Discount 0.495 seconds from this build time
+Using temporary file: temp_Yeast_1550850614514_-7955278666948146322.arff
+Using temporary file: temp_Yeast_1550850614678_-2303420526951683333.arff
+[Note] Discount 0.437 seconds from this build time
+Using temporary file: temp_Yeast_1550850615069_-6409500192903294876.arff
+Using temporary file: temp_Yeast_1550850615168_9173237838594123720.arff
+[Note] Discount 0.533 seconds from this build time
+[Note] Discount 0.496 seconds from this build time
+[Note] Discount 0.488 seconds from this build time
+Using temporary file: temp_Yeast_1550850615770_7696412024211915208.arff
+[Note] Discount 0.463 seconds from this build time
+Using temporary file: temp_Yeast_1550850616553_-6124087172458977528.arff
+[Note] Discount 0.479 seconds from this build time
+Using temporary file: temp_Yeast_1550850686026_289305151154239544.arff
+[Note] Discount 0.49 seconds from this build time
+Using temporary file: temp_Yeast_1550850688045_3041333973510398629.arff
+[Note] Discount 0.487 seconds from this build time
+Using temporary file: temp_Yeast_1550850689572_-4738070527277579093.arff
+Using temporary file: temp_Yeast_1550850689645_-1322328174886698380.arff
+Using temporary file: temp_Yeast_1550850689752_7186190977326994153.arff
+Using temporary file: temp_Yeast_1550850690042_6899196303910356427.arff
+[Note] Discount 0.503 seconds from this build time
+[Note] Discount 0.48 seconds from this build time
+[Note] Discount 0.5 seconds from this build time
+[Note] Discount 0.509 seconds from this build time
+Using temporary file: temp_Yeast_1550850691249_1335379214094696254.arff
+Using temporary file: temp_Yeast_1550850691474_2302678096373101142.arff
+[Note] Discount 0.375 seconds from this build time
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_Yeast_1550850692106_-8669163540957080726.arff
+[Note] Discount 0.596 seconds from this build time
+Using temporary file: temp_Yeast_1550850692767_-1265468109690201046.arff
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_Yeast_1550850762495_314851395928121051.arff
+[Note] Discount 0.496 seconds from this build time
+Using temporary file: temp_Yeast_1550850764698_6054577866958805786.arff
+[Note] Discount 0.448 seconds from this build time
+Using temporary file: temp_Yeast_1550850765843_-7699420010600227299.arff
+[Note] Discount 0.488 seconds from this build time
+Using temporary file: temp_Yeast_1550850767945_6650267052805898569.arff
+[Note] Discount 0.496 seconds from this build time
+Using temporary file: temp_Yeast_1550850769142_755854500991624593.arff
+[Note] Discount 0.384 seconds from this build time
+Using temporary file: temp_Yeast_1550850769542_-4193290617900144896.arff
+Using temporary file: temp_Yeast_1550850770034_550436702605198172.arff
+[Note] Discount 0.497 seconds from this build time
+[Note] Discount 0.455 seconds from this build time
+Using temporary file: temp_Yeast_1550850770551_-8801870353876918334.arff
+[Note] Discount 0.375 seconds from this build time
+Using temporary file: temp_Yeast_1550850770928_7135856249683414178.arff
+[Note] Discount 0.424 seconds from this build time
+Using temporary file: temp_Yeast_1550850771736_-6106594814102442852.arff
+[Note] Discount 0.489 seconds from this build time
+Using temporary file: temp_Yeast_1550850842818_-7154369092413191692.arff
+[Note] Discount 0.504 seconds from this build time
+Using temporary file: temp_Yeast_1550850845130_4450705445726486464.arff
+Using temporary file: temp_Yeast_1550850845587_7271064030562875142.arff
+[Note] Discount 0.592 seconds from this build time
+[Note] Discount 0.656 seconds from this build time
+Using temporary file: temp_Yeast_1550850847842_-94187287130004140.arff
+Using temporary file: temp_Yeast_1550850848186_5371260547779316133.arff
+[Note] Discount 0.49 seconds from this build time
+Using temporary file: temp_Yeast_1550850848462_2514343226117629319.arff
+[Note] Discount 0.51 seconds from this build time
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_Yeast_1550850849430_8070639246719579111.arff
+[Note] Discount 0.517 seconds from this build time
+Using temporary file: temp_Yeast_1550850850457_-7524662116348677146.arff
+Using temporary file: temp_Yeast_1550850850521_1681061247776986531.arff
+[Note] Discount 0.495 seconds from this build time
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_Yeast_1550850852285_-2221988569368117268.arff
+[Note] Discount 0.502 seconds from this build time
+Using temporary file: temp_Yeast_1550850921620_9169120409345085731.arff
+[Note] Discount 0.511 seconds from this build time
+Using temporary file: temp_Yeast_1550850926169_-8648279696612050209.arff
+[Note] Discount 0.468 seconds from this build time
+Using temporary file: temp_Yeast_1550850926947_-5493782453516093672.arff
+[Note] Discount 0.395 seconds from this build time
+Using temporary file: temp_Yeast_1550850927492_-7511655587566459175.arff
+Using temporary file: temp_Yeast_1550850927799_-1160421466163642931.arff
+Using temporary file: temp_Yeast_1550850927974_6883113373614244644.arff
+[Note] Discount 0.492 seconds from this build time
+[Note] Discount 0.468 seconds from this build time
+[Note] Discount 0.409 seconds from this build time
+Using temporary file: temp_Yeast_1550850928781_1072306077061511071.arff
+[Note] Discount 0.446 seconds from this build time
+Using temporary file: temp_Yeast_1550850929706_3264908416820472267.arff
+[Note] Discount 0.473 seconds from this build time
+Using temporary file: temp_Yeast_1550850930332_7608878906930592940.arff
+[Note] Discount 0.519 seconds from this build time
+Using temporary file: temp_Yeast_1550850931168_-6449030298805734803.arff
+[Note] Discount 0.509 seconds from this build time
+Using temporary file: temp_Yeast_1550851001567_-5319479682109490229.arff
+[Note] Discount 0.495 seconds from this build time
+Using temporary file: temp_Yeast_1550851004840_-1065719142118609324.arff
+[Note] Discount 0.572 seconds from this build time
+Using temporary file: temp_Yeast_1550851005475_-934136432924416325.arff
+[Note] Discount 0.511 seconds from this build time
+Using temporary file: temp_Yeast_1550851007230_-7026508440249642555.arff
+[Note] Discount 0.52 seconds from this build time
+Using temporary file: temp_Yeast_1550851008164_-5137015281226191458.arff
+[Note] Discount 0.506 seconds from this build time
+Using temporary file: temp_Yeast_1550851008880_516392565305794201.arff
+Using temporary file: temp_Yeast_1550851008894_2831199605592898983.arff
+[Note] Discount 0.455 seconds from this build time
+[Note] Discount 0.497 seconds from this build time
+Using temporary file: temp_Yeast_1550851010088_1705806873338569740.arff
+[Note] Discount 0.592 seconds from this build time
+Using temporary file: temp_Yeast_1550851011131_-1111343598442236142.arff
+Using temporary file: temp_Yeast_1550851011370_-4566396959982491692.arff
+[Note] Discount 0.499 seconds from this build time
+[Note] Discount 0.591 seconds from this build time
+Using temporary file: temp_Yeast_1550851081069_3467329551260634708.arff
+[Note] Discount 0.524 seconds from this build time
+Using temporary file: temp_Yeast_1550851083440_-817604662548149131.arff
+[Note] Discount 0.496 seconds from this build time
+Using temporary file: temp_Yeast_1550851085521_728586250621324436.arff
+Using temporary file: temp_Yeast_1550851085745_3875173390025246931.arff
+Using temporary file: temp_Yeast_1550851085950_-6784398378578189479.arff
+[Note] Discount 0.48 seconds from this build time
+[Note] Discount 0.525 seconds from this build time
+[Note] Discount 0.531 seconds from this build time
+Using temporary file: temp_Yeast_1550851088150_-3998412061445143288.arff
+Using temporary file: temp_Yeast_1550851088516_6666015931596736387.arff
+[Note] Discount 0.451 seconds from this build time
+Using temporary file: temp_Yeast_1550851088877_2746255371496665207.arff
+[Note] Discount 0.515 seconds from this build time
+[Note] Discount 0.463 seconds from this build time
+Using temporary file: temp_Yeast_1550851089506_-7665196775622473857.arff
+[Note] Discount 0.484 seconds from this build time
+Using temporary file: temp_Yeast_1550851092824_-3074722789246360287.arff
+[Note] Discount 0.501 seconds from this build time
+Using temporary file: temp_Yeast_1550851158787_-6063479906063052618.arff
+[Note] Discount 0.617 seconds from this build time
+Using temporary file: temp_Yeast_1550851159978_7411910766693346359.arff
+[Note] Discount 0.515 seconds from this build time
+Using temporary file: temp_Yeast_1550851163554_7430493277149599813.arff
+[Note] Discount 0.496 seconds from this build time
+Using temporary file: temp_Yeast_1550851164121_-7815809082296616977.arff
+Using temporary file: temp_Yeast_1550851164599_4085467786997160691.arff
+[Note] Discount 0.508 seconds from this build time
+Using temporary file: temp_Yeast_1550851165123_-1457205381421357414.arff
+[Note] Discount 0.543 seconds from this build time
+[Note] Discount 0.499 seconds from this build time
+Using temporary file: temp_Yeast_1550851166175_5404242951196403807.arff
+[Note] Discount 0.496 seconds from this build time
+Using temporary file: temp_Yeast_1550851167596_-3121891052548791562.arff
+[Note] Discount 0.48 seconds from this build time
+Using temporary file: temp_Yeast_1550851169014_1563548882513538425.arff
+[Note] Discount 0.601 seconds from this build time
+Using temporary file: temp_Yeast_1550851171233_-4249802838372158016.arff
+[Note] Discount 0.487 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 5
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Yeast_1550851247866_-8377336650094661069.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Yeast_1550851247881_-8751085503867937651.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Yeast_1550851247901_-7497975980136432009.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Yeast_1550851247916_4840668386679044570.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Yeast_1550851247941_-7306263279772935589.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Yeast_1550851247942_1571665058970022497.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Yeast_1550851247961_-2669015473904755310.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Yeast_1550851247981_-3413008864762311762.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Yeast_1550851247996_5392703102889984549.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550851248021_8168676158663024624.arff
+[Note] Discount 0.54 seconds from this build time
+[Note] Discount 0.445 seconds from this build time
+[Note] Discount 0.53 seconds from this build time
+[Note] Discount 0.559 seconds from this build time
+[Note] Discount 0.529 seconds from this build time
+[Note] Discount 0.529 seconds from this build time
+[Note] Discount 0.563 seconds from this build time
+[Note] Discount 0.517 seconds from this build time
+[Note] Discount 0.539 seconds from this build time
+[Note] Discount 0.52 seconds from this build time
+Using temporary file: temp_Yeast_1550851318298_-4787022384348844445.arff
+[Note] Discount 0.497 seconds from this build time
+Using temporary file: temp_Yeast_1550851320518_-730190759019218156.arff
+[Note] Discount 0.434 seconds from this build time
+Using temporary file: temp_Yeast_1550851321345_9038335254401083926.arff
+Using temporary file: temp_Yeast_1550851321561_-5020500491649895153.arff
+[Note] Discount 0.498 seconds from this build time
+Using temporary file: temp_Yeast_1550851321919_8146221438076924663.arff
+Using temporary file: temp_Yeast_1550851321975_7806941514492271995.arff
+[Note] Discount 0.425 seconds from this build time
+Using temporary file: temp_Yeast_1550851322266_4323093987500565602.arff
+Using temporary file: temp_Yeast_1550851322442_-4733873431139627931.arff
+[Note] Discount 0.528 seconds from this build time
+Using temporary file: temp_Yeast_1550851322519_-5740671271593056691.arff
+[Note] Discount 0.61 seconds from this build time
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_Yeast_1550851322785_1880661030975368292.arff
+[Note] Discount 0.489 seconds from this build time
+[Note] Discount 0.601 seconds from this build time
+[Note] Discount 0.582 seconds from this build time
+Using temporary file: temp_Yeast_1550851393214_-4498190047871887498.arff
+[Note] Discount 0.496 seconds from this build time
+Using temporary file: temp_Yeast_1550851394686_8371004470249050606.arff
+[Note] Discount 0.494 seconds from this build time
+Using temporary file: temp_Yeast_1550851397961_-499360409750722853.arff
+Using temporary file: temp_Yeast_1550851398130_5635609161038164966.arff
+[Note] Discount 0.49 seconds from this build time
+[Note] Discount 0.506 seconds from this build time
+Using temporary file: temp_Yeast_1550851399420_4070396125029978223.arff
+Using temporary file: temp_Yeast_1550851399526_-3045182938295608968.arff
+Using temporary file: temp_Yeast_1550851399663_-5986326496842862326.arff
+Using temporary file: temp_Yeast_1550851399822_-7156834939687546583.arff
+[Note] Discount 0.496 seconds from this build time
+[Note] Discount 0.514 seconds from this build time
+[Note] Discount 0.593 seconds from this build time
+Using temporary file: temp_Yeast_1550851400402_322846005174511008.arff
+[Note] Discount 0.633 seconds from this build time
+[Note] Discount 0.614 seconds from this build time
+Using temporary file: temp_Yeast_1550851403052_-7282023472852925143.arff
+[Note] Discount 0.469 seconds from this build time
+Using temporary file: temp_Yeast_1550851475292_-3070688518157112907.arff
+[Note] Discount 0.484 seconds from this build time
+Using temporary file: temp_Yeast_1550851476796_5080606314316693739.arff
+[Note] Discount 0.494 seconds from this build time
+Using temporary file: temp_Yeast_1550851478046_5245364836250954000.arff
+Using temporary file: temp_Yeast_1550851478165_-8257472253730980873.arff
+[Note] Discount 0.439 seconds from this build time
+[Note] Discount 0.491 seconds from this build time
+Using temporary file: temp_Yeast_1550851478757_6983046085666928814.arff
+Using temporary file: temp_Yeast_1550851478956_3526450679069113854.arff
+Using temporary file: temp_Yeast_1550851479215_-435587906648708359.arff
+[Note] Discount 0.519 seconds from this build time
+Using temporary file: temp_Yeast_1550851479348_7318053033168220206.arff
+[Note] Discount 0.496 seconds from this build time
+[Note] Discount 0.521 seconds from this build time
+[Note] Discount 0.498 seconds from this build time
+Using temporary file: temp_Yeast_1550851480498_1459173741195801402.arff
+[Note] Discount 0.467 seconds from this build time
+Using temporary file: temp_Yeast_1550851483630_947406905975435208.arff
+[Note] Discount 0.521 seconds from this build time
+Using temporary file: temp_Yeast_1550851553542_3700456403319983179.arff
+Using temporary file: temp_Yeast_1550851553913_7252938097639159278.arff
+[Note] Discount 0.499 seconds from this build time
+Using temporary file: temp_Yeast_1550851554376_1674563217135621776.arff
+[Note] Discount 0.503 seconds from this build time
+[Note] Discount 0.48 seconds from this build time
+Using temporary file: temp_Yeast_1550851554948_8637641792745777345.arff
+Using temporary file: temp_Yeast_1550851555199_-5120251691338751706.arff
+[Note] Discount 0.493 seconds from this build time
+[Note] Discount 0.502 seconds from this build time
+Using temporary file: temp_Yeast_1550851556511_2978214333338970539.arff
+Using temporary file: temp_Yeast_1550851556872_-546227288755006883.arff
+[Note] Discount 0.511 seconds from this build time
+Using temporary file: temp_Yeast_1550851557275_-8736851221491419912.arff
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_Yeast_1550851557660_-8819243423086615708.arff
+[Note] Discount 0.425 seconds from this build time
+[Note] Discount 0.521 seconds from this build time
+Using temporary file: temp_Yeast_1550851562382_-8171136391278254421.arff
+[Note] Discount 0.508 seconds from this build time
+Using temporary file: temp_Yeast_1550851629291_4557359622431007554.arff
+[Note] Discount 0.56 seconds from this build time
+Using temporary file: temp_Yeast_1550851631372_8026383961327351951.arff
+[Note] Discount 0.432 seconds from this build time
+Using temporary file: temp_Yeast_1550851631890_508943482563998989.arff
+[Note] Discount 0.43 seconds from this build time
+Using temporary file: temp_Yeast_1550851632492_-4653752435979924085.arff
+[Note] Discount 0.384 seconds from this build time
+Using temporary file: temp_Yeast_1550851633204_2939498319079095637.arff
+Using temporary file: temp_Yeast_1550851633555_-5594470500394967494.arff
+Using temporary file: temp_Yeast_1550851633568_3480003796066431712.arff
+[Note] Discount 0.518 seconds from this build time
+[Note] Discount 0.453 seconds from this build time
+[Note] Discount 0.507 seconds from this build time
+Using temporary file: temp_Yeast_1550851634315_803124289950177979.arff
+[Note] Discount 0.561 seconds from this build time
+Using temporary file: temp_Yeast_1550851636098_-636333988887034212.arff
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_Yeast_1550851639876_8843852096945526213.arff
+[Note] Discount 0.465 seconds from this build time
+Using temporary file: temp_Yeast_1550851707561_-2599638815814183215.arff
+[Note] Discount 0.52 seconds from this build time
+Using temporary file: temp_Yeast_1550851709401_8190460250141936893.arff
+[Note] Discount 0.58 seconds from this build time
+Using temporary file: temp_Yeast_1550851710210_5769673920140370325.arff
+Using temporary file: temp_Yeast_1550851710650_-5707672370091761013.arff
+[Note] Discount 0.483 seconds from this build time
+[Note] Discount 0.496 seconds from this build time
+Using temporary file: temp_Yeast_1550851711879_1153904216792672901.arff
+[Note] Discount 0.487 seconds from this build time
+Using temporary file: temp_Yeast_1550851712513_5756199850788068330.arff
+[Note] Discount 0.632 seconds from this build time
+Using temporary file: temp_Yeast_1550851713158_-8993413354811897935.arff
+[Note] Discount 0.543 seconds from this build time
+Using temporary file: temp_Yeast_1550851714173_-7708433905133356545.arff
+[Note] Discount 0.558 seconds from this build time
+Using temporary file: temp_Yeast_1550851717864_-7696908321112421928.arff
+[Note] Discount 0.757 seconds from this build time
+Using temporary file: temp_Yeast_1550851721921_1143101010786680429.arff
+[Note] Discount 0.49 seconds from this build time
+Using temporary file: temp_Yeast_1550851786035_3848973185516237780.arff
+[Note] Discount 0.516 seconds from this build time
+Using temporary file: temp_Yeast_1550851788232_-7593559711793024473.arff
+[Note] Discount 0.474 seconds from this build time
+Using temporary file: temp_Yeast_1550851789730_-356080060741782185.arff
+Using temporary file: temp_Yeast_1550851790004_4750573931075731782.arff
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_Yeast_1550851790491_-2738735307499397929.arff
+[Note] Discount 0.492 seconds from this build time
+Using temporary file: temp_Yeast_1550851790589_9147260119188226075.arff
+[Note] Discount 0.685 seconds from this build time
+[Note] Discount 0.706 seconds from this build time
+Using temporary file: temp_Yeast_1550851791843_-7753099951623310138.arff
+[Note] Discount 0.513 seconds from this build time
+Using temporary file: temp_Yeast_1550851792727_1034630987629030792.arff
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_Yeast_1550851796276_-7555351992581160954.arff
+[Note] Discount 0.625 seconds from this build time
+Using temporary file: temp_Yeast_1550851801843_-445123651753048437.arff
+[Note] Discount 0.488 seconds from this build time
+Using temporary file: temp_Yeast_1550851865183_3279426614661187996.arff
+[Note] Discount 0.548 seconds from this build time
+Using temporary file: temp_Yeast_1550851865817_-9108032911202255077.arff
+Using temporary file: temp_Yeast_1550851866208_-5777773046073082973.arff
+[Note] Discount 0.494 seconds from this build time
+[Note] Discount 0.622 seconds from this build time
+Using temporary file: temp_Yeast_1550851868175_-535584982992767945.arff
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_Yeast_1550851868693_4585731666244383106.arff
+[Note] Discount 0.497 seconds from this build time
+Using temporary file: temp_Yeast_1550851869890_-3525111263812818117.arff
+Using temporary file: temp_Yeast_1550851870429_5796689938409159009.arff
+[Note] Discount 0.664 seconds from this build time
+Using temporary file: temp_Yeast_1550851870615_7786015629227782772.arff
+[Note] Discount 0.514 seconds from this build time
+[Note] Discount 0.61 seconds from this build time
+Using temporary file: temp_Yeast_1550851875744_3214097265926879448.arff
+[Note] Discount 0.497 seconds from this build time
+Using temporary file: temp_Yeast_1550851884795_5262131155823113975.arff
+[Note] Discount 0.526 seconds from this build time
+Using temporary file: temp_Yeast_1550851942411_-6264662031554090775.arff
+[Note] Discount 0.49 seconds from this build time
+Using temporary file: temp_Yeast_1550851943541_6364905620888314798.arff
+[Note] Discount 0.499 seconds from this build time
+Using temporary file: temp_Yeast_1550851945099_-7074918400295346896.arff
+[Note] Discount 0.492 seconds from this build time
+Using temporary file: temp_Yeast_1550851945979_8499104807284792755.arff
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_Yeast_1550851947071_-7850427191471535528.arff
+Using temporary file: temp_Yeast_1550851947408_5947874316217233888.arff
+[Note] Discount 0.471 seconds from this build time
+[Note] Discount 0.648 seconds from this build time
+Using temporary file: temp_Yeast_1550851948662_8816149975002660817.arff
+[Note] Discount 0.489 seconds from this build time
+Using temporary file: temp_Yeast_1550851949952_6817473413534271398.arff
+[Note] Discount 0.479 seconds from this build time
+Using temporary file: temp_Yeast_1550851957040_-7107378206422349633.arff
+[Note] Discount 0.496 seconds from this build time
+Using temporary file: temp_Yeast_1550851963973_1163118917381745949.arff
+[Note] Discount 0.427 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 6
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Yeast_1550852034336_566381710764943413.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Yeast_1550852034356_-1608098597551468451.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Yeast_1550852034387_4469440687916049570.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Yeast_1550852034405_-3698661339818345973.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Yeast_1550852034421_-5589937031876733301.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Yeast_1550852034441_-2564260040490541770.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Yeast_1550852034450_1458497633808887418.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Yeast_1550852034476_-1035633149643239325.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Yeast_1550852034489_-6369541623027390922.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550852034516_-2162882975343049754.arff
+[Note] Discount 0.464 seconds from this build time
+[Note] Discount 0.579 seconds from this build time
+[Note] Discount 0.569 seconds from this build time
+[Note] Discount 0.565 seconds from this build time
+[Note] Discount 0.559 seconds from this build time
+[Note] Discount 0.584 seconds from this build time
+[Note] Discount 0.588 seconds from this build time
+[Note] Discount 0.563 seconds from this build time
+[Note] Discount 0.579 seconds from this build time
+[Note] Discount 0.689 seconds from this build time
+Using temporary file: temp_Yeast_1550852102866_-7316073245918686925.arff
+[Note] Discount 0.576 seconds from this build time
+Using temporary file: temp_Yeast_1550852104953_-7339241127091058317.arff
+Using temporary file: temp_Yeast_1550852105217_-1632816288902660021.arff
+Using temporary file: temp_Yeast_1550852105366_-3645553751895064332.arff
+[Note] Discount 0.423 seconds from this build time
+[Note] Discount 0.544 seconds from this build time
+[Note] Discount 0.516 seconds from this build time
+Using temporary file: temp_Yeast_1550852105891_7219524121527741614.arff
+Using temporary file: temp_Yeast_1550852106198_4793971110569000604.arff
+[Note] Discount 0.505 seconds from this build time
+[Note] Discount 0.498 seconds from this build time
+Using temporary file: temp_Yeast_1550852106721_-4795275899714429417.arff
+Using temporary file: temp_Yeast_1550852106762_2602755069855219259.arff
+[Note] Discount 0.485 seconds from this build time
+[Note] Discount 0.454 seconds from this build time
+Using temporary file: temp_Yeast_1550852107857_526488519178829888.arff
+[Note] Discount 0.568 seconds from this build time
+Using temporary file: temp_Yeast_1550852108613_3592725324095305683.arff
+[Note] Discount 0.498 seconds from this build time
+Using temporary file: temp_Yeast_1550852179383_7411790522989648792.arff
+Using temporary file: temp_Yeast_1550852179599_-2187993102383044244.arff
+[Note] Discount 0.518 seconds from this build time
+[Note] Discount 0.537 seconds from this build time
+Using temporary file: temp_Yeast_1550852180366_2115850059180418354.arff
+Using temporary file: temp_Yeast_1550852180785_-992130317477352924.arff
+[Note] Discount 0.61 seconds from this build time
+[Note] Discount 0.511 seconds from this build time
+Using temporary file: temp_Yeast_1550852181469_-1887448297265014273.arff
+[Note] Discount 0.507 seconds from this build time
+Using temporary file: temp_Yeast_1550852182234_5685524318958656137.arff
+Using temporary file: temp_Yeast_1550852182432_6705584880227391807.arff
+Using temporary file: temp_Yeast_1550852182537_8815535291922269738.arff
+[Note] Discount 0.498 seconds from this build time
+[Note] Discount 0.479 seconds from this build time
+[Note] Discount 0.624 seconds from this build time
+Using temporary file: temp_Yeast_1550852184553_1490613999773004340.arff
+Using temporary file: temp_Yeast_1550852185016_-5026029246139856277.arff
+[Note] Discount 0.488 seconds from this build time
+[Note] Discount 0.63 seconds from this build time
+Using temporary file: temp_Yeast_1550852255924_-6289929342761363175.arff
+[Note] Discount 0.619 seconds from this build time
+Using temporary file: temp_Yeast_1550852256573_-9120159428539361639.arff
+Using temporary file: temp_Yeast_1550852256790_-2934806679232514223.arff
+[Note] Discount 0.498 seconds from this build time
+[Note] Discount 0.641 seconds from this build time
+Using temporary file: temp_Yeast_1550852257994_-2951196622544561858.arff
+[Note] Discount 0.432 seconds from this build time
+Using temporary file: temp_Yeast_1550852258913_1343023494735137507.arff
+Using temporary file: temp_Yeast_1550852259139_-3106223575927296331.arff
+Using temporary file: temp_Yeast_1550852259225_4209933468692678950.arff
+[Note] Discount 0.533 seconds from this build time
+Using temporary file: temp_Yeast_1550852259599_-8182243594209745664.arff
+[Note] Discount 0.512 seconds from this build time
+[Note] Discount 0.491 seconds from this build time
+Using temporary file: temp_Yeast_1550852259827_4947850698510203064.arff
+[Note] Discount 0.507 seconds from this build time
+[Note] Discount 0.638 seconds from this build time
+Using temporary file: temp_Yeast_1550852262992_7851427008395192536.arff
+[Note] Discount 0.474 seconds from this build time
+Using temporary file: temp_Yeast_1550852328464_5952946586221754036.arff
+[Note] Discount 0.487 seconds from this build time
+Using temporary file: temp_Yeast_1550852329470_1507219752436740101.arff
+[Note] Discount 0.492 seconds from this build time
+Using temporary file: temp_Yeast_1550852330560_7793777865067502371.arff
+[Note] Discount 0.502 seconds from this build time
+Using temporary file: temp_Yeast_1550852331890_7806931012050564336.arff
+[Note] Discount 0.492 seconds from this build time
+Using temporary file: temp_Yeast_1550852333102_6902793791591772338.arff
+[Note] Discount 0.519 seconds from this build time
+Using temporary file: temp_Yeast_1550852333817_3047945791987619701.arff
+[Note] Discount 0.488 seconds from this build time
+Using temporary file: temp_Yeast_1550852334310_-4010614443645193307.arff
+[Note] Discount 0.376 seconds from this build time
+Using temporary file: temp_Yeast_1550852334796_3222799434015176446.arff
+[Note] Discount 0.495 seconds from this build time
+Using temporary file: temp_Yeast_1550852335326_4430932498665065484.arff
+[Note] Discount 0.496 seconds from this build time
+Using temporary file: temp_Yeast_1550852337016_-8884952290998478387.arff
+[Note] Discount 0.576 seconds from this build time
+Using temporary file: temp_Yeast_1550852403788_4378932161907537715.arff
+[Note] Discount 0.559 seconds from this build time
+Using temporary file: temp_Yeast_1550852405006_-544617757178333800.arff
+Using temporary file: temp_Yeast_1550852405159_7935455346318005342.arff
+[Note] Discount 0.506 seconds from this build time
+Using temporary file: temp_Yeast_1550852405629_-8614352639040115366.arff
+[Note] Discount 0.498 seconds from this build time
+[Note] Discount 0.498 seconds from this build time
+Using temporary file: temp_Yeast_1550852407079_-3009405229167982411.arff
+Using temporary file: temp_Yeast_1550852407352_1715868444723452007.arff
+[Note] Discount 0.492 seconds from this build time
+Using temporary file: temp_Yeast_1550852407734_2374208703468940925.arff
+[Note] Discount 0.495 seconds from this build time
+[Note] Discount 0.472 seconds from this build time
+Using temporary file: temp_Yeast_1550852408777_-7357339368254658879.arff
+Using temporary file: temp_Yeast_1550852409201_323003187810796424.arff
+[Note] Discount 0.466 seconds from this build time
+[Note] Discount 0.472 seconds from this build time
+Using temporary file: temp_Yeast_1550852411249_7414932543315556010.arff
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_Yeast_1550852475826_7645506387453610734.arff
+[Note] Discount 0.486 seconds from this build time
+Using temporary file: temp_Yeast_1550852476359_-8664968823506358406.arff
+[Note] Discount 0.495 seconds from this build time
+Using temporary file: temp_Yeast_1550852478030_7454865519840859645.arff
+[Note] Discount 0.497 seconds from this build time
+Using temporary file: temp_Yeast_1550852479968_-4704090142093314638.arff
+[Note] Discount 0.464 seconds from this build time
+Using temporary file: temp_Yeast_1550852480696_-8886486030628624275.arff
+Using temporary file: temp_Yeast_1550852480823_-4086059040560313264.arff
+[Note] Discount 0.445 seconds from this build time
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_Yeast_1550852481716_8289740811720862680.arff
+Using temporary file: temp_Yeast_1550852482174_1951473645747468132.arff
+[Note] Discount 0.636 seconds from this build time
+[Note] Discount 0.492 seconds from this build time
+Using temporary file: temp_Yeast_1550852482809_6829937779261482600.arff
+[Note] Discount 0.515 seconds from this build time
+Using temporary file: temp_Yeast_1550852483783_9059038189098316771.arff
+[Note] Discount 0.613 seconds from this build time
+Using temporary file: temp_Yeast_1550852549909_-2848899089940961071.arff
+[Note] Discount 0.535 seconds from this build time
+Using temporary file: temp_Yeast_1550852553622_-8306635260051269446.arff
+[Note] Discount 0.481 seconds from this build time
+Using temporary file: temp_Yeast_1550852555900_-2303516294498490494.arff
+[Note] Discount 0.549 seconds from this build time
+Using temporary file: temp_Yeast_1550852557569_-7187744340523076314.arff
+Using temporary file: temp_Yeast_1550852557702_-7436412491365010666.arff
+[Note] Discount 0.478 seconds from this build time
+[Note] Discount 0.445 seconds from this build time
+Using temporary file: temp_Yeast_1550852559254_-5382733297118183358.arff
+Using temporary file: temp_Yeast_1550852559452_5972933999487403024.arff
+[Note] Discount 0.99 seconds from this build time
+Using temporary file: temp_Yeast_1550852560442_-6415773821821162015.arff
+[Note] Discount 1.039 seconds from this build time
+[Note] Discount 0.514 seconds from this build time
+Using temporary file: temp_Yeast_1550852561886_-2282623849526784568.arff
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_Yeast_1550852563235_-4510135546772636515.arff
+[Note] Discount 0.537 seconds from this build time
+Using temporary file: temp_Yeast_1550852626884_1862260294086773919.arff
+[Note] Discount 0.502 seconds from this build time
+Using temporary file: temp_Yeast_1550852632027_1758945148499988783.arff
+[Note] Discount 0.486 seconds from this build time
+Using temporary file: temp_Yeast_1550852634232_5662872212732003193.arff
+[Note] Discount 0.623 seconds from this build time
+Using temporary file: temp_Yeast_1550852637044_-7868715035331841279.arff
+[Note] Discount 0.492 seconds from this build time
+Using temporary file: temp_Yeast_1550852640159_7014820241964981356.arff
+Using temporary file: temp_Yeast_1550852640365_-5301039349804564991.arff
+[Note] Discount 0.487 seconds from this build time
+Using temporary file: temp_Yeast_1550852640700_1980031027531194548.arff
+[Note] Discount 0.446 seconds from this build time
+Using temporary file: temp_Yeast_1550852641151_1392122187641494968.arff
+[Note] Discount 0.506 seconds from this build time
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_Yeast_1550852642555_-3462057721180242966.arff
+[Note] Discount 0.497 seconds from this build time
+Using temporary file: temp_Yeast_1550852644038_-7579808017640594022.arff
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_Yeast_1550852708878_-7087263262376100235.arff
+[Note] Discount 0.533 seconds from this build time
+Using temporary file: temp_Yeast_1550852710926_8600311885107616415.arff
+[Note] Discount 0.498 seconds from this build time
+Using temporary file: temp_Yeast_1550852714916_5628547344516879168.arff
+[Note] Discount 0.436 seconds from this build time
+Using temporary file: temp_Yeast_1550852716558_331546070538502674.arff
+[Note] Discount 0.508 seconds from this build time
+Using temporary file: temp_Yeast_1550852718953_1372267179201092781.arff
+Using temporary file: temp_Yeast_1550852719413_-8304701932600440408.arff
+[Note] Discount 0.631 seconds from this build time
+[Note] Discount 0.583 seconds from this build time
+Using temporary file: temp_Yeast_1550852720758_-2338343576934208312.arff
+[Note] Discount 0.504 seconds from this build time
+Using temporary file: temp_Yeast_1550852723559_-1055296936487117613.arff
+Using temporary file: temp_Yeast_1550852723837_3496076070618025152.arff
+[Note] Discount 0.659 seconds from this build time
+[Note] Discount 0.499 seconds from this build time
+Using temporary file: temp_Yeast_1550852725406_1261036306141182808.arff
+[Note] Discount 0.735 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 7
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Yeast_1550852802574_3475270650314491794.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Yeast_1550852802582_2270991379979347231.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Yeast_1550852802620_-1614084996196586490.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Yeast_1550852802642_8336107190894473033.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Yeast_1550852802661_-1783836501116765729.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Yeast_1550852802796_-4776693766958442873.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Yeast_1550852802812_1585957658595667533.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Yeast_1550852802826_5363441817484042921.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Yeast_1550852802841_735288309103666086.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550852802847_-4845437925228318859.arff
+[Note] Discount 0.746 seconds from this build time
+[Note] Discount 0.766 seconds from this build time
+[Note] Discount 0.745 seconds from this build time
+[Note] Discount 0.854 seconds from this build time
+[Note] Discount 0.792 seconds from this build time
+[Note] Discount 0.685 seconds from this build time
+[Note] Discount 0.679 seconds from this build time
+[Note] Discount 0.685 seconds from this build time
+[Note] Discount 0.786 seconds from this build time
+[Note] Discount 0.775 seconds from this build time
+Using temporary file: temp_Yeast_1550852881088_1622417430311286869.arff
+[Note] Discount 0.508 seconds from this build time
+Using temporary file: temp_Yeast_1550852881879_5612744506800647866.arff
+Using temporary file: temp_Yeast_1550852881904_-4904196865423085294.arff
+[Note] Discount 0.503 seconds from this build time
+[Note] Discount 0.497 seconds from this build time
+Using temporary file: temp_Yeast_1550852882475_-4283036302213613660.arff
+Using temporary file: temp_Yeast_1550852882537_6854428927621892691.arff
+Using temporary file: temp_Yeast_1550852882902_-7889033426576853168.arff
+[Note] Discount 0.511 seconds from this build time
+[Note] Discount 0.504 seconds from this build time
+Using temporary file: temp_Yeast_1550852883221_7609267195525655809.arff
+[Note] Discount 0.519 seconds from this build time
+[Note] Discount 0.505 seconds from this build time
+Using temporary file: temp_Yeast_1550852884410_5639582898743908002.arff
+[Note] Discount 0.506 seconds from this build time
+Using temporary file: temp_Yeast_1550852885096_-2825979959566714257.arff
+[Note] Discount 0.496 seconds from this build time
+Using temporary file: temp_Yeast_1550852885861_5917125705134860630.arff
+[Note] Discount 0.495 seconds from this build time
+Using temporary file: temp_Yeast_1550852957273_680340239326323591.arff
+[Note] Discount 0.499 seconds from this build time
+Using temporary file: temp_Yeast_1550852959567_1461163354790034005.arff
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_Yeast_1550852960502_6992223189773582149.arff
+Using temporary file: temp_Yeast_1550852960699_-7244480259266885303.arff
+Using temporary file: temp_Yeast_1550852960711_7415905872588821609.arff
+[Note] Discount 0.512 seconds from this build time
+[Note] Discount 0.493 seconds from this build time
+[Note] Discount 0.511 seconds from this build time
+Using temporary file: temp_Yeast_1550852961947_-4965775846775124621.arff
+Using temporary file: temp_Yeast_1550852962051_5358307146659318376.arff
+Using temporary file: temp_Yeast_1550852962191_-2921270958620175941.arff
+[Note] Discount 0.505 seconds from this build time
+[Note] Discount 0.452 seconds from this build time
+[Note] Discount 0.492 seconds from this build time
+Using temporary file: temp_Yeast_1550852962831_-7505550339714435677.arff
+Using temporary file: temp_Yeast_1550852963363_5762145474911256072.arff
+[Note] Discount 0.611 seconds from this build time
+[Note] Discount 0.517 seconds from this build time
+Using temporary file: temp_Yeast_1550853035271_-6623980368252521766.arff
+Using temporary file: temp_Yeast_1550853035607_3539458836905320913.arff
+[Note] Discount 0.555 seconds from this build time
+[Note] Discount 0.625 seconds from this build time
+Using temporary file: temp_Yeast_1550853037409_-7008688991718472221.arff
+[Note] Discount 0.505 seconds from this build time
+Using temporary file: temp_Yeast_1550853039932_-217475440604474380.arff
+Using temporary file: temp_Yeast_1550853040180_4399516415237074838.arff
+Using temporary file: temp_Yeast_1550853040365_-7791555276871681082.arff
+[Note] Discount 0.591 seconds from this build time
+[Note] Discount 0.552 seconds from this build time
+[Note] Discount 0.527 seconds from this build time
+Using temporary file: temp_Yeast_1550853040892_-1249065337672274165.arff
+[Note] Discount 0.525 seconds from this build time
+Using temporary file: temp_Yeast_1550853042042_2010947164286293866.arff
+Using temporary file: temp_Yeast_1550853042082_-3983746718352924153.arff
+[Note] Discount 0.49 seconds from this build time
+[Note] Discount 0.534 seconds from this build time
+Using temporary file: temp_Yeast_1550853043374_2445057270153007974.arff
+[Note] Discount 0.583 seconds from this build time
+Using temporary file: temp_Yeast_1550853115999_-207135219591628622.arff
+Using temporary file: temp_Yeast_1550853116089_-6633125691855141005.arff
+[Note] Discount 0.587 seconds from this build time
+[Note] Discount 0.555 seconds from this build time
+Using temporary file: temp_Yeast_1550853117722_5323840495266574478.arff
+[Note] Discount 0.52 seconds from this build time
+Using temporary file: temp_Yeast_1550853119481_-4987005879744123756.arff
+[Note] Discount 0.612 seconds from this build time
+Using temporary file: temp_Yeast_1550853120871_5678626900794067620.arff
+[Note] Discount 0.516 seconds from this build time
+Using temporary file: temp_Yeast_1550853122554_-4006834921742016407.arff
+Using temporary file: temp_Yeast_1550853122824_-1469843190281211649.arff
+[Note] Discount 0.503 seconds from this build time
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_Yeast_1550853123826_7495307949460064708.arff
+[Note] Discount 0.526 seconds from this build time
+Using temporary file: temp_Yeast_1550853124937_8381814542974811998.arff
+[Note] Discount 0.516 seconds from this build time
+Using temporary file: temp_Yeast_1550853125728_-9179464057694309764.arff
+[Note] Discount 0.645 seconds from this build time
+Using temporary file: temp_Yeast_1550853194267_-4901456210524151004.arff
+[Note] Discount 0.52 seconds from this build time
+Using temporary file: temp_Yeast_1550853200149_5543792253369559681.arff
+Using temporary file: temp_Yeast_1550853200420_4336899898550699667.arff
+[Note] Discount 0.538 seconds from this build time
+[Note] Discount 0.626 seconds from this build time
+Using temporary file: temp_Yeast_1550853201679_-7209465029301483472.arff
+[Note] Discount 0.516 seconds from this build time
+Using temporary file: temp_Yeast_1550853203641_5878027573324626745.arff
+Using temporary file: temp_Yeast_1550853203703_281130375825185257.arff
+[Note] Discount 0.531 seconds from this build time
+[Note] Discount 0.609 seconds from this build time
+Using temporary file: temp_Yeast_1550853204324_-601128146759870551.arff
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_Yeast_1550853205961_-682736954125738787.arff
+Using temporary file: temp_Yeast_1550853206463_4611986874067287150.arff
+[Note] Discount 0.541 seconds from this build time
+[Note] Discount 0.52 seconds from this build time
+Using temporary file: temp_Yeast_1550853207001_3041628524624170284.arff
+[Note] Discount 0.576 seconds from this build time
+Using temporary file: temp_Yeast_1550853279194_1168324295631942716.arff
+[Note] Discount 0.547 seconds from this build time
+Using temporary file: temp_Yeast_1550853283574_6769088872911905582.arff
+Using temporary file: temp_Yeast_1550853284060_7256821224132567913.arff
+[Note] Discount 0.524 seconds from this build time
+Using temporary file: temp_Yeast_1550853284347_4170336389308797456.arff
+[Note] Discount 0.561 seconds from this build time
+[Note] Discount 0.582 seconds from this build time
+Using temporary file: temp_Yeast_1550853287743_6036935925562686107.arff
+Using temporary file: temp_Yeast_1550853288133_-5234170890490684509.arff
+Using temporary file: temp_Yeast_1550853288177_-9145729473938644799.arff
+[Note] Discount 0.518 seconds from this build time
+[Note] Discount 0.534 seconds from this build time
+[Note] Discount 0.507 seconds from this build time
+Using temporary file: temp_Yeast_1550853289914_-5275820954868593296.arff
+Using temporary file: temp_Yeast_1550853290411_5620119595698489414.arff
+[Note] Discount 0.508 seconds from this build time
+[Note] Discount 0.549 seconds from this build time
+Using temporary file: temp_Yeast_1550853290968_186383988687977231.arff
+[Note] Discount 0.504 seconds from this build time
+Using temporary file: temp_Yeast_1550853358727_5431972957571244932.arff
+[Note] Discount 0.595 seconds from this build time
+Using temporary file: temp_Yeast_1550853363007_2522841501079800248.arff
+[Note] Discount 0.529 seconds from this build time
+Using temporary file: temp_Yeast_1550853364919_-4820001192579109770.arff
+[Note] Discount 0.456 seconds from this build time
+Using temporary file: temp_Yeast_1550853365526_-1731499584229154534.arff
+[Note] Discount 0.547 seconds from this build time
+Using temporary file: temp_Yeast_1550853368557_2033148680974807986.arff
+Using temporary file: temp_Yeast_1550853368940_2614121250037486955.arff
+[Note] Discount 0.514 seconds from this build time
+[Note] Discount 0.521 seconds from this build time
+Using temporary file: temp_Yeast_1550853369940_-5670000538417845611.arff
+Using temporary file: temp_Yeast_1550853370256_-7396622956704555328.arff
+[Note] Discount 0.506 seconds from this build time
+[Note] Discount 0.49 seconds from this build time
+Using temporary file: temp_Yeast_1550853372997_-6747871786925253441.arff
+Using temporary file: temp_Yeast_1550853373034_-4409150984518176355.arff
+[Note] Discount 0.565 seconds from this build time
+[Note] Discount 0.617 seconds from this build time
+Using temporary file: temp_Yeast_1550853438134_3284785762221477057.arff
+[Note] Discount 0.527 seconds from this build time
+Using temporary file: temp_Yeast_1550853443444_-1127220455287567152.arff
+Using temporary file: temp_Yeast_1550853443759_-7833098935495120875.arff
+[Note] Discount 0.567 seconds from this build time
+[Note] Discount 0.497 seconds from this build time
+Using temporary file: temp_Yeast_1550853446140_-5755484195525570438.arff
+[Note] Discount 0.511 seconds from this build time
+Using temporary file: temp_Yeast_1550853449490_3557645804754716238.arff
+Using temporary file: temp_Yeast_1550853449919_-2397606815650614675.arff
+[Note] Discount 0.591 seconds from this build time
+Using temporary file: temp_Yeast_1550853450327_2510823671498155919.arff
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_Yeast_1550853450536_1332330292446077885.arff
+[Note] Discount 0.499 seconds from this build time
+[Note] Discount 0.485 seconds from this build time
+Using temporary file: temp_Yeast_1550853453696_-1537321388284451263.arff
+Using temporary file: temp_Yeast_1550853453969_8613010248929295249.arff
+[Note] Discount 0.456 seconds from this build time
+[Note] Discount 0.479 seconds from this build time
+Using temporary file: temp_Yeast_1550853518145_2919859758153453568.arff
+[Note] Discount 0.496 seconds from this build time
+Using temporary file: temp_Yeast_1550853519927_7497479965999086393.arff
+[Note] Discount 0.479 seconds from this build time
+Using temporary file: temp_Yeast_1550853522787_8092643338038581717.arff
+[Note] Discount 0.519 seconds from this build time
+Using temporary file: temp_Yeast_1550853525617_1326646905010044805.arff
+[Note] Discount 0.489 seconds from this build time
+Using temporary file: temp_Yeast_1550853528106_4442708040873911210.arff
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_Yeast_1550853528885_-5554748725645626540.arff
+Using temporary file: temp_Yeast_1550853528978_-3704432009686450438.arff
+Using temporary file: temp_Yeast_1550853528995_5494542277548676971.arff
+[Note] Discount 0.506 seconds from this build time
+[Note] Discount 0.557 seconds from this build time
+[Note] Discount 0.657 seconds from this build time
+Using temporary file: temp_Yeast_1550853531549_-3788067831248212793.arff
+[Note] Discount 0.513 seconds from this build time
+Using temporary file: temp_Yeast_1550853533655_5020843632358257543.arff
+[Note] Discount 0.401 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 8
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Yeast_1550853609616_5797898885857920721.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Yeast_1550853609646_-945726292679342924.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Yeast_1550853609662_-844099673303054332.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Yeast_1550853609681_3902610103608179935.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Yeast_1550853609696_2300274633014929457.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Yeast_1550853609711_4300186733318170538.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Yeast_1550853609736_-9195789692800418047.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Yeast_1550853609751_-5596654713944733569.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Yeast_1550853609776_-6310506688630775259.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550853609791_-48947332408195609.arff
+[Note] Discount 0.489 seconds from this build time
+[Note] Discount 0.563 seconds from this build time
+[Note] Discount 0.54 seconds from this build time
+[Note] Discount 0.564 seconds from this build time
+[Note] Discount 0.56 seconds from this build time
+[Note] Discount 0.538 seconds from this build time
+[Note] Discount 0.563 seconds from this build time
+[Note] Discount 0.539 seconds from this build time
+[Note] Discount 0.584 seconds from this build time
+[Note] Discount 0.619 seconds from this build time
+Using temporary file: temp_Yeast_1550853686555_8724470744763331282.arff
+[Note] Discount 0.576 seconds from this build time
+Using temporary file: temp_Yeast_1550853687614_3584226657257485852.arff
+Using temporary file: temp_Yeast_1550853687680_4203908418003684972.arff
+[Note] Discount 0.498 seconds from this build time
+[Note] Discount 0.492 seconds from this build time
+Using temporary file: temp_Yeast_1550853689354_1648288546226020572.arff
+[Note] Discount 0.491 seconds from this build time
+Using temporary file: temp_Yeast_1550853689947_-1470434222209313151.arff
+[Note] Discount 0.565 seconds from this build time
+Using temporary file: temp_Yeast_1550853690962_-4330080723252508033.arff
+Using temporary file: temp_Yeast_1550853691096_5680945340363637752.arff
+Using temporary file: temp_Yeast_1550853691245_6991406552572976204.arff
+[Note] Discount 0.499 seconds from this build time
+[Note] Discount 0.516 seconds from this build time
+[Note] Discount 0.506 seconds from this build time
+Using temporary file: temp_Yeast_1550853691803_6871364801639938441.arff
+[Note] Discount 0.488 seconds from this build time
+Using temporary file: temp_Yeast_1550853692491_-8470582481256382969.arff
+[Note] Discount 0.51 seconds from this build time
+Using temporary file: temp_Yeast_1550853761259_1996547057907075440.arff
+[Note] Discount 0.483 seconds from this build time
+Using temporary file: temp_Yeast_1550853765505_7512030474967643342.arff
+[Note] Discount 0.511 seconds from this build time
+Using temporary file: temp_Yeast_1550853766430_-1681421259993292196.arff
+[Note] Discount 0.631 seconds from this build time
+Using temporary file: temp_Yeast_1550853767702_-4327365921067705564.arff
+[Note] Discount 0.589 seconds from this build time
+Using temporary file: temp_Yeast_1550853769467_-650072592903891027.arff
+Using temporary file: temp_Yeast_1550853769860_2095696241247569486.arff
+[Note] Discount 0.489 seconds from this build time
+Using temporary file: temp_Yeast_1550853770190_7251217747129858271.arff
+Using temporary file: temp_Yeast_1550853770191_-6136410516779160355.arff
+Using temporary file: temp_Yeast_1550853770241_-5447674199320302528.arff
+[Note] Discount 0.472 seconds from this build time
+[Note] Discount 0.583 seconds from this build time
+[Note] Discount 0.573 seconds from this build time
+[Note] Discount 0.626 seconds from this build time
+Using temporary file: temp_Yeast_1550853771304_-7360356420697316724.arff
+[Note] Discount 0.527 seconds from this build time
+Using temporary file: temp_Yeast_1550853835585_6315394412835225833.arff
+[Note] Discount 0.491 seconds from this build time
+Using temporary file: temp_Yeast_1550853842794_-3328960931179463349.arff
+Using temporary file: temp_Yeast_1550853843097_-7560286038326203413.arff
+[Note] Discount 0.497 seconds from this build time
+[Note] Discount 0.519 seconds from this build time
+Using temporary file: temp_Yeast_1550853846124_8037000249453754267.arff
+Using temporary file: temp_Yeast_1550853846386_1998614497907369159.arff
+[Note] Discount 0.606 seconds from this build time
+[Note] Discount 0.515 seconds from this build time
+Using temporary file: temp_Yeast_1550853847388_-7682112285708344292.arff
+Using temporary file: temp_Yeast_1550853847605_-6204331610574482140.arff
+Using temporary file: temp_Yeast_1550853847629_-8244745312671349148.arff
+[Note] Discount 0.498 seconds from this build time
+[Note] Discount 0.511 seconds from this build time
+[Note] Discount 0.522 seconds from this build time
+Using temporary file: temp_Yeast_1550853848493_-8604862550481858629.arff
+Using temporary file: temp_Yeast_1550853848706_-5693797743320079087.arff
+[Note] Discount 0.556 seconds from this build time
+[Note] Discount 0.575 seconds from this build time
+Using temporary file: temp_Yeast_1550853910496_5869101238778430101.arff
+[Note] Discount 0.53 seconds from this build time
+Using temporary file: temp_Yeast_1550853919466_8134351140710820129.arff
+Using temporary file: temp_Yeast_1550853919795_221358426708416632.arff
+[Note] Discount 0.526 seconds from this build time
+[Note] Discount 0.378 seconds from this build time
+Using temporary file: temp_Yeast_1550853920287_233649483812134528.arff
+[Note] Discount 0.459 seconds from this build time
+Using temporary file: temp_Yeast_1550853923325_-5572877181438739042.arff
+[Note] Discount 0.527 seconds from this build time
+Using temporary file: temp_Yeast_1550853924305_-1710766958202443294.arff
+[Note] Discount 0.488 seconds from this build time
+Using temporary file: temp_Yeast_1550853926349_-1251244960138593368.arff
+Using temporary file: temp_Yeast_1550853926495_1485568480240191442.arff
+Using temporary file: temp_Yeast_1550853926582_1825522180626948306.arff
+[Note] Discount 0.492 seconds from this build time
+[Note] Discount 0.507 seconds from this build time
+[Note] Discount 0.49 seconds from this build time
+Using temporary file: temp_Yeast_1550853927437_7423176560455067915.arff
+[Note] Discount 0.566 seconds from this build time
+Using temporary file: temp_Yeast_1550853990254_-3545115380320098714.arff
+[Note] Discount 0.522 seconds from this build time
+Using temporary file: temp_Yeast_1550853999698_46266498021425158.arff
+[Note] Discount 0.513 seconds from this build time
+Using temporary file: temp_Yeast_1550854000260_-2144351936338032011.arff
+[Note] Discount 0.521 seconds from this build time
+Using temporary file: temp_Yeast_1550854001030_-8025140981603101740.arff
+[Note] Discount 0.521 seconds from this build time
+Using temporary file: temp_Yeast_1550854002034_262618084365242565.arff
+[Note] Discount 0.518 seconds from this build time
+Using temporary file: temp_Yeast_1550854005461_-500219266596606931.arff
+[Note] Discount 0.532 seconds from this build time
+Using temporary file: temp_Yeast_1550854006853_-8318978027522318587.arff
+Using temporary file: temp_Yeast_1550854007354_7096544479148813000.arff
+[Note] Discount 0.668 seconds from this build time
+[Note] Discount 0.557 seconds from this build time
+Using temporary file: temp_Yeast_1550854008837_-1146455515050596281.arff
+[Note] Discount 0.649 seconds from this build time
+Using temporary file: temp_Yeast_1550854009535_-5189677124161559060.arff
+[Note] Discount 0.491 seconds from this build time
+Using temporary file: temp_Yeast_1550854071889_9128443364994243502.arff
+[Note] Discount 0.617 seconds from this build time
+Using temporary file: temp_Yeast_1550854078970_2537966171057395782.arff
+[Note] Discount 0.511 seconds from this build time
+Using temporary file: temp_Yeast_1550854081097_-8843924095490061722.arff
+Using temporary file: temp_Yeast_1550854081135_-2547801522413471235.arff
+[Note] Discount 0.501 seconds from this build time
+[Note] Discount 0.501 seconds from this build time
+Using temporary file: temp_Yeast_1550854081939_-4979644171343562540.arff
+[Note] Discount 0.507 seconds from this build time
+Using temporary file: temp_Yeast_1550854083748_663891803632391939.arff
+[Note] Discount 0.578 seconds from this build time
+Using temporary file: temp_Yeast_1550854086151_-6748242386890846450.arff
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_Yeast_1550854086703_6664448195119953582.arff
+[Note] Discount 0.62 seconds from this build time
+Using temporary file: temp_Yeast_1550854089168_4048073894657531021.arff
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_Yeast_1550854090031_6637429393644021894.arff
+[Note] Discount 0.521 seconds from this build time
+Using temporary file: temp_Yeast_1550854151310_8401618513674609441.arff
+[Note] Discount 0.532 seconds from this build time
+Using temporary file: temp_Yeast_1550854159268_-1688092882814449056.arff
+Using temporary file: temp_Yeast_1550854159309_-3149241608122180316.arff
+[Note] Discount 0.497 seconds from this build time
+[Note] Discount 0.497 seconds from this build time
+Using temporary file: temp_Yeast_1550854160748_-5794863138595349589.arff
+Using temporary file: temp_Yeast_1550854160979_540873747948729074.arff
+[Note] Discount 0.514 seconds from this build time
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_Yeast_1550854164604_7319963726341157385.arff
+[Note] Discount 0.518 seconds from this build time
+Using temporary file: temp_Yeast_1550854165843_-2594458883112823912.arff
+[Note] Discount 0.493 seconds from this build time
+Using temporary file: temp_Yeast_1550854166535_-5218363911369579743.arff
+[Note] Discount 0.502 seconds from this build time
+Using temporary file: temp_Yeast_1550854169824_-9128340484683897654.arff
+[Note] Discount 0.513 seconds from this build time
+Using temporary file: temp_Yeast_1550854170682_6554092355901241267.arff
+[Note] Discount 0.477 seconds from this build time
+Using temporary file: temp_Yeast_1550854230107_-665611951256502758.arff
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_Yeast_1550854239775_2369530194033851372.arff
+[Note] Discount 0.517 seconds from this build time
+Using temporary file: temp_Yeast_1550854241010_2037648442184655719.arff
+[Note] Discount 0.502 seconds from this build time
+Using temporary file: temp_Yeast_1550854242354_-8369985346162786053.arff
+Using temporary file: temp_Yeast_1550854242510_-2618505083878428013.arff
+[Note] Discount 0.483 seconds from this build time
+[Note] Discount 0.643 seconds from this build time
+Using temporary file: temp_Yeast_1550854246289_-3844558872529263645.arff
+[Note] Discount 0.513 seconds from this build time
+Using temporary file: temp_Yeast_1550854247683_-3936551051312039816.arff
+Using temporary file: temp_Yeast_1550854248118_-4397589800245301870.arff
+[Note] Discount 0.499 seconds from this build time
+[Note] Discount 0.434 seconds from this build time
+Using temporary file: temp_Yeast_1550854253623_-7705025750692011749.arff
+[Note] Discount 0.489 seconds from this build time
+Using temporary file: temp_Yeast_1550854255537_-5172971845248114637.arff
+[Note] Discount 0.475 seconds from this build time
+Using temporary file: temp_Yeast_1550854308361_-8252732331633625310.arff
+[Note] Discount 0.523 seconds from this build time
+Using temporary file: temp_Yeast_1550854320581_4079197736038352319.arff
+[Note] Discount 0.512 seconds from this build time
+Using temporary file: temp_Yeast_1550854321421_4714351880739219075.arff
+[Note] Discount 0.516 seconds from this build time
+Using temporary file: temp_Yeast_1550854322232_1477744949315785690.arff
+[Note] Discount 0.515 seconds from this build time
+Using temporary file: temp_Yeast_1550854323087_1593226455485412990.arff
+[Note] Discount 0.449 seconds from this build time
+Using temporary file: temp_Yeast_1550854325047_-2292657705489123108.arff
+[Note] Discount 0.49 seconds from this build time
+Using temporary file: temp_Yeast_1550854326085_3403275329300082380.arff
+[Note] Discount 0.582 seconds from this build time
+Using temporary file: temp_Yeast_1550854327208_-6147411282109651411.arff
+[Note] Discount 0.524 seconds from this build time
+Using temporary file: temp_Yeast_1550854333081_-5239570827406975976.arff
+Using temporary file: temp_Yeast_1550854333135_6432356007261678549.arff
+[Note] Discount 0.506 seconds from this build time
+[Note] Discount 0.496 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 9
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Yeast_1550854410484_-1515158592908040274.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Yeast_1550854410494_5322681299929659730.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Yeast_1550854410517_1936795074606706.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Yeast_1550854410542_3890866512835467180.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Yeast_1550854410556_6176014792303674130.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Yeast_1550854410577_-6620103278978289465.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Yeast_1550854410723_6316138657225156479.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Yeast_1550854410739_-4098267762943805449.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Yeast_1550854410752_2552139837508651416.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550854410762_6567461472594266073.arff
+[Note] Discount 0.659 seconds from this build time
+[Note] Discount 0.699 seconds from this build time
+[Note] Discount 0.699 seconds from this build time
+[Note] Discount 0.701 seconds from this build time
+[Note] Discount 0.581 seconds from this build time
+[Note] Discount 0.558 seconds from this build time
+[Note] Discount 0.785 seconds from this build time
+[Note] Discount 0.794 seconds from this build time
+[Note] Discount 0.62 seconds from this build time
+[Note] Discount 0.653 seconds from this build time
+Using temporary file: temp_Yeast_1550854489611_-6778128366459969752.arff
+Using temporary file: temp_Yeast_1550854489913_-6611242892417775264.arff
+[Note] Discount 0.5 seconds from this build time
+[Note] Discount 0.487 seconds from this build time
+Using temporary file: temp_Yeast_1550854490436_3490228200639642898.arff
+[Note] Discount 0.46 seconds from this build time
+Using temporary file: temp_Yeast_1550854492126_1662010423733631022.arff
+Using temporary file: temp_Yeast_1550854492222_-4858994240073783862.arff
+Using temporary file: temp_Yeast_1550854492338_-5406636261142259676.arff
+Using temporary file: temp_Yeast_1550854492433_-752954469917193465.arff
+[Note] Discount 0.567 seconds from this build time
+[Note] Discount 0.61 seconds from this build time
+[Note] Discount 0.596 seconds from this build time
+[Note] Discount 0.612 seconds from this build time
+Using temporary file: temp_Yeast_1550854493389_-5290951107275755460.arff
+[Note] Discount 0.522 seconds from this build time
+Using temporary file: temp_Yeast_1550854493946_-4272622707664980298.arff
+[Note] Discount 0.486 seconds from this build time
+Using temporary file: temp_Yeast_1550854494573_-7641598872376107371.arff
+[Note] Discount 0.583 seconds from this build time
+Using temporary file: temp_Yeast_1550854569161_184084303402159921.arff
+[Note] Discount 0.442 seconds from this build time
+Using temporary file: temp_Yeast_1550854571364_-2220726953495488049.arff
+[Note] Discount 0.521 seconds from this build time
+Using temporary file: temp_Yeast_1550854572333_8607046313482873520.arff
+Using temporary file: temp_Yeast_1550854572529_-3226111013754539112.arff
+[Note] Discount 0.498 seconds from this build time
+[Note] Discount 0.501 seconds from this build time
+Using temporary file: temp_Yeast_1550854573138_-3505088063389309441.arff
+Using temporary file: temp_Yeast_1550854573189_-8702988211453038457.arff
+Using temporary file: temp_Yeast_1550854573528_-6016242411370302863.arff
+[Note] Discount 0.424 seconds from this build time
+[Note] Discount 0.629 seconds from this build time
+[Note] Discount 0.642 seconds from this build time
+Using temporary file: temp_Yeast_1550854574355_-7555272422567687896.arff
+Using temporary file: temp_Yeast_1550854574616_7202043895247474452.arff
+[Note] Discount 0.491 seconds from this build time
+[Note] Discount 0.485 seconds from this build time
+Using temporary file: temp_Yeast_1550854577114_2674888791828129879.arff
+[Note] Discount 0.428 seconds from this build time
+Using temporary file: temp_Yeast_1550854651205_-2413430317850140379.arff
+[Note] Discount 0.562 seconds from this build time
+Using temporary file: temp_Yeast_1550854655956_2004110606177057489.arff
+Using temporary file: temp_Yeast_1550854656194_5750419551786115014.arff
+Using temporary file: temp_Yeast_1550854656388_-1019340972947741689.arff
+[Note] Discount 0.509 seconds from this build time
+[Note] Discount 0.506 seconds from this build time
+[Note] Discount 0.499 seconds from this build time
+Using temporary file: temp_Yeast_1550854657513_-1112372283823110418.arff
+Using temporary file: temp_Yeast_1550854657735_7130389426934934581.arff
+Using temporary file: temp_Yeast_1550854657905_2992976862721050016.arff
+Using temporary file: temp_Yeast_1550854657929_8841646798864268211.arff
+Using temporary file: temp_Yeast_1550854657991_-1934659891784082593.arff
+[Note] Discount 0.532 seconds from this build time
+[Note] Discount 0.5 seconds from this build time
+[Note] Discount 0.575 seconds from this build time
+[Note] Discount 0.631 seconds from this build time
+[Note] Discount 0.604 seconds from this build time
+Using temporary file: temp_Yeast_1550854659705_8542928366277031819.arff
+[Note] Discount 0.476 seconds from this build time
+Using temporary file: temp_Yeast_1550854735282_6332602903681407200.arff
+[Note] Discount 0.432 seconds from this build time
+Using temporary file: temp_Yeast_1550854738203_-8018588774928247989.arff
+[Note] Discount 0.492 seconds from this build time
+Using temporary file: temp_Yeast_1550854738997_462267692281657345.arff
+[Note] Discount 0.384 seconds from this build time
+Using temporary file: temp_Yeast_1550854740097_-4994297446106747877.arff
+[Note] Discount 0.548 seconds from this build time
+Using temporary file: temp_Yeast_1550854740698_3842472955018329850.arff
+[Note] Discount 0.512 seconds from this build time
+Using temporary file: temp_Yeast_1550854741473_-2989691344935059183.arff
+Using temporary file: temp_Yeast_1550854741538_1468057664056402641.arff
+[Note] Discount 0.468 seconds from this build time
+[Note] Discount 0.507 seconds from this build time
+Using temporary file: temp_Yeast_1550854742071_-6389105643340129085.arff
+Using temporary file: temp_Yeast_1550854742218_-5193021215669789421.arff
+[Note] Discount 0.419 seconds from this build time
+Using temporary file: temp_Yeast_1550854742530_-5820675107994106851.arff
+[Note] Discount 0.467 seconds from this build time
+[Note] Discount 0.485 seconds from this build time
+Using temporary file: temp_Yeast_1550854820466_7618091476051568832.arff
+[Note] Discount 0.498 seconds from this build time
+Using temporary file: temp_Yeast_1550854822458_-7551913932934349195.arff
+[Note] Discount 0.567 seconds from this build time
+Using temporary file: temp_Yeast_1550854823544_-6396101906293679482.arff
+Using temporary file: temp_Yeast_1550854823575_-3899300208369743140.arff
+[Note] Discount 0.498 seconds from this build time
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_Yeast_1550854824218_-6039976808000108494.arff
+Using temporary file: temp_Yeast_1550854824332_3948048941934106295.arff
+Using temporary file: temp_Yeast_1550854824485_1312379144408593251.arff
+[Note] Discount 0.542 seconds from this build time
+[Note] Discount 0.513 seconds from this build time
+[Note] Discount 0.5 seconds from this build time
+Using temporary file: temp_Yeast_1550854826435_466468273879730573.arff
+Using temporary file: temp_Yeast_1550854826478_-8534847643124651136.arff
+[Note] Discount 0.505 seconds from this build time
+[Note] Discount 0.503 seconds from this build time
+Using temporary file: temp_Yeast_1550854827893_-8844304778186851807.arff
+[Note] Discount 0.527 seconds from this build time
+Using temporary file: temp_Yeast_1550854905088_2860012171536472811.arff
+[Note] Discount 0.508 seconds from this build time
+Using temporary file: temp_Yeast_1550854905747_-265721343088353085.arff
+[Note] Discount 0.524 seconds from this build time
+Using temporary file: temp_Yeast_1550854906315_3964494804894872438.arff
+Using temporary file: temp_Yeast_1550854906470_5097036153496034018.arff
+[Note] Discount 0.536 seconds from this build time
+[Note] Discount 0.501 seconds from this build time
+Using temporary file: temp_Yeast_1550854907034_-3764733868737974763.arff
+Using temporary file: temp_Yeast_1550854907044_-306376542191725594.arff
+[Note] Discount 0.482 seconds from this build time
+[Note] Discount 0.497 seconds from this build time
+Using temporary file: temp_Yeast_1550854908590_-2001850952147463723.arff
+Using temporary file: temp_Yeast_1550854908703_4482083831205177148.arff
+[Note] Discount 0.481 seconds from this build time
+[Note] Discount 0.488 seconds from this build time
+Using temporary file: temp_Yeast_1550854909595_4969351975654405645.arff
+[Note] Discount 0.497 seconds from this build time
+Using temporary file: temp_Yeast_1550854911943_-59498701129068622.arff
+[Note] Discount 0.488 seconds from this build time
+Using temporary file: temp_Yeast_1550854986447_1746929754512094162.arff
+[Note] Discount 0.494 seconds from this build time
+Using temporary file: temp_Yeast_1550854987469_-8995589311738267644.arff
+Using temporary file: temp_Yeast_1550854987677_2627618420006714031.arff
+[Note] Discount 0.407 seconds from this build time
+[Note] Discount 0.459 seconds from this build time
+Using temporary file: temp_Yeast_1550854988513_-6786406047068405579.arff
+Using temporary file: temp_Yeast_1550854988937_-390191939874456427.arff
+[Note] Discount 0.488 seconds from this build time
+Using temporary file: temp_Yeast_1550854989016_-3632832069336936669.arff
+[Note] Discount 0.525 seconds from this build time
+[Note] Discount 0.56 seconds from this build time
+Using temporary file: temp_Yeast_1550854991061_2039543411803235600.arff
+Using temporary file: temp_Yeast_1550854991142_-2527384627290195499.arff
+[Note] Discount 0.595 seconds from this build time
+[Note] Discount 0.584 seconds from this build time
+Using temporary file: temp_Yeast_1550854991994_-2408918644271853637.arff
+[Note] Discount 0.499 seconds from this build time
+Using temporary file: temp_Yeast_1550854995364_-6852236919480605161.arff
+[Note] Discount 0.507 seconds from this build time
+Using temporary file: temp_Yeast_1550855069244_-3493599005871656458.arff
+Using temporary file: temp_Yeast_1550855069512_-130196686726026551.arff
+[Note] Discount 0.488 seconds from this build time
+[Note] Discount 0.489 seconds from this build time
+Using temporary file: temp_Yeast_1550855070458_284151815832988629.arff
+[Note] Discount 0.523 seconds from this build time
+Using temporary file: temp_Yeast_1550855071175_-3092508877766243214.arff
+[Note] Discount 0.491 seconds from this build time
+Using temporary file: temp_Yeast_1550855073394_-4048137209577229221.arff
+[Note] Discount 0.482 seconds from this build time
+Using temporary file: temp_Yeast_1550855074059_334156229026621083.arff
+[Note] Discount 0.602 seconds from this build time
+Using temporary file: temp_Yeast_1550855076491_7174076028287948007.arff
+Using temporary file: temp_Yeast_1550855076825_1942857257600013914.arff
+[Note] Discount 0.485 seconds from this build time
+[Note] Discount 0.368 seconds from this build time
+Using temporary file: temp_Yeast_1550855077597_-6558944179507533842.arff
+[Note] Discount 0.564 seconds from this build time
+Using temporary file: temp_Yeast_1550855080470_5997068171343985196.arff
+[Note] Discount 0.521 seconds from this build time
+Using temporary file: temp_Yeast_1550855147876_-8404355807357530390.arff
+[Note] Discount 0.469 seconds from this build time
+Using temporary file: temp_Yeast_1550855148885_-4649285007373772024.arff
+Using temporary file: temp_Yeast_1550855148963_5341654634577990545.arff
+[Note] Discount 0.45 seconds from this build time
+[Note] Discount 0.502 seconds from this build time
+Using temporary file: temp_Yeast_1550855150668_8282359692238885552.arff
+[Note] Discount 0.469 seconds from this build time
+Using temporary file: temp_Yeast_1550855151908_81139181920135242.arff
+[Note] Discount 0.457 seconds from this build time
+Using temporary file: temp_Yeast_1550855152867_2264101326402011977.arff
+[Note] Discount 0.429 seconds from this build time
+Using temporary file: temp_Yeast_1550855153344_5024117961264774108.arff
+[Note] Discount 0.531 seconds from this build time
+Using temporary file: temp_Yeast_1550855154663_8080555923853128750.arff
+Using temporary file: temp_Yeast_1550855154740_6887933843695998056.arff
+[Note] Discount 0.432 seconds from this build time
+[Note] Discount 0.393 seconds from this build time
+Using temporary file: temp_Yeast_1550855156682_-879060640046520320.arff
+[Note] Discount 0.243 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 10
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Yeast_1550855225604_-1097005763215907431.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Yeast_1550855225617_4133136094781571073.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Yeast_1550855225627_7352557100187686425.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Yeast_1550855225637_-2518034762091200350.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Yeast_1550855225647_-3846394447445907386.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Yeast_1550855225657_5182718108129282905.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Yeast_1550855225663_9108767575255120421.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Yeast_1550855225683_6457100290386878904.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Yeast_1550855225782_7379294991125336214.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550855225782_-4249319482140146245.arff
+[Note] Discount 0.433 seconds from this build time
+[Note] Discount 0.439 seconds from this build time
+[Note] Discount 0.469 seconds from this build time
+[Note] Discount 0.443 seconds from this build time
+[Note] Discount 0.499 seconds from this build time
+[Note] Discount 0.505 seconds from this build time
+[Note] Discount 0.525 seconds from this build time
+[Note] Discount 0.523 seconds from this build time
+[Note] Discount 0.406 seconds from this build time
+[Note] Discount 0.424 seconds from this build time
+Using temporary file: temp_Yeast_1550855286225_-3281918510377147959.arff
+[Note] Discount 0.341 seconds from this build time
+Using temporary file: temp_Yeast_1550855287623_-6733634721012216991.arff
+[Note] Discount 0.323 seconds from this build time
+Using temporary file: temp_Yeast_1550855290671_-2885737938867531024.arff
+[Note] Discount 0.253 seconds from this build time
+Using temporary file: temp_Yeast_1550855291389_5773861209258422141.arff
+[Note] Discount 0.277 seconds from this build time
+Using temporary file: temp_Yeast_1550855291852_-1974625306267034315.arff
+[Note] Discount 0.261 seconds from this build time
+Using temporary file: temp_Yeast_1550855292288_-4653482453440165939.arff
+[Note] Discount 0.328 seconds from this build time
+Using temporary file: temp_Yeast_1550855293729_-1316284395435733522.arff
+Using temporary file: temp_Yeast_1550855293925_-8804216815127240629.arff
+[Note] Discount 0.337 seconds from this build time
+[Note] Discount 0.349 seconds from this build time
+Using temporary file: temp_Yeast_1550855294595_-4217358927821220337.arff
+[Note] Discount 0.38 seconds from this build time
+Using temporary file: temp_Yeast_1550855295959_-9196302340606355005.arff
+[Note] Discount 0.249 seconds from this build time
+Using temporary file: temp_Yeast_1550855348339_-5899162848834429728.arff
+[Note] Discount 0.347 seconds from this build time
+Using temporary file: temp_Yeast_1550855350528_7533238485814795685.arff
+[Note] Discount 0.247 seconds from this build time
+Using temporary file: temp_Yeast_1550855352050_7733290305614629359.arff
+[Note] Discount 0.335 seconds from this build time
+Using temporary file: temp_Yeast_1550855353535_-846139316187710692.arff
+Using temporary file: temp_Yeast_1550855353748_9095368021391309383.arff
+[Note] Discount 0.381 seconds from this build time
+[Note] Discount 0.358 seconds from this build time
+Using temporary file: temp_Yeast_1550855356080_-2967224915421871778.arff
+[Note] Discount 0.306 seconds from this build time
+Using temporary file: temp_Yeast_1550855356418_7254962631710954721.arff
+[Note] Discount 0.348 seconds from this build time
+Using temporary file: temp_Yeast_1550855357714_6793401398405262149.arff
+[Note] Discount 0.281 seconds from this build time
+Using temporary file: temp_Yeast_1550855359259_1201529694088245850.arff
+[Note] Discount 0.282 seconds from this build time
+Using temporary file: temp_Yeast_1550855361231_5532952485145980959.arff
+[Note] Discount 0.386 seconds from this build time
+Using temporary file: temp_Yeast_1550855413745_2024664981644741606.arff
+[Note] Discount 0.301 seconds from this build time
+Using temporary file: temp_Yeast_1550855415259_-6530648074260099647.arff
+[Note] Discount 0.375 seconds from this build time
+Using temporary file: temp_Yeast_1550855416781_-4928655234943867516.arff
+[Note] Discount 0.345 seconds from this build time
+Using temporary file: temp_Yeast_1550855421253_5279521211330043874.arff
+[Note] Discount 0.373 seconds from this build time
+Using temporary file: temp_Yeast_1550855421978_2792153090653267827.arff
+[Note] Discount 0.349 seconds from this build time
+Using temporary file: temp_Yeast_1550855423059_-5372335893304371035.arff
+Using temporary file: temp_Yeast_1550855423097_2048383389135330019.arff
+Using temporary file: temp_Yeast_1550855423231_-3405076185054269833.arff
+[Note] Discount 0.364 seconds from this build time
+[Note] Discount 0.45 seconds from this build time
+[Note] Discount 0.412 seconds from this build time
+Using temporary file: temp_Yeast_1550855425756_-6611556569430131216.arff
+[Note] Discount 0.327 seconds from this build time
+Using temporary file: temp_Yeast_1550855427634_5841240469633028891.arff
+[Note] Discount 0.248 seconds from this build time
+Using temporary file: temp_Yeast_1550855479142_77658900226073291.arff
+[Note] Discount 0.375 seconds from this build time
+Using temporary file: temp_Yeast_1550855480929_-5563207846571128830.arff
+[Note] Discount 0.384 seconds from this build time
+Using temporary file: temp_Yeast_1550855485903_-8502925117122032071.arff
+[Note] Discount 0.381 seconds from this build time
+Using temporary file: temp_Yeast_1550855487755_6938172056849572831.arff
+[Note] Discount 0.381 seconds from this build time
+Using temporary file: temp_Yeast_1550855490909_7355433967703345473.arff
+Using temporary file: temp_Yeast_1550855491030_7563099806678621563.arff
+Using temporary file: temp_Yeast_1550855491229_-3396538087577527775.arff
+[Note] Discount 0.375 seconds from this build time
+[Note] Discount 0.367 seconds from this build time
+[Note] Discount 0.377 seconds from this build time
+Using temporary file: temp_Yeast_1550855492744_-2327702443608084539.arff
+[Note] Discount 0.262 seconds from this build time
+Using temporary file: temp_Yeast_1550855493928_-477977023812478847.arff
+[Note] Discount 0.401 seconds from this build time
+Using temporary file: temp_Yeast_1550855495727_-6908225219179713748.arff
+[Note] Discount 0.47 seconds from this build time
+Using temporary file: temp_Yeast_1550855541150_-2303663630602022677.arff
+[Note] Discount 0.367 seconds from this build time
+Using temporary file: temp_Yeast_1550855543774_3521544346581895217.arff
+[Note] Discount 0.242 seconds from this build time
+Using temporary file: temp_Yeast_1550855547629_-438253234286220423.arff
+[Note] Discount 0.37 seconds from this build time
+Using temporary file: temp_Yeast_1550855554240_-4622677873734906057.arff
+[Note] Discount 0.373 seconds from this build time
+Using temporary file: temp_Yeast_1550855554872_4346266601924037071.arff
+Using temporary file: temp_Yeast_1550855555189_-5491028707056506467.arff
+[Note] Discount 0.472 seconds from this build time
+[Note] Discount 0.385 seconds from this build time
+Using temporary file: temp_Yeast_1550855555984_8968188012354080843.arff
+[Note] Discount 0.361 seconds from this build time
+Using temporary file: temp_Yeast_1550855557319_947751869731336206.arff
+[Note] Discount 0.398 seconds from this build time
+Using temporary file: temp_Yeast_1550855557848_8599333797261938299.arff
+[Note] Discount 0.376 seconds from this build time
+Using temporary file: temp_Yeast_1550855560134_4538861931719887383.arff
+[Note] Discount 0.35 seconds from this build time
+Using temporary file: temp_Yeast_1550855602427_1576771593856367311.arff
+[Note] Discount 0.355 seconds from this build time
+Using temporary file: temp_Yeast_1550855604252_6402536377009844985.arff
+[Note] Discount 0.367 seconds from this build time
+Using temporary file: temp_Yeast_1550855609242_-7620299888477244017.arff
+[Note] Discount 0.351 seconds from this build time
+Using temporary file: temp_Yeast_1550855612366_4779578432549631936.arff
+[Note] Discount 0.378 seconds from this build time
+Using temporary file: temp_Yeast_1550855614978_-6041162341894895858.arff
+[Note] Discount 0.329 seconds from this build time
+Using temporary file: temp_Yeast_1550855615487_-8981219920786570605.arff
+Using temporary file: temp_Yeast_1550855615578_-6056044350698779360.arff
+[Note] Discount 0.378 seconds from this build time
+[Note] Discount 0.309 seconds from this build time
+Using temporary file: temp_Yeast_1550855617432_2224303397774919502.arff
+[Note] Discount 0.344 seconds from this build time
+Using temporary file: temp_Yeast_1550855620068_-5271706449293669432.arff
+[Note] Discount 0.338 seconds from this build time
+Using temporary file: temp_Yeast_1550855623589_-9045467014899653299.arff
+[Note] Discount 0.403 seconds from this build time
+Using temporary file: temp_Yeast_1550855659987_3393477915573605686.arff
+[Note] Discount 0.37 seconds from this build time
+Using temporary file: temp_Yeast_1550855670362_-8927384624221007222.arff
+[Note] Discount 0.291 seconds from this build time
+Using temporary file: temp_Yeast_1550855674529_-8617310050245296913.arff
+[Note] Discount 0.258 seconds from this build time
+Using temporary file: temp_Yeast_1550855675451_-21047075962051606.arff
+[Note] Discount 0.326 seconds from this build time
+Using temporary file: temp_Yeast_1550855677374_-6334218353576818099.arff
+[Note] Discount 0.272 seconds from this build time
+Using temporary file: temp_Yeast_1550855678302_8180276972282283731.arff
+[Note] Discount 0.244 seconds from this build time
+Using temporary file: temp_Yeast_1550855678706_5920754926470356522.arff
+[Note] Discount 0.351 seconds from this build time
+Using temporary file: temp_Yeast_1550855680213_1740667787022581761.arff
+[Note] Discount 0.403 seconds from this build time
+Using temporary file: temp_Yeast_1550855682982_-5755219441248174120.arff
+[Note] Discount 0.324 seconds from this build time
+Using temporary file: temp_Yeast_1550855691005_-3362740203718507622.arff
+[Note] Discount 0.311 seconds from this build time
+Using temporary file: temp_Yeast_1550855725703_8382917712018146643.arff
+[Note] Discount 0.253 seconds from this build time
+Using temporary file: temp_Yeast_1550855736764_4672872193483635327.arff
+[Note] Discount 0.286 seconds from this build time
+Using temporary file: temp_Yeast_1550855738128_-2461866366162597191.arff
+[Note] Discount 0.618 seconds from this build time
+Using temporary file: temp_Yeast_1550855738977_9205570043268057316.arff
+[Note] Discount 0.174 seconds from this build time
+Using temporary file: temp_Yeast_1550855744942_6093878654543686905.arff
+[Note] Discount 0.263 seconds from this build time
+Using temporary file: temp_Yeast_1550855747477_-3087317153297012190.arff
+[Note] Discount 0.236 seconds from this build time
+Using temporary file: temp_Yeast_1550855748897_2955545346353347531.arff
+Using temporary file: temp_Yeast_1550855748911_-555757723787266613.arff
+Using temporary file: temp_Yeast_1550855749046_7285447829679134431.arff
+[Note] Discount 0.279 seconds from this build time
+[Note] Discount 0.265 seconds from this build time
+[Note] Discount 0.259 seconds from this build time
+Using temporary file: temp_Yeast_1550855755975_6828655992224817663.arff
+[Note] Discount 0.25 seconds from this build time
+Using temporary file: temp_Yeast_1550855800834_-9021935719278695847.arff
+[Note] Discount 0.432 seconds from this build time
+Using temporary file: temp_Yeast_1550855802093_-3403651146605291779.arff
+[Note] Discount 0.423 seconds from this build time
+Using temporary file: temp_Yeast_1550855803177_4552972619979767419.arff
+[Note] Discount 0.249 seconds from this build time
+Using temporary file: temp_Yeast_1550855810310_4120192098860034044.arff
+[Note] Discount 0.295 seconds from this build time
+Using temporary file: temp_Yeast_1550855815864_-2603537720692765021.arff
+[Note] Discount 0.212 seconds from this build time
+Using temporary file: temp_Yeast_1550855818801_-6905842855786298053.arff
+[Note] Discount 0.215 seconds from this build time
+Using temporary file: temp_Yeast_1550855820991_-5510519875402736776.arff
+[Note] Discount 0.394 seconds from this build time
+Using temporary file: temp_Yeast_1550855822636_-3690009272737088681.arff
+[Note] Discount 0.279 seconds from this build time
+Using temporary file: temp_Yeast_1550855825618_-7577266892292166560.arff
+[Note] Discount 0.307 seconds from this build time
+Using temporary file: temp_Yeast_1550855828727_-1336145727587183653.arff
+[Note] Discount 0.228 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[STATISTICS] #100
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: Writing 100 statistics to: mekaexp.txt
+[STAGE] FINISH
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #1: meka.experiment.statisticsexporters.SimpleAggregate2
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-agg17.tsv
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #2: meka.experiment.statisticsexporters.TabSeparated
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-full17.tsv

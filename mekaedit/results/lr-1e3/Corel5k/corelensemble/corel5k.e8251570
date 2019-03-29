@@ -1,0 +1,1127 @@
+[STAGE] INITIALIZING
+[LOG] meka.experiment.DefaultExperiment: Turned off incremental mode for meka.experiment.evaluationstatistics.KeyValuePairs to make use of multi-threading!
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: File 'mekaexp.txt' exists, loading...
+[STAGE] RUNNING
+[LOG] meka.experiment.datasetproviders.MultiDatasetProvider: Dataset provider #1
+[LOG] meka.experiment.datasetproviders.LocalDatasetProvider: Loading: data/Corel5k.arff
+[LOG] meka.experiment.DefaultExperiment: Using dataset: Corel5k: -C -374
+[ITERATION] meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD2 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2 --> Corel5k: -C -374
+[LOG] meka.experiment.DefaultExperiment: Using classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD2 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Number of threads (1 = sequential): 1
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 1
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Corel5k_1551694294026_-4962768465676381896.arff
+Using temporary file: temp_Corel5k_1551694294029_4437113781045784766.arff
+Using temporary file: temp_Corel5k_1551694294029_-6688467811848818630.arff
+Using temporary file: temp_Corel5k_1551694294034_-8292973307042192125.arff
+Using temporary file: temp_Corel5k_1551694294056_-7423979211207825555.arff
+Using temporary file: temp_Corel5k_1551694294057_6146794652083548235.arff
+Using temporary file: temp_Corel5k_1551694294062_7105486291024734541.arff
+Using temporary file: temp_Corel5k_1551694294070_-279624296851435688.arff
+Using temporary file: temp_Corel5k_1551694294078_-2228689144322150137.arff
+Using temporary file: temp_Corel5k_1551694294093_-1083761183081836303.arff
+[Note] Discount 30.417 seconds from this build time
+[Note] Discount 32.381 seconds from this build time
+[Note] Discount 33.263 seconds from this build time
+[Note] Discount 35.037 seconds from this build time
+[Note] Discount 36.118 seconds from this build time
+[Note] Discount 37.78 seconds from this build time
+[Note] Discount 41.901 seconds from this build time
+[Note] Discount 43.033 seconds from this build time
+[Note] Discount 44.687 seconds from this build time
+[Note] Discount 46.716 seconds from this build time
+Using temporary file: temp_Corel5k_1551695666635_5072005423257391728.arff
+Using temporary file: temp_Corel5k_1551695670801_2377732757510138102.arff
+Using temporary file: temp_Corel5k_1551695676024_2704323167362897208.arff
+Using temporary file: temp_Corel5k_1551695683468_428667830982598836.arff
+Using temporary file: temp_Corel5k_1551695683473_-8361175665883705505.arff
+Using temporary file: temp_Corel5k_1551695689493_-655101936082782086.arff
+[Note] Discount 25.985 seconds from this build time
+Using temporary file: temp_Corel5k_1551695696188_1927512926176735975.arff
+[Note] Discount 30.809 seconds from this build time
+[Note] Discount 36.975 seconds from this build time
+[Note] Discount 30.218 seconds from this build time
+[Note] Discount 30.648 seconds from this build time
+[Note] Discount 30.293 seconds from this build time
+[Note] Discount 24.394 seconds from this build time
+Using temporary file: temp_Corel5k_1551695730713_-6914829020992303508.arff
+[Note] Discount 7.689 seconds from this build time
+Using temporary file: temp_Corel5k_1551695757413_7577852396602278602.arff
+Using temporary file: temp_Corel5k_1551695767543_-4126310024944755050.arff
+[Note] Discount 11.179 seconds from this build time
+[Note] Discount 12.07 seconds from this build time
+Using temporary file: temp_Corel5k_1551697028535_-171134583860878546.arff
+[Note] Discount 9.357 seconds from this build time
+Using temporary file: temp_Corel5k_1551697046172_8987859488885190724.arff
+Using temporary file: temp_Corel5k_1551697050201_-4681020001986070314.arff
+Using temporary file: temp_Corel5k_1551697054264_-4922475540349336432.arff
+[Note] Discount 15.515 seconds from this build time
+[Note] Discount 15.444 seconds from this build time
+[Note] Discount 21.256 seconds from this build time
+Using temporary file: temp_Corel5k_1551697078661_-3370274031255729188.arff
+Using temporary file: temp_Corel5k_1551697088853_-2971948390163211717.arff
+[Note] Discount 16.685 seconds from this build time
+[Note] Discount 14.183 seconds from this build time
+Using temporary file: temp_Corel5k_1551697129208_-8730854458729406051.arff
+Using temporary file: temp_Corel5k_1551697145946_-1856941488587171136.arff
+Using temporary file: temp_Corel5k_1551697145959_2470753881526567411.arff
+[Note] Discount 16.939 seconds from this build time
+Using temporary file: temp_Corel5k_1551697159279_1532230816302433446.arff
+[Note] Discount 16.118 seconds from this build time
+[Note] Discount 16.169 seconds from this build time
+[Note] Discount 9.123 seconds from this build time
+Using temporary file: temp_Corel5k_1551698431652_-395233716872471639.arff
+[Note] Discount 9.42 seconds from this build time
+Using temporary file: temp_Corel5k_1551698448800_-5121607137339136235.arff
+Using temporary file: temp_Corel5k_1551698457986_-5256749969541153749.arff
+[Note] Discount 15.102 seconds from this build time
+[Note] Discount 13.056 seconds from this build time
+Using temporary file: temp_Corel5k_1551698483740_2641949932817367724.arff
+[Note] Discount 11.031 seconds from this build time
+Using temporary file: temp_Corel5k_1551698502677_8540064508133314173.arff
+[Note] Discount 10.382 seconds from this build time
+Using temporary file: temp_Corel5k_1551698526965_82744587931001745.arff
+Using temporary file: temp_Corel5k_1551698538069_1318911071456810350.arff
+[Note] Discount 15.935 seconds from this build time
+[Note] Discount 14.018 seconds from this build time
+Using temporary file: temp_Corel5k_1551698584615_6427218635535763657.arff
+[Note] Discount 11.367 seconds from this build time
+Using temporary file: temp_Corel5k_1551698639131_6249197149364475148.arff
+[Note] Discount 10.181 seconds from this build time
+Using temporary file: temp_Corel5k_1551698721608_-2594413761814090552.arff
+[Note] Discount 8.35 seconds from this build time
+Using temporary file: temp_Corel5k_1551699834769_-524865453008036006.arff
+[Note] Discount 7.309 seconds from this build time
+Using temporary file: temp_Corel5k_1551699898250_-2476551425607728309.arff
+Using temporary file: temp_Corel5k_1551699905069_-7146617210012600256.arff
+Using temporary file: temp_Corel5k_1551699913736_3301745707726569574.arff
+[Note] Discount 22.578 seconds from this build time
+[Note] Discount 16.819 seconds from this build time
+[Note] Discount 13.541 seconds from this build time
+Using temporary file: temp_Corel5k_1551700019252_4013465704250623170.arff
+[Note] Discount 14.497 seconds from this build time
+Using temporary file: temp_Corel5k_1551700046692_-2684237951282348840.arff
+[Note] Discount 11.738 seconds from this build time
+Using temporary file: temp_Corel5k_1551700088644_178444451137370484.arff
+[Note] Discount 12.936 seconds from this build time
+Using temporary file: temp_Corel5k_1551700115332_-5676192111176512602.arff
+[Note] Discount 9.518 seconds from this build time
+Using temporary file: temp_Corel5k_1551700163041_-4218531399638172627.arff
+[Note] Discount 12.228 seconds from this build time
+Using temporary file: temp_Corel5k_1551700309033_-5299981419733330714.arff
+[Note] Discount 11.069 seconds from this build time
+Using temporary file: temp_Corel5k_1551701257048_3896605098068159738.arff
+[Note] Discount 8.973 seconds from this build time
+Using temporary file: temp_Corel5k_1551701348961_-4001237302722672165.arff
+[Note] Discount 8.192 seconds from this build time
+Using temporary file: temp_Corel5k_1551701370034_-1008423794855048618.arff
+Using temporary file: temp_Corel5k_1551701374486_262614321976477250.arff
+[Note] Discount 11.09 seconds from this build time
+[Note] Discount 16.599 seconds from this build time
+Using temporary file: temp_Corel5k_1551701470890_7271772087391691927.arff
+[Note] Discount 11.542 seconds from this build time
+Using temporary file: temp_Corel5k_1551701494463_-2697084138585034005.arff
+[Note] Discount 15.389 seconds from this build time
+Using temporary file: temp_Corel5k_1551701524220_-3946820249469283158.arff
+[Note] Discount 10.112 seconds from this build time
+Using temporary file: temp_Corel5k_1551701567122_-120421011786498678.arff
+[Note] Discount 11.067 seconds from this build time
+Using temporary file: temp_Corel5k_1551701651536_-2156342973769225726.arff
+[Note] Discount 16.226 seconds from this build time
+Using temporary file: temp_Corel5k_1551701703447_3141324392123627982.arff
+[Note] Discount 12.075 seconds from this build time
+Using temporary file: temp_Corel5k_1551702652402_-699704949712600115.arff
+[Note] Discount 6.979 seconds from this build time
+Using temporary file: temp_Corel5k_1551702723077_-5085859045495963725.arff
+[Note] Discount 9.105 seconds from this build time
+Using temporary file: temp_Corel5k_1551702796818_-5951765205669983896.arff
+Using temporary file: temp_Corel5k_1551702803499_-3608267860102554860.arff
+[Note] Discount 15.262 seconds from this build time
+[Note] Discount 9.124 seconds from this build time
+Using temporary file: temp_Corel5k_1551702859066_8142886840698975765.arff
+[Note] Discount 10.87 seconds from this build time
+Using temporary file: temp_Corel5k_1551702929088_8524019115140866179.arff
+[Note] Discount 9.974 seconds from this build time
+Using temporary file: temp_Corel5k_1551702966589_-2714853971147396117.arff
+[Note] Discount 10.32 seconds from this build time
+Using temporary file: temp_Corel5k_1551703053576_-9189524968491074724.arff
+[Note] Discount 7.212 seconds from this build time
+Using temporary file: temp_Corel5k_1551703099316_-148625824714636787.arff
+[Note] Discount 12.545 seconds from this build time
+Using temporary file: temp_Corel5k_1551703134005_-566870006298343145.arff
+[Note] Discount 8.757 seconds from this build time
+Using temporary file: temp_Corel5k_1551704067190_6513657358736753182.arff
+[Note] Discount 10.797 seconds from this build time
+Using temporary file: temp_Corel5k_1551704134683_871901303891580382.arff
+[Note] Discount 6.511 seconds from this build time
+Using temporary file: temp_Corel5k_1551704212206_1321222800296200436.arff
+Using temporary file: temp_Corel5k_1551704213380_536938910405906015.arff
+[Note] Discount 11.784 seconds from this build time
+[Note] Discount 15.902 seconds from this build time
+Using temporary file: temp_Corel5k_1551704260746_8922140309403778699.arff
+[Note] Discount 8.766 seconds from this build time
+Using temporary file: temp_Corel5k_1551704299440_-517428980255835422.arff
+[Note] Discount 9.112 seconds from this build time
+Using temporary file: temp_Corel5k_1551704337965_-200753079219431109.arff
+[Note] Discount 13.697 seconds from this build time
+Using temporary file: temp_Corel5k_1551704421901_-4289936086616402019.arff
+[Note] Discount 12.111 seconds from this build time
+Using temporary file: temp_Corel5k_1551704476547_-9197595427105923027.arff
+[Note] Discount 14.814 seconds from this build time
+Using temporary file: temp_Corel5k_1551704537472_4713610129296514631.arff
+[Note] Discount 8.914 seconds from this build time
+Using temporary file: temp_Corel5k_1551705533324_5702961989472887051.arff
+[Note] Discount 10.589 seconds from this build time
+Using temporary file: temp_Corel5k_1551705567661_-2798730738562476822.arff
+[Note] Discount 10.606 seconds from this build time
+Using temporary file: temp_Corel5k_1551705606431_960790331024379126.arff
+[Note] Discount 9.938 seconds from this build time
+Using temporary file: temp_Corel5k_1551705642302_187704103329199613.arff
+[Note] Discount 8.991 seconds from this build time
+Using temporary file: temp_Corel5k_1551705669671_6527434954307481789.arff
+[Note] Discount 9.391 seconds from this build time
+Using temporary file: temp_Corel5k_1551705720085_1600030782373250481.arff
+[Note] Discount 7.272 seconds from this build time
+Using temporary file: temp_Corel5k_1551705738957_-2761265137076421558.arff
+[Note] Discount 15.668 seconds from this build time
+Using temporary file: temp_Corel5k_1551705810898_67826697947916427.arff
+[Note] Discount 10.233 seconds from this build time
+Using temporary file: temp_Corel5k_1551705905052_5679626435595832671.arff
+Using temporary file: temp_Corel5k_1551705924190_-8640296913357041870.arff
+[Note] Discount 19.731 seconds from this build time
+[Note] Discount 11.961 seconds from this build time
+Using temporary file: temp_Corel5k_1551706918870_-1497613613979078270.arff
+[Note] Discount 12.882 seconds from this build time
+Using temporary file: temp_Corel5k_1551707006762_5113622237409872778.arff
+[Note] Discount 9.666 seconds from this build time
+Using temporary file: temp_Corel5k_1551707019552_-2319452971287571658.arff
+Using temporary file: temp_Corel5k_1551707026799_-7196415781697772800.arff
+[Note] Discount 13.846 seconds from this build time
+[Note] Discount 11.58 seconds from this build time
+Using temporary file: temp_Corel5k_1551707140111_-1685308985507641749.arff
+Using temporary file: temp_Corel5k_1551707143104_820707025409634855.arff
+[Note] Discount 16.01 seconds from this build time
+[Note] Discount 15.269 seconds from this build time
+Using temporary file: temp_Corel5k_1551707202424_-6516793691191662538.arff
+[Note] Discount 11.319 seconds from this build time
+Using temporary file: temp_Corel5k_1551707228467_9164411834808661380.arff
+[Note] Discount 9.441 seconds from this build time
+Using temporary file: temp_Corel5k_1551707380429_-9099749510027196988.arff
+[Note] Discount 7.319 seconds from this build time
+Using temporary file: temp_Corel5k_1551707425702_-8841730600804742235.arff
+[Note] Discount 11.336 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 2
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Corel5k_1551708775032_6758162953488776844.arff
+Using temporary file: temp_Corel5k_1551708775034_8810845966659683448.arff
+Using temporary file: temp_Corel5k_1551708775034_-5460795021784967740.arff
+Using temporary file: temp_Corel5k_1551708775034_5954014899072946649.arff
+Using temporary file: temp_Corel5k_1551708775034_214993804815738645.arff
+Using temporary file: temp_Corel5k_1551708775035_-5514858212339405460.arff
+Using temporary file: temp_Corel5k_1551708775038_-4697410766453443951.arff
+Using temporary file: temp_Corel5k_1551708775038_-7244253119129237588.arff
+Using temporary file: temp_Corel5k_1551708775040_4336492403770078180.arff
+Using temporary file: temp_Corel5k_1551708775047_7176580044932830276.arff
+[Note] Discount 21.221 seconds from this build time
+[Note] Discount 25.907 seconds from this build time
+[Note] Discount 26.191 seconds from this build time
+[Note] Discount 30.833 seconds from this build time
+[Note] Discount 30.859 seconds from this build time
+[Note] Discount 35.661 seconds from this build time
+[Note] Discount 37.51 seconds from this build time
+[Note] Discount 38.478 seconds from this build time
+[Note] Discount 39.284 seconds from this build time
+[Note] Discount 41.999 seconds from this build time
+Using temporary file: temp_Corel5k_1551710154272_-1633120553624586039.arff
+[Note] Discount 8.49 seconds from this build time
+Using temporary file: temp_Corel5k_1551710171069_3087783559322503069.arff
+Using temporary file: temp_Corel5k_1551710181893_72191801432025792.arff
+Using temporary file: temp_Corel5k_1551710186359_4886465643886762423.arff
+[Note] Discount 20.323 seconds from this build time
+Using temporary file: temp_Corel5k_1551710196443_-1977178175608504323.arff
+Using temporary file: temp_Corel5k_1551710200258_5489165778026111548.arff
+Using temporary file: temp_Corel5k_1551710205978_7911891130236602275.arff
+[Note] Discount 21.06 seconds from this build time
+Using temporary file: temp_Corel5k_1551710209783_-5763654923426307630.arff
+[Note] Discount 32.535 seconds from this build time
+[Note] Discount 19.912 seconds from this build time
+Using temporary file: temp_Corel5k_1551710223966_7535429006024983857.arff
+[Note] Discount 27.527 seconds from this build time
+Using temporary file: temp_Corel5k_1551710223971_6512669167483931824.arff
+[Note] Discount 24.311 seconds from this build time
+[Note] Discount 23.298 seconds from this build time
+[Note] Discount 17.577 seconds from this build time
+[Note] Discount 18.077 seconds from this build time
+Using temporary file: temp_Corel5k_1551711559788_-6054985639040938180.arff
+Using temporary file: temp_Corel5k_1551711572058_-4788457857850447244.arff
+[Note] Discount 14.612 seconds from this build time
+Using temporary file: temp_Corel5k_1551711584118_-1947326395900975778.arff
+[Note] Discount 15.464 seconds from this build time
+[Note] Discount 7.629 seconds from this build time
+Using temporary file: temp_Corel5k_1551711610577_-7748411135601385678.arff
+[Note] Discount 12.725 seconds from this build time
+Using temporary file: temp_Corel5k_1551711638319_-9024968371786632850.arff
+[Note] Discount 11.066 seconds from this build time
+Using temporary file: temp_Corel5k_1551711659887_5754825772160496080.arff
+[Note] Discount 11.704 seconds from this build time
+Using temporary file: temp_Corel5k_1551711683933_-8481270662646470671.arff
+Using temporary file: temp_Corel5k_1551711693827_-496076268859382896.arff
+[Note] Discount 14.083 seconds from this build time
+[Note] Discount 13.795 seconds from this build time
+Using temporary file: temp_Corel5k_1551711714720_-7127128167259751473.arff
+[Note] Discount 11.114 seconds from this build time
+Using temporary file: temp_Corel5k_1551711753516_501180562174799085.arff
+[Note] Discount 12.064 seconds from this build time
+Using temporary file: temp_Corel5k_1551712930366_-5736614306270799543.arff
+[Note] Discount 11.961 seconds from this build time
+Using temporary file: temp_Corel5k_1551712950453_-6819959017335327829.arff
+[Note] Discount 10.407 seconds from this build time
+Using temporary file: temp_Corel5k_1551712978079_-3360305141762794454.arff
+[Note] Discount 9.675 seconds from this build time
+Using temporary file: temp_Corel5k_1551713001005_-4775523669187539415.arff
+[Note] Discount 9.739 seconds from this build time
+Using temporary file: temp_Corel5k_1551713016494_-6798914858217573060.arff
+[Note] Discount 6.518 seconds from this build time
+Using temporary file: temp_Corel5k_1551713129928_5808738444245805049.arff
+Using temporary file: temp_Corel5k_1551713137665_-4605199251911937283.arff
+[Note] Discount 10.404 seconds from this build time
+[Note] Discount 9.412 seconds from this build time
+Using temporary file: temp_Corel5k_1551713166187_3508934780188318642.arff
+Using temporary file: temp_Corel5k_1551713177283_2259750519392559506.arff
+[Note] Discount 14.217 seconds from this build time
+[Note] Discount 11.405 seconds from this build time
+Using temporary file: temp_Corel5k_1551713239020_-5288884321442703868.arff
+[Note] Discount 13.331 seconds from this build time
+Using temporary file: temp_Corel5k_1551714326229_-1235136122240190980.arff
+Using temporary file: temp_Corel5k_1551714332276_5738943893379618316.arff
+[Note] Discount 11.598 seconds from this build time
+[Note] Discount 11.146 seconds from this build time
+Using temporary file: temp_Corel5k_1551714369275_-8678588235927406455.arff
+Using temporary file: temp_Corel5k_1551714382522_3301560350794899176.arff
+[Note] Discount 13.467 seconds from this build time
+[Note] Discount 12.158 seconds from this build time
+Using temporary file: temp_Corel5k_1551714518898_2100752566876840588.arff
+[Note] Discount 10.814 seconds from this build time
+Using temporary file: temp_Corel5k_1551714535490_-5830253423258833266.arff
+[Note] Discount 11.402 seconds from this build time
+Using temporary file: temp_Corel5k_1551714597035_6995928140111635280.arff
+Using temporary file: temp_Corel5k_1551714609119_-7518357113470038567.arff
+[Note] Discount 15.877 seconds from this build time
+Using temporary file: temp_Corel5k_1551714624636_-1095565672715370423.arff
+[Note] Discount 16.573 seconds from this build time
+[Note] Discount 13.103 seconds from this build time
+Using temporary file: temp_Corel5k_1551714675786_-8593497911429493276.arff
+[Note] Discount 10.924 seconds from this build time
+Using temporary file: temp_Corel5k_1551715747224_3951194809170085004.arff
+[Note] Discount 13.756 seconds from this build time
+Using temporary file: temp_Corel5k_1551715814369_6156225800113325723.arff
+[Note] Discount 11.262 seconds from this build time
+Using temporary file: temp_Corel5k_1551715839926_4621576804961825664.arff
+[Note] Discount 12.816 seconds from this build time
+Using temporary file: temp_Corel5k_1551715857982_-4878419149880202610.arff
+[Note] Discount 8.603 seconds from this build time
+Using temporary file: temp_Corel5k_1551715960207_1681357320861610709.arff
+Using temporary file: temp_Corel5k_1551715960208_4880037797499618312.arff
+[Note] Discount 10.419 seconds from this build time
+[Note] Discount 10.481 seconds from this build time
+Using temporary file: temp_Corel5k_1551716073504_3480315076809301941.arff
+Using temporary file: temp_Corel5k_1551716086752_5492728113478971232.arff
+[Note] Discount 18.378 seconds from this build time
+[Note] Discount 12.246 seconds from this build time
+Using temporary file: temp_Corel5k_1551716109176_-4455425718838312134.arff
+[Note] Discount 10.596 seconds from this build time
+Using temporary file: temp_Corel5k_1551716157073_859397494107989646.arff
+[Note] Discount 9.927 seconds from this build time
+Using temporary file: temp_Corel5k_1551717238572_1587684632128182815.arff
+Using temporary file: temp_Corel5k_1551717247105_-1988121919985651200.arff
+[Note] Discount 12.22 seconds from this build time
+Using temporary file: temp_Corel5k_1551717254324_-8584399766682819655.arff
+[Note] Discount 14.795 seconds from this build time
+[Note] Discount 14.756 seconds from this build time
+Using temporary file: temp_Corel5k_1551717292270_1579821865212908206.arff
+[Note] Discount 13.212 seconds from this build time
+Using temporary file: temp_Corel5k_1551717374845_-8645019593156400089.arff
+[Note] Discount 9.066 seconds from this build time
+Using temporary file: temp_Corel5k_1551717445675_1353816990017730924.arff
+[Note] Discount 7.374 seconds from this build time
+Using temporary file: temp_Corel5k_1551717481822_3260813280637601224.arff
+[Note] Discount 12.229 seconds from this build time
+Using temporary file: temp_Corel5k_1551717529630_-2149455768672428162.arff
+[Note] Discount 15.58 seconds from this build time
+Using temporary file: temp_Corel5k_1551717565280_6464344685522019821.arff
+[Note] Discount 12.519 seconds from this build time
+Using temporary file: temp_Corel5k_1551717626372_-259991515897342863.arff
+[Note] Discount 12.897 seconds from this build time
+Using temporary file: temp_Corel5k_1551718699814_-7823401723989747505.arff
+Using temporary file: temp_Corel5k_1551718704703_-7300345967075961560.arff
+[Note] Discount 11.362 seconds from this build time
+[Note] Discount 7.651 seconds from this build time
+Using temporary file: temp_Corel5k_1551718737900_5037965036864798915.arff
+Using temporary file: temp_Corel5k_1551718746964_-8980117487222947788.arff
+[Note] Discount 14.308 seconds from this build time
+[Note] Discount 7.088 seconds from this build time
+Using temporary file: temp_Corel5k_1551718825188_-1019362334163299157.arff
+[Note] Discount 11.429 seconds from this build time
+Using temporary file: temp_Corel5k_1551718883512_4016786749698341737.arff
+[Note] Discount 15.786 seconds from this build time
+Using temporary file: temp_Corel5k_1551718995305_-1663495373901721169.arff
+[Note] Discount 9.937 seconds from this build time
+Using temporary file: temp_Corel5k_1551719028659_357204762418634413.arff
+[Note] Discount 6.243 seconds from this build time
+Using temporary file: temp_Corel5k_1551719074054_5058270166536639533.arff
+[Note] Discount 9.698 seconds from this build time
+Using temporary file: temp_Corel5k_1551719099010_-6109681907542706157.arff
+[Note] Discount 12.152 seconds from this build time
+Using temporary file: temp_Corel5k_1551720145470_5310389416429997037.arff
+[Note] Discount 10.74 seconds from this build time
+Using temporary file: temp_Corel5k_1551720176297_1180451250079382823.arff
+[Note] Discount 8.107 seconds from this build time
+Using temporary file: temp_Corel5k_1551720192134_4173799138601369497.arff
+[Note] Discount 11.36 seconds from this build time
+Using temporary file: temp_Corel5k_1551720248397_2583780001673035147.arff
+[Note] Discount 13.77 seconds from this build time
+Using temporary file: temp_Corel5k_1551720423857_-7311352842601082005.arff
+Using temporary file: temp_Corel5k_1551720432019_-5022166674911679806.arff
+[Note] Discount 13.879 seconds from this build time
+[Note] Discount 13.063 seconds from this build time
+Using temporary file: temp_Corel5k_1551720499579_5605301965367641896.arff
+[Note] Discount 7.109 seconds from this build time
+Using temporary file: temp_Corel5k_1551720538007_-6910832155197454005.arff
+Using temporary file: temp_Corel5k_1551720552734_660260225259642700.arff
+[Note] Discount 15.66 seconds from this build time
+[Note] Discount 13.018 seconds from this build time
+Using temporary file: temp_Corel5k_1551720626382_8805804927883992817.arff
+[Note] Discount 10.978 seconds from this build time
+Using temporary file: temp_Corel5k_1551721581023_1709464157265079686.arff
+[Note] Discount 10.916 seconds from this build time
+Using temporary file: temp_Corel5k_1551721660492_-5337999691869457823.arff
+[Note] Discount 10.761 seconds from this build time
+Using temporary file: temp_Corel5k_1551721692153_8008505297448283238.arff
+Using temporary file: temp_Corel5k_1551721697359_-3332450412194435075.arff
+[Note] Discount 14.13 seconds from this build time
+[Note] Discount 12.674 seconds from this build time
+Using temporary file: temp_Corel5k_1551721924052_-7295335603209051564.arff
+[Note] Discount 11.667 seconds from this build time
+Using temporary file: temp_Corel5k_1551721963859_-6046014611969325073.arff
+[Note] Discount 9.42 seconds from this build time
+Using temporary file: temp_Corel5k_1551722066952_8302285056297172932.arff
+Using temporary file: temp_Corel5k_1551722075377_6356024424047499647.arff
+[Note] Discount 11.47 seconds from this build time
+[Note] Discount 9.816 seconds from this build time
+Using temporary file: temp_Corel5k_1551722114555_4969456586130451623.arff
+[Note] Discount 11.478 seconds from this build time
+Using temporary file: temp_Corel5k_1551722142391_-4701205128643231831.arff
+[Note] Discount 7.215 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 3
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Corel5k_1551723542971_3803053121039792420.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Corel5k_1551723542973_2758360689241543402.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Corel5k_1551723542973_-1468873411252492921.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Corel5k_1551723542975_-5761034890733554598.arff
+Using temporary file: temp_Corel5k_1551723542976_-1536563194244860551.arff
+Using temporary file: temp_Corel5k_1551723542977_653137120681555455.arff
+Using temporary file: temp_Corel5k_1551723542977_3600025259063640689.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Corel5k_1551723542979_-7821298019962506145.arff
+Using temporary file: temp_Corel5k_1551723542979_-645917300613758614.arff
+Using temporary file: temp_Corel5k_1551723542979_6119745577970185558.arff
+[Note] Discount 24.547 seconds from this build time
+[Note] Discount 27.686 seconds from this build time
+[Note] Discount 32.638 seconds from this build time
+[Note] Discount 32.925 seconds from this build time
+[Note] Discount 33.372 seconds from this build time
+[Note] Discount 35.126 seconds from this build time
+[Note] Discount 37.963 seconds from this build time
+[Note] Discount 42.897 seconds from this build time
+[Note] Discount 44.836 seconds from this build time
+[Note] Discount 45.751 seconds from this build time
+Using temporary file: temp_Corel5k_1551724980159_2549209129409228758.arff
+Using temporary file: temp_Corel5k_1551724992289_1794894844987367466.arff
+Using temporary file: temp_Corel5k_1551724997635_-3326066702825432110.arff
+[Note] Discount 20.815 seconds from this build time
+Using temporary file: temp_Corel5k_1551725003203_-6088871574026378532.arff
+[Note] Discount 22.664 seconds from this build time
+Using temporary file: temp_Corel5k_1551725017909_7911583618620128154.arff
+[Note] Discount 21.135 seconds from this build time
+[Note] Discount 17.286 seconds from this build time
+Using temporary file: temp_Corel5k_1551725022210_8853444392409962688.arff
+Using temporary file: temp_Corel5k_1551725035284_-3143446542602205122.arff
+[Note] Discount 18.113 seconds from this build time
+Using temporary file: temp_Corel5k_1551725040226_-8494028184443550129.arff
+[Note] Discount 18.97 seconds from this build time
+Using temporary file: temp_Corel5k_1551725043453_-7666389024716992619.arff
+Using temporary file: temp_Corel5k_1551725052417_-7426893052962357700.arff
+[Note] Discount 23.185 seconds from this build time
+[Note] Discount 22.326 seconds from this build time
+[Note] Discount 21.6 seconds from this build time
+[Note] Discount 15.18 seconds from this build time
+Using temporary file: temp_Corel5k_1551726409443_6906149630747914610.arff
+[Note] Discount 13.429 seconds from this build time
+Using temporary file: temp_Corel5k_1551726473643_30264304927818692.arff
+Using temporary file: temp_Corel5k_1551726479363_-5727558868953203691.arff
+[Note] Discount 12.478 seconds from this build time
+[Note] Discount 15.384 seconds from this build time
+Using temporary file: temp_Corel5k_1551726508021_-5280429017220727222.arff
+Using temporary file: temp_Corel5k_1551726509436_1277373086709849060.arff
+[Note] Discount 10.282 seconds from this build time
+[Note] Discount 11.859 seconds from this build time
+Using temporary file: temp_Corel5k_1551726523593_-9161356953358167518.arff
+Using temporary file: temp_Corel5k_1551726530077_-5693283286674304421.arff
+Using temporary file: temp_Corel5k_1551726537867_-3674380908879105364.arff
+[Note] Discount 17.339 seconds from this build time
+[Note] Discount 16.086 seconds from this build time
+[Note] Discount 13.526 seconds from this build time
+Using temporary file: temp_Corel5k_1551726564389_-5135266989296457665.arff
+[Note] Discount 9.045 seconds from this build time
+Using temporary file: temp_Corel5k_1551726590607_6299905036767953317.arff
+[Note] Discount 8.716 seconds from this build time
+Using temporary file: temp_Corel5k_1551727869279_1176089665387826969.arff
+[Note] Discount 9.727 seconds from this build time
+Using temporary file: temp_Corel5k_1551727890784_6443170592819695545.arff
+[Note] Discount 12.758 seconds from this build time
+Using temporary file: temp_Corel5k_1551727907742_-8837902837463325214.arff
+[Note] Discount 12.91 seconds from this build time
+Using temporary file: temp_Corel5k_1551727956325_-805964166784363941.arff
+[Note] Discount 10.746 seconds from this build time
+Using temporary file: temp_Corel5k_1551727983483_-5662802777777613574.arff
+[Note] Discount 9.686 seconds from this build time
+Using temporary file: temp_Corel5k_1551727997510_2243480672403792601.arff
+Using temporary file: temp_Corel5k_1551727997512_-9124564742246058657.arff
+Using temporary file: temp_Corel5k_1551728001900_-1820138817373496662.arff
+Using temporary file: temp_Corel5k_1551728005694_3083995804586309402.arff
+Using temporary file: temp_Corel5k_1551728022113_6444635427050365194.arff
+[Note] Discount 25.054 seconds from this build time
+[Note] Discount 22.059 seconds from this build time
+[Note] Discount 27.078 seconds from this build time
+[Note] Discount 20.571 seconds from this build time
+[Note] Discount 11.279 seconds from this build time
+Using temporary file: temp_Corel5k_1551729241989_-5623373965380994308.arff
+Using temporary file: temp_Corel5k_1551729253258_598328575014092232.arff
+[Note] Discount 12.622 seconds from this build time
+[Note] Discount 10.503 seconds from this build time
+Using temporary file: temp_Corel5k_1551729284041_4796796124253410186.arff
+[Note] Discount 8.64 seconds from this build time
+Using temporary file: temp_Corel5k_1551729300894_8576325184258344286.arff
+[Note] Discount 7.921 seconds from this build time
+Using temporary file: temp_Corel5k_1551729334414_7496982466862244149.arff
+[Note] Discount 8.558 seconds from this build time
+Using temporary file: temp_Corel5k_1551729361924_3421332352366621250.arff
+Using temporary file: temp_Corel5k_1551729367334_5414275117331381710.arff
+[Note] Discount 13.075 seconds from this build time
+[Note] Discount 11.288 seconds from this build time
+Using temporary file: temp_Corel5k_1551729417757_-7826056991558697093.arff
+[Note] Discount 8.356 seconds from this build time
+Using temporary file: temp_Corel5k_1551729439790_3107549667671845688.arff
+[Note] Discount 10.739 seconds from this build time
+Using temporary file: temp_Corel5k_1551729470906_6857373577836206198.arff
+[Note] Discount 9.58 seconds from this build time
+Using temporary file: temp_Corel5k_1551730597545_4328502305394555230.arff
+[Note] Discount 9.528 seconds from this build time
+Using temporary file: temp_Corel5k_1551730622925_-8514507194139921895.arff
+[Note] Discount 9.052 seconds from this build time
+Using temporary file: temp_Corel5k_1551730638921_6547565724012451687.arff
+[Note] Discount 9.008 seconds from this build time
+Using temporary file: temp_Corel5k_1551730656536_5719690575850774808.arff
+[Note] Discount 9.246 seconds from this build time
+Using temporary file: temp_Corel5k_1551730698633_-2998428632519719896.arff
+[Note] Discount 9.279 seconds from this build time
+Using temporary file: temp_Corel5k_1551730748756_-6073009103768551032.arff
+[Note] Discount 6.691 seconds from this build time
+Using temporary file: temp_Corel5k_1551730767198_2012055452795458010.arff
+[Note] Discount 8.51 seconds from this build time
+Using temporary file: temp_Corel5k_1551730809481_-1187394439175388239.arff
+[Note] Discount 8.558 seconds from this build time
+Using temporary file: temp_Corel5k_1551730900798_-2300171268480388852.arff
+[Note] Discount 17.621 seconds from this build time
+Using temporary file: temp_Corel5k_1551730987827_-2730112946719215065.arff
+[Note] Discount 22.888 seconds from this build time
+Using temporary file: temp_Corel5k_1551732508457_7275270066579715802.arff
+Using temporary file: temp_Corel5k_1551732515782_6978170142387848475.arff
+[Note] Discount 12.285 seconds from this build time
+[Note] Discount 12.727 seconds from this build time
+Using temporary file: temp_Corel5k_1551732573822_-8739040138527370657.arff
+[Note] Discount 10.719 seconds from this build time
+Using temporary file: temp_Corel5k_1551732586022_74038515833460462.arff
+[Note] Discount 6.779 seconds from this build time
+Using temporary file: temp_Corel5k_1551732625233_638374349769057639.arff
+[Note] Discount 9.819 seconds from this build time
+Using temporary file: temp_Corel5k_1551732758001_-3932241021960221178.arff
+[Note] Discount 8.422 seconds from this build time
+Using temporary file: temp_Corel5k_1551732781679_5004746258089555049.arff
+[Note] Discount 9.214 seconds from this build time
+Using temporary file: temp_Corel5k_1551732806614_-5133650843766026267.arff
+[Note] Discount 8.866 seconds from this build time
+Using temporary file: temp_Corel5k_1551732893079_7738331118769054131.arff
+[Note] Discount 9.368 seconds from this build time
+Using temporary file: temp_Corel5k_1551733015130_5364377487206044023.arff
+[Note] Discount 12.703 seconds from this build time
+Using temporary file: temp_Corel5k_1551733922287_4518754687359231975.arff
+[Note] Discount 11.017 seconds from this build time
+Using temporary file: temp_Corel5k_1551733942618_2310204960398219434.arff
+[Note] Discount 8.63 seconds from this build time
+Using temporary file: temp_Corel5k_1551733983333_2742914968671340453.arff
+[Note] Discount 8.41 seconds from this build time
+Using temporary file: temp_Corel5k_1551734009612_6227406868931904324.arff
+[Note] Discount 9.321 seconds from this build time
+Using temporary file: temp_Corel5k_1551734185415_-2996308202189857655.arff
+Using temporary file: temp_Corel5k_1551734189884_-2865008637684177168.arff
+[Note] Discount 13.875 seconds from this build time
+[Note] Discount 9.957 seconds from this build time
+Using temporary file: temp_Corel5k_1551734270403_4815349556090146136.arff
+[Note] Discount 8.22 seconds from this build time
+Using temporary file: temp_Corel5k_1551734369748_-7005385872618611047.arff
+Using temporary file: temp_Corel5k_1551734370559_9052226342779358069.arff
+[Note] Discount 9.017 seconds from this build time
+[Note] Discount 10.45 seconds from this build time
+Using temporary file: temp_Corel5k_1551734474129_7661520242631645434.arff
+[Note] Discount 10.63 seconds from this build time
+Using temporary file: temp_Corel5k_1551735344385_-2684126273154853479.arff
+[Note] Discount 10.062 seconds from this build time
+Using temporary file: temp_Corel5k_1551735373090_-3318354720801637259.arff
+[Note] Discount 11.152 seconds from this build time
+Using temporary file: temp_Corel5k_1551735389965_916941053930762690.arff
+[Note] Discount 9.955 seconds from this build time
+Using temporary file: temp_Corel5k_1551735478246_4820924320965653540.arff
+[Note] Discount 7.423 seconds from this build time
+Using temporary file: temp_Corel5k_1551735634295_-2951090371395693972.arff
+[Note] Discount 5.638 seconds from this build time
+Using temporary file: temp_Corel5k_1551735729296_7905715447329028654.arff
+[Note] Discount 7.877 seconds from this build time
+Using temporary file: temp_Corel5k_1551735772969_-4774357311190967554.arff
+Using temporary file: temp_Corel5k_1551735783292_-2281078010550439077.arff
+[Note] Discount 10.699 seconds from this build time
+[Note] Discount 10.608 seconds from this build time
+Using temporary file: temp_Corel5k_1551735807668_5398563097200408455.arff
+[Note] Discount 11.089 seconds from this build time
+Using temporary file: temp_Corel5k_1551735988979_-310554611065081879.arff
+[Note] Discount 9.764 seconds from this build time
+Using temporary file: temp_Corel5k_1551736824150_-3144232295862338647.arff
+[Note] Discount 8.169 seconds from this build time
+Using temporary file: temp_Corel5k_1551736837351_-4221713314052446817.arff
+[Note] Discount 7.466 seconds from this build time
+Using temporary file: temp_Corel5k_1551736909737_6711686818080472277.arff
+[Note] Discount 11.356 seconds from this build time
+Using temporary file: temp_Corel5k_1551736934690_2884632914678347555.arff
+[Note] Discount 8.363 seconds from this build time
+Using temporary file: temp_Corel5k_1551737157531_5020570882892176312.arff
+[Note] Discount 11.844 seconds from this build time
+Using temporary file: temp_Corel5k_1551737176455_4651716431732219016.arff
+[Note] Discount 11.778 seconds from this build time
+Using temporary file: temp_Corel5k_1551737189239_26457103131013364.arff
+[Note] Discount 7.512 seconds from this build time
+Using temporary file: temp_Corel5k_1551737265149_4956279532902220075.arff
+[Note] Discount 12.064 seconds from this build time
+Using temporary file: temp_Corel5k_1551737310447_4450747936512676115.arff
+[Note] Discount 9.537 seconds from this build time
+Using temporary file: temp_Corel5k_1551737422379_2186730121337187006.arff
+[Note] Discount 8.981 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 4
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Corel5k_1551738745454_-3924881047061963848.arff
+Using temporary file: temp_Corel5k_1551738745454_-686051790578565723.arff
+Using temporary file: temp_Corel5k_1551738745456_3870064272805235222.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Corel5k_1551738745463_-1451637565960506752.arff
+Using temporary file: temp_Corel5k_1551738745464_858984953702183078.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Corel5k_1551738745468_-510411890396737272.arff
+Using temporary file: temp_Corel5k_1551738745468_7531748283682793492.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Corel5k_1551738745470_-8939194325373615074.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Corel5k_1551738745472_194258901974634873.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Corel5k_1551738745482_2679013805589617441.arff
+[Note] Discount 23.818 seconds from this build time
+[Note] Discount 27.519 seconds from this build time
+[Note] Discount 27.794 seconds from this build time
+[Note] Discount 27.838 seconds from this build time
+[Note] Discount 29.116 seconds from this build time
+[Note] Discount 30.515 seconds from this build time
+[Note] Discount 30.957 seconds from this build time
+[Note] Discount 32.85 seconds from this build time
+[Note] Discount 33.002 seconds from this build time
+[Note] Discount 33.413 seconds from this build time
+Using temporary file: temp_Corel5k_1551740046273_-2726377905668691505.arff
+[Note] Discount 9.749 seconds from this build time
+Using temporary file: temp_Corel5k_1551740062915_4667142439544573055.arff
+[Note] Discount 11.527 seconds from this build time
+Using temporary file: temp_Corel5k_1551740095019_4032747547568791713.arff
+[Note] Discount 9.695 seconds from this build time
+Using temporary file: temp_Corel5k_1551740111765_2618506400220646798.arff
+[Note] Discount 8.167 seconds from this build time
+Using temporary file: temp_Corel5k_1551740121787_-3484880777383254526.arff
+Using temporary file: temp_Corel5k_1551740124737_5834146448441283484.arff
+Using temporary file: temp_Corel5k_1551740124756_-8522626268727008321.arff
+Using temporary file: temp_Corel5k_1551740140201_-8902416243410300348.arff
+Using temporary file: temp_Corel5k_1551740140214_-8375243262370458153.arff
+[Note] Discount 18.761 seconds from this build time
+[Note] Discount 17.125 seconds from this build time
+[Note] Discount 18.014 seconds from this build time
+[Note] Discount 13.35 seconds from this build time
+[Note] Discount 14.022 seconds from this build time
+Using temporary file: temp_Corel5k_1551740238701_6793998636042160899.arff
+[Note] Discount 10.921 seconds from this build time
+Using temporary file: temp_Corel5k_1551741488313_2682327445485680171.arff
+[Note] Discount 8.364 seconds from this build time
+Using temporary file: temp_Corel5k_1551741502946_4016188520437563914.arff
+Using temporary file: temp_Corel5k_1551741508118_6936933392530960241.arff
+Using temporary file: temp_Corel5k_1551741519323_-1605640584389120939.arff
+[Note] Discount 16.873 seconds from this build time
+[Note] Discount 12.864 seconds from this build time
+[Note] Discount 12.959 seconds from this build time
+Using temporary file: temp_Corel5k_1551741538999_-7955278666948146322.arff
+[Note] Discount 7.773 seconds from this build time
+Using temporary file: temp_Corel5k_1551741582142_-2303420526951683333.arff
+Using temporary file: temp_Corel5k_1551741594447_-6409500192903294876.arff
+[Note] Discount 13.67 seconds from this build time
+[Note] Discount 9.973 seconds from this build time
+Using temporary file: temp_Corel5k_1551741645488_9173237838594123720.arff
+[Note] Discount 8.702 seconds from this build time
+Using temporary file: temp_Corel5k_1551741665827_7696412024211915208.arff
+[Note] Discount 7.241 seconds from this build time
+Using temporary file: temp_Corel5k_1551741829279_-6124087172458977528.arff
+[Note] Discount 7.729 seconds from this build time
+Using temporary file: temp_Corel5k_1551742880425_289305151154239544.arff
+[Note] Discount 7.487 seconds from this build time
+Using temporary file: temp_Corel5k_1551742895130_3041333973510398629.arff
+[Note] Discount 9.953 seconds from this build time
+Using temporary file: temp_Corel5k_1551742924813_-4738070527277579093.arff
+Using temporary file: temp_Corel5k_1551742926277_-1322328174886698380.arff
+[Note] Discount 9.245 seconds from this build time
+[Note] Discount 11.809 seconds from this build time
+Using temporary file: temp_Corel5k_1551742977583_7186190977326994153.arff
+[Note] Discount 10.869 seconds from this build time
+Using temporary file: temp_Corel5k_1551743007075_6899196303910356427.arff
+[Note] Discount 9.458 seconds from this build time
+Using temporary file: temp_Corel5k_1551743067974_1335379214094696254.arff
+Using temporary file: temp_Corel5k_1551743070930_2302678096373101142.arff
+[Note] Discount 7.803 seconds from this build time
+[Note] Discount 14.188 seconds from this build time
+Using temporary file: temp_Corel5k_1551743245510_-8669163540957080726.arff
+[Note] Discount 13.418 seconds from this build time
+Using temporary file: temp_Corel5k_1551743260781_-1265468109690201046.arff
+[Note] Discount 9.068 seconds from this build time
+Using temporary file: temp_Corel5k_1551744279302_314851395928121051.arff
+[Note] Discount 9.738 seconds from this build time
+Using temporary file: temp_Corel5k_1551744291744_6054577866958805786.arff
+[Note] Discount 13.008 seconds from this build time
+Using temporary file: temp_Corel5k_1551744306847_-7699420010600227299.arff
+[Note] Discount 7.219 seconds from this build time
+Using temporary file: temp_Corel5k_1551744337192_6650267052805898569.arff
+[Note] Discount 9.02 seconds from this build time
+Using temporary file: temp_Corel5k_1551744421179_755854500991624593.arff
+[Note] Discount 11.343 seconds from this build time
+Using temporary file: temp_Corel5k_1551744455426_-4193290617900144896.arff
+[Note] Discount 12.453 seconds from this build time
+Using temporary file: temp_Corel5k_1551744476900_550436702605198172.arff
+[Note] Discount 7.921 seconds from this build time
+Using temporary file: temp_Corel5k_1551744569709_-8801870353876918334.arff
+[Note] Discount 7.027 seconds from this build time
+Using temporary file: temp_Corel5k_1551744734253_7135856249683414178.arff
+[Note] Discount 11.467 seconds from this build time
+Using temporary file: temp_Corel5k_1551744755508_-6106594814102442852.arff
+[Note] Discount 10.81 seconds from this build time
+Using temporary file: temp_Corel5k_1551745702294_-7154369092413191692.arff
+Using temporary file: temp_Corel5k_1551745710027_4450705445726486464.arff
+[Note] Discount 14.898 seconds from this build time
+[Note] Discount 8.225 seconds from this build time
+Using temporary file: temp_Corel5k_1551745759742_7271064030562875142.arff
+[Note] Discount 8.101 seconds from this build time
+Using temporary file: temp_Corel5k_1551745787546_-94187287130004140.arff
+[Note] Discount 11.411 seconds from this build time
+Using temporary file: temp_Corel5k_1551745867749_5371260547779316133.arff
+[Note] Discount 7.8 seconds from this build time
+Using temporary file: temp_Corel5k_1551745880034_2514343226117629319.arff
+[Note] Discount 8.728 seconds from this build time
+Using temporary file: temp_Corel5k_1551745892153_8070639246719579111.arff
+[Note] Discount 7.059 seconds from this build time
+Using temporary file: temp_Corel5k_1551746006385_-7524662116348677146.arff
+[Note] Discount 8.128 seconds from this build time
+Using temporary file: temp_Corel5k_1551746184300_1681061247776986531.arff
+[Note] Discount 13.23 seconds from this build time
+Using temporary file: temp_Corel5k_1551746212392_-2221988569368117268.arff
+[Note] Discount 12.69 seconds from this build time
+Using temporary file: temp_Corel5k_1551747120535_9169120409345085731.arff
+Using temporary file: temp_Corel5k_1551747120538_-8648279696612050209.arff
+[Note] Discount 10.538 seconds from this build time
+[Note] Discount 13.054 seconds from this build time
+Using temporary file: temp_Corel5k_1551747203415_-5493782453516093672.arff
+[Note] Discount 6.134 seconds from this build time
+Using temporary file: temp_Corel5k_1551747222788_-7511655587566459175.arff
+[Note] Discount 9.402 seconds from this build time
+Using temporary file: temp_Corel5k_1551747320551_-1160421466163642931.arff
+[Note] Discount 8.907 seconds from this build time
+Using temporary file: temp_Corel5k_1551747343527_6883113373614244644.arff
+[Note] Discount 6.996 seconds from this build time
+Using temporary file: temp_Corel5k_1551747364223_1072306077061511071.arff
+[Note] Discount 11.117 seconds from this build time
+Using temporary file: temp_Corel5k_1551747487372_3264908416820472267.arff
+[Note] Discount 6.357 seconds from this build time
+Using temporary file: temp_Corel5k_1551747664897_7608878906930592940.arff
+Using temporary file: temp_Corel5k_1551747666637_-6449030298805734803.arff
+[Note] Discount 12.996 seconds from this build time
+[Note] Discount 11.487 seconds from this build time
+Using temporary file: temp_Corel5k_1551748500794_-5319479682109490229.arff
+Using temporary file: temp_Corel5k_1551748510719_-1065719142118609324.arff
+[Note] Discount 16.108 seconds from this build time
+[Note] Discount 12.0 seconds from this build time
+Using temporary file: temp_Corel5k_1551748612756_-934136432924416325.arff
+[Note] Discount 7.757 seconds from this build time
+Using temporary file: temp_Corel5k_1551748655973_-7026508440249642555.arff
+[Note] Discount 23.919 seconds from this build time
+Using temporary file: temp_Corel5k_1551748929908_-5137015281226191458.arff
+Using temporary file: temp_Corel5k_1551748943228_516392565305794201.arff
+[Note] Discount 20.934 seconds from this build time
+[Note] Discount 20.074 seconds from this build time
+Using temporary file: temp_Corel5k_1551749119348_2831199605592898983.arff
+[Note] Discount 17.299 seconds from this build time
+Using temporary file: temp_Corel5k_1551749163230_1705806873338569740.arff
+[Note] Discount 14.792 seconds from this build time
+Using temporary file: temp_Corel5k_1551749371765_-1111343598442236142.arff
+[Note] Discount 20.303 seconds from this build time
+Using temporary file: temp_Corel5k_1551749436321_-4566396959982491692.arff
+[Note] Discount 10.481 seconds from this build time
+Using temporary file: temp_Corel5k_1551750367984_3467329551260634708.arff
+Using temporary file: temp_Corel5k_1551750379260_-817604662548149131.arff
+[Note] Discount 12.914 seconds from this build time
+[Note] Discount 10.944 seconds from this build time
+Using temporary file: temp_Corel5k_1551750412828_728586250621324436.arff
+[Note] Discount 9.773 seconds from this build time
+Using temporary file: temp_Corel5k_1551750520111_3875173390025246931.arff
+[Note] Discount 5.52 seconds from this build time
+Using temporary file: temp_Corel5k_1551750689008_-6784398378578189479.arff
+Using temporary file: temp_Corel5k_1551750692175_-3998412061445143288.arff
+Using temporary file: temp_Corel5k_1551750692181_6666015931596736387.arff
+[Note] Discount 11.191 seconds from this build time
+[Note] Discount 18.274 seconds from this build time
+[Note] Discount 16.772 seconds from this build time
+Using temporary file: temp_Corel5k_1551750758317_2746255371496665207.arff
+[Note] Discount 9.383 seconds from this build time
+Using temporary file: temp_Corel5k_1551750925969_-7665196775622473857.arff
+[Note] Discount 13.17 seconds from this build time
+Using temporary file: temp_Corel5k_1551750965089_-3074722789246360287.arff
+[Note] Discount 12.443 seconds from this build time
+Using temporary file: temp_Corel5k_1551751793610_-6063479906063052618.arff
+[Note] Discount 12.612 seconds from this build time
+Using temporary file: temp_Corel5k_1551751829217_7411910766693346359.arff
+[Note] Discount 8.975 seconds from this build time
+Using temporary file: temp_Corel5k_1551751853158_7430493277149599813.arff
+[Note] Discount 10.334 seconds from this build time
+Using temporary file: temp_Corel5k_1551751923270_-7815809082296616977.arff
+[Note] Discount 10.637 seconds from this build time
+Using temporary file: temp_Corel5k_1551752109344_4085467786997160691.arff
+[Note] Discount 10.377 seconds from this build time
+Using temporary file: temp_Corel5k_1551752121757_-1457205381421357414.arff
+[Note] Discount 10.922 seconds from this build time
+Using temporary file: temp_Corel5k_1551752189699_5404242951196403807.arff
+[Note] Discount 7.731 seconds from this build time
+Using temporary file: temp_Corel5k_1551752207093_-3121891052548791562.arff
+[Note] Discount 8.355 seconds from this build time
+Using temporary file: temp_Corel5k_1551752416819_1563548882513538425.arff
+[Note] Discount 13.893 seconds from this build time
+Using temporary file: temp_Corel5k_1551752505722_-4249802838372158016.arff
+[Note] Discount 20.576 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 5
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Corel5k_1551754189849_-8377336650094661069.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Corel5k_1551754189859_-8751085503867937651.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Corel5k_1551754189873_-7497975980136432009.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Corel5k_1551754189883_4840668386679044570.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Corel5k_1551754189893_-7306263279772935589.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Corel5k_1551754189908_1571665058970022497.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Corel5k_1551754189918_-2669015473904755310.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Corel5k_1551754189933_-3413008864762311762.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Corel5k_1551754189953_5392703102889984549.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Corel5k_1551754189963_8168676158663024624.arff
+[Note] Discount 28.823 seconds from this build time
+[Note] Discount 38.713 seconds from this build time
+[Note] Discount 42.333 seconds from this build time
+[Note] Discount 44.649 seconds from this build time
+[Note] Discount 44.821 seconds from this build time
+[Note] Discount 45.99 seconds from this build time
+[Note] Discount 47.75 seconds from this build time
+[Note] Discount 48.87 seconds from this build time
+[Note] Discount 50.815 seconds from this build time
+[Note] Discount 53.972 seconds from this build time
+Using temporary file: temp_Corel5k_1551755619655_-4787022384348844445.arff
+[Note] Discount 6.289 seconds from this build time
+Using temporary file: temp_Corel5k_1551755643957_-730190759019218156.arff
+Using temporary file: temp_Corel5k_1551755644522_9038335254401083926.arff
+[Note] Discount 7.491 seconds from this build time
+[Note] Discount 11.681 seconds from this build time
+Using temporary file: temp_Corel5k_1551755664912_-5020500491649895153.arff
+[Note] Discount 5.884 seconds from this build time
+Using temporary file: temp_Corel5k_1551755677132_8146221438076924663.arff
+Using temporary file: temp_Corel5k_1551755680431_7806941514492271995.arff
+[Note] Discount 9.031 seconds from this build time
+Using temporary file: temp_Corel5k_1551755690509_4323093987500565602.arff
+[Note] Discount 14.115 seconds from this build time
+Using temporary file: temp_Corel5k_1551755698649_-4733873431139627931.arff
+Using temporary file: temp_Corel5k_1551755698651_-5740671271593056691.arff
+[Note] Discount 16.069 seconds from this build time
+[Note] Discount 14.252 seconds from this build time
+[Note] Discount 16.09 seconds from this build time
+Using temporary file: temp_Corel5k_1551755751246_1880661030975368292.arff
+[Note] Discount 9.937 seconds from this build time
+Using temporary file: temp_Corel5k_1551757102964_-4498190047871887498.arff
+Using temporary file: temp_Corel5k_1551757113686_8371004470249050606.arff
+[Note] Discount 13.031 seconds from this build time
+[Note] Discount 11.735 seconds from this build time
+Using temporary file: temp_Corel5k_1551757131624_-499360409750722853.arff
+Using temporary file: temp_Corel5k_1551757138943_5635609161038164966.arff
+[Note] Discount 10.398 seconds from this build time
+Using temporary file: temp_Corel5k_1551757145385_4070396125029978223.arff
+Using temporary file: temp_Corel5k_1551757154599_-3045182938295608968.arff
+[Note] Discount 17.24 seconds from this build time
+[Note] Discount 8.54 seconds from this build time
+[Note] Discount 22.618 seconds from this build time
+Using temporary file: temp_Corel5k_1551757241455_-5986326496842862326.arff
+[Note] Discount 14.198 seconds from this build time
+Using temporary file: temp_Corel5k_1551757267994_-7156834939687546583.arff
+[Note] Discount 7.307 seconds from this build time
+Using temporary file: temp_Corel5k_1551757359841_322846005174511008.arff
+[Note] Discount 13.728 seconds from this build time
+Using temporary file: temp_Corel5k_1551757415715_-7282023472852925143.arff
+[Note] Discount 16.504 seconds from this build time
+Using temporary file: temp_Corel5k_1551758521320_-3070688518157112907.arff
+Using temporary file: temp_Corel5k_1551758521836_5080606314316693739.arff
+[Note] Discount 10.407 seconds from this build time
+[Note] Discount 10.817 seconds from this build time
+Using temporary file: temp_Corel5k_1551758568826_5245364836250954000.arff
+[Note] Discount 8.034 seconds from this build time
+Using temporary file: temp_Corel5k_1551758620845_-8257472253730980873.arff
+Using temporary file: temp_Corel5k_1551758626632_6983046085666928814.arff
+[Note] Discount 12.036 seconds from this build time
+Using temporary file: temp_Corel5k_1551758635447_3526450679069113854.arff
+[Note] Discount 12.14 seconds from this build time
+[Note] Discount 9.665 seconds from this build time
+Using temporary file: temp_Corel5k_1551758712705_-435587906648708359.arff
+[Note] Discount 9.775 seconds from this build time
+Using temporary file: temp_Corel5k_1551758760019_7318053033168220206.arff
+[Note] Discount 8.404 seconds from this build time
+Using temporary file: temp_Corel5k_1551758786613_1459173741195801402.arff
+[Note] Discount 7.616 seconds from this build time
+Using temporary file: temp_Corel5k_1551758881238_947406905975435208.arff
+[Note] Discount 13.224 seconds from this build time
+Using temporary file: temp_Corel5k_1551759895930_3700456403319983179.arff
+[Note] Discount 8.801 seconds from this build time
+Using temporary file: temp_Corel5k_1551759909302_7252938097639159278.arff
+[Note] Discount 10.931 seconds from this build time
+Using temporary file: temp_Corel5k_1551759979852_1674563217135621776.arff
+[Note] Discount 7.86 seconds from this build time
+Using temporary file: temp_Corel5k_1551760003800_8637641792745777345.arff
+Using temporary file: temp_Corel5k_1551760005934_-5120251691338751706.arff
+Using temporary file: temp_Corel5k_1551760016112_2978214333338970539.arff
+[Note] Discount 10.668 seconds from this build time
+[Note] Discount 14.112 seconds from this build time
+[Note] Discount 8.023 seconds from this build time
+Using temporary file: temp_Corel5k_1551760100681_-546227288755006883.arff
+[Note] Discount 11.628 seconds from this build time
+Using temporary file: temp_Corel5k_1551760221862_-8736851221491419912.arff
+[Note] Discount 10.467 seconds from this build time
+Using temporary file: temp_Corel5k_1551760261338_-8819243423086615708.arff
+[Note] Discount 8.045 seconds from this build time
+Using temporary file: temp_Corel5k_1551760286963_-8171136391278254421.arff
+[Note] Discount 9.55 seconds from this build time
+Using temporary file: temp_Corel5k_1551761213944_4557359622431007554.arff
+[Note] Discount 8.063 seconds from this build time
+Using temporary file: temp_Corel5k_1551761360162_8026383961327351951.arff
+[Note] Discount 10.37 seconds from this build time
+Using temporary file: temp_Corel5k_1551761387676_508943482563998989.arff
+[Note] Discount 11.182 seconds from this build time
+Using temporary file: temp_Corel5k_1551761415605_-4653752435979924085.arff
+[Note] Discount 7.952 seconds from this build time
+Using temporary file: temp_Corel5k_1551761434908_2939498319079095637.arff
+[Note] Discount 8.822 seconds from this build time
+Using temporary file: temp_Corel5k_1551761449370_-5594470500394967494.arff
+[Note] Discount 10.909 seconds from this build time
+Using temporary file: temp_Corel5k_1551761576297_3480003796066431712.arff
+Using temporary file: temp_Corel5k_1551761581839_803124289950177979.arff
+[Note] Discount 13.163 seconds from this build time
+[Note] Discount 7.791 seconds from this build time
+Using temporary file: temp_Corel5k_1551761786233_-636333988887034212.arff
+[Note] Discount 7.924 seconds from this build time
+Using temporary file: temp_Corel5k_1551761797089_8843852096945526213.arff
+[Note] Discount 8.543 seconds from this build time
+Using temporary file: temp_Corel5k_1551762829883_-2599638815814183215.arff
+[Note] Discount 13.809 seconds from this build time
+Using temporary file: temp_Corel5k_1551763089203_8190460250141936893.arff
+Using temporary file: temp_Corel5k_1551763103997_5769673920140370325.arff
+[Note] Discount 20.66 seconds from this build time
+Using temporary file: temp_Corel5k_1551763122356_-5707672370091761013.arff
+[Note] Discount 20.466 seconds from this build time
+[Note] Discount 15.994 seconds from this build time
+Using temporary file: temp_Corel5k_1551763191350_1153904216792672901.arff
+[Note] Discount 15.992 seconds from this build time
+Using temporary file: temp_Corel5k_1551763245811_5756199850788068330.arff
+[Note] Discount 13.417 seconds from this build time
+Using temporary file: temp_Corel5k_1551763434487_-8993413354811897935.arff
+[Note] Discount 11.439 seconds from this build time
+Using temporary file: temp_Corel5k_1551763466315_-7708433905133356545.arff
+[Note] Discount 13.898 seconds from this build time
+Using temporary file: temp_Corel5k_1551763643268_-7696908321112421928.arff
+[Note] Discount 10.144 seconds from this build time
+Using temporary file: temp_Corel5k_1551763817321_1143101010786680429.arff
+[Note] Discount 8.44 seconds from this build time
+Using temporary file: temp_Corel5k_1551764672461_3848973185516237780.arff
+[Note] Discount 7.828 seconds from this build time
+Using temporary file: temp_Corel5k_1551764702782_-7593559711793024473.arff
+[Note] Discount 9.504 seconds from this build time
+Using temporary file: temp_Corel5k_1551764725352_-356080060741782185.arff
+Using temporary file: temp_Corel5k_1551764728569_4750573931075731782.arff
+[Note] Discount 16.681 seconds from this build time
+[Note] Discount 17.792 seconds from this build time
+Using temporary file: temp_Corel5k_1551764860943_-2738735307499397929.arff
+[Note] Discount 12.304 seconds from this build time
+Using temporary file: temp_Corel5k_1551764984253_9147260119188226075.arff
+[Note] Discount 13.777 seconds from this build time
+Using temporary file: temp_Corel5k_1551765024954_-7753099951623310138.arff
+Using temporary file: temp_Corel5k_1551765029224_1034630987629030792.arff
+[Note] Discount 13.103 seconds from this build time
+[Note] Discount 19.248 seconds from this build time
+Using temporary file: temp_Corel5k_1551765210186_-7555351992581160954.arff
+[Note] Discount 10.901 seconds from this build time
+Using temporary file: temp_Corel5k_1551765583014_-445123651753048437.arff
+[Note] Discount 14.858 seconds from this build time
+Using temporary file: temp_Corel5k_1551766326727_3279426614661187996.arff
+[Note] Discount 9.951 seconds from this build time
+Using temporary file: temp_Corel5k_1551766338694_-9108032911202255077.arff
+[Note] Discount 8.512 seconds from this build time
+Using temporary file: temp_Corel5k_1551766462401_-5777773046073082973.arff
+[Note] Discount 10.731 seconds from this build time
+Using temporary file: temp_Corel5k_1551766478530_-535584982992767945.arff
+[Note] Discount 11.914 seconds from this build time
+Using temporary file: temp_Corel5k_1551766506298_4585731666244383106.arff
+[Note] Discount 9.979 seconds from this build time
+Using temporary file: temp_Corel5k_1551766559268_-3525111263812818117.arff
+[Note] Discount 6.212 seconds from this build time
+Using temporary file: temp_Corel5k_1551766576209_5796689938409159009.arff
+[Note] Discount 11.943 seconds from this build time
+Using temporary file: temp_Corel5k_1551766619820_7786015629227782772.arff
+[Note] Discount 11.444 seconds from this build time
+Using temporary file: temp_Corel5k_1551766761198_3214097265926879448.arff
+[Note] Discount 9.784 seconds from this build time
+Using temporary file: temp_Corel5k_1551766956800_5262131155823113975.arff
+[Note] Discount 8.045 seconds from this build time
+Using temporary file: temp_Corel5k_1551767730127_-6264662031554090775.arff
+[Note] Discount 10.056 seconds from this build time
+Using temporary file: temp_Corel5k_1551767778176_6364905620888314798.arff
+[Note] Discount 8.876 seconds from this build time
+Using temporary file: temp_Corel5k_1551767902084_-7074918400295346896.arff
+Using temporary file: temp_Corel5k_1551767911472_8499104807284792755.arff
+[Note] Discount 13.289 seconds from this build time
+[Note] Discount 8.47 seconds from this build time
+Using temporary file: temp_Corel5k_1551768018488_-7850427191471535528.arff
+[Note] Discount 8.59 seconds from this build time
+Using temporary file: temp_Corel5k_1551768028584_5947874316217233888.arff
+Using temporary file: temp_Corel5k_1551768035187_8816149975002660817.arff
+Using temporary file: temp_Corel5k_1551768039300_6817473413534271398.arff
+[Note] Discount 16.087 seconds from this build time
+[Note] Discount 14.814 seconds from this build time
+[Note] Discount 11.042 seconds from this build time
+Using temporary file: temp_Corel5k_1551768140291_-7107378206422349633.arff
+[Note] Discount 8.842 seconds from this build time
+Using temporary file: temp_Corel5k_1551768372890_1163118917381745949.arff
+[Note] Discount 8.966 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[STATISTICS] #50
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: Writing 50 statistics to: mekaexp.txt
+[STAGE] FINISH
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #1: meka.experiment.statisticsexporters.SimpleAggregate2
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-agg3.tsv
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #2: meka.experiment.statisticsexporters.TabSeparated
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-full3.tsv

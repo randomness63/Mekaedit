@@ -1,0 +1,1845 @@
+[STAGE] INITIALIZING
+[LOG] meka.experiment.DefaultExperiment: Turned off incremental mode for meka.experiment.evaluationstatistics.KeyValuePairs to make use of multi-threading!
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: File 'mekaexp.txt' exists, loading...
+[STAGE] RUNNING
+[LOG] meka.experiment.datasetproviders.MultiDatasetProvider: Dataset provider #1
+[LOG] meka.experiment.datasetproviders.LocalDatasetProvider: Loading: data/Corel5k.arff
+[LOG] meka.experiment.DefaultExperiment: Using dataset: Corel5k: -C -374
+[ITERATION] meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2 --> Corel5k: -C -374
+[LOG] meka.experiment.DefaultExperiment: Using classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Number of threads (1 = sequential): 1
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 1
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Corel5k_1551694359037_-4962768465676381896.arff
+Using temporary file: temp_Corel5k_1551694359046_4437113781045784766.arff
+Using temporary file: temp_Corel5k_1551694359049_-6688467811848818630.arff
+Using temporary file: temp_Corel5k_1551694359051_-8292973307042192125.arff
+Using temporary file: temp_Corel5k_1551694359065_-7423979211207825555.arff
+Using temporary file: temp_Corel5k_1551694359065_6146794652083548235.arff
+Using temporary file: temp_Corel5k_1551694359070_7105486291024734541.arff
+Using temporary file: temp_Corel5k_1551694359075_-279624296851435688.arff
+Using temporary file: temp_Corel5k_1551694359076_-2228689144322150137.arff
+Using temporary file: temp_Corel5k_1551694359083_-1083761183081836303.arff
+[Note] Discount 19.183 seconds from this build time
+[Note] Discount 24.656 seconds from this build time
+[Note] Discount 26.959 seconds from this build time
+[Note] Discount 29.935 seconds from this build time
+[Note] Discount 31.558 seconds from this build time
+[Note] Discount 33.187 seconds from this build time
+[Note] Discount 33.338 seconds from this build time
+[Note] Discount 38.928 seconds from this build time
+[Note] Discount 45.213 seconds from this build time
+[Note] Discount 45.27 seconds from this build time
+Using temporary file: temp_Corel5k_1551695502185_5072005423257391728.arff
+Using temporary file: temp_Corel5k_1551695502905_2377732757510138102.arff
+Using temporary file: temp_Corel5k_1551695506161_2704323167362897208.arff
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+Using temporary file: temp_Corel5k_1551695511715_428667830982598836.arff
+Using temporary file: temp_Corel5k_1551695515965_-8361175665883705505.arff
+Using temporary file: temp_Corel5k_1551695520342_-655101936082782086.arff
+Using temporary file: temp_Corel5k_1551695523924_1927512926176735975.arff
+[Note] Discount 29.396 seconds from this build time
+[Note] Discount 26.191 seconds from this build time
+[Note] Discount 31.506 seconds from this build time
+[Note] Discount 18.891 seconds from this build time
+[Note] Discount 24.292 seconds from this build time
+Using temporary file: temp_Corel5k_1551695542828_-6914829020992303508.arff
+Using temporary file: temp_Corel5k_1551695546080_7577852396602278602.arff
+[Note] Discount 36.673 seconds from this build time
+[Note] Discount 28.985 seconds from this build time
+[Note] Discount 14.306 seconds from this build time
+[Note] Discount 12.385 seconds from this build time
+Using temporary file: temp_Corel5k_1551696617563_-4126310024944755050.arff
+Using temporary file: temp_Corel5k_1551696617569_-171134583860878546.arff
+Using temporary file: temp_Corel5k_1551696626608_8987859488885190724.arff
+Using temporary file: temp_Corel5k_1551696629509_-4681020001986070314.arff
+[Note] Discount 12.989 seconds from this build time
+[Note] Discount 13.03 seconds from this build time
+Using temporary file: temp_Corel5k_1551696635486_-4922475540349336432.arff
+[Note] Discount 14.488 seconds from this build time
+Using temporary file: temp_Corel5k_1551696644631_-3370274031255729188.arff
+[Note] Discount 18.869 seconds from this build time
+[Note] Discount 15.318 seconds from this build time
+[Note] Discount 10.264 seconds from this build time
+Using temporary file: temp_Corel5k_1551696664127_-2971948390163211717.arff
+Using temporary file: temp_Corel5k_1551696664764_-8730854458729406051.arff
+[Note] Discount 7.822 seconds from this build time
+[Note] Discount 8.706 seconds from this build time
+Using temporary file: temp_Corel5k_1551696679763_-1856941488587171136.arff
+[Note] Discount 7.947 seconds from this build time
+Using temporary file: temp_Corel5k_1551698008522_2470753881526567411.arff
+[Note] Discount 13.795 seconds from this build time
+Using temporary file: temp_Corel5k_1551698058601_1532230816302433446.arff
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+Using temporary file: temp_Corel5k_1551698060625_-395233716872471639.arff
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[Note] Discount 18.093 seconds from this build time
+[Note] Discount 18.613 seconds from this build time
+Using temporary file: temp_Corel5k_1551698100324_-5121607137339136235.arff
+[Note] Discount 14.255 seconds from this build time
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+Using temporary file: temp_Corel5k_1551698135317_-5256749969541153749.arff
+[Note] Discount 10.916 seconds from this build time
+Using temporary file: temp_Corel5k_1551698166051_2641949932817367724.arff
+[Note] Discount 9.823 seconds from this build time
+Using temporary file: temp_Corel5k_1551699351267_8540064508133314173.arff
+[Note] Discount 7.502 seconds from this build time
+Using temporary file: temp_Corel5k_1551699435492_82744587931001745.arff
+[Note] Discount 11.865 seconds from this build time
+Using temporary file: temp_Corel5k_1551699461309_1318911071456810350.arff
+[Note] Discount 8.486 seconds from this build time
+Using temporary file: temp_Corel5k_1551699477807_6427218635535763657.arff
+[Note] Discount 13.742 seconds from this build time
+Using temporary file: temp_Corel5k_1551699515895_6249197149364475148.arff
+[Note] Discount 11.645 seconds from this build time
+Using temporary file: temp_Corel5k_1551699567657_-2594413761814090552.arff
+[Note] Discount 11.832 seconds from this build time
+Using temporary file: temp_Corel5k_1551700852190_-524865453008036006.arff
+[Note] Discount 15.429 seconds from this build time
+Using temporary file: temp_Corel5k_1551700898323_-2476551425607728309.arff
+Using temporary file: temp_Corel5k_1551700902193_-7146617210012600256.arff
+[Note] Discount 13.946 seconds from this build time
+[Note] Discount 12.454 seconds from this build time
+Using temporary file: temp_Corel5k_1551701012218_3301745707726569574.arff
+Using temporary file: temp_Corel5k_1551701022019_4013465704250623170.arff
+[Note] Discount 11.848 seconds from this build time
+[Note] Discount 9.708 seconds from this build time
+Using temporary file: temp_Corel5k_1551701103808_-2684237951282348840.arff
+[Note] Discount 8.59 seconds from this build time
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+Using temporary file: temp_Corel5k_1551702330453_178444451137370484.arff
+[Note] Discount 8.134 seconds from this build time
+Using temporary file: temp_Corel5k_1551702362274_-5676192111176512602.arff
+[Note] Discount 8.683 seconds from this build time
+Using temporary file: temp_Corel5k_1551702399289_-4218531399638172627.arff
+[Note] Discount 9.831 seconds from this build time
+Using temporary file: temp_Corel5k_1551702453473_-5299981419733330714.arff
+[Note] Discount 11.353 seconds from this build time
+Using temporary file: temp_Corel5k_1551702481970_3896605098068159738.arff
+[Note] Discount 8.889 seconds from this build time
+Using temporary file: temp_Corel5k_1551703531464_-4001237302722672165.arff
+[Note] Discount 7.995 seconds from this build time
+Using temporary file: temp_Corel5k_1551703732448_-1008423794855048618.arff
+[Note] Discount 7.703 seconds from this build time
+Using temporary file: temp_Corel5k_1551703746335_262614321976477250.arff
+[Note] Discount 9.324 seconds from this build time
+Using temporary file: temp_Corel5k_1551703761000_7271772087391691927.arff
+[Note] Discount 8.797 seconds from this build time
+Using temporary file: temp_Corel5k_1551703806702_-2697084138585034005.arff
+[Note] Discount 8.911 seconds from this build time
+Using temporary file: temp_Corel5k_1551704821519_-3946820249469283158.arff
+[Note] Discount 12.142 seconds from this build time
+Using temporary file: temp_Corel5k_1551705027097_-120421011786498678.arff
+[Note] Discount 9.561 seconds from this build time
+Using temporary file: temp_Corel5k_1551705040649_-2156342973769225726.arff
+[Note] Discount 10.14 seconds from this build time
+Using temporary file: temp_Corel5k_1551705123518_3141324392123627982.arff
+[Note] Discount 5.702 seconds from this build time
+Using temporary file: temp_Corel5k_1551705143525_-699704949712600115.arff
+[Note] Discount 8.564 seconds from this build time
+Using temporary file: temp_Corel5k_1551706161096_-5085859045495963725.arff
+[Note] Discount 7.714 seconds from this build time
+Using temporary file: temp_Corel5k_1551706332244_-5951765205669983896.arff
+[Note] Discount 8.993 seconds from this build time
+Using temporary file: temp_Corel5k_1551706372928_-3608267860102554860.arff
+[Note] Discount 8.609 seconds from this build time
+Using temporary file: temp_Corel5k_1551706403543_8142886840698975765.arff
+[Note] Discount 9.235 seconds from this build time
+Using temporary file: temp_Corel5k_1551706461232_8524019115140866179.arff
+[Note] Discount 8.062 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 2
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Corel5k_1551707648833_-2714853971147396117.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Corel5k_1551707648840_-9189524968491074724.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Corel5k_1551707648850_-148625824714636787.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Corel5k_1551707648860_-566870006298343145.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Corel5k_1551707648870_6513657358736753182.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Corel5k_1551707648879_871901303891580382.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Corel5k_1551707648890_1321222800296200436.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Corel5k_1551707648895_536938910405906015.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Corel5k_1551707648900_8922140309403778699.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Corel5k_1551707648907_-517428980255835422.arff
+[Note] Discount 29.179 seconds from this build time
+[Note] Discount 29.4 seconds from this build time
+[Note] Discount 29.574 seconds from this build time
+[Note] Discount 30.932 seconds from this build time
+[Note] Discount 32.593 seconds from this build time
+[Note] Discount 34.5 seconds from this build time
+[Note] Discount 35.198 seconds from this build time
+[Note] Discount 35.789 seconds from this build time
+[Note] Discount 36.204 seconds from this build time
+[Note] Discount 36.311 seconds from this build time
+Using temporary file: temp_Corel5k_1551709133111_-200753079219431109.arff
+Using temporary file: temp_Corel5k_1551709133125_-4289936086616402019.arff
+Using temporary file: temp_Corel5k_1551709136698_-9197595427105923027.arff
+Using temporary file: temp_Corel5k_1551709148926_4713610129296514631.arff
+[Note] Discount 20.464 seconds from this build time
+[Note] Discount 22.779 seconds from this build time
+[Note] Discount 19.389 seconds from this build time
+[Note] Discount 14.442 seconds from this build time
+Using temporary file: temp_Corel5k_1551709171462_5702961989472887051.arff
+Using temporary file: temp_Corel5k_1551709177823_-2798730738562476822.arff
+[Note] Discount 13.864 seconds from this build time
+[Note] Discount 11.896 seconds from this build time
+Using temporary file: temp_Corel5k_1551709192118_960790331024379126.arff
+Using temporary file: temp_Corel5k_1551709195721_187704103329199613.arff
+[Note] Discount 15.441 seconds from this build time
+[Note] Discount 12.608 seconds from this build time
+Using temporary file: temp_Corel5k_1551709210863_6527434954307481789.arff
+[Note] Discount 9.876 seconds from this build time
+Using temporary file: temp_Corel5k_1551709245998_1600030782373250481.arff
+[Note] Discount 8.842 seconds from this build time
+Using temporary file: temp_Corel5k_1551710633340_-2761265137076421558.arff
+Using temporary file: temp_Corel5k_1551710643370_67826697947916427.arff
+[Note] Discount 13.476 seconds from this build time
+Using temporary file: temp_Corel5k_1551710655472_5679626435595832671.arff
+[Note] Discount 14.349 seconds from this build time
+Using temporary file: temp_Corel5k_1551710661890_-8640296913357041870.arff
+[Note] Discount 12.905 seconds from this build time
+[Note] Discount 12.586 seconds from this build time
+Using temporary file: temp_Corel5k_1551710677510_-1497613613979078270.arff
+[Note] Discount 9.518 seconds from this build time
+Using temporary file: temp_Corel5k_1551710695162_5113622237409872778.arff
+[Note] Discount 11.243 seconds from this build time
+Using temporary file: temp_Corel5k_1551710718757_-2319452971287571658.arff
+Using temporary file: temp_Corel5k_1551710728105_-7196415781697772800.arff
+[Note] Discount 11.721 seconds from this build time
+[Note] Discount 10.765 seconds from this build time
+Using temporary file: temp_Corel5k_1551710748933_-1685308985507641749.arff
+[Note] Discount 7.814 seconds from this build time
+Using temporary file: temp_Corel5k_1551710758599_820707025409634855.arff
+[Note] Discount 11.69 seconds from this build time
+Using temporary file: temp_Corel5k_1551712106540_-6516793691191662538.arff
+Using temporary file: temp_Corel5k_1551712111643_9164411834808661380.arff
+[Note] Discount 13.747 seconds from this build time
+[Note] Discount 10.142 seconds from this build time
+Using temporary file: temp_Corel5k_1551712128264_-9099749510027196988.arff
+Using temporary file: temp_Corel5k_1551712128264_-8841730600804742235.arff
+[Note] Discount 11.212 seconds from this build time
+[Note] Discount 11.595 seconds from this build time
+Using temporary file: temp_Corel5k_1551712161427_6758162953488776844.arff
+Using temporary file: temp_Corel5k_1551712165209_8810845966659683448.arff
+Using temporary file: temp_Corel5k_1551712173033_-5460795021784967740.arff
+[Note] Discount 15.427 seconds from this build time
+[Note] Discount 13.287 seconds from this build time
+[Note] Discount 11.293 seconds from this build time
+Using temporary file: temp_Corel5k_1551712246922_5954014899072946649.arff
+[Note] Discount 9.863 seconds from this build time
+Using temporary file: temp_Corel5k_1551712259596_214993804815738645.arff
+[Note] Discount 12.089 seconds from this build time
+Using temporary file: temp_Corel5k_1551712309262_-5514858212339405460.arff
+[Note] Discount 10.937 seconds from this build time
+Using temporary file: temp_Corel5k_1551713588156_-4697410766453443951.arff
+Using temporary file: temp_Corel5k_1551713591732_-7244253119129237588.arff
+Using temporary file: temp_Corel5k_1551713597273_4336492403770078180.arff
+[Note] Discount 13.724 seconds from this build time
+[Note] Discount 15.548 seconds from this build time
+[Note] Discount 13.501 seconds from this build time
+Using temporary file: temp_Corel5k_1551713639054_7176580044932830276.arff
+[Note] Discount 10.51 seconds from this build time
+Using temporary file: temp_Corel5k_1551713692030_-1633120553624586039.arff
+[Note] Discount 10.549 seconds from this build time
+Using temporary file: temp_Corel5k_1551713753309_3087783559322503069.arff
+[Note] Discount 9.623 seconds from this build time
+Using temporary file: temp_Corel5k_1551713775614_72191801432025792.arff
+Using temporary file: temp_Corel5k_1551713778477_4886465643886762423.arff
+[Note] Discount 12.671 seconds from this build time
+[Note] Discount 13.212 seconds from this build time
+Using temporary file: temp_Corel5k_1551713807150_-1977178175608504323.arff
+[Note] Discount 12.118 seconds from this build time
+Using temporary file: temp_Corel5k_1551713826728_5489165778026111548.arff
+[Note] Discount 10.931 seconds from this build time
+Using temporary file: temp_Corel5k_1551715156800_7911891130236602275.arff
+Using temporary file: temp_Corel5k_1551715163336_-5763654923426307630.arff
+[Note] Discount 14.38 seconds from this build time
+[Note] Discount 14.803 seconds from this build time
+Using temporary file: temp_Corel5k_1551715202651_7535429006024983857.arff
+Using temporary file: temp_Corel5k_1551715202659_6512669167483931824.arff
+Using temporary file: temp_Corel5k_1551715215931_-6054985639040938180.arff
+[Note] Discount 17.513 seconds from this build time
+[Note] Discount 17.805 seconds from this build time
+[Note] Discount 13.654 seconds from this build time
+Using temporary file: temp_Corel5k_1551715344138_-4788457857850447244.arff
+[Note] Discount 12.028 seconds from this build time
+Using temporary file: temp_Corel5k_1551715366763_-1947326395900975778.arff
+Using temporary file: temp_Corel5k_1551715374116_-7748411135601385678.arff
+[Note] Discount 16.656 seconds from this build time
+Using temporary file: temp_Corel5k_1551715383428_-9024968371786632850.arff
+[Note] Discount 16.194 seconds from this build time
+[Note] Discount 11.3 seconds from this build time
+Using temporary file: temp_Corel5k_1551715422909_5754825772160496080.arff
+[Note] Discount 12.045 seconds from this build time
+Using temporary file: temp_Corel5k_1551716725790_-8481270662646470671.arff
+[Note] Discount 9.05 seconds from this build time
+Using temporary file: temp_Corel5k_1551716757804_-496076268859382896.arff
+Using temporary file: temp_Corel5k_1551716762953_-7127128167259751473.arff
+[Note] Discount 15.616 seconds from this build time
+[Note] Discount 12.017 seconds from this build time
+Using temporary file: temp_Corel5k_1551716778451_501180562174799085.arff
+[Note] Discount 12.064 seconds from this build time
+Using temporary file: temp_Corel5k_1551716806806_-5736614306270799543.arff
+[Note] Discount 11.653 seconds from this build time
+Using temporary file: temp_Corel5k_1551716941162_-6819959017335327829.arff
+Using temporary file: temp_Corel5k_1551716947399_-3360305141762794454.arff
+[Note] Discount 12.521 seconds from this build time
+Using temporary file: temp_Corel5k_1551716956841_-4775523669187539415.arff
+[Note] Discount 14.627 seconds from this build time
+[Note] Discount 13.643 seconds from this build time
+Using temporary file: temp_Corel5k_1551717032380_-6798914858217573060.arff
+[Note] Discount 11.604 seconds from this build time
+Using temporary file: temp_Corel5k_1551717089286_5808738444245805049.arff
+[Note] Discount 12.469 seconds from this build time
+Using temporary file: temp_Corel5k_1551718259337_-4605199251911937283.arff
+[Note] Discount 13.198 seconds from this build time
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+Using temporary file: temp_Corel5k_1551718300881_3508934780188318642.arff
+[Note] Discount 10.685 seconds from this build time
+Using temporary file: temp_Corel5k_1551718336731_2259750519392559506.arff
+[Note] Discount 10.113 seconds from this build time
+Using temporary file: temp_Corel5k_1551718374803_-5288884321442703868.arff
+[Note] Discount 10.086 seconds from this build time
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+Using temporary file: temp_Corel5k_1551718520372_-1235136122240190980.arff
+[Note] Discount 12.368 seconds from this build time
+Using temporary file: temp_Corel5k_1551718582057_5738943893379618316.arff
+[Note] Discount 11.862 seconds from this build time
+Using temporary file: temp_Corel5k_1551718623655_-8678588235927406455.arff
+[Note] Discount 10.564 seconds from this build time
+Using temporary file: temp_Corel5k_1551718704528_3301560350794899176.arff
+[Note] Discount 10.792 seconds from this build time
+Using temporary file: temp_Corel5k_1551719674456_2100752566876840588.arff
+[Note] Discount 9.583 seconds from this build time
+Using temporary file: temp_Corel5k_1551719716680_-5830253423258833266.arff
+[Note] Discount 9.494 seconds from this build time
+Using temporary file: temp_Corel5k_1551719766162_6995928140111635280.arff
+Using temporary file: temp_Corel5k_1551719771360_-7518357113470038567.arff
+[Note] Discount 11.137 seconds from this build time
+[Note] Discount 10.853 seconds from this build time
+Using temporary file: temp_Corel5k_1551719930433_-1095565672715370423.arff
+[Note] Discount 9.345 seconds from this build time
+Using temporary file: temp_Corel5k_1551720039127_-8593497911429493276.arff
+Using temporary file: temp_Corel5k_1551720046695_3951194809170085004.arff
+[Note] Discount 14.111 seconds from this build time
+[Note] Discount 11.869 seconds from this build time
+Using temporary file: temp_Corel5k_1551720120777_6156225800113325723.arff
+[Note] Discount 16.262 seconds from this build time
+Using temporary file: temp_Corel5k_1551721084484_4621576804961825664.arff
+[Note] Discount 11.846 seconds from this build time
+Using temporary file: temp_Corel5k_1551721149113_-4878419149880202610.arff
+[Note] Discount 10.357 seconds from this build time
+Using temporary file: temp_Corel5k_1551721209866_1681357320861610709.arff
+[Note] Discount 12.193 seconds from this build time
+Using temporary file: temp_Corel5k_1551721222918_4880037797499618312.arff
+[Note] Discount 18.511 seconds from this build time
+Using temporary file: temp_Corel5k_1551721376807_3480315076809301941.arff
+[Note] Discount 16.44 seconds from this build time
+Using temporary file: temp_Corel5k_1551721604152_5492728113478971232.arff
+[Note] Discount 14.983 seconds from this build time
+Using temporary file: temp_Corel5k_1551721652800_-4455425718838312134.arff
+Using temporary file: temp_Corel5k_1551721660079_859397494107989646.arff
+[Note] Discount 19.349 seconds from this build time
+[Note] Discount 18.599 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 3
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Corel5k_1551723037640_1587684632128182815.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Corel5k_1551723037650_-1988121919985651200.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Corel5k_1551723037660_-8584399766682819655.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Corel5k_1551723037669_1579821865212908206.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Corel5k_1551723037680_-8645019593156400089.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Corel5k_1551723037683_1353816990017730924.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Corel5k_1551723037690_3260813280637601224.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Corel5k_1551723037700_-2149455768672428162.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Corel5k_1551723037707_6464344685522019821.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Corel5k_1551723037720_-259991515897342863.arff
+[Note] Discount 26.317 seconds from this build time
+[Note] Discount 31.557 seconds from this build time
+[Note] Discount 34.973 seconds from this build time
+[Note] Discount 37.731 seconds from this build time
+[Note] Discount 37.99 seconds from this build time
+[Note] Discount 38.119 seconds from this build time
+[Note] Discount 40.214 seconds from this build time
+[Note] Discount 42.51 seconds from this build time
+[Note] Discount 42.985 seconds from this build time
+[Note] Discount 45.477 seconds from this build time
+Using temporary file: temp_Corel5k_1551724596912_-7823401723989747505.arff
+[Note] Discount 11.657 seconds from this build time
+Using temporary file: temp_Corel5k_1551724614166_-7300345967075961560.arff
+Using temporary file: temp_Corel5k_1551724619433_5037965036864798915.arff
+Using temporary file: temp_Corel5k_1551724630707_-8980117487222947788.arff
+[Note] Discount 19.482 seconds from this build time
+[Note] Discount 18.953 seconds from this build time
+[Note] Discount 13.482 seconds from this build time
+Using temporary file: temp_Corel5k_1551724648687_-1019362334163299157.arff
+Using temporary file: temp_Corel5k_1551724653979_4016786749698341737.arff
+Using temporary file: temp_Corel5k_1551724664259_-1663495373901721169.arff
+[Note] Discount 19.772 seconds from this build time
+[Note] Discount 15.656 seconds from this build time
+[Note] Discount 16.709 seconds from this build time
+Using temporary file: temp_Corel5k_1551724744864_357204762418634413.arff
+[Note] Discount 13.833 seconds from this build time
+Using temporary file: temp_Corel5k_1551724763438_5058270166536639533.arff
+Using temporary file: temp_Corel5k_1551724774874_-6109681907542706157.arff
+[Note] Discount 13.381 seconds from this build time
+[Note] Discount 12.52 seconds from this build time
+Using temporary file: temp_Corel5k_1551726126652_5310389416429997037.arff
+Using temporary file: temp_Corel5k_1551726133804_1180451250079382823.arff
+[Note] Discount 11.262 seconds from this build time
+[Note] Discount 11.484 seconds from this build time
+Using temporary file: temp_Corel5k_1551726153995_4173799138601369497.arff
+[Note] Discount 12.493 seconds from this build time
+Using temporary file: temp_Corel5k_1551726196821_2583780001673035147.arff
+[Note] Discount 11.076 seconds from this build time
+Using temporary file: temp_Corel5k_1551726212845_-7311352842601082005.arff
+[Note] Discount 13.991 seconds from this build time
+Using temporary file: temp_Corel5k_1551726309911_-5022166674911679806.arff
+[Note] Discount 9.645 seconds from this build time
+Using temporary file: temp_Corel5k_1551726343576_5605301965367641896.arff
+[Note] Discount 9.901 seconds from this build time
+Using temporary file: temp_Corel5k_1551726370238_-6910832155197454005.arff
+Using temporary file: temp_Corel5k_1551726376470_660260225259642700.arff
+Using temporary file: temp_Corel5k_1551726376481_8805804927883992817.arff
+[Note] Discount 19.4 seconds from this build time
+[Note] Discount 15.853 seconds from this build time
+[Note] Discount 18.959 seconds from this build time
+Using temporary file: temp_Corel5k_1551727613843_1709464157265079686.arff
+[Note] Discount 10.656 seconds from this build time
+Using temporary file: temp_Corel5k_1551727721949_-5337999691869457823.arff
+[Note] Discount 13.849 seconds from this build time
+Using temporary file: temp_Corel5k_1551727743670_8008505297448283238.arff
+[Note] Discount 9.603 seconds from this build time
+Using temporary file: temp_Corel5k_1551727796623_-3332450412194435075.arff
+[Note] Discount 9.466 seconds from this build time
+Using temporary file: temp_Corel5k_1551727815902_-7295335603209051564.arff
+[Note] Discount 9.008 seconds from this build time
+Using temporary file: temp_Corel5k_1551727876545_-6046014611969325073.arff
+Using temporary file: temp_Corel5k_1551727879193_8302285056297172932.arff
+Using temporary file: temp_Corel5k_1551727883675_6356024424047499647.arff
+[Note] Discount 14.513 seconds from this build time
+Using temporary file: temp_Corel5k_1551727893263_4969456586130451623.arff
+[Note] Discount 18.989 seconds from this build time
+[Note] Discount 17.634 seconds from this build time
+[Note] Discount 13.138 seconds from this build time
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+Using temporary file: temp_Corel5k_1551729147114_-4701205128643231831.arff
+[Note] Discount 13.722 seconds from this build time
+Using temporary file: temp_Corel5k_1551729255374_3803053121039792420.arff
+[Note] Discount 12.69 seconds from this build time
+Using temporary file: temp_Corel5k_1551729273391_2758360689241543402.arff
+[Note] Discount 14.034 seconds from this build time
+Using temporary file: temp_Corel5k_1551729353949_-1468873411252492921.arff
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[Note] Discount 14.067 seconds from this build time
+Using temporary file: temp_Corel5k_1551729427057_-5761034890733554598.arff
+Using temporary file: temp_Corel5k_1551729443435_-1536563194244860551.arff
+[Note] Discount 18.14 seconds from this build time
+[Note] Discount 10.714 seconds from this build time
+Using temporary file: temp_Corel5k_1551729475212_653137120681555455.arff
+[Note] Discount 10.597 seconds from this build time
+Using temporary file: temp_Corel5k_1551729495010_3600025259063640689.arff
+[Note] Discount 9.037 seconds from this build time
+Using temporary file: temp_Corel5k_1551730666594_-7821298019962506145.arff
+[Note] Discount 11.396 seconds from this build time
+Using temporary file: temp_Corel5k_1551730777467_-645917300613758614.arff
+[Note] Discount 11.928 seconds from this build time
+Using temporary file: temp_Corel5k_1551730832306_6119745577970185558.arff
+[Note] Discount 10.5 seconds from this build time
+Using temporary file: temp_Corel5k_1551730908877_2549209129409228758.arff
+Using temporary file: temp_Corel5k_1551730916337_1794894844987367466.arff
+[Note] Discount 16.859 seconds from this build time
+[Note] Discount 15.882 seconds from this build time
+Using temporary file: temp_Corel5k_1551730948217_-3326066702825432110.arff
+[Note] Discount 12.482 seconds from this build time
+Using temporary file: temp_Corel5k_1551730988311_-6088871574026378532.arff
+Using temporary file: temp_Corel5k_1551730991729_7911583618620128154.arff
+[Note] Discount 10.556 seconds from this build time
+[Note] Discount 14.585 seconds from this build time
+Using temporary file: temp_Corel5k_1551732111927_8853444392409962688.arff
+[Note] Discount 7.647 seconds from this build time
+Using temporary file: temp_Corel5k_1551732274967_-3143446542602205122.arff
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[Note] Discount 14.042 seconds from this build time
+Using temporary file: temp_Corel5k_1551732397716_-8494028184443550129.arff
+Using temporary file: temp_Corel5k_1551732399900_-7666389024716992619.arff
+[Note] Discount 12.311 seconds from this build time
+[Note] Discount 13.349 seconds from this build time
+Using temporary file: temp_Corel5k_1551732426907_-7426893052962357700.arff
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[Note] Discount 13.529 seconds from this build time
+Using temporary file: temp_Corel5k_1551732447296_6906149630747914610.arff
+[Note] Discount 8.66 seconds from this build time
+Using temporary file: temp_Corel5k_1551733411786_30264304927818692.arff
+[Note] Discount 13.714 seconds from this build time
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+Using temporary file: temp_Corel5k_1551733750063_-5727558868953203691.arff
+Using temporary file: temp_Corel5k_1551733758299_-5280429017220727222.arff
+[Note] Discount 11.328 seconds from this build time
+[Note] Discount 11.319 seconds from this build time
+Using temporary file: temp_Corel5k_1551733818632_1277373086709849060.arff
+[Note] Discount 8.097 seconds from this build time
+Using temporary file: temp_Corel5k_1551733839804_-9161356953358167518.arff
+[Note] Discount 8.884 seconds from this build time
+Using temporary file: temp_Corel5k_1551734719726_-5693283286674304421.arff
+[Note] Discount 11.293 seconds from this build time
+Using temporary file: temp_Corel5k_1551734995012_-3674380908879105364.arff
+[Note] Discount 8.942 seconds from this build time
+Using temporary file: temp_Corel5k_1551735017575_-5135266989296457665.arff
+[Note] Discount 11.793 seconds from this build time
+Using temporary file: temp_Corel5k_1551735062017_6299905036767953317.arff
+Using temporary file: temp_Corel5k_1551735068244_1176089665387826969.arff
+[Note] Discount 7.449 seconds from this build time
+[Note] Discount 7.606 seconds from this build time
+Using temporary file: temp_Corel5k_1551736009231_6443170592819695545.arff
+[Note] Discount 11.265 seconds from this build time
+Using temporary file: temp_Corel5k_1551736256759_-8837902837463325214.arff
+Using temporary file: temp_Corel5k_1551736274980_-805964166784363941.arff
+[Note] Discount 22.542 seconds from this build time
+[Note] Discount 19.838 seconds from this build time
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+Using temporary file: temp_Corel5k_1551736421594_-5662802777777613574.arff
+[Note] Discount 10.565 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 4
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Corel5k_1551737655060_2243480672403792601.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Corel5k_1551737655070_-9124564742246058657.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Corel5k_1551737655080_-1820138817373496662.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Corel5k_1551737655086_3083995804586309402.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Corel5k_1551737655100_6444635427050365194.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Corel5k_1551737655106_-5623373965380994308.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Corel5k_1551737655122_598328575014092232.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Corel5k_1551737655131_4796796124253410186.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Corel5k_1551737655140_8576325184258344286.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Corel5k_1551737655151_7496982466862244149.arff
+[Note] Discount 32.494 seconds from this build time
+[Note] Discount 34.465 seconds from this build time
+[Note] Discount 35.014 seconds from this build time
+[Note] Discount 35.209 seconds from this build time
+[Note] Discount 36.07 seconds from this build time
+[Note] Discount 36.779 seconds from this build time
+[Note] Discount 39.324 seconds from this build time
+[Note] Discount 40.979 seconds from this build time
+[Note] Discount 41.442 seconds from this build time
+[Note] Discount 42.208 seconds from this build time
+Using temporary file: temp_Corel5k_1551739256861_3421332352366621250.arff
+Using temporary file: temp_Corel5k_1551739267463_5414275117331381710.arff
+Using temporary file: temp_Corel5k_1551739275542_-7826056991558697093.arff
+[Note] Discount 21.032 seconds from this build time
+[Note] Discount 21.745 seconds from this build time
+[Note] Discount 15.282 seconds from this build time
+Using temporary file: temp_Corel5k_1551739300053_3107549667671845688.arff
+Using temporary file: temp_Corel5k_1551739300061_6857373577836206198.arff
+Using temporary file: temp_Corel5k_1551739321743_4328502305394555230.arff
+Using temporary file: temp_Corel5k_1551739329702_-8514507194139921895.arff
+[Note] Discount 31.935 seconds from this build time
+Using temporary file: temp_Corel5k_1551739336037_6547565724012451687.arff
+[Note] Discount 43.815 seconds from this build time
+[Note] Discount 23.692 seconds from this build time
+[Note] Discount 35.546 seconds from this build time
+[Note] Discount 30.631 seconds from this build time
+Using temporary file: temp_Corel5k_1551739395832_5719690575850774808.arff
+[Note] Discount 11.813 seconds from this build time
+Using temporary file: temp_Corel5k_1551739449482_-2998428632519719896.arff
+[Note] Discount 11.904 seconds from this build time
+Using temporary file: temp_Corel5k_1551740530643_-6073009103768551032.arff
+Using temporary file: temp_Corel5k_1551740537501_2012055452795458010.arff
+[Note] Discount 11.71 seconds from this build time
+Using temporary file: temp_Corel5k_1551740545739_-1187394439175388239.arff
+[Note] Discount 11.284 seconds from this build time
+[Note] Discount 7.306 seconds from this build time
+Using temporary file: temp_Corel5k_1551740562826_-2300171268480388852.arff
+Using temporary file: temp_Corel5k_1551740566244_-2730112946719215065.arff
+[Note] Discount 9.007 seconds from this build time
+Using temporary file: temp_Corel5k_1551740575725_7275270066579715802.arff
+Using temporary file: temp_Corel5k_1551740575731_6978170142387848475.arff
+[Note] Discount 9.877 seconds from this build time
+[Note] Discount 10.873 seconds from this build time
+[Note] Discount 11.811 seconds from this build time
+Using temporary file: temp_Corel5k_1551740625177_-8739040138527370657.arff
+[Note] Discount 8.069 seconds from this build time
+Using temporary file: temp_Corel5k_1551740684717_74038515833460462.arff
+[Note] Discount 7.475 seconds from this build time
+Using temporary file: temp_Corel5k_1551740728956_638374349769057639.arff
+[Note] Discount 5.789 seconds from this build time
+Using temporary file: temp_Corel5k_1551741590366_-3932241021960221178.arff
+[Note] Discount 8.05 seconds from this build time
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+Using temporary file: temp_Corel5k_1551741607716_5004746258089555049.arff
+[Note] Discount 8.332 seconds from this build time
+Using temporary file: temp_Corel5k_1551741626933_-5133650843766026267.arff
+Using temporary file: temp_Corel5k_1551741634855_7738331118769054131.arff
+[Note] Discount 9.572 seconds from this build time
+Using temporary file: temp_Corel5k_1551741639543_5364377487206044023.arff
+Using temporary file: temp_Corel5k_1551741639545_4518754687359231975.arff
+[Note] Discount 14.163 seconds from this build time
+[Note] Discount 12.978 seconds from this build time
+[Note] Discount 13.063 seconds from this build time
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+Using temporary file: temp_Corel5k_1551741784570_2310204960398219434.arff
+Using temporary file: temp_Corel5k_1551741789861_2742914968671340453.arff
+[Note] Discount 11.074 seconds from this build time
+[Note] Discount 8.532 seconds from this build time
+Using temporary file: temp_Corel5k_1551742639430_6227406868931904324.arff
+Using temporary file: temp_Corel5k_1551742647568_-2996308202189857655.arff
+[Note] Discount 11.229 seconds from this build time
+[Note] Discount 8.569 seconds from this build time
+Using temporary file: temp_Corel5k_1551742673237_-2865008637684177168.arff
+Using temporary file: temp_Corel5k_1551742680902_4815349556090146136.arff
+[Note] Discount 8.34 seconds from this build time
+[Note] Discount 8.981 seconds from this build time
+Using temporary file: temp_Corel5k_1551742692868_-7005385872618611047.arff
+Using temporary file: temp_Corel5k_1551742692868_9052226342779358069.arff
+[Note] Discount 8.604 seconds from this build time
+[Note] Discount 10.479 seconds from this build time
+Using temporary file: temp_Corel5k_1551742827814_7661520242631645434.arff
+[Note] Discount 5.741 seconds from this build time
+Using temporary file: temp_Corel5k_1551742842100_-2684126273154853479.arff
+[Note] Discount 8.538 seconds from this build time
+Using temporary file: temp_Corel5k_1551743696973_-3318354720801637259.arff
+Using temporary file: temp_Corel5k_1551743704920_916941053930762690.arff
+[Note] Discount 9.112 seconds from this build time
+[Note] Discount 9.001 seconds from this build time
+Using temporary file: temp_Corel5k_1551743749923_4820924320965653540.arff
+[Note] Discount 8.161 seconds from this build time
+Using temporary file: temp_Corel5k_1551743763325_-2951090371395693972.arff
+Using temporary file: temp_Corel5k_1551743766731_7905715447329028654.arff
+[Note] Discount 11.607 seconds from this build time
+[Note] Discount 8.93 seconds from this build time
+Using temporary file: temp_Corel5k_1551743777937_-4774357311190967554.arff
+[Note] Discount 6.732 seconds from this build time
+Using temporary file: temp_Corel5k_1551743917469_-2281078010550439077.arff
+[Note] Discount 7.98 seconds from this build time
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+Using temporary file: temp_Corel5k_1551744744825_5398563097200408455.arff
+Using temporary file: temp_Corel5k_1551744752219_-310554611065081879.arff
+[Note] Discount 11.879 seconds from this build time
+[Note] Discount 8.636 seconds from this build time
+Using temporary file: temp_Corel5k_1551744795617_-3144232295862338647.arff
+[Note] Discount 7.861 seconds from this build time
+Using temporary file: temp_Corel5k_1551744815847_-4221713314052446817.arff
+[Note] Discount 6.981 seconds from this build time
+Using temporary file: temp_Corel5k_1551744878914_6711686818080472277.arff
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[Note] Discount 8.816 seconds from this build time
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+Using temporary file: temp_Corel5k_1551745772732_2884632914678347555.arff
+[Note] Discount 5.913 seconds from this build time
+Using temporary file: temp_Corel5k_1551745781406_5020570882892176312.arff
+[Note] Discount 8.404 seconds from this build time
+Using temporary file: temp_Corel5k_1551745819652_4651716431732219016.arff
+[Note] Discount 8.188 seconds from this build time
+Using temporary file: temp_Corel5k_1551745852803_26457103131013364.arff
+[Note] Discount 8.342 seconds from this build time
+Using temporary file: temp_Corel5k_1551745924062_4956279532902220075.arff
+[Note] Discount 5.788 seconds from this build time
+Using temporary file: temp_Corel5k_1551746796652_4450747936512676115.arff
+[Note] Discount 6.947 seconds from this build time
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+Using temporary file: temp_Corel5k_1551746844825_2186730121337187006.arff
+[Note] Discount 7.817 seconds from this build time
+Using temporary file: temp_Corel5k_1551746880888_-3924881047061963848.arff
+[Note] Discount 5.613 seconds from this build time
+Using temporary file: temp_Corel5k_1551746951215_-686051790578565723.arff
+[Note] Discount 6.42 seconds from this build time
+Using temporary file: temp_Corel5k_1551747826503_3870064272805235222.arff
+[Note] Discount 8.468 seconds from this build time
+Using temporary file: temp_Corel5k_1551747910766_-1451637565960506752.arff
+[Note] Discount 8.451 seconds from this build time
+Using temporary file: temp_Corel5k_1551747947065_858984953702183078.arff
+[Note] Discount 5.599 seconds from this build time
+Using temporary file: temp_Corel5k_1551748014139_-510411890396737272.arff
+[Note] Discount 5.733 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 5
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Corel5k_1551749043928_7531748283682793492.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Corel5k_1551749043930_-8939194325373615074.arff
+Using temporary file: temp_Corel5k_1551749043930_194258901974634873.arff
+Using temporary file: temp_Corel5k_1551749043930_2679013805589617441.arff
+Using temporary file: temp_Corel5k_1551749043930_-2726377905668691505.arff
+Using temporary file: temp_Corel5k_1551749043930_4667142439544573055.arff
+Using temporary file: temp_Corel5k_1551749043931_4032747547568791713.arff
+Using temporary file: temp_Corel5k_1551749043931_2618506400220646798.arff
+Using temporary file: temp_Corel5k_1551749043931_-3484880777383254526.arff
+Using temporary file: temp_Corel5k_1551749043931_5834146448441283484.arff
+[Note] Discount 14.605 seconds from this build time
+[Note] Discount 15.093 seconds from this build time
+[Note] Discount 21.207 seconds from this build time
+[Note] Discount 23.955 seconds from this build time
+[Note] Discount 27.46 seconds from this build time
+[Note] Discount 28.292 seconds from this build time
+[Note] Discount 28.666 seconds from this build time
+[Note] Discount 29.155 seconds from this build time
+[Note] Discount 29.838 seconds from this build time
+[Note] Discount 30.112 seconds from this build time
+Using temporary file: temp_Corel5k_1551750119974_-8522626268727008321.arff
+Using temporary file: temp_Corel5k_1551750127458_-8902416243410300348.arff
+Using temporary file: temp_Corel5k_1551750130613_-8375243262370458153.arff
+[Note] Discount 10.739 seconds from this build time
+Using temporary file: temp_Corel5k_1551750141286_6793998636042160899.arff
+[Note] Discount 14.624 seconds from this build time
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[Note] Discount 14.207 seconds from this build time
+Using temporary file: temp_Corel5k_1551750148719_2682327445485680171.arff
+Using temporary file: temp_Corel5k_1551750151728_4016188520437563914.arff
+[Note] Discount 16.093 seconds from this build time
+Using temporary file: temp_Corel5k_1551750164189_6936933392530960241.arff
+[Note] Discount 16.336 seconds from this build time
+[Note] Discount 14.999 seconds from this build time
+Using temporary file: temp_Corel5k_1551750172384_-1605640584389120939.arff
+Using temporary file: temp_Corel5k_1551750172391_-7955278666948146322.arff
+[Note] Discount 12.869 seconds from this build time
+[Note] Discount 12.449 seconds from this build time
+[Note] Discount 14.515 seconds from this build time
+Using temporary file: temp_Corel5k_1551751185555_-2303420526951683333.arff
+Using temporary file: temp_Corel5k_1551751193457_-6409500192903294876.arff
+[Note] Discount 10.446 seconds from this build time
+Using temporary file: temp_Corel5k_1551751200699_9173237838594123720.arff
+[Note] Discount 10.034 seconds from this build time
+[Note] Discount 8.648 seconds from this build time
+Using temporary file: temp_Corel5k_1551751214174_7696412024211915208.arff
+Using temporary file: temp_Corel5k_1551751221996_-6124087172458977528.arff
+[Note] Discount 8.759 seconds from this build time
+[Note] Discount 9.212 seconds from this build time
+Using temporary file: temp_Corel5k_1551751233283_289305151154239544.arff
+Using temporary file: temp_Corel5k_1551751243290_3041333973510398629.arff
+[Note] Discount 11.492 seconds from this build time
+[Note] Discount 7.758 seconds from this build time
+Using temporary file: temp_Corel5k_1551751255792_-4738070527277579093.arff
+[Note] Discount 7.271 seconds from this build time
+Using temporary file: temp_Corel5k_1551751265686_-1322328174886698380.arff
+[Note] Discount 7.516 seconds from this build time
+Using temporary file: temp_Corel5k_1551752244898_7186190977326994153.arff
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[Note] Discount 9.278 seconds from this build time
+Using temporary file: temp_Corel5k_1551752260933_6899196303910356427.arff
+[Note] Discount 5.7 seconds from this build time
+Using temporary file: temp_Corel5k_1551752279765_1335379214094696254.arff
+[Note] Discount 6.709 seconds from this build time
+Using temporary file: temp_Corel5k_1551752318972_2302678096373101142.arff
+[Note] Discount 8.272 seconds from this build time
+Using temporary file: temp_Corel5k_1551752342199_-8669163540957080726.arff
+[Note] Discount 7.558 seconds from this build time
+Using temporary file: temp_Corel5k_1551752356742_-1265468109690201046.arff
+[Note] Discount 8.246 seconds from this build time
+Using temporary file: temp_Corel5k_1551752377120_314851395928121051.arff
+[Note] Discount 8.429 seconds from this build time
+Using temporary file: temp_Corel5k_1551752395084_6054577866958805786.arff
+[Note] Discount 6.829 seconds from this build time
+Using temporary file: temp_Corel5k_1551753375815_-7699420010600227299.arff
+[Note] Discount 10.864 seconds from this build time
+Using temporary file: temp_Corel5k_1551753402364_6650267052805898569.arff
+[Note] Discount 6.601 seconds from this build time
+Using temporary file: temp_Corel5k_1551753455527_755854500991624593.arff
+[Note] Discount 9.757 seconds from this build time
+Using temporary file: temp_Corel5k_1551753527401_-4193290617900144896.arff
+[Note] Discount 10.929 seconds from this build time
+Using temporary file: temp_Corel5k_1551753553803_550436702605198172.arff
+Using temporary file: temp_Corel5k_1551753562126_-8801870353876918334.arff
+[Note] Discount 9.299 seconds from this build time
+[Note] Discount 17.636 seconds from this build time
+Using temporary file: temp_Corel5k_1551753582741_7135856249683414178.arff
+[Note] Discount 8.128 seconds from this build time
+Using temporary file: temp_Corel5k_1551753619528_-6106594814102442852.arff
+[Note] Discount 9.661 seconds from this build time
+Using temporary file: temp_Corel5k_1551754737968_-7154369092413191692.arff
+[Note] Discount 6.019 seconds from this build time
+Using temporary file: temp_Corel5k_1551754798693_4450705445726486464.arff
+[Note] Discount 8.232 seconds from this build time
+Using temporary file: temp_Corel5k_1551754882240_7271064030562875142.arff
+[Note] Discount 10.424 seconds from this build time
+Using temporary file: temp_Corel5k_1551754937209_-94187287130004140.arff
+[Note] Discount 6.047 seconds from this build time
+Using temporary file: temp_Corel5k_1551755024296_5371260547779316133.arff
+Using temporary file: temp_Corel5k_1551755025555_2514343226117629319.arff
+[Note] Discount 10.069 seconds from this build time
+[Note] Discount 11.753 seconds from this build time
+Using temporary file: temp_Corel5k_1551755080598_8070639246719579111.arff
+[Note] Discount 12.452 seconds from this build time
+Using temporary file: temp_Corel5k_1551755110911_-7524662116348677146.arff
+[Note] Discount 8.124 seconds from this build time
+Using temporary file: temp_Corel5k_1551756201738_1681061247776986531.arff
+Using temporary file: temp_Corel5k_1551756209018_-2221988569368117268.arff
+[Note] Discount 8.881 seconds from this build time
+[Note] Discount 7.088 seconds from this build time
+Using temporary file: temp_Corel5k_1551756315656_9169120409345085731.arff
+[Note] Discount 8.939 seconds from this build time
+Using temporary file: temp_Corel5k_1551756444096_-8648279696612050209.arff
+[Note] Discount 9.634 seconds from this build time
+meka.experiment.evaluators.CrossValidation
+Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: Failed to evaluate dataset 'Corel5k: -C -374' with classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD1b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+java.lang.RuntimeException: Matrix is rank deficient.
+	at weka.core.matrix.QRDecomposition.solve(QRDecomposition.java:201)
+	at weka.core.matrix.Matrix.solve(Matrix.java:994)
+	at mulan.classifier.neural.ThresholdFunction.build(ThresholdFunction.java:138)
+	at mulan.classifier.neural.ThresholdFunction.<init>(ThresholdFunction.java:50)
+	at mulanedit.BPMLLwD.buildThresholdFunction(BPMLLwD.java:284)
+	at mulanedit.BPMLLwD.buildInternal(BPMLLwD.java:250)
+	at mulan.classifier.MultiLabelLearnerBase.build(MultiLabelLearnerBase.java:78)
+	at meka.classifiers.multilabel.MULANedit.buildClassifier(MULANedit.java:307)
+	at meka.classifiers.multilabel.meta.BaggingML.buildClassifier(BaggingML.java:78)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:416)
+	at meka.classifiers.multilabel.Evaluation.evaluateModel(Evaluation.java:314)
+	at meka.experiment.evaluators.CrossValidation$1.doCall(CrossValidation.java:441)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:57)
+	at meka.experiment.evaluators.EvaluatorJob.call(EvaluatorJob.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+Using temporary file: temp_Corel5k_1551756535380_-5493782453516093672.arff
+[Note] Discount 11.776 seconds from this build time
+Using temporary file: temp_Corel5k_1551756637414_-7511655587566459175.arff
+[Note] Discount 11.601 seconds from this build time
+Using temporary file: temp_Corel5k_1551756675301_-1160421466163642931.arff
+[Note] Discount 8.329 seconds from this build time
+Using temporary file: temp_Corel5k_1551757553484_6883113373614244644.arff
+[Note] Discount 12.283 seconds from this build time
+Using temporary file: temp_Corel5k_1551757571976_1072306077061511071.arff
+[Note] Discount 8.397 seconds from this build time
+Using temporary file: temp_Corel5k_1551757691586_3264908416820472267.arff
+[Note] Discount 8.881 seconds from this build time
+Using temporary file: temp_Corel5k_1551757817408_7608878906930592940.arff
+[Note] Discount 8.371 seconds from this build time
+Using temporary file: temp_Corel5k_1551757905816_-6449030298805734803.arff
+[Note] Discount 8.081 seconds from this build time
+Using temporary file: temp_Corel5k_1551757998795_-5319479682109490229.arff
+[Note] Discount 11.374 seconds from this build time
+Using temporary file: temp_Corel5k_1551758033040_-1065719142118609324.arff
+[Note] Discount 7.884 seconds from this build time
+Using temporary file: temp_Corel5k_1551758750883_-934136432924416325.arff
+[Note] Discount 8.196 seconds from this build time
+Using temporary file: temp_Corel5k_1551758810255_-7026508440249642555.arff
+Using temporary file: temp_Corel5k_1551758813831_-5137015281226191458.arff
+[Note] Discount 12.31 seconds from this build time
+[Note] Discount 9.345 seconds from this build time
+Using temporary file: temp_Corel5k_1551758961924_516392565305794201.arff
+[Note] Discount 7.557 seconds from this build time
+Using temporary file: temp_Corel5k_1551759016033_2831199605592898983.arff
+[Note] Discount 7.072 seconds from this build time
+Using temporary file: temp_Corel5k_1551759109473_1705806873338569740.arff
+[Note] Discount 5.874 seconds from this build time
+Using temporary file: temp_Corel5k_1551759169220_-1111343598442236142.arff
+[Note] Discount 7.328 seconds from this build time
+Using temporary file: temp_Corel5k_1551759793483_-4566396959982491692.arff
+[Note] Discount 8.01 seconds from this build time
+Using temporary file: temp_Corel5k_1551759882468_3467329551260634708.arff
+Using temporary file: temp_Corel5k_1551759885966_-817604662548149131.arff
+[Note] Discount 11.641 seconds from this build time
+[Note] Discount 9.697 seconds from this build time
+Using temporary file: temp_Corel5k_1551760004509_728586250621324436.arff
+[Note] Discount 6.512 seconds from this build time
+Using temporary file: temp_Corel5k_1551760058682_3875173390025246931.arff
+[Note] Discount 7.948 seconds from this build time
+Using temporary file: temp_Corel5k_1551760173160_-6784398378578189479.arff
+[Note] Discount 8.085 seconds from this build time
+Using temporary file: temp_Corel5k_1551760208019_-3998412061445143288.arff
+[Note] Discount 7.201 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[STATISTICS] #28
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: Writing 28 statistics to: mekaexp.txt
+[STAGE] FINISH
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #1: meka.experiment.statisticsexporters.SimpleAggregate2
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-agg0.tsv
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #2: meka.experiment.statisticsexporters.TabSeparated
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-full0.tsv

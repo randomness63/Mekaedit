@@ -1,0 +1,437 @@
+[STAGE] INITIALIZING
+[LOG] meka.experiment.DefaultExperiment: Turned off incremental mode for meka.experiment.evaluationstatistics.KeyValuePairs to make use of multi-threading!
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: File 'mekaexp.txt' exists, loading...
+[STAGE] RUNNING
+[LOG] meka.experiment.datasetproviders.MultiDatasetProvider: Dataset provider #1
+[LOG] meka.experiment.datasetproviders.LocalDatasetProvider: Loading: data/Music.arff
+[LOG] meka.experiment.DefaultExperiment: Using dataset: Music: -C 6
+[ITERATION] meka.classifiers.multilabel.MULANedit -S BPMLLwD -W weka.classifiers.trees.J48 -- -C 0.25 -M 2 --> Music: -C 6
+[LOG] meka.experiment.DefaultExperiment: Using classifier: meka.classifiers.multilabel.MULANedit -S BPMLLwD -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Number of threads (1 = sequential): 1
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 1
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 10
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Music_1551097802859_-4962768463919330438.arff
+Using temporary file: temp_Music_1551097802859_7105486291024734541.arff
+Using temporary file: temp_Music_1551097802859_-3109364768453332802.arff
+Using temporary file: temp_Music_1551097802859_5700976836305350731.arff
+Using temporary file: temp_Music_1551097802859_-8292973309273261506.arff
+Using temporary file: temp_Music_1551097802859_-6688467811745018581.arff
+Using temporary file: temp_Music_1551097802859_2158390815294138221.arff
+Using temporary file: temp_Music_1551097802860_-1083761183081836303.arff
+Using temporary file: temp_Music_1551097802860_-2228689144322150137.arff
+Using temporary file: temp_Music_1551097802859_-279624296851435688.arff
+[Note] Discount 0.65 seconds from this build time
+[Note] Discount 0.683 seconds from this build time
+[Note] Discount 0.7 seconds from this build time
+[Note] Discount 0.702 seconds from this build time
+[Note] Discount 0.763 seconds from this build time
+[Note] Discount 0.765 seconds from this build time
+[Note] Discount 0.772 seconds from this build time
+[Note] Discount 0.769 seconds from this build time
+[Note] Discount 0.78 seconds from this build time
+[Note] Discount 0.788 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 2
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 10
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Music_1551097814522_2377732757510138102.arff
+Using temporary file: temp_Music_1551097814522_5072005423257391728.arff
+Using temporary file: temp_Music_1551097814523_2704323167362897208.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Music_1551097814529_428667830982598836.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Music_1551097814539_-8361175665883705505.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Music_1551097814556_-655101936082782086.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Music_1551097814576_1927512926176735975.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Music_1551097814577_-6914829020992303508.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1551097814586_7577852396602278602.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Music_1551097814598_-4126310024944755050.arff
+[Note] Discount 0.22 seconds from this build time
+[Note] Discount 0.144 seconds from this build time
+[Note] Discount 0.213 seconds from this build time
+[Note] Discount 0.193 seconds from this build time
+[Note] Discount 0.238 seconds from this build time
+[Note] Discount 0.188 seconds from this build time
+[Note] Discount 0.249 seconds from this build time
+[Note] Discount 0.274 seconds from this build time
+[Note] Discount 0.211 seconds from this build time
+[Note] Discount 0.227 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 3
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 10
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Music_1551097824561_-171134583860878546.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Music_1551097824565_8987859488885190724.arff
+Using temporary file: temp_Music_1551097824566_-4681020001986070314.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Music_1551097824570_-4922475540349336432.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Music_1551097824582_-3370274031255729188.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Music_1551097824591_-2971948390163211717.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Music_1551097824600_-8730854458729406051.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1551097824612_-1856941488587171136.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Music_1551097824613_2470753881526567411.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Music_1551097824622_1532230816302433446.arff
+[Note] Discount 0.097 seconds from this build time
+[Note] Discount 0.112 seconds from this build time
+[Note] Discount 0.125 seconds from this build time
+[Note] Discount 0.092 seconds from this build time
+[Note] Discount 0.114 seconds from this build time
+[Note] Discount 0.132 seconds from this build time
+[Note] Discount 0.127 seconds from this build time
+[Note] Discount 0.106 seconds from this build time
+[Note] Discount 0.107 seconds from this build time
+[Note] Discount 0.119 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 4
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 10
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Music_1551097834611_-395233719382940302.arff
+Using temporary file: temp_Music_1551097834611_5660773667878709013.arff
+Using temporary file: temp_Music_1551097834612_-5256749969541153749.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Music_1551097834612_2641949932817367724.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Music_1551097834613_8540064508133314173.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Music_1551097834613_82744587931001745.arff
+Using temporary file: temp_Music_1551097834613_1318911071456810350.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1551097834613_6427218635535763657.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Music_1551097834614_6249197149364475148.arff
+Using temporary file: temp_Music_1551097834614_-2594413761814090552.arff
+[Note] Discount 0.078 seconds from this build time
+[Note] Discount 0.086 seconds from this build time
+[Note] Discount 0.095 seconds from this build time
+[Note] Discount 0.116 seconds from this build time
+[Note] Discount 0.128 seconds from this build time
+[Note] Discount 0.132 seconds from this build time
+[Note] Discount 0.132 seconds from this build time
+[Note] Discount 0.151 seconds from this build time
+[Note] Discount 0.155 seconds from this build time
+[Note] Discount 0.158 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 5
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 10
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Music_1551097844520_-524865453008036006.arff
+Using temporary file: temp_Music_1551097844520_-2476551425607728309.arff
+Using temporary file: temp_Music_1551097844520_-7146617210012600256.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Music_1551097844522_3301745707726569574.arff
+Using temporary file: temp_Music_1551097844522_4013465704250623170.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Music_1551097844522_-2684237951282348840.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Music_1551097844522_178444451137370484.arff
+Using temporary file: temp_Music_1551097844522_-5676192111176512602.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Music_1551097844537_-4218531399638172627.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1551097844537_-5299981419733330714.arff
+[Note] Discount 0.043 seconds from this build time
+[Note] Discount 0.059 seconds from this build time
+[Note] Discount 0.061 seconds from this build time
+[Note] Discount 0.067 seconds from this build time
+[Note] Discount 0.088 seconds from this build time
+[Note] Discount 0.088 seconds from this build time
+[Note] Discount 0.097 seconds from this build time
+[Note] Discount 0.097 seconds from this build time
+[Note] Discount 0.085 seconds from this build time
+[Note] Discount 0.092 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 6
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 10
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Music_1551097854348_3896605098068159738.arff
+Using temporary file: temp_Music_1551097854348_-4001237302722672165.arff
+Using temporary file: temp_Music_1551097854348_-1008423794855048618.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Music_1551097854348_262614321976477250.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Music_1551097854349_7271772087391691927.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Music_1551097854351_-2697084138585034005.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1551097854352_-3946820249469283158.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Music_1551097854352_-120421011786498678.arff
+Using temporary file: temp_Music_1551097854352_-2156342973769225726.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Music_1551097854361_3141324392123627982.arff
+[Note] Discount 0.054 seconds from this build time
+[Note] Discount 0.053 seconds from this build time
+[Note] Discount 0.057 seconds from this build time
+[Note] Discount 0.062 seconds from this build time
+[Note] Discount 0.057 seconds from this build time
+[Note] Discount 0.071 seconds from this build time
+[Note] Discount 0.078 seconds from this build time
+[Note] Discount 0.079 seconds from this build time
+[Note] Discount 0.09 seconds from this build time
+[Note] Discount 0.087 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 7
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 10
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Music_1551097865979_-699704949712600115.arff
+Using temporary file: temp_Music_1551097865979_-5085859045495963725.arff
+Using temporary file: temp_Music_1551097865979_-5951765205669983896.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Music_1551097865980_-3608267860102554860.arff
+Using temporary file: temp_Music_1551097865980_8142886840698975765.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Music_1551097865980_8524019115140866179.arff
+Using temporary file: temp_Music_1551097865980_-2714853971147396117.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Music_1551097865981_-9189524968491074724.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1551097865994_-148625824714636787.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Music_1551097865997_-566870006298343145.arff
+[Note] Discount 0.05 seconds from this build time
+[Note] Discount 0.079 seconds from this build time
+[Note] Discount 0.08 seconds from this build time
+[Note] Discount 0.079 seconds from this build time
+[Note] Discount 0.072 seconds from this build time
+[Note] Discount 0.088 seconds from this build time
+[Note] Discount 0.09 seconds from this build time
+[Note] Discount 0.091 seconds from this build time
+[Note] Discount 0.082 seconds from this build time
+[Note] Discount 0.103 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 8
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 10
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Music_1551097875763_6513657358736753182.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Music_1551097875763_871901303891580382.arff
+Using temporary file: temp_Music_1551097875763_1321222800296200436.arff
+Using temporary file: temp_Music_1551097875763_536938910405906015.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Music_1551097875763_8922140309403778699.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Music_1551097875764_-517428980255835422.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Music_1551097875764_-200753079219431109.arff
+Using temporary file: temp_Music_1551097875764_-4289936086616402019.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Music_1551097875764_-9197595427105923027.arff
+Using temporary file: temp_Music_1551097875764_4713610129296514631.arff
+[Note] Discount 0.072 seconds from this build time
+[Note] Discount 0.086 seconds from this build time
+[Note] Discount 0.086 seconds from this build time
+[Note] Discount 0.094 seconds from this build time
+[Note] Discount 0.098 seconds from this build time
+[Note] Discount 0.098 seconds from this build time
+[Note] Discount 0.108 seconds from this build time
+[Note] Discount 0.116 seconds from this build time
+[Note] Discount 0.125 seconds from this build time
+[Note] Discount 1.096 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 9
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 10
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Music_1551097885420_5702961989472887051.arff
+Using temporary file: temp_Music_1551097885420_-2798730738562476822.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Music_1551097885421_960790331024379126.arff
+Using temporary file: temp_Music_1551097885421_187704103329199613.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Music_1551097885422_6527434954307481789.arff
+Using temporary file: temp_Music_1551097885422_1600030782373250481.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Music_1551097885422_-2761265137076421558.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1551097885422_67826697947916427.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Music_1551097885425_-8640296913357041870.arff
+Using temporary file: temp_Music_1551097885423_5679626435595832671.arff
+[Note] Discount 0.058 seconds from this build time
+[Note] Discount 0.077 seconds from this build time
+[Note] Discount 0.08 seconds from this build time
+[Note] Discount 0.089 seconds from this build time
+[Note] Discount 0.091 seconds from this build time
+[Note] Discount 0.101 seconds from this build time
+[Note] Discount 0.113 seconds from this build time
+[Note] Discount 0.117 seconds from this build time
+[Note] Discount 0.123 seconds from this build time
+[Note] Discount 0.127 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 10
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 10
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Music_1551097896731_-1497613614130447275.arff
+Using temporary file: temp_Music_1551097896731_5763747163512933258.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Music_1551097896731_-2319452971287571658.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Music_1551097896732_820707025409634855.arff
+Using temporary file: temp_Music_1551097896732_-1685308985507641749.arff
+Using temporary file: temp_Music_1551097896732_-7196415781697772800.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Music_1551097896732_-6516793691191662538.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Music_1551097896732_9164411834808661380.arff
+Using temporary file: temp_Music_1551097896732_-9099749510027196988.arff
+Using temporary file: temp_Music_1551097896732_-8841730600804742235.arff
+[Note] Discount 0.038 seconds from this build time
+[Note] Discount 0.039 seconds from this build time
+[Note] Discount 0.041 seconds from this build time
+[Note] Discount 0.041 seconds from this build time
+[Note] Discount 0.042 seconds from this build time
+[Note] Discount 0.042 seconds from this build time
+[Note] Discount 0.047 seconds from this build time
+[Note] Discount 0.048 seconds from this build time
+[Note] Discount 0.054 seconds from this build time
+[Note] Discount 0.085 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[STATISTICS] #100
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: Writing 100 statistics to: mekaexp.txt
+[STAGE] FINISH
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #1: meka.experiment.statisticsexporters.SimpleAggregate2
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-agg1.tsv
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #2: meka.experiment.statisticsexporters.TabSeparated
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-full1.tsv

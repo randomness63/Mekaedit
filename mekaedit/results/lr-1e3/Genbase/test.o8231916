@@ -1,0 +1,20 @@
+Setup:
+meka.experiment.DefaultExperiment -C "meka.classifiers.multilabel.MULANedit -S BPMLLwD1 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2" -D "meka.experiment.datasetproviders.MultiDatasetProvider -provider \"meka.experiment.datasetproviders.LocalDatasetProvider -dataset data/genbase.arff\"" -E "meka.experiment.evaluators.RepeatedRuns -base \"meka.experiment.evaluators.CrossValidation -F 10 -S 0 -T PCut1 -V 3 -num-threads 10\" -lower 1 -upper 10 -num-threads 1" -S "meka.experiment.evaluationstatistics.KeyValuePairs -F mekaexp.txt"
+
+initialize: null
+======================================================================================
+
+			Resource Usage on 2019-02-25 19:43:28.113437:
+
+	JobId: 8231916.wlm01  
+	Project: personal-e0002864 
+	Exit Status: 271
+	NCPUs Requested: 1				NCPUs Used: 1
+							CPU Time Used: 00:00:29
+	Memory Requested: 100663296kb 				Memory Used: 2331020kb
+							Vmem Used: 37334280kb
+	Walltime requested: 02:00:00 			Walltime Used: 00:00:21
+	
+	Execution Nodes Used: (std1702:ncpus=1)
+	
+ ======================================================================================

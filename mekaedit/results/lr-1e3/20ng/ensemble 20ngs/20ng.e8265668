@@ -1,0 +1,63 @@
+[STAGE] INITIALIZING
+[LOG] meka.experiment.DefaultExperiment: Turned off incremental mode for meka.experiment.evaluationstatistics.KeyValuePairs to make use of multi-threading!
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: File 'mekaexp.txt' exists, loading...
+[STAGE] RUNNING
+[LOG] meka.experiment.datasetproviders.MultiDatasetProvider: Dataset provider #1
+[LOG] meka.experiment.datasetproviders.LocalDatasetProvider: Loading: data/20ng.arff
+[LOG] meka.experiment.DefaultExperiment: Using dataset: 20NG: -C 20
+[ITERATION] meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD2b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2 --> 20NG: -C 20
+[LOG] meka.experiment.DefaultExperiment: Using classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD2b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Number of threads (1 = sequential): 1
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 1
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_20NG_1552236096023_-4962768465676381896.arff
+Using temporary file: temp_20NG_1552236096033_4437113781045784766.arff
+[Note] Discount 0.914 seconds from this build time
+[Note] Discount 0.906 seconds from this build time
+Using temporary file: temp_20NG_1552238698769_-6688467811848818630.arff
+[Note] Discount 0.235 seconds from this build time
+Using temporary file: temp_20NG_1552238743890_-8292973307042192125.arff
+[Note] Discount 0.202 seconds from this build time
+Using temporary file: temp_20NG_1552241383288_-7423979211207825555.arff
+[Note] Discount 0.224 seconds from this build time
+Using temporary file: temp_20NG_1552241434510_6146794652083548235.arff
+[Note] Discount 0.267 seconds from this build time
+Using temporary file: temp_20NG_1552244032908_7105486291024734541.arff
+[Note] Discount 0.223 seconds from this build time
+Using temporary file: temp_20NG_1552244090233_-279624296851435688.arff
+[Note] Discount 0.191 seconds from this build time
+Using temporary file: temp_20NG_1552246585241_-2228689144322150137.arff
+[Note] Discount 0.231 seconds from this build time
+Using temporary file: temp_20NG_1552246633198_-1083761183081836303.arff
+[Note] Discount 0.171 seconds from this build time
+Using temporary file: temp_20NG_1552249069401_5072005423257391728.arff
+[Note] Discount 0.2 seconds from this build time
+Using temporary file: temp_20NG_1552249113235_2377732757510138102.arff
+[Note] Discount 0.181 seconds from this build time
+Using temporary file: temp_20NG_1552251570508_2704323167362897208.arff
+[Note] Discount 0.231 seconds from this build time
+Using temporary file: temp_20NG_1552251631909_428667830982598836.arff
+[Note] Discount 0.188 seconds from this build time
+Using temporary file: temp_20NG_1552254073661_-8361175665883705505.arff
+[Note] Discount 0.198 seconds from this build time
+Using temporary file: temp_20NG_1552254145824_-655101936082782086.arff
+[Note] Discount 0.173 seconds from this build time
+Using temporary file: temp_20NG_1552256559839_1927512926176735975.arff
+[Note] Discount 0.198 seconds from this build time
+Using temporary file: temp_20NG_1552256611722_-6914829020992303508.arff
+[Note] Discount 0.179 seconds from this build time
+Using temporary file: temp_20NG_1552259080948_7577852396602278602.arff
+[Note] Discount 0.204 seconds from this build time
+Using temporary file: temp_20NG_1552259081742_-4126310024944755050.arff
+[Note] Discount 0.186 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[STATISTICS] #2
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: Writing 2 statistics to: mekaexp.txt
+[STAGE] FINISH
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #1: meka.experiment.statisticsexporters.SimpleAggregate2
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-agg1.tsv
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #2: meka.experiment.statisticsexporters.TabSeparated
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-full1.tsv

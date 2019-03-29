@@ -1,0 +1,8 @@
+#!/bin/bash
+#PBS -l select=10:mpiprocs=10
+#PBS -l walltime=2:00:00
+#PBS -N test
+#PBS -P personal
+cd $PBS_O_WORKDIR
+module load java
+java -cp "./lib/*" meka.experiment.ExperimentExample2 -t data/Music.arff -S BPMLLwD

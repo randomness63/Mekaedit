@@ -1,0 +1,2237 @@
+[STAGE] INITIALIZING
+[LOG] meka.experiment.DefaultExperiment: Turned off incremental mode for meka.experiment.evaluationstatistics.KeyValuePairs to make use of multi-threading!
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: File 'mekaexp.txt' exists, loading...
+[STAGE] RUNNING
+[LOG] meka.experiment.datasetproviders.MultiDatasetProvider: Dataset provider #1
+[LOG] meka.experiment.datasetproviders.LocalDatasetProvider: Loading: data/Scene.arff
+[LOG] meka.experiment.DefaultExperiment: Using dataset: Scene: -C 6 -R
+[ITERATION] meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD3 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2 --> Scene: -C 6 -R
+[LOG] meka.experiment.DefaultExperiment: Using classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD3 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Number of threads (1 = sequential): 1
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 1
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Scene_1551020967893_-4962768465676381896.arff
+Using temporary file: temp_Scene_1551020967894_4437113781045784766.arff
+Using temporary file: temp_Scene_1551020967896_-6688467811848818630.arff
+Using temporary file: temp_Scene_1551020967897_-8292973307042192125.arff
+Using temporary file: temp_Scene_1551020967898_-7423979211207825555.arff
+Using temporary file: temp_Scene_1551020967899_6146794652083548235.arff
+Using temporary file: temp_Scene_1551020967901_7105486291024734541.arff
+Using temporary file: temp_Scene_1551020967942_-279624296851435688.arff
+Using temporary file: temp_Scene_1551020967942_-2228689144322150137.arff
+Using temporary file: temp_Scene_1551020967942_-1083761183081836303.arff
+[Note] Discount 2.132 seconds from this build time
+[Note] Discount 2.084 seconds from this build time
+[Note] Discount 2.133 seconds from this build time
+[Note] Discount 2.15 seconds from this build time
+[Note] Discount 2.2 seconds from this build time
+[Note] Discount 2.207 seconds from this build time
+[Note] Discount 2.251 seconds from this build time
+[Note] Discount 2.258 seconds from this build time
+[Note] Discount 2.286 seconds from this build time
+[Note] Discount 2.282 seconds from this build time
+Using temporary file: temp_Scene_1551021110003_5072005423257391728.arff
+Using temporary file: temp_Scene_1551021110656_2377732757510138102.arff
+[Note] Discount 0.969 seconds from this build time
+[Note] Discount 1.117 seconds from this build time
+Using temporary file: temp_Scene_1551021115402_2704323167362897208.arff
+[Note] Discount 1.039 seconds from this build time
+Using temporary file: temp_Scene_1551021122106_428667830982598836.arff
+[Note] Discount 0.974 seconds from this build time
+Using temporary file: temp_Scene_1551021124353_-8361175665883705505.arff
+[Note] Discount 1.068 seconds from this build time
+Using temporary file: temp_Scene_1551021128371_-655101936082782086.arff
+[Note] Discount 0.962 seconds from this build time
+Using temporary file: temp_Scene_1551021130800_1927512926176735975.arff
+[Note] Discount 1.069 seconds from this build time
+Using temporary file: temp_Scene_1551021135075_-6914829020992303508.arff
+[Note] Discount 0.875 seconds from this build time
+Using temporary file: temp_Scene_1551021141550_7577852396602278602.arff
+[Note] Discount 0.585 seconds from this build time
+Using temporary file: temp_Scene_1551021143953_-4126310024944755050.arff
+[Note] Discount 1.101 seconds from this build time
+Using temporary file: temp_Scene_1551021344382_-171134583860878546.arff
+[Note] Discount 1.251 seconds from this build time
+Using temporary file: temp_Scene_1551021347972_8987859488885190724.arff
+[Note] Discount 1.328 seconds from this build time
+Using temporary file: temp_Scene_1551021354816_-4681020001986070314.arff
+[Note] Discount 1.076 seconds from this build time
+Using temporary file: temp_Scene_1551021362807_-4922475540349336432.arff
+[Note] Discount 1.127 seconds from this build time
+Using temporary file: temp_Scene_1551021366044_-3370274031255729188.arff
+Using temporary file: temp_Scene_1551021366672_-2971948390163211717.arff
+[Note] Discount 0.847 seconds from this build time
+[Note] Discount 1.162 seconds from this build time
+Using temporary file: temp_Scene_1551021373351_-8730854458729406051.arff
+[Note] Discount 1.198 seconds from this build time
+Using temporary file: temp_Scene_1551021377250_-1856941488587171136.arff
+[Note] Discount 1.196 seconds from this build time
+Using temporary file: temp_Scene_1551021379014_2470753881526567411.arff
+[Note] Discount 0.87 seconds from this build time
+Using temporary file: temp_Scene_1551021387773_1532230816302433446.arff
+[Note] Discount 1.201 seconds from this build time
+Using temporary file: temp_Scene_1551021607587_-395233716872471639.arff
+[Note] Discount 0.993 seconds from this build time
+Using temporary file: temp_Scene_1551021613694_-5121607137339136235.arff
+[Note] Discount 1.025 seconds from this build time
+Using temporary file: temp_Scene_1551021618958_-5256749969541153749.arff
+[Note] Discount 0.933 seconds from this build time
+Using temporary file: temp_Scene_1551021623238_2641949932817367724.arff
+[Note] Discount 1.166 seconds from this build time
+Using temporary file: temp_Scene_1551021627534_8540064508133314173.arff
+Using temporary file: temp_Scene_1551021628206_82744587931001745.arff
+[Note] Discount 1.205 seconds from this build time
+[Note] Discount 1.085 seconds from this build time
+Using temporary file: temp_Scene_1551021636267_1318911071456810350.arff
+[Note] Discount 1.237 seconds from this build time
+Using temporary file: temp_Scene_1551021637541_6427218635535763657.arff
+[Note] Discount 0.959 seconds from this build time
+Using temporary file: temp_Scene_1551021642912_6249197149364475148.arff
+[Note] Discount 1.217 seconds from this build time
+Using temporary file: temp_Scene_1551021647329_-2594413761814090552.arff
+[Note] Discount 1.005 seconds from this build time
+Using temporary file: temp_Scene_1551021846358_-524865453008036006.arff
+[Note] Discount 1.091 seconds from this build time
+Using temporary file: temp_Scene_1551021854367_-2476551425607728309.arff
+[Note] Discount 1.115 seconds from this build time
+Using temporary file: temp_Scene_1551021858083_-7146617210012600256.arff
+[Note] Discount 1.229 seconds from this build time
+Using temporary file: temp_Scene_1551021864232_3301745707726569574.arff
+[Note] Discount 1.062 seconds from this build time
+Using temporary file: temp_Scene_1551021872413_4013465704250623170.arff
+[Note] Discount 1.111 seconds from this build time
+Using temporary file: temp_Scene_1551021874666_-2684237951282348840.arff
+[Note] Discount 1.233 seconds from this build time
+Using temporary file: temp_Scene_1551021880643_178444451137370484.arff
+[Note] Discount 1.135 seconds from this build time
+Using temporary file: temp_Scene_1551021883441_-5676192111176512602.arff
+[Note] Discount 0.969 seconds from this build time
+Using temporary file: temp_Scene_1551021887100_-4218531399638172627.arff
+Using temporary file: temp_Scene_1551021887998_-5299981419733330714.arff
+[Note] Discount 0.95 seconds from this build time
+[Note] Discount 1.121 seconds from this build time
+Using temporary file: temp_Scene_1551022087371_3896605098068159738.arff
+[Note] Discount 1.117 seconds from this build time
+Using temporary file: temp_Scene_1551022092719_-4001237302722672165.arff
+[Note] Discount 1.039 seconds from this build time
+Using temporary file: temp_Scene_1551022099832_-1008423794855048618.arff
+Using temporary file: temp_Scene_1551022100761_262614321976477250.arff
+[Note] Discount 1.009 seconds from this build time
+[Note] Discount 1.027 seconds from this build time
+Using temporary file: temp_Scene_1551022109223_7271772087391691927.arff
+[Note] Discount 0.96 seconds from this build time
+Using temporary file: temp_Scene_1551022110735_-2697084138585034005.arff
+[Note] Discount 0.975 seconds from this build time
+Using temporary file: temp_Scene_1551022115350_-3946820249469283158.arff
+[Note] Discount 1.053 seconds from this build time
+Using temporary file: temp_Scene_1551022120456_-120421011786498678.arff
+[Note] Discount 1.503 seconds from this build time
+Using temporary file: temp_Scene_1551022123356_-2156342973769225726.arff
+Using temporary file: temp_Scene_1551022123632_3141324392123627982.arff
+[Note] Discount 1.042 seconds from this build time
+[Note] Discount 1.207 seconds from this build time
+Using temporary file: temp_Scene_1551022328823_-699704949712600115.arff
+[Note] Discount 1.151 seconds from this build time
+Using temporary file: temp_Scene_1551022331989_-5085859045495963725.arff
+[Note] Discount 1.215 seconds from this build time
+Using temporary file: temp_Scene_1551022337872_-5951765205669983896.arff
+[Note] Discount 1.112 seconds from this build time
+Using temporary file: temp_Scene_1551022339525_-3608267860102554860.arff
+[Note] Discount 1.105 seconds from this build time
+Using temporary file: temp_Scene_1551022347484_8142886840698975765.arff
+[Note] Discount 1.159 seconds from this build time
+Using temporary file: temp_Scene_1551022350499_8524019115140866179.arff
+Using temporary file: temp_Scene_1551022351248_-2714853971147396117.arff
+[Note] Discount 0.971 seconds from this build time
+[Note] Discount 1.226 seconds from this build time
+Using temporary file: temp_Scene_1551022359201_-9189524968491074724.arff
+Using temporary file: temp_Scene_1551022359910_-148625824714636787.arff
+[Note] Discount 0.913 seconds from this build time
+[Note] Discount 1.059 seconds from this build time
+Using temporary file: temp_Scene_1551022361915_-566870006298343145.arff
+[Note] Discount 1.016 seconds from this build time
+Using temporary file: temp_Scene_1551022566593_6513657358736753182.arff
+[Note] Discount 1.177 seconds from this build time
+Using temporary file: temp_Scene_1551022572260_871901303891580382.arff
+[Note] Discount 1.204 seconds from this build time
+Using temporary file: temp_Scene_1551022575738_1321222800296200436.arff
+[Note] Discount 1.096 seconds from this build time
+Using temporary file: temp_Scene_1551022578765_536938910405906015.arff
+[Note] Discount 1.254 seconds from this build time
+Using temporary file: temp_Scene_1551022584412_8922140309403778699.arff
+[Note] Discount 1.208 seconds from this build time
+Using temporary file: temp_Scene_1551022586495_-517428980255835422.arff
+[Note] Discount 0.999 seconds from this build time
+Using temporary file: temp_Scene_1551022590586_-200753079219431109.arff
+[Note] Discount 1.008 seconds from this build time
+Using temporary file: temp_Scene_1551022600601_-4289936086616402019.arff
+[Note] Discount 1.018 seconds from this build time
+Using temporary file: temp_Scene_1551022601644_-9197595427105923027.arff
+[Note] Discount 1.335 seconds from this build time
+Using temporary file: temp_Scene_1551022603988_4713610129296514631.arff
+[Note] Discount 1.146 seconds from this build time
+Using temporary file: temp_Scene_1551022801922_5702961989472887051.arff
+[Note] Discount 0.921 seconds from this build time
+Using temporary file: temp_Scene_1551022805784_-2798730738562476822.arff
+[Note] Discount 1.02 seconds from this build time
+Using temporary file: temp_Scene_1551022810429_960790331024379126.arff
+[Note] Discount 1.045 seconds from this build time
+Using temporary file: temp_Scene_1551022813477_187704103329199613.arff
+[Note] Discount 1.317 seconds from this build time
+Using temporary file: temp_Scene_1551022818252_6527434954307481789.arff
+[Note] Discount 1.087 seconds from this build time
+Using temporary file: temp_Scene_1551022821106_1600030782373250481.arff
+[Note] Discount 0.945 seconds from this build time
+Using temporary file: temp_Scene_1551022824738_-2761265137076421558.arff
+[Note] Discount 1.021 seconds from this build time
+Using temporary file: temp_Scene_1551022832487_67826697947916427.arff
+[Note] Discount 1.082 seconds from this build time
+Using temporary file: temp_Scene_1551022838028_5679626435595832671.arff
+[Note] Discount 1.036 seconds from this build time
+Using temporary file: temp_Scene_1551022840472_-8640296913357041870.arff
+[Note] Discount 1.105 seconds from this build time
+Using temporary file: temp_Scene_1551023039594_-1497613613979078270.arff
+[Note] Discount 1.419 seconds from this build time
+Using temporary file: temp_Scene_1551023041883_5113622237409872778.arff
+[Note] Discount 1.167 seconds from this build time
+Using temporary file: temp_Scene_1551023047626_-2319452971287571658.arff
+[Note] Discount 1.277 seconds from this build time
+Using temporary file: temp_Scene_1551023052216_-7196415781697772800.arff
+Using temporary file: temp_Scene_1551023052374_-1685308985507641749.arff
+[Note] Discount 1.233 seconds from this build time
+[Note] Discount 1.227 seconds from this build time
+Using temporary file: temp_Scene_1551023058496_820707025409634855.arff
+[Note] Discount 1.198 seconds from this build time
+Using temporary file: temp_Scene_1551023062417_-6516793691191662538.arff
+[Note] Discount 1.177 seconds from this build time
+Using temporary file: temp_Scene_1551023072158_9164411834808661380.arff
+[Note] Discount 1.185 seconds from this build time
+Using temporary file: temp_Scene_1551023078402_-9099749510027196988.arff
+[Note] Discount 1.167 seconds from this build time
+Using temporary file: temp_Scene_1551023079912_-8841730600804742235.arff
+[Note] Discount 1.18 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 2
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Scene_1551023339900_6758162953488776844.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Scene_1551023339930_8810845966659683448.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Scene_1551023339940_-5460795021784967740.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Scene_1551023339982_5954014899072946649.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Scene_1551023339985_214993804815738645.arff
+Using temporary file: temp_Scene_1551023339991_-5514858212339405460.arff
+Using temporary file: temp_Scene_1551023339991_-4697410766453443951.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Scene_1551023340005_-7244253119129237588.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Scene_1551023340021_4336492403770078180.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Scene_1551023340116_7176580044932830276.arff
+[Note] Discount 1.209 seconds from this build time
+[Note] Discount 1.477 seconds from this build time
+[Note] Discount 1.463 seconds from this build time
+[Note] Discount 1.427 seconds from this build time
+[Note] Discount 1.353 seconds from this build time
+[Note] Discount 1.482 seconds from this build time
+[Note] Discount 1.517 seconds from this build time
+[Note] Discount 1.532 seconds from this build time
+[Note] Discount 1.618 seconds from this build time
+[Note] Discount 1.608 seconds from this build time
+Using temporary file: temp_Scene_1551023584898_-1633120553624586039.arff
+[Note] Discount 1.212 seconds from this build time
+Using temporary file: temp_Scene_1551023589013_3087783559322503069.arff
+Using temporary file: temp_Scene_1551023589052_72191801432025792.arff
+[Note] Discount 1.236 seconds from this build time
+[Note] Discount 1.218 seconds from this build time
+Using temporary file: temp_Scene_1551023590429_4886465643886762423.arff
+Using temporary file: temp_Scene_1551023590907_-1977178175608504323.arff
+Using temporary file: temp_Scene_1551023590930_5489165778026111548.arff
+Using temporary file: temp_Scene_1551023591267_7911891130236602275.arff
+[Note] Discount 1.133 seconds from this build time
+Using temporary file: temp_Scene_1551023591634_-5763654923426307630.arff
+[Note] Discount 1.245 seconds from this build time
+[Note] Discount 1.291 seconds from this build time
+[Note] Discount 1.204 seconds from this build time
+Using temporary file: temp_Scene_1551023592609_7535429006024983857.arff
+[Note] Discount 1.155 seconds from this build time
+[Note] Discount 1.205 seconds from this build time
+Using temporary file: temp_Scene_1551023594490_6512669167483931824.arff
+[Note] Discount 1.12 seconds from this build time
+Using temporary file: temp_Scene_1551023846358_-6054985639040938180.arff
+[Note] Discount 1.163 seconds from this build time
+Using temporary file: temp_Scene_1551023848274_-4788457857850447244.arff
+[Note] Discount 1.474 seconds from this build time
+Using temporary file: temp_Scene_1551023852258_-1947326395900975778.arff
+Using temporary file: temp_Scene_1551023853512_-7748411135601385678.arff
+[Note] Discount 1.318 seconds from this build time
+[Note] Discount 1.216 seconds from this build time
+Using temporary file: temp_Scene_1551023855298_-9024968371786632850.arff
+[Note] Discount 1.168 seconds from this build time
+Using temporary file: temp_Scene_1551023857363_5754825772160496080.arff
+Using temporary file: temp_Scene_1551023857738_-8481270662646470671.arff
+Using temporary file: temp_Scene_1551023858080_-496076268859382896.arff
+[Note] Discount 1.17 seconds from this build time
+Using temporary file: temp_Scene_1551023858694_-7127128167259751473.arff
+[Note] Discount 1.175 seconds from this build time
+[Note] Discount 1.123 seconds from this build time
+Using temporary file: temp_Scene_1551023859453_501180562174799085.arff
+[Note] Discount 1.205 seconds from this build time
+[Note] Discount 1.605 seconds from this build time
+Using temporary file: temp_Scene_1551024117436_-5736614306270799543.arff
+Using temporary file: temp_Scene_1551024118339_-6819959017335327829.arff
+[Note] Discount 1.167 seconds from this build time
+Using temporary file: temp_Scene_1551024119365_-3360305141762794454.arff
+[Note] Discount 1.144 seconds from this build time
+[Note] Discount 1.156 seconds from this build time
+Using temporary file: temp_Scene_1551024122504_-4775523669187539415.arff
+Using temporary file: temp_Scene_1551024123588_-6798914858217573060.arff
+[Note] Discount 1.134 seconds from this build time
+[Note] Discount 1.175 seconds from this build time
+Using temporary file: temp_Scene_1551024125435_5808738444245805049.arff
+[Note] Discount 1.199 seconds from this build time
+Using temporary file: temp_Scene_1551024126854_-4605199251911937283.arff
+Using temporary file: temp_Scene_1551024127164_3508934780188318642.arff
+[Note] Discount 1.279 seconds from this build time
+[Note] Discount 1.314 seconds from this build time
+Using temporary file: temp_Scene_1551024129741_2259750519392559506.arff
+[Note] Discount 1.252 seconds from this build time
+Using temporary file: temp_Scene_1551024134095_-5288884321442703868.arff
+[Note] Discount 1.173 seconds from this build time
+Using temporary file: temp_Scene_1551024361252_-1235136122240190980.arff
+[Note] Discount 1.148 seconds from this build time
+Using temporary file: temp_Scene_1551024363436_5738943893379618316.arff
+[Note] Discount 1.141 seconds from this build time
+Using temporary file: temp_Scene_1551024367051_-8678588235927406455.arff
+Using temporary file: temp_Scene_1551024367173_3301560350794899176.arff
+[Note] Discount 0.662 seconds from this build time
+[Note] Discount 0.797 seconds from this build time
+Using temporary file: temp_Scene_1551024369485_2100752566876840588.arff
+[Note] Discount 1.039 seconds from this build time
+Using temporary file: temp_Scene_1551024371326_-5830253423258833266.arff
+[Note] Discount 0.925 seconds from this build time
+Using temporary file: temp_Scene_1551024374272_6995928140111635280.arff
+Using temporary file: temp_Scene_1551024375011_-7518357113470038567.arff
+[Note] Discount 1.07 seconds from this build time
+[Note] Discount 0.933 seconds from this build time
+Using temporary file: temp_Scene_1551024376101_-1095565672715370423.arff
+[Note] Discount 1.141 seconds from this build time
+Using temporary file: temp_Scene_1551024381082_-8593497911429493276.arff
+[Note] Discount 1.076 seconds from this build time
+Using temporary file: temp_Scene_1551024599172_3951194809170085004.arff
+[Note] Discount 1.047 seconds from this build time
+Using temporary file: temp_Scene_1551024608307_6156225800113325723.arff
+Using temporary file: temp_Scene_1551024608417_4621576804961825664.arff
+Using temporary file: temp_Scene_1551024608680_-4878419149880202610.arff
+[Note] Discount 1.026 seconds from this build time
+[Note] Discount 1.117 seconds from this build time
+[Note] Discount 1.084 seconds from this build time
+Using temporary file: temp_Scene_1551024611753_1681357320861610709.arff
+Using temporary file: temp_Scene_1551024612432_4880037797499618312.arff
+[Note] Discount 1.105 seconds from this build time
+[Note] Discount 1.164 seconds from this build time
+Using temporary file: temp_Scene_1551024615867_3480315076809301941.arff
+[Note] Discount 0.945 seconds from this build time
+Using temporary file: temp_Scene_1551024617248_5492728113478971232.arff
+Using temporary file: temp_Scene_1551024618408_-4455425718838312134.arff
+[Note] Discount 1.2 seconds from this build time
+[Note] Discount 1.192 seconds from this build time
+Using temporary file: temp_Scene_1551024620187_859397494107989646.arff
+[Note] Discount 1.006 seconds from this build time
+Using temporary file: temp_Scene_1551024850969_1587684632128182815.arff
+[Note] Discount 1.129 seconds from this build time
+Using temporary file: temp_Scene_1551024868527_-1988121919985651200.arff
+[Note] Discount 1.236 seconds from this build time
+Using temporary file: temp_Scene_1551024869907_-8584399766682819655.arff
+[Note] Discount 1.066 seconds from this build time
+Using temporary file: temp_Scene_1551024871759_1579821865212908206.arff
+[Note] Discount 1.171 seconds from this build time
+Using temporary file: temp_Scene_1551024875256_-8645019593156400089.arff
+[Note] Discount 1.163 seconds from this build time
+Using temporary file: temp_Scene_1551024877716_1353816990017730924.arff
+Using temporary file: temp_Scene_1551024878409_3260813280637601224.arff
+[Note] Discount 1.177 seconds from this build time
+Using temporary file: temp_Scene_1551024878977_-2149455768672428162.arff
+[Note] Discount 1.2 seconds from this build time
+[Note] Discount 1.148 seconds from this build time
+Using temporary file: temp_Scene_1551024880796_6464344685522019821.arff
+[Note] Discount 1.202 seconds from this build time
+Using temporary file: temp_Scene_1551024888972_-259991515897342863.arff
+[Note] Discount 1.101 seconds from this build time
+Using temporary file: temp_Scene_1551025118349_-7823401723989747505.arff
+[Note] Discount 1.144 seconds from this build time
+Using temporary file: temp_Scene_1551025135352_-7300345967075961560.arff
+Using temporary file: temp_Scene_1551025135989_5037965036864798915.arff
+[Note] Discount 1.138 seconds from this build time
+[Note] Discount 1.111 seconds from this build time
+Using temporary file: temp_Scene_1551025142632_-8980117487222947788.arff
+[Note] Discount 1.156 seconds from this build time
+Using temporary file: temp_Scene_1551025144472_-1019362334163299157.arff
+[Note] Discount 1.163 seconds from this build time
+Using temporary file: temp_Scene_1551025147294_4016786749698341737.arff
+Using temporary file: temp_Scene_1551025147846_-1663495373901721169.arff
+[Note] Discount 1.208 seconds from this build time
+[Note] Discount 1.172 seconds from this build time
+Using temporary file: temp_Scene_1551025151979_357204762418634413.arff
+[Note] Discount 1.124 seconds from this build time
+Using temporary file: temp_Scene_1551025159864_5058270166536639533.arff
+Using temporary file: temp_Scene_1551025160808_-6109681907542706157.arff
+[Note] Discount 1.094 seconds from this build time
+[Note] Discount 1.14 seconds from this build time
+Using temporary file: temp_Scene_1551025367174_5310389416429997037.arff
+[Note] Discount 1.379 seconds from this build time
+Using temporary file: temp_Scene_1551025382019_1180451250079382823.arff
+Using temporary file: temp_Scene_1551025382726_4173799138601369497.arff
+[Note] Discount 1.233 seconds from this build time
+[Note] Discount 1.317 seconds from this build time
+Using temporary file: temp_Scene_1551025388924_2583780001673035147.arff
+Using temporary file: temp_Scene_1551025388971_-7311352842601082005.arff
+[Note] Discount 0.881 seconds from this build time
+[Note] Discount 0.927 seconds from this build time
+Using temporary file: temp_Scene_1551025395031_-5022166674911679806.arff
+[Note] Discount 1.102 seconds from this build time
+Using temporary file: temp_Scene_1551025396306_5605301965367641896.arff
+[Note] Discount 0.978 seconds from this build time
+Using temporary file: temp_Scene_1551025397743_-6910832155197454005.arff
+[Note] Discount 1.225 seconds from this build time
+Using temporary file: temp_Scene_1551025405513_660260225259642700.arff
+[Note] Discount 1.126 seconds from this build time
+Using temporary file: temp_Scene_1551025406667_8805804927883992817.arff
+[Note] Discount 1.134 seconds from this build time
+Using temporary file: temp_Scene_1551025622937_1709464157265079686.arff
+[Note] Discount 1.168 seconds from this build time
+Using temporary file: temp_Scene_1551025640807_-5337999691869457823.arff
+Using temporary file: temp_Scene_1551025641913_8008505297448283238.arff
+[Note] Discount 1.201 seconds from this build time
+[Note] Discount 1.061 seconds from this build time
+Using temporary file: temp_Scene_1551025645767_-3332450412194435075.arff
+[Note] Discount 1.216 seconds from this build time
+Using temporary file: temp_Scene_1551025650420_-7295335603209051564.arff
+[Note] Discount 1.14 seconds from this build time
+Using temporary file: temp_Scene_1551025656074_-6046014611969325073.arff
+Using temporary file: temp_Scene_1551025656175_8302285056297172932.arff
+[Note] Discount 1.173 seconds from this build time
+[Note] Discount 1.34 seconds from this build time
+Using temporary file: temp_Scene_1551025660720_6356024424047499647.arff
+[Note] Discount 1.428 seconds from this build time
+Using temporary file: temp_Scene_1551025666065_4969456586130451623.arff
+[Note] Discount 1.243 seconds from this build time
+Using temporary file: temp_Scene_1551025669772_-4701205128643231831.arff
+[Note] Discount 1.288 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 3
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Scene_1551025927153_3803053121039792420.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Scene_1551025927165_2758360689241543402.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Scene_1551025927185_-1468873411252492921.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Scene_1551025927202_-5761034890733554598.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Scene_1551025927215_-1536563194244860551.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Scene_1551025927226_653137120681555455.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Scene_1551025927235_3600025259063640689.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Scene_1551025927265_-7821298019962506145.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Scene_1551025927366_-645917300613758614.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Scene_1551025927371_6119745577970185558.arff
+[Note] Discount 1.099 seconds from this build time
+[Note] Discount 1.952 seconds from this build time
+[Note] Discount 2.154 seconds from this build time
+[Note] Discount 2.174 seconds from this build time
+[Note] Discount 2.266 seconds from this build time
+[Note] Discount 2.264 seconds from this build time
+[Note] Discount 2.254 seconds from this build time
+[Note] Discount 2.193 seconds from this build time
+[Note] Discount 2.348 seconds from this build time
+[Note] Discount 2.298 seconds from this build time
+Using temporary file: temp_Scene_1551026167821_2549209129409228758.arff
+Using temporary file: temp_Scene_1551026168146_1794894844987367466.arff
+[Note] Discount 1.11 seconds from this build time
+Using temporary file: temp_Scene_1551026169084_-3326066702825432110.arff
+[Note] Discount 1.058 seconds from this build time
+Using temporary file: temp_Scene_1551026169913_-6088871574026378532.arff
+[Note] Discount 1.32 seconds from this build time
+Using temporary file: temp_Scene_1551026170867_7911583618620128154.arff
+[Note] Discount 1.251 seconds from this build time
+Using temporary file: temp_Scene_1551026171258_8853444392409962688.arff
+[Note] Discount 1.187 seconds from this build time
+[Note] Discount 1.143 seconds from this build time
+Using temporary file: temp_Scene_1551026172474_-3143446542602205122.arff
+Using temporary file: temp_Scene_1551026173487_-8494028184443550129.arff
+[Note] Discount 1.116 seconds from this build time
+Using temporary file: temp_Scene_1551026174703_-7666389024716992619.arff
+[Note] Discount 1.222 seconds from this build time
+[Note] Discount 1.336 seconds from this build time
+Using temporary file: temp_Scene_1551026176060_-7426893052962357700.arff
+[Note] Discount 1.144 seconds from this build time
+Using temporary file: temp_Scene_1551026430875_6906149630747914610.arff
+Using temporary file: temp_Scene_1551026431568_30264304927818692.arff
+[Note] Discount 1.405 seconds from this build time
+[Note] Discount 1.155 seconds from this build time
+Using temporary file: temp_Scene_1551026434678_-5727558868953203691.arff
+Using temporary file: temp_Scene_1551026434924_-5280429017220727222.arff
+Using temporary file: temp_Scene_1551026435141_1277373086709849060.arff
+[Note] Discount 1.191 seconds from this build time
+[Note] Discount 1.255 seconds from this build time
+Using temporary file: temp_Scene_1551026436239_-9161356953358167518.arff
+[Note] Discount 1.254 seconds from this build time
+Using temporary file: temp_Scene_1551026436771_-5693283286674304421.arff
+[Note] Discount 1.085 seconds from this build time
+[Note] Discount 1.1 seconds from this build time
+Using temporary file: temp_Scene_1551026440139_-3674380908879105364.arff
+Using temporary file: temp_Scene_1551026440436_-5135266989296457665.arff
+Using temporary file: temp_Scene_1551026440831_6299905036767953317.arff
+[Note] Discount 1.17 seconds from this build time
+[Note] Discount 1.174 seconds from this build time
+[Note] Discount 1.218 seconds from this build time
+Using temporary file: temp_Scene_1551026699536_1176089665387826969.arff
+[Note] Discount 0.943 seconds from this build time
+Using temporary file: temp_Scene_1551026702368_6443170592819695545.arff
+[Note] Discount 1.156 seconds from this build time
+Using temporary file: temp_Scene_1551026704974_-8837902837463325214.arff
+Using temporary file: temp_Scene_1551026705755_-805964166784363941.arff
+[Note] Discount 1.214 seconds from this build time
+Using temporary file: temp_Scene_1551026706356_-5662802777777613574.arff
+[Note] Discount 1.249 seconds from this build time
+Using temporary file: temp_Scene_1551026707267_2243480672403792601.arff
+[Note] Discount 1.205 seconds from this build time
+[Note] Discount 1.147 seconds from this build time
+Using temporary file: temp_Scene_1551026709910_-9124564742246058657.arff
+Using temporary file: temp_Scene_1551026710443_-1820138817373496662.arff
+[Note] Discount 1.232 seconds from this build time
+[Note] Discount 1.187 seconds from this build time
+Using temporary file: temp_Scene_1551026711883_3083995804586309402.arff
+[Note] Discount 1.176 seconds from this build time
+Using temporary file: temp_Scene_1551026713712_6444635427050365194.arff
+[Note] Discount 1.514 seconds from this build time
+Using temporary file: temp_Scene_1551026942793_-5623373965380994308.arff
+[Note] Discount 1.111 seconds from this build time
+Using temporary file: temp_Scene_1551026947266_598328575014092232.arff
+[Note] Discount 1.034 seconds from this build time
+Using temporary file: temp_Scene_1551026949303_4796796124253410186.arff
+Using temporary file: temp_Scene_1551026949997_8576325184258344286.arff
+[Note] Discount 0.991 seconds from this build time
+[Note] Discount 1.024 seconds from this build time
+Using temporary file: temp_Scene_1551026951493_7496982466862244149.arff
+Using temporary file: temp_Scene_1551026951496_3421332352366621250.arff
+[Note] Discount 1.016 seconds from this build time
+[Note] Discount 1.078 seconds from this build time
+Using temporary file: temp_Scene_1551026952726_5414275117331381710.arff
+Using temporary file: temp_Scene_1551026952964_-7826056991558697093.arff
+Using temporary file: temp_Scene_1551026953605_3107549667671845688.arff
+[Note] Discount 0.978 seconds from this build time
+[Note] Discount 1.108 seconds from this build time
+Using temporary file: temp_Scene_1551026954281_6857373577836206198.arff
+[Note] Discount 1.029 seconds from this build time
+[Note] Discount 1.048 seconds from this build time
+Using temporary file: temp_Scene_1551027179937_4328502305394555230.arff
+[Note] Discount 1.055 seconds from this build time
+Using temporary file: temp_Scene_1551027184015_-8514507194139921895.arff
+Using temporary file: temp_Scene_1551027184718_6547565724012451687.arff
+[Note] Discount 1.045 seconds from this build time
+[Note] Discount 1.135 seconds from this build time
+Using temporary file: temp_Scene_1551027186043_5719690575850774808.arff
+[Note] Discount 1.085 seconds from this build time
+Using temporary file: temp_Scene_1551027188986_-2998428632519719896.arff
+[Note] Discount 1.162 seconds from this build time
+Using temporary file: temp_Scene_1551027191463_-6073009103768551032.arff
+Using temporary file: temp_Scene_1551027191643_2012055452795458010.arff
+Using temporary file: temp_Scene_1551027191887_-1187394439175388239.arff
+Using temporary file: temp_Scene_1551027192635_-2300171268480388852.arff
+[Note] Discount 1.56 seconds from this build time
+[Note] Discount 1.437 seconds from this build time
+[Note] Discount 1.484 seconds from this build time
+[Note] Discount 1.143 seconds from this build time
+Using temporary file: temp_Scene_1551027195050_-2730112946719215065.arff
+[Note] Discount 1.153 seconds from this build time
+Using temporary file: temp_Scene_1551027421651_7275270066579715802.arff
+[Note] Discount 1.264 seconds from this build time
+Using temporary file: temp_Scene_1551027423036_6978170142387848475.arff
+Using temporary file: temp_Scene_1551027423861_-8739040138527370657.arff
+[Note] Discount 1.314 seconds from this build time
+[Note] Discount 1.132 seconds from this build time
+Using temporary file: temp_Scene_1551027429420_74038515833460462.arff
+[Note] Discount 0.963 seconds from this build time
+Using temporary file: temp_Scene_1551027430819_638374349769057639.arff
+[Note] Discount 1.134 seconds from this build time
+Using temporary file: temp_Scene_1551027432018_-3932241021960221178.arff
+[Note] Discount 1.112 seconds from this build time
+Using temporary file: temp_Scene_1551027433499_5004746258089555049.arff
+[Note] Discount 1.083 seconds from this build time
+Using temporary file: temp_Scene_1551027435833_-5133650843766026267.arff
+Using temporary file: temp_Scene_1551027436200_7738331118769054131.arff
+[Note] Discount 1.025 seconds from this build time
+[Note] Discount 1.042 seconds from this build time
+Using temporary file: temp_Scene_1551027442032_5364377487206044023.arff
+[Note] Discount 1.131 seconds from this build time
+Using temporary file: temp_Scene_1551027662046_4518754687359231975.arff
+Using temporary file: temp_Scene_1551027662140_2310204960398219434.arff
+[Note] Discount 0.949 seconds from this build time
+[Note] Discount 1.168 seconds from this build time
+Using temporary file: temp_Scene_1551027665569_2742914968671340453.arff
+[Note] Discount 0.814 seconds from this build time
+Using temporary file: temp_Scene_1551027669777_6227406868931904324.arff
+[Note] Discount 1.113 seconds from this build time
+Using temporary file: temp_Scene_1551027671757_-2996308202189857655.arff
+[Note] Discount 1.012 seconds from this build time
+Using temporary file: temp_Scene_1551027673053_-2865008637684177168.arff
+[Note] Discount 1.089 seconds from this build time
+Using temporary file: temp_Scene_1551027676518_4815349556090146136.arff
+[Note] Discount 1.035 seconds from this build time
+Using temporary file: temp_Scene_1551027678820_-7005385872618611047.arff
+Using temporary file: temp_Scene_1551027679410_9052226342779358069.arff
+[Note] Discount 1.037 seconds from this build time
+[Note] Discount 1.054 seconds from this build time
+Using temporary file: temp_Scene_1551027681517_7661520242631645434.arff
+[Note] Discount 1.093 seconds from this build time
+Using temporary file: temp_Scene_1551027887185_-2684126273154853479.arff
+[Note] Discount 0.936 seconds from this build time
+Using temporary file: temp_Scene_1551027891769_-3318354720801637259.arff
+[Note] Discount 1.11 seconds from this build time
+Using temporary file: temp_Scene_1551027894600_916941053930762690.arff
+[Note] Discount 1.06 seconds from this build time
+Using temporary file: temp_Scene_1551027900617_4820924320965653540.arff
+Using temporary file: temp_Scene_1551027901086_-2951090371395693972.arff
+[Note] Discount 1.207 seconds from this build time
+[Note] Discount 1.147 seconds from this build time
+Using temporary file: temp_Scene_1551027902415_7905715447329028654.arff
+Using temporary file: temp_Scene_1551027903503_-4774357311190967554.arff
+[Note] Discount 1.225 seconds from this build time
+[Note] Discount 1.191 seconds from this build time
+Using temporary file: temp_Scene_1551027906456_-2281078010550439077.arff
+[Note] Discount 1.005 seconds from this build time
+Using temporary file: temp_Scene_1551027912660_5398563097200408455.arff
+[Note] Discount 1.086 seconds from this build time
+Using temporary file: temp_Scene_1551027919043_-310554611065081879.arff
+[Note] Discount 1.174 seconds from this build time
+Using temporary file: temp_Scene_1551028126722_-3144232295862338647.arff
+[Note] Discount 0.929 seconds from this build time
+Using temporary file: temp_Scene_1551028133357_-4221713314052446817.arff
+[Note] Discount 1.242 seconds from this build time
+Using temporary file: temp_Scene_1551028137685_6711686818080472277.arff
+[Note] Discount 1.249 seconds from this build time
+Using temporary file: temp_Scene_1551028140218_2884632914678347555.arff
+Using temporary file: temp_Scene_1551028141568_5020570882892176312.arff
+[Note] Discount 1.394 seconds from this build time
+[Note] Discount 1.206 seconds from this build time
+Using temporary file: temp_Scene_1551028144252_4651716431732219016.arff
+[Note] Discount 0.975 seconds from this build time
+Using temporary file: temp_Scene_1551028147076_26457103131013364.arff
+[Note] Discount 0.958 seconds from this build time
+Using temporary file: temp_Scene_1551028150978_4956279532902220075.arff
+[Note] Discount 1.006 seconds from this build time
+Using temporary file: temp_Scene_1551028155734_4450747936512676115.arff
+[Note] Discount 1.08 seconds from this build time
+Using temporary file: temp_Scene_1551028161215_2186730121337187006.arff
+[Note] Discount 1.125 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 4
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Scene_1551028397975_-3924881047061963848.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Scene_1551028397997_-686051790578565723.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Scene_1551028398015_3870064272805235222.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Scene_1551028398034_-1451637565960506752.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Scene_1551028398046_858984953702183078.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Scene_1551028398065_-510411890396737272.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Scene_1551028398078_7531748283682793492.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Scene_1551028398101_-8939194325373615074.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Scene_1551028398115_194258901974634873.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Scene_1551028398120_2679013805589617441.arff
+[Note] Discount 1.059 seconds from this build time
+[Note] Discount 1.068 seconds from this build time
+[Note] Discount 1.115 seconds from this build time
+[Note] Discount 1.044 seconds from this build time
+[Note] Discount 1.188 seconds from this build time
+[Note] Discount 1.12 seconds from this build time
+[Note] Discount 1.238 seconds from this build time
+[Note] Discount 1.205 seconds from this build time
+[Note] Discount 1.156 seconds from this build time
+[Note] Discount 1.206 seconds from this build time
+Using temporary file: temp_Scene_1551028628357_-2726377905668691505.arff
+[Note] Discount 1.212 seconds from this build time
+Using temporary file: temp_Scene_1551028634555_4667142439544573055.arff
+[Note] Discount 1.134 seconds from this build time
+Using temporary file: temp_Scene_1551028641024_4032747547568791713.arff
+Using temporary file: temp_Scene_1551028641057_2618506400220646798.arff
+Using temporary file: temp_Scene_1551028641425_-3484880777383254526.arff
+[Note] Discount 1.177 seconds from this build time
+[Note] Discount 1.251 seconds from this build time
+[Note] Discount 1.324 seconds from this build time
+Using temporary file: temp_Scene_1551028642831_5834146448441283484.arff
+Using temporary file: temp_Scene_1551028643733_-8522626268727008321.arff
+[Note] Discount 1.243 seconds from this build time
+[Note] Discount 1.3 seconds from this build time
+Using temporary file: temp_Scene_1551028645215_-8902416243410300348.arff
+[Note] Discount 1.268 seconds from this build time
+Using temporary file: temp_Scene_1551028648548_-8375243262370458153.arff
+Using temporary file: temp_Scene_1551028649265_6793998636042160899.arff
+[Note] Discount 1.201 seconds from this build time
+[Note] Discount 1.127 seconds from this build time
+Using temporary file: temp_Scene_1551028887615_2682327445485680171.arff
+[Note] Discount 1.159 seconds from this build time
+Using temporary file: temp_Scene_1551028895472_4016188520437563914.arff
+[Note] Discount 1.152 seconds from this build time
+Using temporary file: temp_Scene_1551028897257_6936933392530960241.arff
+[Note] Discount 1.307 seconds from this build time
+Using temporary file: temp_Scene_1551028902763_-1605640584389120939.arff
+[Note] Discount 1.096 seconds from this build time
+Using temporary file: temp_Scene_1551028904024_-7955278666948146322.arff
+Using temporary file: temp_Scene_1551028904702_-2303420526951683333.arff
+[Note] Discount 1.166 seconds from this build time
+Using temporary file: temp_Scene_1551028905834_-6409500192903294876.arff
+[Note] Discount 1.152 seconds from this build time
+Using temporary file: temp_Scene_1551028907213_9173237838594123720.arff
+[Note] Discount 1.477 seconds from this build time
+[Note] Discount 1.167 seconds from this build time
+Using temporary file: temp_Scene_1551028909202_7696412024211915208.arff
+Using temporary file: temp_Scene_1551028910278_-6124087172458977528.arff
+[Note] Discount 1.177 seconds from this build time
+[Note] Discount 1.173 seconds from this build time
+Using temporary file: temp_Scene_1551029154129_289305151154239544.arff
+[Note] Discount 1.005 seconds from this build time
+Using temporary file: temp_Scene_1551029156527_3041333973510398629.arff
+[Note] Discount 1.192 seconds from this build time
+Using temporary file: temp_Scene_1551029160281_-4738070527277579093.arff
+[Note] Discount 0.981 seconds from this build time
+Using temporary file: temp_Scene_1551029164681_-1322328174886698380.arff
+[Note] Discount 1.153 seconds from this build time
+Using temporary file: temp_Scene_1551029166343_7186190977326994153.arff
+Using temporary file: temp_Scene_1551029166947_6899196303910356427.arff
+Using temporary file: temp_Scene_1551029167321_1335379214094696254.arff
+[Note] Discount 1.041 seconds from this build time
+[Note] Discount 1.042 seconds from this build time
+[Note] Discount 1.099 seconds from this build time
+Using temporary file: temp_Scene_1551029168756_2302678096373101142.arff
+Using temporary file: temp_Scene_1551029169354_-8669163540957080726.arff
+[Note] Discount 1.158 seconds from this build time
+Using temporary file: temp_Scene_1551029170408_-1265468109690201046.arff
+[Note] Discount 1.13 seconds from this build time
+[Note] Discount 1.122 seconds from this build time
+Using temporary file: temp_Scene_1551029393140_314851395928121051.arff
+[Note] Discount 1.03 seconds from this build time
+Using temporary file: temp_Scene_1551029396820_6054577866958805786.arff
+Using temporary file: temp_Scene_1551029397364_-7699420010600227299.arff
+[Note] Discount 1.03 seconds from this build time
+[Note] Discount 1.135 seconds from this build time
+Using temporary file: temp_Scene_1551029402106_6650267052805898569.arff
+[Note] Discount 1.155 seconds from this build time
+Using temporary file: temp_Scene_1551029403444_755854500991624593.arff
+[Note] Discount 1.216 seconds from this build time
+Using temporary file: temp_Scene_1551029406125_-4193290617900144896.arff
+Using temporary file: temp_Scene_1551029406135_550436702605198172.arff
+Using temporary file: temp_Scene_1551029406805_-8801870353876918334.arff
+Using temporary file: temp_Scene_1551029407041_7135856249683414178.arff
+[Note] Discount 1.035 seconds from this build time
+[Note] Discount 1.097 seconds from this build time
+[Note] Discount 1.069 seconds from this build time
+Using temporary file: temp_Scene_1551029408005_-6106594814102442852.arff
+[Note] Discount 1.018 seconds from this build time
+[Note] Discount 1.166 seconds from this build time
+Using temporary file: temp_Scene_1551029632642_-7154369092413191692.arff
+[Note] Discount 1.032 seconds from this build time
+Using temporary file: temp_Scene_1551029635636_4450705445726486464.arff
+[Note] Discount 0.993 seconds from this build time
+Using temporary file: temp_Scene_1551029642028_7271064030562875142.arff
+[Note] Discount 1.016 seconds from this build time
+Using temporary file: temp_Scene_1551029644169_-94187287130004140.arff
+[Note] Discount 0.965 seconds from this build time
+Using temporary file: temp_Scene_1551029646143_5371260547779316133.arff
+Using temporary file: temp_Scene_1551029646647_2514343226117629319.arff
+[Note] Discount 1.008 seconds from this build time
+[Note] Discount 0.975 seconds from this build time
+Using temporary file: temp_Scene_1551029649106_8070639246719579111.arff
+Using temporary file: temp_Scene_1551029649614_-7524662116348677146.arff
+Using temporary file: temp_Scene_1551029650053_1681061247776986531.arff
+[Note] Discount 1.183 seconds from this build time
+[Note] Discount 1.0 seconds from this build time
+[Note] Discount 1.111 seconds from this build time
+Using temporary file: temp_Scene_1551029651289_-2221988569368117268.arff
+[Note] Discount 1.132 seconds from this build time
+Using temporary file: temp_Scene_1551029876578_9169120409345085731.arff
+Using temporary file: temp_Scene_1551029876772_-8648279696612050209.arff
+[Note] Discount 1.086 seconds from this build time
+[Note] Discount 1.047 seconds from this build time
+Using temporary file: temp_Scene_1551029882789_-5493782453516093672.arff
+[Note] Discount 0.865 seconds from this build time
+Using temporary file: temp_Scene_1551029883662_-7511655587566459175.arff
+[Note] Discount 0.952 seconds from this build time
+Using temporary file: temp_Scene_1551029886360_-1160421466163642931.arff
+Using temporary file: temp_Scene_1551029886948_6883113373614244644.arff
+[Note] Discount 0.92 seconds from this build time
+Using temporary file: temp_Scene_1551029887821_1072306077061511071.arff
+[Note] Discount 0.936 seconds from this build time
+[Note] Discount 0.94 seconds from this build time
+Using temporary file: temp_Scene_1551029889375_3264908416820472267.arff
+Using temporary file: temp_Scene_1551029889568_7608878906930592940.arff
+Using temporary file: temp_Scene_1551029889661_-6449030298805734803.arff
+[Note] Discount 1.029 seconds from this build time
+[Note] Discount 1.063 seconds from this build time
+[Note] Discount 1.252 seconds from this build time
+Using temporary file: temp_Scene_1551030113705_-5319479682109490229.arff
+Using temporary file: temp_Scene_1551030113759_-1065719142118609324.arff
+[Note] Discount 1.139 seconds from this build time
+[Note] Discount 1.105 seconds from this build time
+Using temporary file: temp_Scene_1551030115510_-934136432924416325.arff
+[Note] Discount 1.104 seconds from this build time
+Using temporary file: temp_Scene_1551030120440_-7026508440249642555.arff
+[Note] Discount 1.034 seconds from this build time
+Using temporary file: temp_Scene_1551030123870_-5137015281226191458.arff
+[Note] Discount 1.029 seconds from this build time
+Using temporary file: temp_Scene_1551030124989_516392565305794201.arff
+Using temporary file: temp_Scene_1551030125255_2831199605592898983.arff
+[Note] Discount 1.022 seconds from this build time
+[Note] Discount 0.957 seconds from this build time
+Using temporary file: temp_Scene_1551030127040_1705806873338569740.arff
+[Note] Discount 1.069 seconds from this build time
+Using temporary file: temp_Scene_1551030129637_-1111343598442236142.arff
+Using temporary file: temp_Scene_1551030129937_-4566396959982491692.arff
+[Note] Discount 1.177 seconds from this build time
+[Note] Discount 1.042 seconds from this build time
+Using temporary file: temp_Scene_1551030353490_3467329551260634708.arff
+[Note] Discount 1.155 seconds from this build time
+Using temporary file: temp_Scene_1551030358015_-817604662548149131.arff
+[Note] Discount 1.311 seconds from this build time
+Using temporary file: temp_Scene_1551030360197_728586250621324436.arff
+[Note] Discount 1.273 seconds from this build time
+Using temporary file: temp_Scene_1551030362691_3875173390025246931.arff
+[Note] Discount 1.138 seconds from this build time
+Using temporary file: temp_Scene_1551030366903_-6784398378578189479.arff
+Using temporary file: temp_Scene_1551030367692_-3998412061445143288.arff
+Using temporary file: temp_Scene_1551030367827_6666015931596736387.arff
+[Note] Discount 1.247 seconds from this build time
+[Note] Discount 1.123 seconds from this build time
+[Note] Discount 1.093 seconds from this build time
+Using temporary file: temp_Scene_1551030369223_2746255371496665207.arff
+Using temporary file: temp_Scene_1551030369862_-7665196775622473857.arff
+[Note] Discount 1.168 seconds from this build time
+[Note] Discount 0.952 seconds from this build time
+Using temporary file: temp_Scene_1551030371957_-3074722789246360287.arff
+[Note] Discount 1.152 seconds from this build time
+Using temporary file: temp_Scene_1551030613492_-6063479906063052618.arff
+[Note] Discount 1.173 seconds from this build time
+Using temporary file: temp_Scene_1551030618434_7411910766693346359.arff
+[Note] Discount 1.17 seconds from this build time
+Using temporary file: temp_Scene_1551030621109_7430493277149599813.arff
+Using temporary file: temp_Scene_1551030621181_-7815809082296616977.arff
+[Note] Discount 1.192 seconds from this build time
+[Note] Discount 1.179 seconds from this build time
+Using temporary file: temp_Scene_1551030626844_4085467786997160691.arff
+Using temporary file: temp_Scene_1551030627084_-1457205381421357414.arff
+[Note] Discount 1.205 seconds from this build time
+[Note] Discount 1.217 seconds from this build time
+Using temporary file: temp_Scene_1551030629424_5404242951196403807.arff
+[Note] Discount 1.186 seconds from this build time
+Using temporary file: temp_Scene_1551030630925_-3121891052548791562.arff
+[Note] Discount 1.146 seconds from this build time
+Using temporary file: temp_Scene_1551030632401_1563548882513538425.arff
+[Note] Discount 1.169 seconds from this build time
+Using temporary file: temp_Scene_1551030635053_-4249802838372158016.arff
+[Note] Discount 1.148 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 5
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Scene_1551030889641_-8377336650094661069.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Scene_1551030889644_-8751085503867937651.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Scene_1551030889655_-7497975980136432009.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Scene_1551030889664_4840668386679044570.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Scene_1551030889704_-7306263279772935589.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Scene_1551030889716_1571665058970022497.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Scene_1551030889730_-2669015473904755310.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Scene_1551030889748_-3413008864762311762.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Scene_1551030889750_5392703102889984549.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Scene_1551030889782_8168676158663024624.arff
+[Note] Discount 1.168 seconds from this build time
+[Note] Discount 1.253 seconds from this build time
+[Note] Discount 1.203 seconds from this build time
+[Note] Discount 1.316 seconds from this build time
+[Note] Discount 1.222 seconds from this build time
+[Note] Discount 1.285 seconds from this build time
+[Note] Discount 1.337 seconds from this build time
+[Note] Discount 1.333 seconds from this build time
+[Note] Discount 1.292 seconds from this build time
+[Note] Discount 1.434 seconds from this build time
+Using temporary file: temp_Scene_1551031118731_-4787022384348844445.arff
+Using temporary file: temp_Scene_1551031119413_-730190759019218156.arff
+[Note] Discount 0.948 seconds from this build time
+Using temporary file: temp_Scene_1551031119862_9038335254401083926.arff
+Using temporary file: temp_Scene_1551031120289_-5020500491649895153.arff
+[Note] Discount 1.066 seconds from this build time
+Using temporary file: temp_Scene_1551031120608_8146221438076924663.arff
+[Note] Discount 1.14 seconds from this build time
+[Note] Discount 1.042 seconds from this build time
+Using temporary file: temp_Scene_1551031121487_7806941514492271995.arff
+[Note] Discount 1.241 seconds from this build time
+Using temporary file: temp_Scene_1551031122168_4323093987500565602.arff
+Using temporary file: temp_Scene_1551031122172_-4733873431139627931.arff
+[Note] Discount 1.137 seconds from this build time
+[Note] Discount 1.006 seconds from this build time
+Using temporary file: temp_Scene_1551031123260_-5740671271593056691.arff
+[Note] Discount 1.182 seconds from this build time
+[Note] Discount 1.374 seconds from this build time
+Using temporary file: temp_Scene_1551031126626_1880661030975368292.arff
+[Note] Discount 0.978 seconds from this build time
+Using temporary file: temp_Scene_1551031352381_-4498190047871887498.arff
+[Note] Discount 1.023 seconds from this build time
+Using temporary file: temp_Scene_1551031353699_8371004470249050606.arff
+Using temporary file: temp_Scene_1551031354546_-499360409750722853.arff
+[Note] Discount 1.135 seconds from this build time
+[Note] Discount 1.253 seconds from this build time
+Using temporary file: temp_Scene_1551031356529_5635609161038164966.arff
+Using temporary file: temp_Scene_1551031356935_4070396125029978223.arff
+[Note] Discount 1.153 seconds from this build time
+[Note] Discount 1.159 seconds from this build time
+Using temporary file: temp_Scene_1551031360177_-3045182938295608968.arff
+Using temporary file: temp_Scene_1551031361264_-5986326496842862326.arff
+[Note] Discount 1.147 seconds from this build time
+Using temporary file: temp_Scene_1551031361387_-7156834939687546583.arff
+Using temporary file: temp_Scene_1551031362242_322846005174511008.arff
+[Note] Discount 1.11 seconds from this build time
+[Note] Discount 1.187 seconds from this build time
+Using temporary file: temp_Scene_1551031363362_-7282023472852925143.arff
+[Note] Discount 1.262 seconds from this build time
+[Note] Discount 1.292 seconds from this build time
+Using temporary file: temp_Scene_1551031589189_-3070688518157112907.arff
+Using temporary file: temp_Scene_1551031589809_5080606314316693739.arff
+[Note] Discount 1.335 seconds from this build time
+[Note] Discount 1.335 seconds from this build time
+Using temporary file: temp_Scene_1551031591635_5245364836250954000.arff
+Using temporary file: temp_Scene_1551031592544_-8257472253730980873.arff
+[Note] Discount 0.994 seconds from this build time
+[Note] Discount 1.126 seconds from this build time
+Using temporary file: temp_Scene_1551031595739_6983046085666928814.arff
+[Note] Discount 1.012 seconds from this build time
+Using temporary file: temp_Scene_1551031597137_3526450679069113854.arff
+[Note] Discount 1.152 seconds from this build time
+Using temporary file: temp_Scene_1551031598390_-435587906648708359.arff
+[Note] Discount 0.981 seconds from this build time
+Using temporary file: temp_Scene_1551031599535_7318053033168220206.arff
+[Note] Discount 0.935 seconds from this build time
+Using temporary file: temp_Scene_1551031603012_1459173741195801402.arff
+Using temporary file: temp_Scene_1551031603760_947406905975435208.arff
+[Note] Discount 0.962 seconds from this build time
+[Note] Discount 0.974 seconds from this build time
+Using temporary file: temp_Scene_1551031818695_3700456403319983179.arff
+Using temporary file: temp_Scene_1551031818725_7252938097639159278.arff
+[Note] Discount 1.008 seconds from this build time
+[Note] Discount 1.014 seconds from this build time
+Using temporary file: temp_Scene_1551031823220_1674563217135621776.arff
+Using temporary file: temp_Scene_1551031823965_8637641792745777345.arff
+[Note] Discount 0.959 seconds from this build time
+[Note] Discount 1.014 seconds from this build time
+Using temporary file: temp_Scene_1551031826250_-5120251691338751706.arff
+Using temporary file: temp_Scene_1551031826825_2978214333338970539.arff
+[Note] Discount 0.884 seconds from this build time
+[Note] Discount 1.108 seconds from this build time
+Using temporary file: temp_Scene_1551031831688_-546227288755006883.arff
+Using temporary file: temp_Scene_1551031832105_-8736851221491419912.arff
+Using temporary file: temp_Scene_1551031832436_-8819243423086615708.arff
+[Note] Discount 1.036 seconds from this build time
+[Note] Discount 1.105 seconds from this build time
+[Note] Discount 0.919 seconds from this build time
+Using temporary file: temp_Scene_1551031834531_-8171136391278254421.arff
+[Note] Discount 0.98 seconds from this build time
+Using temporary file: temp_Scene_1551032048309_4557359622431007554.arff
+[Note] Discount 1.104 seconds from this build time
+Using temporary file: temp_Scene_1551032055906_8026383961327351951.arff
+Using temporary file: temp_Scene_1551032056784_508943482563998989.arff
+[Note] Discount 1.088 seconds from this build time
+[Note] Discount 1.132 seconds from this build time
+Using temporary file: temp_Scene_1551032058661_-4653752435979924085.arff
+Using temporary file: temp_Scene_1551032059439_2939498319079095637.arff
+[Note] Discount 1.089 seconds from this build time
+[Note] Discount 1.102 seconds from this build time
+Using temporary file: temp_Scene_1551032063891_-5594470500394967494.arff
+[Note] Discount 1.02 seconds from this build time
+Using temporary file: temp_Scene_1551032067679_3480003796066431712.arff
+Using temporary file: temp_Scene_1551032068177_803124289950177979.arff
+[Note] Discount 1.09 seconds from this build time
+[Note] Discount 1.087 seconds from this build time
+Using temporary file: temp_Scene_1551032070406_-636333988887034212.arff
+Using temporary file: temp_Scene_1551032070670_8843852096945526213.arff
+[Note] Discount 1.123 seconds from this build time
+[Note] Discount 1.14 seconds from this build time
+Using temporary file: temp_Scene_1551032285128_-2599638815814183215.arff
+[Note] Discount 1.166 seconds from this build time
+Using temporary file: temp_Scene_1551032287672_8190460250141936893.arff
+[Note] Discount 1.083 seconds from this build time
+Using temporary file: temp_Scene_1551032291154_5769673920140370325.arff
+Using temporary file: temp_Scene_1551032291723_-5707672370091761013.arff
+[Note] Discount 1.108 seconds from this build time
+[Note] Discount 0.949 seconds from this build time
+Using temporary file: temp_Scene_1551032292744_1153904216792672901.arff
+[Note] Discount 1.086 seconds from this build time
+Using temporary file: temp_Scene_1551032304874_5756199850788068330.arff
+Using temporary file: temp_Scene_1551032304894_-8993413354811897935.arff
+Using temporary file: temp_Scene_1551032305298_-7708433905133356545.arff
+[Note] Discount 1.011 seconds from this build time
+[Note] Discount 1.016 seconds from this build time
+[Note] Discount 1.054 seconds from this build time
+Using temporary file: temp_Scene_1551032309615_-7696908321112421928.arff
+[Note] Discount 1.019 seconds from this build time
+Using temporary file: temp_Scene_1551032311995_1143101010786680429.arff
+[Note] Discount 0.877 seconds from this build time
+Using temporary file: temp_Scene_1551032531343_3848973185516237780.arff
+[Note] Discount 1.142 seconds from this build time
+Using temporary file: temp_Scene_1551032534867_-7593559711793024473.arff
+[Note] Discount 1.073 seconds from this build time
+Using temporary file: temp_Scene_1551032536191_-356080060741782185.arff
+Using temporary file: temp_Scene_1551032537271_4750573931075731782.arff
+[Note] Discount 1.113 seconds from this build time
+[Note] Discount 1.154 seconds from this build time
+Using temporary file: temp_Scene_1551032542451_-2738735307499397929.arff
+[Note] Discount 1.14 seconds from this build time
+Using temporary file: temp_Scene_1551032553655_9147260119188226075.arff
+[Note] Discount 1.127 seconds from this build time
+Using temporary file: temp_Scene_1551032554913_-7753099951623310138.arff
+Using temporary file: temp_Scene_1551032555515_1034630987629030792.arff
+[Note] Discount 1.232 seconds from this build time
+[Note] Discount 1.149 seconds from this build time
+Using temporary file: temp_Scene_1551032558809_-7555351992581160954.arff
+[Note] Discount 1.212 seconds from this build time
+Using temporary file: temp_Scene_1551032560407_-445123651753048437.arff
+[Note] Discount 1.153 seconds from this build time
+Using temporary file: temp_Scene_1551032792607_3279426614661187996.arff
+Using temporary file: temp_Scene_1551032792777_-9108032911202255077.arff
+[Note] Discount 1.154 seconds from this build time
+[Note] Discount 1.278 seconds from this build time
+Using temporary file: temp_Scene_1551032795093_-5777773046073082973.arff
+[Note] Discount 1.432 seconds from this build time
+Using temporary file: temp_Scene_1551032796824_-535584982992767945.arff
+[Note] Discount 1.186 seconds from this build time
+Using temporary file: temp_Scene_1551032804323_4585731666244383106.arff
+[Note] Discount 1.157 seconds from this build time
+Using temporary file: temp_Scene_1551032813638_-3525111263812818117.arff
+Using temporary file: temp_Scene_1551032813705_5796689938409159009.arff
+Using temporary file: temp_Scene_1551032814696_7786015629227782772.arff
+[Note] Discount 1.281 seconds from this build time
+[Note] Discount 1.384 seconds from this build time
+[Note] Discount 1.487 seconds from this build time
+Using temporary file: temp_Scene_1551032823491_3214097265926879448.arff
+Using temporary file: temp_Scene_1551032824265_5262131155823113975.arff
+[Note] Discount 1.178 seconds from this build time
+[Note] Discount 1.434 seconds from this build time
+Using temporary file: temp_Scene_1551033054250_-6264662031554090775.arff
+[Note] Discount 0.924 seconds from this build time
+Using temporary file: temp_Scene_1551033056464_6364905620888314798.arff
+Using temporary file: temp_Scene_1551033057026_-7074918400295346896.arff
+[Note] Discount 1.076 seconds from this build time
+[Note] Discount 1.024 seconds from this build time
+Using temporary file: temp_Scene_1551033061605_8499104807284792755.arff
+[Note] Discount 1.034 seconds from this build time
+Using temporary file: temp_Scene_1551033067617_-7850427191471535528.arff
+[Note] Discount 1.327 seconds from this build time
+Using temporary file: temp_Scene_1551033074814_5947874316217233888.arff
+Using temporary file: temp_Scene_1551033075106_8816149975002660817.arff
+Using temporary file: temp_Scene_1551033075425_6817473413534271398.arff
+[Note] Discount 1.17 seconds from this build time
+[Note] Discount 1.163 seconds from this build time
+[Note] Discount 1.029 seconds from this build time
+Using temporary file: temp_Scene_1551033085898_-7107378206422349633.arff
+Using temporary file: temp_Scene_1551033086336_1163118917381745949.arff
+[Note] Discount 1.007 seconds from this build time
+[Note] Discount 1.089 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 6
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Scene_1551033328573_566381710764943413.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Scene_1551033328597_-1608098597551468451.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Scene_1551033328610_4469440687916049570.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Scene_1551033328630_-3698661339818345973.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Scene_1551033328649_-5589937031876733301.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Scene_1551033328665_-2564260040490541770.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Scene_1551033328680_1458497633808887418.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Scene_1551033328700_-1035633149643239325.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Scene_1551033328720_-6369541623027390922.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Scene_1551033328735_-2162882975343049754.arff
+[Note] Discount 1.137 seconds from this build time
+[Note] Discount 1.452 seconds from this build time
+[Note] Discount 1.636 seconds from this build time
+[Note] Discount 1.544 seconds from this build time
+[Note] Discount 1.619 seconds from this build time
+[Note] Discount 1.738 seconds from this build time
+[Note] Discount 1.683 seconds from this build time
+[Note] Discount 1.74 seconds from this build time
+[Note] Discount 1.699 seconds from this build time
+[Note] Discount 1.813 seconds from this build time
+Using temporary file: temp_Scene_1551033574724_-7316073245918686925.arff
+Using temporary file: temp_Scene_1551033575390_-7339241127091058317.arff
+[Note] Discount 1.154 seconds from this build time
+Using temporary file: temp_Scene_1551033576476_-1632816288902660021.arff
+[Note] Discount 1.266 seconds from this build time
+Using temporary file: temp_Scene_1551033576956_-3645553751895064332.arff
+Using temporary file: temp_Scene_1551033577434_7219524121527741614.arff
+[Note] Discount 1.173 seconds from this build time
+[Note] Discount 1.252 seconds from this build time
+Using temporary file: temp_Scene_1551033578212_4793971110569000604.arff
+[Note] Discount 1.291 seconds from this build time
+[Note] Discount 1.208 seconds from this build time
+Using temporary file: temp_Scene_1551033580420_-4795275899714429417.arff
+Using temporary file: temp_Scene_1551033581413_2602755069855219259.arff
+[Note] Discount 1.158 seconds from this build time
+Using temporary file: temp_Scene_1551033581720_526488519178829888.arff
+[Note] Discount 1.027 seconds from this build time
+[Note] Discount 1.218 seconds from this build time
+Using temporary file: temp_Scene_1551033583194_3592725324095305683.arff
+[Note] Discount 1.155 seconds from this build time
+Using temporary file: temp_Scene_1551033843451_7411790522989648792.arff
+[Note] Discount 1.208 seconds from this build time
+Using temporary file: temp_Scene_1551033847341_-2187993102383044244.arff
+[Note] Discount 0.963 seconds from this build time
+Using temporary file: temp_Scene_1551033848837_2115850059180418354.arff
+Using temporary file: temp_Scene_1551033849663_-992130317477352924.arff
+Using temporary file: temp_Scene_1551033849808_-1887448297265014273.arff
+[Note] Discount 1.312 seconds from this build time
+Using temporary file: temp_Scene_1551033850764_5685524318958656137.arff
+[Note] Discount 1.278 seconds from this build time
+[Note] Discount 1.266 seconds from this build time
+Using temporary file: temp_Scene_1551033851302_6705584880227391807.arff
+Using temporary file: temp_Scene_1551033851520_8815535291922269738.arff
+[Note] Discount 1.178 seconds from this build time
+[Note] Discount 1.232 seconds from this build time
+[Note] Discount 1.663 seconds from this build time
+Using temporary file: temp_Scene_1551033854442_1490613999773004340.arff
+[Note] Discount 1.142 seconds from this build time
+Using temporary file: temp_Scene_1551033857065_-5026029246139856277.arff
+[Note] Discount 1.165 seconds from this build time
+Using temporary file: temp_Scene_1551034093305_-6289929342761363175.arff
+[Note] Discount 1.159 seconds from this build time
+Using temporary file: temp_Scene_1551034100359_-9120159428539361639.arff
+Using temporary file: temp_Scene_1551034100779_-2934806679232514223.arff
+Using temporary file: temp_Scene_1551034101147_-2951196622544561858.arff
+[Note] Discount 1.155 seconds from this build time
+Using temporary file: temp_Scene_1551034101877_1343023494735137507.arff
+Using temporary file: temp_Scene_1551034101905_-3106223575927296331.arff
+[Note] Discount 1.17 seconds from this build time
+[Note] Discount 1.242 seconds from this build time
+Using temporary file: temp_Scene_1551034102878_4209933468692678950.arff
+Using temporary file: temp_Scene_1551034103110_-8182243594209745664.arff
+[Note] Discount 1.249 seconds from this build time
+[Note] Discount 1.277 seconds from this build time
+[Note] Discount 1.321 seconds from this build time
+[Note] Discount 1.354 seconds from this build time
+Using temporary file: temp_Scene_1551034104945_4947850698510203064.arff
+[Note] Discount 1.048 seconds from this build time
+Using temporary file: temp_Scene_1551034108142_7851427008395192536.arff
+[Note] Discount 0.987 seconds from this build time
+Using temporary file: temp_Scene_1551034358587_5952946586221754036.arff
+[Note] Discount 1.187 seconds from this build time
+Using temporary file: temp_Scene_1551034363196_1507219752436740101.arff
+[Note] Discount 1.268 seconds from this build time
+Using temporary file: temp_Scene_1551034364675_7793777865067502371.arff
+[Note] Discount 1.129 seconds from this build time
+Using temporary file: temp_Scene_1551034365938_7806931012050564336.arff
+Using temporary file: temp_Scene_1551034366406_6902793791591772338.arff
+[Note] Discount 1.315 seconds from this build time
+Using temporary file: temp_Scene_1551034367534_3047945791987619701.arff
+Using temporary file: temp_Scene_1551034367670_-4010614443645193307.arff
+Using temporary file: temp_Scene_1551034367786_3222799434015176446.arff
+[Note] Discount 1.511 seconds from this build time
+[Note] Discount 1.415 seconds from this build time
+[Note] Discount 1.449 seconds from this build time
+[Note] Discount 1.537 seconds from this build time
+Using temporary file: temp_Scene_1551034369665_4430932498665065484.arff
+[Note] Discount 1.265 seconds from this build time
+Using temporary file: temp_Scene_1551034371976_-8884952290998478387.arff
+[Note] Discount 1.293 seconds from this build time
+Using temporary file: temp_Scene_1551034620552_4378932161907537715.arff
+[Note] Discount 1.068 seconds from this build time
+Using temporary file: temp_Scene_1551034623882_-544617757178333800.arff
+Using temporary file: temp_Scene_1551034624470_7935455346318005342.arff
+[Note] Discount 0.912 seconds from this build time
+Using temporary file: temp_Scene_1551034625303_-8614352639040115366.arff
+[Note] Discount 1.02 seconds from this build time
+Using temporary file: temp_Scene_1551034625574_-3009405229167982411.arff
+[Note] Discount 1.251 seconds from this build time
+[Note] Discount 1.1 seconds from this build time
+Using temporary file: temp_Scene_1551034627445_1715868444723452007.arff
+Using temporary file: temp_Scene_1551034628415_2374208703468940925.arff
+[Note] Discount 1.068 seconds from this build time
+[Note] Discount 1.119 seconds from this build time
+Using temporary file: temp_Scene_1551034629624_-7357339368254658879.arff
+[Note] Discount 0.969 seconds from this build time
+Using temporary file: temp_Scene_1551034631746_323003187810796424.arff
+[Note] Discount 1.008 seconds from this build time
+Using temporary file: temp_Scene_1551034633780_7414932543315556010.arff
+[Note] Discount 1.004 seconds from this build time
+Using temporary file: temp_Scene_1551034868155_7645506387453610734.arff
+[Note] Discount 1.155 seconds from this build time
+Using temporary file: temp_Scene_1551034869507_-8664968823506358406.arff
+Using temporary file: temp_Scene_1551034869862_7454865519840859645.arff
+[Note] Discount 1.267 seconds from this build time
+[Note] Discount 1.262 seconds from this build time
+Using temporary file: temp_Scene_1551034875417_-4704090142093314638.arff
+Using temporary file: temp_Scene_1551034875747_-8886486030628624275.arff
+Using temporary file: temp_Scene_1551034876134_-4086059040560313264.arff
+Using temporary file: temp_Scene_1551034876290_8289740811720862680.arff
+[Note] Discount 0.877 seconds from this build time
+[Note] Discount 0.886 seconds from this build time
+[Note] Discount 1.365 seconds from this build time
+[Note] Discount 1.224 seconds from this build time
+Using temporary file: temp_Scene_1551034878758_1951473645747468132.arff
+Using temporary file: temp_Scene_1551034879219_6829937779261482600.arff
+[Note] Discount 1.172 seconds from this build time
+[Note] Discount 1.05 seconds from this build time
+Using temporary file: temp_Scene_1551034886240_9059038189098316771.arff
+[Note] Discount 1.194 seconds from this build time
+Using temporary file: temp_Scene_1551035134807_-2848899089940961071.arff
+[Note] Discount 1.132 seconds from this build time
+Using temporary file: temp_Scene_1551035136490_-8306635260051269446.arff
+[Note] Discount 1.174 seconds from this build time
+Using temporary file: temp_Scene_1551035139603_-2303516294498490494.arff
+[Note] Discount 1.186 seconds from this build time
+Using temporary file: temp_Scene_1551035143166_-7187744340523076314.arff
+Using temporary file: temp_Scene_1551035143843_-7436412491365010666.arff
+[Note] Discount 1.178 seconds from this build time
+[Note] Discount 1.128 seconds from this build time
+Using temporary file: temp_Scene_1551035147309_-5382733297118183358.arff
+[Note] Discount 1.15 seconds from this build time
+Using temporary file: temp_Scene_1551035149781_5972933999487403024.arff
+Using temporary file: temp_Scene_1551035150514_-6415773821821162015.arff
+[Note] Discount 1.138 seconds from this build time
+[Note] Discount 1.167 seconds from this build time
+Using temporary file: temp_Scene_1551035151685_-2282623849526784568.arff
+[Note] Discount 1.185 seconds from this build time
+Using temporary file: temp_Scene_1551035152884_-4510135546772636515.arff
+[Note] Discount 0.976 seconds from this build time
+Using temporary file: temp_Scene_1551035396439_1862260294086773919.arff
+[Note] Discount 1.07 seconds from this build time
+Using temporary file: temp_Scene_1551035401285_1758945148499988783.arff
+Using temporary file: temp_Scene_1551035402500_5662872212732003193.arff
+[Note] Discount 1.226 seconds from this build time
+[Note] Discount 1.114 seconds from this build time
+Using temporary file: temp_Scene_1551035406061_-7868715035331841279.arff
+Using temporary file: temp_Scene_1551035406968_7014820241964981356.arff
+[Note] Discount 1.093 seconds from this build time
+[Note] Discount 1.146 seconds from this build time
+Using temporary file: temp_Scene_1551035409423_-5301039349804564991.arff
+[Note] Discount 1.019 seconds from this build time
+Using temporary file: temp_Scene_1551035410454_1980031027531194548.arff
+Using temporary file: temp_Scene_1551035411404_1392122187641494968.arff
+[Note] Discount 1.146 seconds from this build time
+Using temporary file: temp_Scene_1551035411737_-3462057721180242966.arff
+[Note] Discount 1.15 seconds from this build time
+[Note] Discount 1.047 seconds from this build time
+Using temporary file: temp_Scene_1551035415391_-7579808017640594022.arff
+[Note] Discount 1.048 seconds from this build time
+Using temporary file: temp_Scene_1551035638880_-7087263262376100235.arff
+[Note] Discount 1.171 seconds from this build time
+Using temporary file: temp_Scene_1551035645413_8600311885107616415.arff
+Using temporary file: temp_Scene_1551035645421_5628547344516879168.arff
+[Note] Discount 1.171 seconds from this build time
+[Note] Discount 1.178 seconds from this build time
+Using temporary file: temp_Scene_1551035648085_331546070538502674.arff
+Using temporary file: temp_Scene_1551035649045_1372267179201092781.arff
+[Note] Discount 1.169 seconds from this build time
+[Note] Discount 1.324 seconds from this build time
+Using temporary file: temp_Scene_1551035651485_-8304701932600440408.arff
+Using temporary file: temp_Scene_1551035652606_-2338343576934208312.arff
+[Note] Discount 1.159 seconds from this build time
+[Note] Discount 1.518 seconds from this build time
+Using temporary file: temp_Scene_1551035655658_-1055296936487117613.arff
+Using temporary file: temp_Scene_1551035656012_3496076070618025152.arff
+[Note] Discount 1.3 seconds from this build time
+[Note] Discount 1.127 seconds from this build time
+Using temporary file: temp_Scene_1551035660477_1261036306141182808.arff
+[Note] Discount 1.067 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 7
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Scene_1551035897984_3475270650314491794.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Scene_1551035898009_2270991379979347231.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Scene_1551035898019_-1614084996196586490.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Scene_1551035898040_8336107190894473033.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Scene_1551035898060_-1783836501116765729.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Scene_1551035898075_-4776693766958442873.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Scene_1551035898090_1585957658595667533.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Scene_1551035898105_5363441817484042921.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Scene_1551035898120_735288309103666086.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Scene_1551035898123_-4845437925228318859.arff
+[Note] Discount 1.319 seconds from this build time
+[Note] Discount 1.355 seconds from this build time
+[Note] Discount 1.244 seconds from this build time
+[Note] Discount 1.365 seconds from this build time
+[Note] Discount 1.32 seconds from this build time
+[Note] Discount 1.435 seconds from this build time
+[Note] Discount 1.339 seconds from this build time
+[Note] Discount 1.404 seconds from this build time
+[Note] Discount 1.36 seconds from this build time
+[Note] Discount 1.387 seconds from this build time
+Using temporary file: temp_Scene_1551036128510_1622417430311286869.arff
+Using temporary file: temp_Scene_1551036128769_5612744506800647866.arff
+[Note] Discount 1.078 seconds from this build time
+[Note] Discount 0.881 seconds from this build time
+Using temporary file: temp_Scene_1551036130556_-4904196865423085294.arff
+Using temporary file: temp_Scene_1551036130622_-4283036302213613660.arff
+Using temporary file: temp_Scene_1551036131061_6854428927621892691.arff
+Using temporary file: temp_Scene_1551036131153_-7889033426576853168.arff
+Using temporary file: temp_Scene_1551036131359_7609267195525655809.arff
+[Note] Discount 0.828 seconds from this build time
+[Note] Discount 1.076 seconds from this build time
+[Note] Discount 0.949 seconds from this build time
+Using temporary file: temp_Scene_1551036132290_5639582898743908002.arff
+[Note] Discount 1.258 seconds from this build time
+[Note] Discount 1.12 seconds from this build time
+[Note] Discount 1.131 seconds from this build time
+Using temporary file: temp_Scene_1551036135422_-2825979959566714257.arff
+[Note] Discount 0.916 seconds from this build time
+Using temporary file: temp_Scene_1551036136422_5917125705134860630.arff
+[Note] Discount 1.179 seconds from this build time
+Using temporary file: temp_Scene_1551036370424_680340239326323591.arff
+[Note] Discount 1.462 seconds from this build time
+Using temporary file: temp_Scene_1551036374939_1461163354790034005.arff
+Using temporary file: temp_Scene_1551036376124_6992223189773582149.arff
+[Note] Discount 1.649 seconds from this build time
+Using temporary file: temp_Scene_1551036376637_-7244480259266885303.arff
+Using temporary file: temp_Scene_1551036376785_7415905872588821609.arff
+[Note] Discount 1.039 seconds from this build time
+[Note] Discount 1.241 seconds from this build time
+[Note] Discount 1.296 seconds from this build time
+Using temporary file: temp_Scene_1551036379286_-4965775846775124621.arff
+[Note] Discount 1.167 seconds from this build time
+Using temporary file: temp_Scene_1551036380833_5358307146659318376.arff
+Using temporary file: temp_Scene_1551036381407_-2921270958620175941.arff
+[Note] Discount 1.335 seconds from this build time
+[Note] Discount 1.174 seconds from this build time
+Using temporary file: temp_Scene_1551036383677_-7505550339714435677.arff
+[Note] Discount 1.437 seconds from this build time
+Using temporary file: temp_Scene_1551036385304_5762145474911256072.arff
+[Note] Discount 1.468 seconds from this build time
+Using temporary file: temp_Scene_1551036636939_-6623980368252521766.arff
+[Note] Discount 1.018 seconds from this build time
+Using temporary file: temp_Scene_1551036640821_3539458836905320913.arff
+Using temporary file: temp_Scene_1551036641703_-7008688991718472221.arff
+[Note] Discount 1.083 seconds from this build time
+Using temporary file: temp_Scene_1551036641945_-217475440604474380.arff
+[Note] Discount 1.185 seconds from this build time
+Using temporary file: temp_Scene_1551036643085_4399516415237074838.arff
+[Note] Discount 1.209 seconds from this build time
+[Note] Discount 1.253 seconds from this build time
+Using temporary file: temp_Scene_1551036644483_-7791555276871681082.arff
+[Note] Discount 1.14 seconds from this build time
+Using temporary file: temp_Scene_1551036645814_-1249065337672274165.arff
+[Note] Discount 1.185 seconds from this build time
+Using temporary file: temp_Scene_1551036647767_2010947164286293866.arff
+[Note] Discount 1.153 seconds from this build time
+Using temporary file: temp_Scene_1551036650920_-3983746718352924153.arff
+Using temporary file: temp_Scene_1551036651961_2445057270153007974.arff
+[Note] Discount 1.293 seconds from this build time
+[Note] Discount 1.153 seconds from this build time
+Using temporary file: temp_Scene_1551036901176_-207135219591628622.arff
+[Note] Discount 1.362 seconds from this build time
+Using temporary file: temp_Scene_1551036904786_-6633125691855141005.arff
+Using temporary file: temp_Scene_1551036905004_5323840495266574478.arff
+Using temporary file: temp_Scene_1551036906001_-4987005879744123756.arff
+[Note] Discount 1.297 seconds from this build time
+[Note] Discount 1.158 seconds from this build time
+[Note] Discount 1.263 seconds from this build time
+Using temporary file: temp_Scene_1551036907397_5678626900794067620.arff
+[Note] Discount 1.206 seconds from this build time
+Using temporary file: temp_Scene_1551036911894_-4006834921742016407.arff
+Using temporary file: temp_Scene_1551036911898_-1469843190281211649.arff
+[Note] Discount 1.185 seconds from this build time
+[Note] Discount 1.292 seconds from this build time
+Using temporary file: temp_Scene_1551036913768_7495307949460064708.arff
+[Note] Discount 1.36 seconds from this build time
+Using temporary file: temp_Scene_1551036916136_8381814542974811998.arff
+[Note] Discount 1.143 seconds from this build time
+Using temporary file: temp_Scene_1551036926003_-9179464057694309764.arff
+[Note] Discount 1.165 seconds from this build time
+Using temporary file: temp_Scene_1551037167300_-4901456210524151004.arff
+[Note] Discount 1.264 seconds from this build time
+Using temporary file: temp_Scene_1551037172865_5543792253369559681.arff
+Using temporary file: temp_Scene_1551037173881_4336899898550699667.arff
+[Note] Discount 1.16 seconds from this build time
+Using temporary file: temp_Scene_1551037174219_-7209465029301483472.arff
+[Note] Discount 1.133 seconds from this build time
+[Note] Discount 1.51 seconds from this build time
+Using temporary file: temp_Scene_1551037176712_5878027573324626745.arff
+Using temporary file: temp_Scene_1551037177209_281130375825185257.arff
+[Note] Discount 1.139 seconds from this build time
+Using temporary file: temp_Scene_1551037178349_-601128146759870551.arff
+[Note] Discount 1.14 seconds from this build time
+[Note] Discount 1.135 seconds from this build time
+Using temporary file: temp_Scene_1551037179494_-682736954125738787.arff
+[Note] Discount 1.176 seconds from this build time
+Using temporary file: temp_Scene_1551037181189_4611986874067287150.arff
+[Note] Discount 1.164 seconds from this build time
+Using temporary file: temp_Scene_1551037188822_3041628524624170284.arff
+[Note] Discount 1.219 seconds from this build time
+Using temporary file: temp_Scene_1551037432790_1168324295631942716.arff
+[Note] Discount 1.249 seconds from this build time
+Using temporary file: temp_Scene_1551037436641_6769088872911905582.arff
+[Note] Discount 1.051 seconds from this build time
+Using temporary file: temp_Scene_1551037438547_7256821224132567913.arff
+[Note] Discount 1.257 seconds from this build time
+Using temporary file: temp_Scene_1551037439947_4170336389308797456.arff
+[Note] Discount 1.007 seconds from this build time
+Using temporary file: temp_Scene_1551037440982_6036935925562686107.arff
+Using temporary file: temp_Scene_1551037441701_-5234170890490684509.arff
+[Note] Discount 1.237 seconds from this build time
+[Note] Discount 1.204 seconds from this build time
+Using temporary file: temp_Scene_1551037443486_-9145729473938644799.arff
+Using temporary file: temp_Scene_1551037444383_-5275820954868593296.arff
+[Note] Discount 1.173 seconds from this build time
+[Note] Discount 1.021 seconds from this build time
+Using temporary file: temp_Scene_1551037446632_5620119595698489414.arff
+[Note] Discount 1.203 seconds from this build time
+Using temporary file: temp_Scene_1551037449212_186383988687977231.arff
+[Note] Discount 1.137 seconds from this build time
+Using temporary file: temp_Scene_1551037677092_5431972957571244932.arff
+[Note] Discount 1.092 seconds from this build time
+Using temporary file: temp_Scene_1551037681218_2522841501079800248.arff
+Using temporary file: temp_Scene_1551037681725_-4820001192579109770.arff
+Using temporary file: temp_Scene_1551037682174_-1731499584229154534.arff
+[Note] Discount 1.185 seconds from this build time
+Using temporary file: temp_Scene_1551037682637_2033148680974807986.arff
+[Note] Discount 1.117 seconds from this build time
+Using temporary file: temp_Scene_1551037682891_2614121250037486955.arff
+[Note] Discount 1.196 seconds from this build time
+[Note] Discount 1.224 seconds from this build time
+[Note] Discount 1.083 seconds from this build time
+Using temporary file: temp_Scene_1551037685200_-5670000538417845611.arff
+Using temporary file: temp_Scene_1551037685752_-7396622956704555328.arff
+[Note] Discount 1.092 seconds from this build time
+[Note] Discount 0.969 seconds from this build time
+Using temporary file: temp_Scene_1551037688089_-6747871786925253441.arff
+[Note] Discount 1.652 seconds from this build time
+Using temporary file: temp_Scene_1551037689909_-4409150984518176355.arff
+[Note] Discount 1.055 seconds from this build time
+Using temporary file: temp_Scene_1551037906518_3284785762221477057.arff
+[Note] Discount 1.036 seconds from this build time
+Using temporary file: temp_Scene_1551037909710_-1127220455287567152.arff
+[Note] Discount 0.945 seconds from this build time
+Using temporary file: temp_Scene_1551037912055_-7833098935495120875.arff
+Using temporary file: temp_Scene_1551037912442_-5755484195525570438.arff
+Using temporary file: temp_Scene_1551037913032_3557645804754716238.arff
+[Note] Discount 1.058 seconds from this build time
+[Note] Discount 1.11 seconds from this build time
+[Note] Discount 1.042 seconds from this build time
+Using temporary file: temp_Scene_1551037915055_-2397606815650614675.arff
+Using temporary file: temp_Scene_1551037915400_2510823671498155919.arff
+[Note] Discount 1.094 seconds from this build time
+Using temporary file: temp_Scene_1551037916317_1332330292446077885.arff
+[Note] Discount 1.022 seconds from this build time
+Using temporary file: temp_Scene_1551037917167_-1537321388284451263.arff
+[Note] Discount 1.132 seconds from this build time
+[Note] Discount 1.179 seconds from this build time
+Using temporary file: temp_Scene_1551037922536_8613010248929295249.arff
+[Note] Discount 1.213 seconds from this build time
+Using temporary file: temp_Scene_1551038145891_2919859758153453568.arff
+[Note] Discount 0.96 seconds from this build time
+Using temporary file: temp_Scene_1551038147248_7497479965999086393.arff
+[Note] Discount 1.291 seconds from this build time
+Using temporary file: temp_Scene_1551038151726_8092643338038581717.arff
+Using temporary file: temp_Scene_1551038152278_1326646905010044805.arff
+[Note] Discount 1.048 seconds from this build time
+[Note] Discount 1.036 seconds from this build time
+Using temporary file: temp_Scene_1551038154419_4442708040873911210.arff
+Using temporary file: temp_Scene_1551038154634_-5554748725645626540.arff
+[Note] Discount 1.002 seconds from this build time
+[Note] Discount 1.04 seconds from this build time
+Using temporary file: temp_Scene_1551038157398_-3704432009686450438.arff
+[Note] Discount 1.044 seconds from this build time
+Using temporary file: temp_Scene_1551038158770_5494542277548676971.arff
+[Note] Discount 1.141 seconds from this build time
+Using temporary file: temp_Scene_1551038160271_-3788067831248212793.arff
+[Note] Discount 1.113 seconds from this build time
+Using temporary file: temp_Scene_1551038163901_5020843632358257543.arff
+[Note] Discount 1.088 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 8
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Scene_1551038413206_5797898885857920721.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Scene_1551038413235_-945726292679342924.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Scene_1551038413250_-844099673303054332.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Scene_1551038413264_3902610103608179935.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Scene_1551038413279_2300274633014929457.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Scene_1551038413295_4300186733318170538.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Scene_1551038413309_-9195789692800418047.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Scene_1551038413361_-5596654713944733569.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Scene_1551038413375_-6310506688630775259.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Scene_1551038413390_-48947332408195609.arff
+[Note] Discount 1.198 seconds from this build time
+[Note] Discount 1.566 seconds from this build time
+[Note] Discount 1.615 seconds from this build time
+[Note] Discount 1.624 seconds from this build time
+[Note] Discount 1.524 seconds from this build time
+[Note] Discount 1.694 seconds from this build time
+[Note] Discount 1.71 seconds from this build time
+[Note] Discount 1.63 seconds from this build time
+[Note] Discount 1.76 seconds from this build time
+[Note] Discount 1.718 seconds from this build time
+Using temporary file: temp_Scene_1551038645184_8724470744763331282.arff
+[Note] Discount 0.949 seconds from this build time
+Using temporary file: temp_Scene_1551038649063_3584226657257485852.arff
+[Note] Discount 1.031 seconds from this build time
+Using temporary file: temp_Scene_1551038650542_4203908418003684972.arff
+Using temporary file: temp_Scene_1551038651146_1648288546226020572.arff
+[Note] Discount 0.882 seconds from this build time
+[Note] Discount 0.886 seconds from this build time
+Using temporary file: temp_Scene_1551038652515_-1470434222209313151.arff
+Using temporary file: temp_Scene_1551038653119_-4330080723252508033.arff
+[Note] Discount 1.224 seconds from this build time
+Using temporary file: temp_Scene_1551038653976_5680945340363637752.arff
+Using temporary file: temp_Scene_1551038654048_6991406552572976204.arff
+[Note] Discount 0.974 seconds from this build time
+[Note] Discount 1.176 seconds from this build time
+[Note] Discount 1.131 seconds from this build time
+Using temporary file: temp_Scene_1551038657518_6871364801639938441.arff
+[Note] Discount 0.946 seconds from this build time
+Using temporary file: temp_Scene_1551038658900_-8470582481256382969.arff
+[Note] Discount 1.193 seconds from this build time
+Using temporary file: temp_Scene_1551038881206_1996547057907075440.arff
+[Note] Discount 1.085 seconds from this build time
+Using temporary file: temp_Scene_1551038882727_7512030474967643342.arff
+[Note] Discount 1.204 seconds from this build time
+Using temporary file: temp_Scene_1551038884466_-1681421259993292196.arff
+[Note] Discount 1.029 seconds from this build time
+Using temporary file: temp_Scene_1551038885644_-4327365921067705564.arff
+[Note] Discount 1.121 seconds from this build time
+Using temporary file: temp_Scene_1551038888045_-650072592903891027.arff
+[Note] Discount 1.183 seconds from this build time
+Using temporary file: temp_Scene_1551038890137_2095696241247569486.arff
+[Note] Discount 1.063 seconds from this build time
+Using temporary file: temp_Scene_1551038891458_7251217747129858271.arff
+Using temporary file: temp_Scene_1551038892537_-6136410516779160355.arff
+[Note] Discount 1.106 seconds from this build time
+[Note] Discount 1.134 seconds from this build time
+Using temporary file: temp_Scene_1551038894256_-5447674199320302528.arff
+Using temporary file: temp_Scene_1551038895328_-7360356420697316724.arff
+[Note] Discount 1.283 seconds from this build time
+[Note] Discount 0.962 seconds from this build time
+Using temporary file: temp_Scene_1551039130522_6315394412835225833.arff
+[Note] Discount 1.537 seconds from this build time
+Using temporary file: temp_Scene_1551039133413_-3328960931179463349.arff
+[Note] Discount 1.461 seconds from this build time
+Using temporary file: temp_Scene_1551039136045_-7560286038326203413.arff
+Using temporary file: temp_Scene_1551039136229_8037000249453754267.arff
+Using temporary file: temp_Scene_1551039136646_1998614497907369159.arff
+[Note] Discount 1.135 seconds from this build time
+[Note] Discount 1.194 seconds from this build time
+[Note] Discount 1.348 seconds from this build time
+Using temporary file: temp_Scene_1551039141637_-7682112285708344292.arff
+[Note] Discount 1.144 seconds from this build time
+Using temporary file: temp_Scene_1551039143374_-6204331610574482140.arff
+[Note] Discount 1.425 seconds from this build time
+Using temporary file: temp_Scene_1551039145707_-8244745312671349148.arff
+[Note] Discount 1.272 seconds from this build time
+Using temporary file: temp_Scene_1551039147483_-8604862550481858629.arff
+[Note] Discount 1.41 seconds from this build time
+Using temporary file: temp_Scene_1551039149849_-5693797743320079087.arff
+[Note] Discount 1.345 seconds from this build time
+Using temporary file: temp_Scene_1551039393947_5869101238778430101.arff
+[Note] Discount 1.147 seconds from this build time
+Using temporary file: temp_Scene_1551039397540_8134351140710820129.arff
+[Note] Discount 1.189 seconds from this build time
+Using temporary file: temp_Scene_1551039398880_221358426708416632.arff
+Using temporary file: temp_Scene_1551039399385_233649483812134528.arff
+[Note] Discount 1.369 seconds from this build time
+[Note] Discount 1.066 seconds from this build time
+Using temporary file: temp_Scene_1551039400819_-5572877181438739042.arff
+[Note] Discount 1.29 seconds from this build time
+Using temporary file: temp_Scene_1551039404094_-1710766958202443294.arff
+[Note] Discount 1.286 seconds from this build time
+Using temporary file: temp_Scene_1551039407333_-1251244960138593368.arff
+Using temporary file: temp_Scene_1551039407347_1485568480240191442.arff
+Using temporary file: temp_Scene_1551039407977_1825522180626948306.arff
+[Note] Discount 1.205 seconds from this build time
+[Note] Discount 1.328 seconds from this build time
+[Note] Discount 1.233 seconds from this build time
+Using temporary file: temp_Scene_1551039413125_7423176560455067915.arff
+[Note] Discount 1.126 seconds from this build time
+Using temporary file: temp_Scene_1551039658556_-3545115380320098714.arff
+[Note] Discount 1.218 seconds from this build time
+Using temporary file: temp_Scene_1551039663350_46266498021425158.arff
+[Note] Discount 1.094 seconds from this build time
+Using temporary file: temp_Scene_1551039667467_-2144351936338032011.arff
+Using temporary file: temp_Scene_1551039667681_-8025140981603101740.arff
+Using temporary file: temp_Scene_1551039668388_262618084365242565.arff
+[Note] Discount 1.044 seconds from this build time
+[Note] Discount 0.888 seconds from this build time
+Using temporary file: temp_Scene_1551039669079_-500219266596606931.arff
+[Note] Discount 1.122 seconds from this build time
+Using temporary file: temp_Scene_1551039670121_-8318978027522318587.arff
+[Note] Discount 1.195 seconds from this build time
+Using temporary file: temp_Scene_1551039670949_7096544479148813000.arff
+[Note] Discount 1.082 seconds from this build time
+[Note] Discount 1.245 seconds from this build time
+Using temporary file: temp_Scene_1551039673174_-1146455515050596281.arff
+[Note] Discount 1.235 seconds from this build time
+Using temporary file: temp_Scene_1551039675088_-5189677124161559060.arff
+[Note] Discount 1.161 seconds from this build time
+Using temporary file: temp_Scene_1551039910276_9128443364994243502.arff
+[Note] Discount 1.162 seconds from this build time
+Using temporary file: temp_Scene_1551039914781_2537966171057395782.arff
+[Note] Discount 1.04 seconds from this build time
+Using temporary file: temp_Scene_1551039916885_-8843924095490061722.arff
+Using temporary file: temp_Scene_1551039916983_-2547801522413471235.arff
+Using temporary file: temp_Scene_1551039917073_-4979644171343562540.arff
+[Note] Discount 1.209 seconds from this build time
+Using temporary file: temp_Scene_1551039918177_663891803632391939.arff
+[Note] Discount 1.132 seconds from this build time
+[Note] Discount 1.227 seconds from this build time
+Using temporary file: temp_Scene_1551039919318_-6748242386890846450.arff
+[Note] Discount 1.263 seconds from this build time
+Using temporary file: temp_Scene_1551039920089_6664448195119953582.arff
+[Note] Discount 1.201 seconds from this build time
+[Note] Discount 1.124 seconds from this build time
+Using temporary file: temp_Scene_1551039921567_4048073894657531021.arff
+[Note] Discount 1.146 seconds from this build time
+Using temporary file: temp_Scene_1551039925726_6637429393644021894.arff
+[Note] Discount 1.103 seconds from this build time
+Using temporary file: temp_Scene_1551040175622_8401618513674609441.arff
+[Note] Discount 1.17 seconds from this build time
+Using temporary file: temp_Scene_1551040177425_-1688092882814449056.arff
+[Note] Discount 1.159 seconds from this build time
+Using temporary file: temp_Scene_1551040184429_-3149241608122180316.arff
+Using temporary file: temp_Scene_1551040185184_-5794863138595349589.arff
+[Note] Discount 1.124 seconds from this build time
+Using temporary file: temp_Scene_1551040186036_540873747948729074.arff
+[Note] Discount 1.16 seconds from this build time
+Using temporary file: temp_Scene_1551040186817_7319963726341157385.arff
+[Note] Discount 1.213 seconds from this build time
+Using temporary file: temp_Scene_1551040187454_-2594458883112823912.arff
+[Note] Discount 1.215 seconds from this build time
+[Note] Discount 1.147 seconds from this build time
+Using temporary file: temp_Scene_1551040189913_-5218363911369579743.arff
+Using temporary file: temp_Scene_1551040190070_-9128340484683897654.arff
+[Note] Discount 1.146 seconds from this build time
+[Note] Discount 1.119 seconds from this build time
+Using temporary file: temp_Scene_1551040195000_6554092355901241267.arff
+[Note] Discount 1.139 seconds from this build time
+Using temporary file: temp_Scene_1551040436968_-665611951256502758.arff
+[Note] Discount 1.041 seconds from this build time
+Using temporary file: temp_Scene_1551040440626_2369530194033851372.arff
+[Note] Discount 1.128 seconds from this build time
+Using temporary file: temp_Scene_1551040443336_2037648442184655719.arff
+Using temporary file: temp_Scene_1551040443773_-8369985346162786053.arff
+[Note] Discount 1.095 seconds from this build time
+[Note] Discount 1.045 seconds from this build time
+Using temporary file: temp_Scene_1551040444826_-2618505083878428013.arff
+[Note] Discount 1.173 seconds from this build time
+Using temporary file: temp_Scene_1551040446157_-3844558872529263645.arff
+[Note] Discount 1.051 seconds from this build time
+Using temporary file: temp_Scene_1551040447308_-3936551051312039816.arff
+Using temporary file: temp_Scene_1551040447684_-4397589800245301870.arff
+[Note] Discount 1.004 seconds from this build time
+[Note] Discount 1.304 seconds from this build time
+Using temporary file: temp_Scene_1551040452127_-7705025750692011749.arff
+[Note] Discount 1.017 seconds from this build time
+Using temporary file: temp_Scene_1551040455754_-5172971845248114637.arff
+[Note] Discount 1.08 seconds from this build time
+Using temporary file: temp_Scene_1551040686436_-8252732331633625310.arff
+[Note] Discount 1.327 seconds from this build time
+Using temporary file: temp_Scene_1551040691011_4079197736038352319.arff
+[Note] Discount 1.058 seconds from this build time
+Using temporary file: temp_Scene_1551040695812_4714351880739219075.arff
+Using temporary file: temp_Scene_1551040696299_1477744949315785690.arff
+[Note] Discount 1.152 seconds from this build time
+[Note] Discount 1.173 seconds from this build time
+Using temporary file: temp_Scene_1551040699858_1593226455485412990.arff
+Using temporary file: temp_Scene_1551040700979_-2292657705489123108.arff
+[Note] Discount 1.163 seconds from this build time
+[Note] Discount 1.233 seconds from this build time
+Using temporary file: temp_Scene_1551040703270_3403275329300082380.arff
+[Note] Discount 1.175 seconds from this build time
+Using temporary file: temp_Scene_1551040704607_-6147411282109651411.arff
+[Note] Discount 1.172 seconds from this build time
+Using temporary file: temp_Scene_1551040707250_-5239570827406975976.arff
+[Note] Discount 1.169 seconds from this build time
+Using temporary file: temp_Scene_1551040709184_6432356007261678549.arff
+[Note] Discount 1.185 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 9
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Scene_1551040978895_-1515158592908040274.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Scene_1551040978925_5322681299929659730.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Scene_1551040978939_1936795074606706.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Scene_1551040978960_3890866512835467180.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Scene_1551040979004_6176014792303674130.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Scene_1551040979040_-6620103278978289465.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Scene_1551040979054_6316138657225156479.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Scene_1551040979075_-4098267762943805449.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Scene_1551040979090_2552139837508651416.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Scene_1551040979111_6567461472594266073.arff
+[Note] Discount 1.494 seconds from this build time
+[Note] Discount 1.396 seconds from this build time
+[Note] Discount 1.486 seconds from this build time
+[Note] Discount 1.565 seconds from this build time
+[Note] Discount 1.6 seconds from this build time
+[Note] Discount 1.469 seconds from this build time
+[Note] Discount 1.514 seconds from this build time
+[Note] Discount 1.559 seconds from this build time
+[Note] Discount 1.644 seconds from this build time
+[Note] Discount 1.534 seconds from this build time
+Using temporary file: temp_Scene_1551041221355_-6778128366459969752.arff
+Using temporary file: temp_Scene_1551041221724_-6611242892417775264.arff
+[Note] Discount 1.087 seconds from this build time
+[Note] Discount 1.156 seconds from this build time
+Using temporary file: temp_Scene_1551041223851_3490228200639642898.arff
+Using temporary file: temp_Scene_1551041223919_1662010423733631022.arff
+Using temporary file: temp_Scene_1551041223968_-4858994240073783862.arff
+Using temporary file: temp_Scene_1551041224022_-5406636261142259676.arff
+Using temporary file: temp_Scene_1551041224103_-752954469917193465.arff
+[Note] Discount 1.057 seconds from this build time
+[Note] Discount 1.237 seconds from this build time
+[Note] Discount 1.126 seconds from this build time
+[Note] Discount 1.192 seconds from this build time
+[Note] Discount 1.257 seconds from this build time
+Using temporary file: temp_Scene_1551041229388_-5290951107275755460.arff
+[Note] Discount 1.382 seconds from this build time
+Using temporary file: temp_Scene_1551041231312_-4272622707664980298.arff
+[Note] Discount 1.288 seconds from this build time
+Using temporary file: temp_Scene_1551041235001_-7641598872376107371.arff
+[Note] Discount 1.243 seconds from this build time
+Using temporary file: temp_Scene_1551041485259_184084303402159921.arff
+[Note] Discount 1.165 seconds from this build time
+Using temporary file: temp_Scene_1551041488477_-2220726953495488049.arff
+Using temporary file: temp_Scene_1551041488604_8607046313482873520.arff
+[Note] Discount 1.262 seconds from this build time
+[Note] Discount 1.335 seconds from this build time
+Using temporary file: temp_Scene_1551041490289_-3226111013754539112.arff
+Using temporary file: temp_Scene_1551041491847_-3505088063389309441.arff
+[Note] Discount 1.612 seconds from this build time
+[Note] Discount 1.167 seconds from this build time
+Using temporary file: temp_Scene_1551041494282_-8702988211453038457.arff
+Using temporary file: temp_Scene_1551041494827_-6016242411370302863.arff
+[Note] Discount 1.093 seconds from this build time
+Using temporary file: temp_Scene_1551041495904_-7555272422567687896.arff
+[Note] Discount 1.117 seconds from this build time
+[Note] Discount 1.336 seconds from this build time
+Using temporary file: temp_Scene_1551041500725_7202043895247474452.arff
+[Note] Discount 1.149 seconds from this build time
+Using temporary file: temp_Scene_1551041502687_2674888791828129879.arff
+[Note] Discount 1.302 seconds from this build time
+Using temporary file: temp_Scene_1551041739934_-2413430317850140379.arff
+[Note] Discount 1.145 seconds from this build time
+Using temporary file: temp_Scene_1551041747089_2004110606177057489.arff
+Using temporary file: temp_Scene_1551041747938_5750419551786115014.arff
+[Note] Discount 1.174 seconds from this build time
+[Note] Discount 1.203 seconds from this build time
+Using temporary file: temp_Scene_1551041749757_-1019340972947741689.arff
+Using temporary file: temp_Scene_1551041749836_-1112372283823110418.arff
+[Note] Discount 1.17 seconds from this build time
+[Note] Discount 1.153 seconds from this build time
+Using temporary file: temp_Scene_1551041751041_7130389426934934581.arff
+Using temporary file: temp_Scene_1551041751616_2992976862721050016.arff
+[Note] Discount 1.511 seconds from this build time
+[Note] Discount 1.255 seconds from this build time
+Using temporary file: temp_Scene_1551041753187_8841646798864268211.arff
+Using temporary file: temp_Scene_1551041753543_-1934659891784082593.arff
+[Note] Discount 1.244 seconds from this build time
+[Note] Discount 1.172 seconds from this build time
+Using temporary file: temp_Scene_1551041760072_8542928366277031819.arff
+[Note] Discount 1.082 seconds from this build time
+Using temporary file: temp_Scene_1551041999737_6332602903681407200.arff
+[Note] Discount 1.162 seconds from this build time
+Using temporary file: temp_Scene_1551042004429_-8018588774928247989.arff
+[Note] Discount 1.202 seconds from this build time
+Using temporary file: temp_Scene_1551042006865_462267692281657345.arff
+[Note] Discount 1.174 seconds from this build time
+Using temporary file: temp_Scene_1551042008268_-4994297446106747877.arff
+[Note] Discount 1.196 seconds from this build time
+Using temporary file: temp_Scene_1551042010003_3842472955018329850.arff
+Using temporary file: temp_Scene_1551042010175_-2989691344935059183.arff
+Using temporary file: temp_Scene_1551042010957_1468057664056402641.arff
+[Note] Discount 1.192 seconds from this build time
+[Note] Discount 1.159 seconds from this build time
+Using temporary file: temp_Scene_1551042012011_-6389105643340129085.arff
+[Note] Discount 1.154 seconds from this build time
+[Note] Discount 1.149 seconds from this build time
+Using temporary file: temp_Scene_1551042013170_-5193021215669789421.arff
+Using temporary file: temp_Scene_1551042013584_-5820675107994106851.arff
+[Note] Discount 1.139 seconds from this build time
+[Note] Discount 1.069 seconds from this build time
+Using temporary file: temp_Scene_1551042268888_7618091476051568832.arff
+[Note] Discount 1.157 seconds from this build time
+Using temporary file: temp_Scene_1551042270561_-7551913932934349195.arff
+[Note] Discount 1.159 seconds from this build time
+Using temporary file: temp_Scene_1551042275871_-6396101906293679482.arff
+[Note] Discount 1.163 seconds from this build time
+Using temporary file: temp_Scene_1551042279197_-3899300208369743140.arff
+Using temporary file: temp_Scene_1551042280004_-6039976808000108494.arff
+[Note] Discount 1.133 seconds from this build time
+[Note] Discount 1.196 seconds from this build time
+Using temporary file: temp_Scene_1551042281689_3948048941934106295.arff
+Using temporary file: temp_Scene_1551042282493_1312379144408593251.arff
+[Note] Discount 1.295 seconds from this build time
+[Note] Discount 1.33 seconds from this build time
+Using temporary file: temp_Scene_1551042284539_466468273879730573.arff
+[Note] Discount 1.31 seconds from this build time
+Using temporary file: temp_Scene_1551042287089_-8534847643124651136.arff
+[Note] Discount 1.196 seconds from this build time
+Using temporary file: temp_Scene_1551042290310_-8844304778186851807.arff
+[Note] Discount 1.303 seconds from this build time
+Using temporary file: temp_Scene_1551042521663_2860012171536472811.arff
+[Note] Discount 0.965 seconds from this build time
+Using temporary file: temp_Scene_1551042524882_-265721343088353085.arff
+Using temporary file: temp_Scene_1551042525934_3964494804894872438.arff
+[Note] Discount 1.156 seconds from this build time
+Using temporary file: temp_Scene_1551042526713_5097036153496034018.arff
+[Note] Discount 1.149 seconds from this build time
+[Note] Discount 1.116 seconds from this build time
+Using temporary file: temp_Scene_1551042528909_-3764733868737974763.arff
+Using temporary file: temp_Scene_1551042529813_-306376542191725594.arff
+[Note] Discount 1.162 seconds from this build time
+[Note] Discount 1.186 seconds from this build time
+Using temporary file: temp_Scene_1551042532597_-2001850952147463723.arff
+[Note] Discount 1.177 seconds from this build time
+Using temporary file: temp_Scene_1551042535993_4482083831205177148.arff
+Using temporary file: temp_Scene_1551042536023_4969351975654405645.arff
+[Note] Discount 0.929 seconds from this build time
+[Note] Discount 1.182 seconds from this build time
+Using temporary file: temp_Scene_1551042541514_-59498701129068622.arff
+[Note] Discount 1.166 seconds from this build time
+Using temporary file: temp_Scene_1551042784088_1746929754512094162.arff
+[Note] Discount 1.131 seconds from this build time
+Using temporary file: temp_Scene_1551042787244_-8995589311738267644.arff
+[Note] Discount 1.115 seconds from this build time
+Using temporary file: temp_Scene_1551042788378_2627618420006714031.arff
+[Note] Discount 1.106 seconds from this build time
+Using temporary file: temp_Scene_1551042791189_-6786406047068405579.arff
+[Note] Discount 1.18 seconds from this build time
+Using temporary file: temp_Scene_1551042794544_-390191939874456427.arff
+Using temporary file: temp_Scene_1551042795284_-3632832069336936669.arff
+[Note] Discount 1.275 seconds from this build time
+[Note] Discount 1.155 seconds from this build time
+Using temporary file: temp_Scene_1551042800357_2039543411803235600.arff
+[Note] Discount 1.092 seconds from this build time
+Using temporary file: temp_Scene_1551042803964_-2527384627290195499.arff
+[Note] Discount 1.25 seconds from this build time
+Using temporary file: temp_Scene_1551042806240_-2408918644271853637.arff
+[Note] Discount 1.149 seconds from this build time
+Using temporary file: temp_Scene_1551042811971_-6852236919480605161.arff
+[Note] Discount 1.163 seconds from this build time
+Using temporary file: temp_Scene_1551043035822_-3493599005871656458.arff
+[Note] Discount 1.177 seconds from this build time
+Using temporary file: temp_Scene_1551043039954_-130196686726026551.arff
+[Note] Discount 1.449 seconds from this build time
+Using temporary file: temp_Scene_1551043047316_284151815832988629.arff
+Using temporary file: temp_Scene_1551043048002_-3092508877766243214.arff
+[Note] Discount 1.283 seconds from this build time
+[Note] Discount 1.14 seconds from this build time
+Using temporary file: temp_Scene_1551043050113_-4048137209577229221.arff
+[Note] Discount 1.147 seconds from this build time
+Using temporary file: temp_Scene_1551043052775_334156229026621083.arff
+[Note] Discount 1.299 seconds from this build time
+Using temporary file: temp_Scene_1551043058237_7174076028287948007.arff
+[Note] Discount 1.158 seconds from this build time
+Using temporary file: temp_Scene_1551043062198_1942857257600013914.arff
+[Note] Discount 1.112 seconds from this build time
+Using temporary file: temp_Scene_1551043063823_-6558944179507533842.arff
+[Note] Discount 1.087 seconds from this build time
+Using temporary file: temp_Scene_1551043069592_5997068171343985196.arff
+[Note] Discount 1.092 seconds from this build time
+Using temporary file: temp_Scene_1551043282909_-8404355807357530390.arff
+[Note] Discount 1.165 seconds from this build time
+Using temporary file: temp_Scene_1551043284603_-4649285007373772024.arff
+[Note] Discount 1.024 seconds from this build time
+Using temporary file: temp_Scene_1551043290044_5341654634577990545.arff
+Using temporary file: temp_Scene_1551043290390_8282359692238885552.arff
+[Note] Discount 0.906 seconds from this build time
+[Note] Discount 1.05 seconds from this build time
+Using temporary file: temp_Scene_1551043293885_81139181920135242.arff
+[Note] Discount 1.089 seconds from this build time
+Using temporary file: temp_Scene_1551043298546_2264101326402011977.arff
+[Note] Discount 1.508 seconds from this build time
+Using temporary file: temp_Scene_1551043303708_5024117961264774108.arff
+[Note] Discount 0.974 seconds from this build time
+Using temporary file: temp_Scene_1551043305947_8080555923853128750.arff
+[Note] Discount 1.084 seconds from this build time
+Using temporary file: temp_Scene_1551043309686_6887933843695998056.arff
+Using temporary file: temp_Scene_1551043310252_-879060640046520320.arff
+[Note] Discount 1.043 seconds from this build time
+[Note] Discount 0.87 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 10
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Scene_1551043554264_-1097005763215907431.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Scene_1551043554271_4133136094781571073.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Scene_1551043554294_7352557100187686425.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Scene_1551043554307_-2518034762091200350.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Scene_1551043554329_-3846394447445907386.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Scene_1551043554354_5182718108129282905.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Scene_1551043554369_9108767575255120421.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Scene_1551043554395_6457100290386878904.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Scene_1551043554410_7379294991125336214.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Scene_1551043554414_-4249319482140146245.arff
+[Note] Discount 1.239 seconds from this build time
+[Note] Discount 1.359 seconds from this build time
+[Note] Discount 1.339 seconds from this build time
+[Note] Discount 1.24 seconds from this build time
+[Note] Discount 1.269 seconds from this build time
+[Note] Discount 1.42 seconds from this build time
+[Note] Discount 1.359 seconds from this build time
+[Note] Discount 1.48 seconds from this build time
+[Note] Discount 1.547 seconds from this build time
+[Note] Discount 1.535 seconds from this build time
+Using temporary file: temp_Scene_1551043786779_-3281918510377147959.arff
+[Note] Discount 1.181 seconds from this build time
+Using temporary file: temp_Scene_1551043788359_-6733634721012216991.arff
+[Note] Discount 1.171 seconds from this build time
+Using temporary file: temp_Scene_1551043789976_-2885737938867531024.arff
+[Note] Discount 0.995 seconds from this build time
+Using temporary file: temp_Scene_1551043791321_5773861209258422141.arff
+Using temporary file: temp_Scene_1551043792326_-1974625306267034315.arff
+[Note] Discount 1.189 seconds from this build time
+Using temporary file: temp_Scene_1551043793254_-4653482453440165939.arff
+[Note] Discount 1.042 seconds from this build time
+[Note] Discount 1.135 seconds from this build time
+Using temporary file: temp_Scene_1551043796679_-1316284395435733522.arff
+[Note] Discount 1.394 seconds from this build time
+Using temporary file: temp_Scene_1551043800896_-8804216815127240629.arff
+[Note] Discount 1.185 seconds from this build time
+Using temporary file: temp_Scene_1551043803668_-4217358927821220337.arff
+[Note] Discount 1.152 seconds from this build time
+Using temporary file: temp_Scene_1551043804976_-9196302340606355005.arff
+[Note] Discount 1.213 seconds from this build time
+Using temporary file: temp_Scene_1551044037279_-5899162848834429728.arff
+[Note] Discount 1.25 seconds from this build time
+Using temporary file: temp_Scene_1551044042083_7533238485814795685.arff
+Using temporary file: temp_Scene_1551044042769_7733290305614629359.arff
+[Note] Discount 1.247 seconds from this build time
+Using temporary file: temp_Scene_1551044043754_-846139316187710692.arff
+[Note] Discount 1.161 seconds from this build time
+[Note] Discount 1.216 seconds from this build time
+Using temporary file: temp_Scene_1551044049328_9095368021391309383.arff
+Using temporary file: temp_Scene_1551044050508_-2967224915421871778.arff
+[Note] Discount 1.485 seconds from this build time
+[Note] Discount 1.182 seconds from this build time
+Using temporary file: temp_Scene_1551044056577_7254962631710954721.arff
+[Note] Discount 1.157 seconds from this build time
+Using temporary file: temp_Scene_1551044062387_6793401398405262149.arff
+[Note] Discount 1.057 seconds from this build time
+Using temporary file: temp_Scene_1551044066612_1201529694088245850.arff
+Using temporary file: temp_Scene_1551044066885_5532952485145980959.arff
+[Note] Discount 1.178 seconds from this build time
+[Note] Discount 1.204 seconds from this build time
+Using temporary file: temp_Scene_1551044296114_2024664981644741606.arff
+[Note] Discount 1.06 seconds from this build time
+Using temporary file: temp_Scene_1551044298720_-6530648074260099647.arff
+[Note] Discount 0.967 seconds from this build time
+Using temporary file: temp_Scene_1551044305407_-4928655234943867516.arff
+[Note] Discount 1.147 seconds from this build time
+Using temporary file: temp_Scene_1551044307292_5279521211330043874.arff
+[Note] Discount 1.112 seconds from this build time
+Using temporary file: temp_Scene_1551044309765_2792153090653267827.arff
+Using temporary file: temp_Scene_1551044309785_-5372335893304371035.arff
+[Note] Discount 1.124 seconds from this build time
+[Note] Discount 1.185 seconds from this build time
+Using temporary file: temp_Scene_1551044312428_2048383389135330019.arff
+[Note] Discount 1.141 seconds from this build time
+Using temporary file: temp_Scene_1551044318014_-3405076185054269833.arff
+Using temporary file: temp_Scene_1551044318421_-6611556569430131216.arff
+[Note] Discount 1.157 seconds from this build time
+Using temporary file: temp_Scene_1551044319476_5841240469633028891.arff
+[Note] Discount 1.093 seconds from this build time
+[Note] Discount 1.088 seconds from this build time
+Using temporary file: temp_Scene_1551044554583_77658900226073291.arff
+[Note] Discount 1.217 seconds from this build time
+Using temporary file: temp_Scene_1551044555947_-5563207846571128830.arff
+[Note] Discount 1.363 seconds from this build time
+Using temporary file: temp_Scene_1551044561144_-8502925117122032071.arff
+[Note] Discount 0.986 seconds from this build time
+Using temporary file: temp_Scene_1551044563503_6938172056849572831.arff
+[Note] Discount 1.141 seconds from this build time
+Using temporary file: temp_Scene_1551044569427_7355433967703345473.arff
+Using temporary file: temp_Scene_1551044569687_7563099806678621563.arff
+[Note] Discount 0.912 seconds from this build time
+Using temporary file: temp_Scene_1551044570644_-3396538087577527775.arff
+[Note] Discount 1.126 seconds from this build time
+[Note] Discount 1.14 seconds from this build time
+Using temporary file: temp_Scene_1551044572532_-2327702443608084539.arff
+Using temporary file: temp_Scene_1551044572823_-477977023812478847.arff
+[Note] Discount 1.087 seconds from this build time
+[Note] Discount 1.066 seconds from this build time
+Using temporary file: temp_Scene_1551044575711_-6908225219179713748.arff
+[Note] Discount 1.013 seconds from this build time
+Using temporary file: temp_Scene_1551044798463_-2303663630602022677.arff
+[Note] Discount 1.261 seconds from this build time
+Using temporary file: temp_Scene_1551044804222_3521544346581895217.arff
+[Note] Discount 0.949 seconds from this build time
+Using temporary file: temp_Scene_1551044805714_-438253234286220423.arff
+[Note] Discount 1.338 seconds from this build time
+Using temporary file: temp_Scene_1551044814170_-4622677873734906057.arff
+[Note] Discount 1.084 seconds from this build time
+Using temporary file: temp_Scene_1551044816992_4346266601924037071.arff
+Using temporary file: temp_Scene_1551044817277_-5491028707056506467.arff
+Using temporary file: temp_Scene_1551044817447_8968188012354080843.arff
+[Note] Discount 1.177 seconds from this build time
+[Note] Discount 1.202 seconds from this build time
+[Note] Discount 1.167 seconds from this build time
+Using temporary file: temp_Scene_1551044818900_947751869731336206.arff
+[Note] Discount 1.11 seconds from this build time
+Using temporary file: temp_Scene_1551044820759_8599333797261938299.arff
+[Note] Discount 1.265 seconds from this build time
+Using temporary file: temp_Scene_1551044823273_4538861931719887383.arff
+[Note] Discount 1.116 seconds from this build time
+Using temporary file: temp_Scene_1551045045333_1576771593856367311.arff
+[Note] Discount 1.151 seconds from this build time
+Using temporary file: temp_Scene_1551045046944_6402536377009844985.arff
+[Note] Discount 1.439 seconds from this build time
+Using temporary file: temp_Scene_1551045049676_-7620299888477244017.arff
+[Note] Discount 0.963 seconds from this build time
+Using temporary file: temp_Scene_1551045053705_4779578432549631936.arff
+[Note] Discount 0.967 seconds from this build time
+Using temporary file: temp_Scene_1551045056505_-6041162341894895858.arff
+[Note] Discount 1.164 seconds from this build time
+Using temporary file: temp_Scene_1551045060105_-8981219920786570605.arff
+Using temporary file: temp_Scene_1551045061144_-6056044350698779360.arff
+[Note] Discount 1.089 seconds from this build time
+Using temporary file: temp_Scene_1551045061806_2224303397774919502.arff
+[Note] Discount 1.075 seconds from this build time
+Using temporary file: temp_Scene_1551045062952_-5271706449293669432.arff
+[Note] Discount 1.243 seconds from this build time
+Using temporary file: temp_Scene_1551045063301_-9045467014899653299.arff
+[Note] Discount 1.132 seconds from this build time
+[Note] Discount 1.073 seconds from this build time
+Using temporary file: temp_Scene_1551045293434_3393477915573605686.arff
+[Note] Discount 1.055 seconds from this build time
+Using temporary file: temp_Scene_1551045295683_-8927384624221007222.arff
+[Note] Discount 1.15 seconds from this build time
+Using temporary file: temp_Scene_1551045299764_-8617310050245296913.arff
+[Note] Discount 1.08 seconds from this build time
+Using temporary file: temp_Scene_1551045300956_-21047075962051606.arff
+Using temporary file: temp_Scene_1551045301405_-6334218353576818099.arff
+[Note] Discount 1.144 seconds from this build time
+[Note] Discount 1.129 seconds from this build time
+Using temporary file: temp_Scene_1551045307422_8180276972282283731.arff
+[Note] Discount 1.097 seconds from this build time
+Using temporary file: temp_Scene_1551045308665_5920754926470356522.arff
+Using temporary file: temp_Scene_1551045309446_1740667787022581761.arff
+[Note] Discount 1.189 seconds from this build time
+Using temporary file: temp_Scene_1551045310018_-5755219441248174120.arff
+[Note] Discount 1.21 seconds from this build time
+Using temporary file: temp_Scene_1551045311190_-3362740203718507622.arff
+[Note] Discount 1.173 seconds from this build time
+[Note] Discount 1.289 seconds from this build time
+Using temporary file: temp_Scene_1551045532434_8382917712018146643.arff
+Using temporary file: temp_Scene_1551045532833_4672872193483635327.arff
+[Note] Discount 1.05 seconds from this build time
+[Note] Discount 1.051 seconds from this build time
+Using temporary file: temp_Scene_1551045538890_-2461866366162597191.arff
+[Note] Discount 1.049 seconds from this build time
+Using temporary file: temp_Scene_1551045541091_9205570043268057316.arff
+[Note] Discount 0.933 seconds from this build time
+Using temporary file: temp_Scene_1551045544321_6093878654543686905.arff
+Using temporary file: temp_Scene_1551045544323_-3087317153297012190.arff
+Using temporary file: temp_Scene_1551045544964_2955545346353347531.arff
+[Note] Discount 0.968 seconds from this build time
+[Note] Discount 0.981 seconds from this build time
+[Note] Discount 1.07 seconds from this build time
+Using temporary file: temp_Scene_1551045547514_-555757723787266613.arff
+Using temporary file: temp_Scene_1551045548120_7285447829679134431.arff
+[Note] Discount 1.005 seconds from this build time
+[Note] Discount 1.261 seconds from this build time
+Using temporary file: temp_Scene_1551045550135_6828655992224817663.arff
+[Note] Discount 1.069 seconds from this build time
+Using temporary file: temp_Scene_1551045747913_-9021935719278695847.arff
+[Note] Discount 1.031 seconds from this build time
+Using temporary file: temp_Scene_1551045750852_-3403651146605291779.arff
+[Note] Discount 0.882 seconds from this build time
+Using temporary file: temp_Scene_1551045756815_4552972619979767419.arff
+[Note] Discount 1.048 seconds from this build time
+Using temporary file: temp_Scene_1551045759426_4120192098860034044.arff
+Using temporary file: temp_Scene_1551045759772_-2603537720692765021.arff
+[Note] Discount 1.038 seconds from this build time
+[Note] Discount 0.963 seconds from this build time
+Using temporary file: temp_Scene_1551045760842_-6905842855786298053.arff
+[Note] Discount 0.881 seconds from this build time
+Using temporary file: temp_Scene_1551045761830_-5510519875402736776.arff
+[Note] Discount 0.843 seconds from this build time
+Using temporary file: temp_Scene_1551045763576_-3690009272737088681.arff
+[Note] Discount 0.927 seconds from this build time
+Using temporary file: temp_Scene_1551045769520_-7577266892292166560.arff
+[Note] Discount 0.999 seconds from this build time
+Using temporary file: temp_Scene_1551045771215_-1336145727587183653.arff
+[Note] Discount 0.919 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[STATISTICS] #100
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: Writing 100 statistics to: mekaexp.txt
+[STAGE] FINISH
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #1: meka.experiment.statisticsexporters.SimpleAggregate2
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-agg11.tsv
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #2: meka.experiment.statisticsexporters.TabSeparated
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-full11.tsv

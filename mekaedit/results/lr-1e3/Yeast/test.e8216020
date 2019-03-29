@@ -1,0 +1,437 @@
+[STAGE] INITIALIZING
+[LOG] meka.experiment.DefaultExperiment: Turned off incremental mode for meka.experiment.evaluationstatistics.KeyValuePairs to make use of multi-threading!
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: File 'mekaexp.txt' exists, loading...
+[STAGE] RUNNING
+[LOG] meka.experiment.datasetproviders.MultiDatasetProvider: Dataset provider #1
+[LOG] meka.experiment.datasetproviders.LocalDatasetProvider: Loading: data/Yeast.arff
+[LOG] meka.experiment.DefaultExperiment: Using dataset: Yeast: -C 14 -split-number 1500
+[ITERATION] meka.classifiers.multilabel.MULANedit -S BPMLLwD -W weka.classifiers.trees.J48 -- -C 0.25 -M 2 --> Yeast: -C 14 -split-number 1500
+[LOG] meka.experiment.DefaultExperiment: Using classifier: meka.classifiers.multilabel.MULANedit -S BPMLLwD -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Number of threads (1 = sequential): 1
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 1
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550660002725_-4962768465676381896.arff
+Using temporary file: temp_Yeast_1550660002725_-279624296851435688.arff
+Using temporary file: temp_Yeast_1550660002725_7105486291024734541.arff
+Using temporary file: temp_Yeast_1550660002725_-2228689144322150137.arff
+Using temporary file: temp_Yeast_1550660002725_-1083761183081836303.arff
+Using temporary file: temp_Yeast_1550660002725_4437113781045784766.arff
+Using temporary file: temp_Yeast_1550660002725_-7423979211207825555.arff
+Using temporary file: temp_Yeast_1550660002725_-8292973307042192125.arff
+Using temporary file: temp_Yeast_1550660002725_6146794652083548235.arff
+Using temporary file: temp_Yeast_1550660002725_-6688467811848818630.arff
+[Note] Discount 1.115 seconds from this build time
+[Note] Discount 1.171 seconds from this build time
+[Note] Discount 1.177 seconds from this build time
+[Note] Discount 1.237 seconds from this build time
+[Note] Discount 1.243 seconds from this build time
+[Note] Discount 1.246 seconds from this build time
+[Note] Discount 1.248 seconds from this build time
+[Note] Discount 1.261 seconds from this build time
+[Note] Discount 1.262 seconds from this build time
+[Note] Discount 1.264 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 2
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Yeast_1550660077291_2377732757510138102.arff
+Using temporary file: temp_Yeast_1550660077291_5072005423257391728.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Yeast_1550660077291_2704323167362897208.arff
+Using temporary file: temp_Yeast_1550660077291_428667830982598836.arff
+Using temporary file: temp_Yeast_1550660077291_-8361175665883705505.arff
+Using temporary file: temp_Yeast_1550660077291_-655101936082782086.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550660077294_4664870386390374308.arff
+Using temporary file: temp_Yeast_1550660077294_1927512926318562924.arff
+Using temporary file: temp_Yeast_1550660077294_7577852396602278602.arff
+Using temporary file: temp_Yeast_1550660077295_-4126310024944755050.arff
+[Note] Discount 0.492 seconds from this build time
+[Note] Discount 0.496 seconds from this build time
+[Note] Discount 0.496 seconds from this build time
+[Note] Discount 0.496 seconds from this build time
+[Note] Discount 0.494 seconds from this build time
+[Note] Discount 0.494 seconds from this build time
+[Note] Discount 0.497 seconds from this build time
+[Note] Discount 0.497 seconds from this build time
+[Note] Discount 0.494 seconds from this build time
+[Note] Discount 0.498 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 3
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Yeast_1550660142870_-171134583860878546.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Yeast_1550660142870_8987859488885190724.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Yeast_1550660142870_-4681020001986070314.arff
+Using temporary file: temp_Yeast_1550660142871_-4922475540349336432.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550660142871_-2971948390163211717.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Yeast_1550660142871_-3370274031255729188.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Yeast_1550660142871_-1856941488587171136.arff
+Using temporary file: temp_Yeast_1550660142871_2470753881526567411.arff
+Using temporary file: temp_Yeast_1550660142871_-8730854458729406051.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Yeast_1550660142872_1532230816302433446.arff
+[Note] Discount 0.31 seconds from this build time
+[Note] Discount 0.319 seconds from this build time
+[Note] Discount 0.323 seconds from this build time
+[Note] Discount 0.329 seconds from this build time
+[Note] Discount 0.344 seconds from this build time
+[Note] Discount 0.348 seconds from this build time
+[Note] Discount 0.348 seconds from this build time
+[Note] Discount 0.347 seconds from this build time
+[Note] Discount 0.356 seconds from this build time
+[Note] Discount 0.393 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 4
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Yeast_1550660208405_-395233716872471639.arff
+Using temporary file: temp_Yeast_1550660208405_-5121607137339136235.arff
+Using temporary file: temp_Yeast_1550660208405_-5256749969541153749.arff
+Using temporary file: temp_Yeast_1550660208405_2641949932817367724.arff
+Using temporary file: temp_Yeast_1550660208405_8540064508133314173.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Yeast_1550660208406_82744587931001745.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550660208406_1318911071456810350.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Yeast_1550660208406_6427218635535763657.arff
+Using temporary file: temp_Yeast_1550660208406_6249197149364475148.arff
+Using temporary file: temp_Yeast_1550660208406_-2594413761814090552.arff
+[Note] Discount 0.319 seconds from this build time
+[Note] Discount 0.319 seconds from this build time
+[Note] Discount 0.318 seconds from this build time
+[Note] Discount 0.385 seconds from this build time
+[Note] Discount 0.392 seconds from this build time
+[Note] Discount 0.402 seconds from this build time
+[Note] Discount 0.427 seconds from this build time
+[Note] Discount 0.445 seconds from this build time
+[Note] Discount 0.447 seconds from this build time
+[Note] Discount 0.453 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 5
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Yeast_1550660273721_-524865453008036006.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Yeast_1550660273722_-2476551425607728309.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Yeast_1550660273722_-7146617210012600256.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Yeast_1550660273722_3301745707726569574.arff
+Using temporary file: temp_Yeast_1550660273722_4013465704250623170.arff
+Using temporary file: temp_Yeast_1550660273722_-2684237951282348840.arff
+Using temporary file: temp_Yeast_1550660273722_178444451137370484.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550660273722_-5676192111176512602.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Yeast_1550660273723_-4218531399638172627.arff
+Using temporary file: temp_Yeast_1550660273723_-5299981419733330714.arff
+[Note] Discount 0.258 seconds from this build time
+[Note] Discount 0.258 seconds from this build time
+[Note] Discount 0.261 seconds from this build time
+[Note] Discount 0.261 seconds from this build time
+[Note] Discount 0.276 seconds from this build time
+[Note] Discount 0.277 seconds from this build time
+[Note] Discount 0.278 seconds from this build time
+[Note] Discount 0.279 seconds from this build time
+[Note] Discount 0.28 seconds from this build time
+[Note] Discount 0.298 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 6
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Yeast_1550660339565_3896605098068159738.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550660339566_-4001237302722672165.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Yeast_1550660339566_-1008423794855048618.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Yeast_1550660339566_7271772087391691927.arff
+Using temporary file: temp_Yeast_1550660339566_-2697084138585034005.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Yeast_1550660339566_-120421011786498678.arff
+Using temporary file: temp_Yeast_1550660339566_262614321976477250.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Yeast_1550660339566_-3946820249469283158.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Yeast_1550660339567_-2156342973769225726.arff
+Using temporary file: temp_Yeast_1550660339567_3141324392123627982.arff
+[Note] Discount 0.313 seconds from this build time
+[Note] Discount 0.326 seconds from this build time
+[Note] Discount 0.33 seconds from this build time
+[Note] Discount 0.339 seconds from this build time
+[Note] Discount 0.347 seconds from this build time
+[Note] Discount 0.351 seconds from this build time
+[Note] Discount 0.357 seconds from this build time
+[Note] Discount 0.358 seconds from this build time
+[Note] Discount 0.383 seconds from this build time
+[Note] Discount 0.392 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 7
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Yeast_1550660405038_-699704949712600115.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Yeast_1550660405039_-5085859045495963725.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550660405040_-3608267860102554860.arff
+Using temporary file: temp_Yeast_1550660405040_-5951765205669983896.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Yeast_1550660405040_8142886840698975765.arff
+Using temporary file: temp_Yeast_1550660405040_8524019115140866179.arff
+Using temporary file: temp_Yeast_1550660405040_-2714853971147396117.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Yeast_1550660405040_-9189524968491074724.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+Using temporary file: temp_Yeast_1550660405041_-148625824714636787.arff
+Using temporary file: temp_Yeast_1550660405041_-566870006298343145.arff
+[Note] Discount 0.348 seconds from this build time
+[Note] Discount 0.355 seconds from this build time
+[Note] Discount 0.371 seconds from this build time
+[Note] Discount 0.39 seconds from this build time
+[Note] Discount 0.394 seconds from this build time
+[Note] Discount 0.447 seconds from this build time
+[Note] Discount 0.468 seconds from this build time
+[Note] Discount 0.474 seconds from this build time
+[Note] Discount 0.476 seconds from this build time
+[Note] Discount 0.479 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 8
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+Using temporary file: temp_Yeast_1550660473054_6925694130040970654.arff
+Using temporary file: temp_Yeast_1550660473054_6513657356212524510.arff
+Using temporary file: temp_Yeast_1550660473054_1321222800296200436.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Yeast_1550660473055_536938910405906015.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Yeast_1550660473055_8922140309403778699.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Yeast_1550660473055_-517428980255835422.arff
+Using temporary file: temp_Yeast_1550660473055_-200753079219431109.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Yeast_1550660473055_-9197595427105923027.arff
+Using temporary file: temp_Yeast_1550660473055_-4289936086616402019.arff
+Using temporary file: temp_Yeast_1550660473056_4713610129296514631.arff
+[Note] Discount 0.234 seconds from this build time
+[Note] Discount 0.237 seconds from this build time
+[Note] Discount 0.262 seconds from this build time
+[Note] Discount 0.265 seconds from this build time
+[Note] Discount 0.27 seconds from this build time
+[Note] Discount 0.269 seconds from this build time
+[Note] Discount 0.27 seconds from this build time
+[Note] Discount 0.271 seconds from this build time
+[Note] Discount 0.272 seconds from this build time
+[Note] Discount 0.283 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 9
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Yeast_1550660539762_5702961989472887051.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+Using temporary file: temp_Yeast_1550660539762_-2798730738562476822.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Yeast_1550660539762_960790331024379126.arff
+Using temporary file: temp_Yeast_1550660539762_187704103329199613.arff
+Using temporary file: temp_Yeast_1550660539762_6527434954307481789.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+Using temporary file: temp_Yeast_1550660539762_1600030782373250481.arff
+Using temporary file: temp_Yeast_1550660539762_-2761265137076421558.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+Using temporary file: temp_Yeast_1550660539763_67826697947916427.arff
+Using temporary file: temp_Yeast_1550660539763_5679626435595832671.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550660539763_-8640296913357041870.arff
+[Note] Discount 0.34 seconds from this build time
+[Note] Discount 0.344 seconds from this build time
+[Note] Discount 0.458 seconds from this build time
+[Note] Discount 0.463 seconds from this build time
+[Note] Discount 0.543 seconds from this build time
+[Note] Discount 0.542 seconds from this build time
+[Note] Discount 0.544 seconds from this build time
+[Note] Discount 0.545 seconds from this build time
+[Note] Discount 0.548 seconds from this build time
+[Note] Discount 0.549 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 10
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #3...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #8...
+Using temporary file: temp_Yeast_1550660606867_-1497613613979078270.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #10...
+Using temporary file: temp_Yeast_1550660606867_5113622237409872778.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #7...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_Yeast_1550660606867_-7196415781697772800.arff
+Using temporary file: temp_Yeast_1550660606867_-1685308985507641749.arff
+Using temporary file: temp_Yeast_1550660606867_-2319452971287571658.arff
+Using temporary file: temp_Yeast_1550660606868_820707025409634855.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #9...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #4...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #5...
+Using temporary file: temp_Yeast_1550660606868_-6516793691191662538.arff
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #6...
+Using temporary file: temp_Yeast_1550660606869_9164411834808661380.arff
+Using temporary file: temp_Yeast_1550660606869_-9099749510027196988.arff
+Using temporary file: temp_Yeast_1550660606869_-8841730600804742235.arff
+[Note] Discount 0.287 seconds from this build time
+[Note] Discount 0.301 seconds from this build time
+[Note] Discount 0.303 seconds from this build time
+[Note] Discount 0.315 seconds from this build time
+[Note] Discount 0.316 seconds from this build time
+[Note] Discount 0.32 seconds from this build time
+[Note] Discount 0.323 seconds from this build time
+[Note] Discount 0.322 seconds from this build time
+[Note] Discount 0.342 seconds from this build time
+[Note] Discount 0.352 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #9
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #5
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #3
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #6
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #7
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #8
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #4
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #10
+[STATISTICS] #100
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: Writing 100 statistics to: mekaexp.txt
+[STAGE] FINISH
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #1: meka.experiment.statisticsexporters.SimpleAggregate2
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-agg0.tsv
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #2: meka.experiment.statisticsexporters.TabSeparated
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-full0.tsv

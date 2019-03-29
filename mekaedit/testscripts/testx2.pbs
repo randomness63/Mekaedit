@@ -1,0 +1,8 @@
+#!/bin/bash
+#PBS -l select=4:mpiprocs=24
+#PBS -l walltime=24:00:00
+#PBS -N corel-agg
+#PBS -P personal
+cd $PBS_O_WORKDIR
+module load java
+java -cp "./lib/*" meka.experiment.ExperimentExample2 -f 1 -q 1 -E -t data/Corel5k.arff -W meka.classifiers.multilabel.MULANedit --  -S BPMLLwD

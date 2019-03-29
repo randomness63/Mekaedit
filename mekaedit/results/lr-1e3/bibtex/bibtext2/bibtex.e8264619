@@ -1,0 +1,63 @@
+[STAGE] INITIALIZING
+[LOG] meka.experiment.DefaultExperiment: Turned off incremental mode for meka.experiment.evaluationstatistics.KeyValuePairs to make use of multi-threading!
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: File 'mekaexp.txt' exists, loading...
+[STAGE] RUNNING
+[LOG] meka.experiment.datasetproviders.MultiDatasetProvider: Dataset provider #1
+[LOG] meka.experiment.datasetproviders.LocalDatasetProvider: Loading: data/bibtex.arff
+[LOG] meka.experiment.DefaultExperiment: Using dataset: bibsonomy_bibtex: -C -159
+[ITERATION] meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD2b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2 --> bibsonomy_bibtex: -C -159
+[LOG] meka.experiment.DefaultExperiment: Using classifier: meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD2b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+[LOG] meka.experiment.evaluators.RepeatedRuns: Number of threads (1 = sequential): 1
+[LOG] meka.experiment.evaluators.RepeatedRuns: Run: 1
+[LOG] meka.experiment.evaluators.CrossValidation: Number of threads (1 = sequential): 24
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #1...
+[LOG] meka.experiment.evaluators.CrossValidation: Executing fold #2...
+Using temporary file: temp_bibsonomy_bibtex_1552149086499_-4962768465676381896.arff
+Using temporary file: temp_bibsonomy_bibtex_1552149086503_4437113781045784766.arff
+[Note] Discount 0.789 seconds from this build time
+[Note] Discount 0.908 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552154018741_-6688467811848818630.arff
+[Note] Discount 0.557 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552154362192_-8292973307042192125.arff
+[Note] Discount 0.756 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552159468275_-7423979211207825555.arff
+[Note] Discount 0.496 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552159580277_6146794652083548235.arff
+[Note] Discount 0.579 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552164694244_7105486291024734541.arff
+[Note] Discount 0.633 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552164764984_-279624296851435688.arff
+[Note] Discount 0.775 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552170102756_-2228689144322150137.arff
+[Note] Discount 0.637 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552170188995_-1083761183081836303.arff
+[Note] Discount 0.591 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552175578202_5072005423257391728.arff
+[Note] Discount 0.518 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552175650460_2377732757510138102.arff
+[Note] Discount 0.457 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552180548582_2704323167362897208.arff
+[Note] Discount 0.542 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552180811311_428667830982598836.arff
+[Note] Discount 0.595 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552185069820_-8361175665883705505.arff
+[Note] Discount 0.536 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552185352622_-655101936082782086.arff
+[Note] Discount 0.47 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552190088580_1927512926176735975.arff
+[Note] Discount 0.96 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552190249308_-6914829020992303508.arff
+[Note] Discount 0.884 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552195489974_7577852396602278602.arff
+[Note] Discount 0.527 seconds from this build time
+Using temporary file: temp_bibsonomy_bibtex_1552195686813_-4126310024944755050.arff
+[Note] Discount 0.83 seconds from this build time
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #2
+[LOG] meka.experiment.evaluators.CrossValidation: ...finished fold #1
+[STATISTICS] #2
+[LOG] meka.experiment.evaluationstatistics.KeyValuePairs: Writing 2 statistics to: mekaexp.txt
+[STAGE] FINISH
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #1: meka.experiment.statisticsexporters.SimpleAggregate2
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-agg5.tsv
+[EXPORT] meka.experiment.statisticsexporters.MultiExporter: Exporter #2: meka.experiment.statisticsexporters.TabSeparated
+[EXPORT] meka.experiment.statisticsexporters.TabSeparated: Exporting to: mekaexp-full5.tsv

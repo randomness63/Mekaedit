@@ -1,0 +1,34 @@
+Setup:
+meka.experiment.DefaultExperiment -C "meka.classifiers.multilabel.MULANedit -S BPMLLwD3b -W weka.classifiers.trees.J48 -- -C 0.25 -M 2" -D "meka.experiment.datasetproviders.MultiDatasetProvider -provider \"meka.experiment.datasetproviders.LocalDatasetProvider -dataset data/bibtex.arff\"" -E "meka.experiment.evaluators.RepeatedRuns -base \"meka.experiment.evaluators.CrossValidation -F 2 -S 0 -T PCut1 -V 3 -num-threads -1\" -lower 1 -upper 5 -num-threads 1" -S "meka.experiment.evaluationstatistics.KeyValuePairs -F mekaexp.txt"
+
+initialize: null
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+run: null
+finish: null
+meka.experiment.statisticsexporters.MultiExporter -exporter "meka.experiment.statisticsexporters.SimpleAggregate2 -base \"meka.experiment.statisticsexporters.TabSeparated -F mekaexp-agg11.tsv\" -key \"Classifier Relation\" -suffix-count -Count -suffix-mean -suffix-stddev \" (stdev)\" -skip-count" -exporter "meka.experiment.statisticsexporters.TabSeparated -F mekaexp-full11.tsv"
+export: null
+======================================================================================
+
+			Resource Usage on 2019-03-03 08:33:27.562990:
+
+	JobId: 8248169.wlm01  
+	Project: personal-e0002864 
+	Exit Status: 0
+	NCPUs Requested: 4				NCPUs Used: 4
+							CPU Time Used: 18:06:15
+	Memory Requested: 100663296kb 				Memory Used: 11388140kb
+							Vmem Used: 36951556kb
+	Walltime requested: 23:59:59 			Walltime Used: 11:11:49
+	
+	Execution Nodes Used: (std0611:ncpus=1)+(std0611:ncpus=1)+(std0611:ncpus=1)+(std0611:ncpus=1)
+	
+ ======================================================================================
