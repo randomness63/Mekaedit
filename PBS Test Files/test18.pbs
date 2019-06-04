@@ -1,0 +1,8 @@
+#!/bin/bash
+#PBS -l select=4:mpiprocs=24
+#PBS -l walltime=24:00:00
+#PBS -N 20ng
+#PBS -P personal
+cd $PBS_O_WORKDIR
+module load java
+java -cp "./lib/*" meka.experiment.ExperimentExample2 -q 2 -f 10 -E -t data/20ng.arff -W meka.classifiers.multilabel.MULANedit --  -S BPMLLwD3d

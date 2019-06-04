@@ -1,0 +1,130 @@
+Setup:
+meka.experiment.DefaultExperiment -C "meka.classifiers.multilabel.meta.BaggingML -S 1 -I 10 -P 67 -W meka.classifiers.multilabel.MULANedit -- -S BPMLLwD -W weka.classifiers.trees.J48 -- -C 0.25 -M 2" -D "meka.experiment.datasetproviders.MultiDatasetProvider -provider \"meka.experiment.datasetproviders.LocalDatasetProvider -dataset data/20ng.arff\"" -E "meka.experiment.evaluators.RepeatedRuns -base \"meka.experiment.evaluators.CrossValidation -F 10 -S 0 -T PCut1 -V 3 -num-threads -1\" -lower 1 -upper 2 -num-threads 1" -S "meka.experiment.evaluationstatistics.KeyValuePairs -F mekaexp.txt"
+
+initialize: null
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+CLASSIFIER No classifier built
+======================================================================================
+
+			Resource Usage on 2019-03-12 16:04:04.137181:
+
+	JobId: 8266938.wlm01  
+	Project: personal-e0002864 
+	Exit Status: 271
+	NCPUs Requested: 4				NCPUs Used: 4
+							CPU Time Used: 165:36:45
+	Memory Requested: 100663296kb 				Memory Used: 13700068kb
+							Vmem Used: 37484068kb
+	Walltime requested: 24:00:00 			Walltime Used: 24:00:35
+	
+	Execution Nodes Used: (std0617:ncpus=1)+(std0617:ncpus=1)+(std0617:ncpus=1)+(std0617:ncpus=1)
+	
+ ======================================================================================
